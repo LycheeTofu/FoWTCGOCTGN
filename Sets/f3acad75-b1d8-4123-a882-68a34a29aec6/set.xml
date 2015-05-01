@@ -85,6 +85,89 @@
 		<property name="Def" value="500" />
 		<property name="Text" value="[Continuous] Each Fairy Tale you control cannot be targeted by spells or abilities your opponent controls." />
     </card>
-
+	<card id="1b6274aa-9595-43ea-8c63-6df0245f90a7" name="Blinded Prince">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="002" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale / Human / Prince" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1W" />
+		<property name="Atk" value="800" />
+		<property name="Def" value="800" />
+		<property name="Text" value="[Continuous] This card cannot attack or black. [Activate] Pay 0 : This card loses all abilities until end of turn. You cannot play this ability if you don't control Rapunzel, the Long-Haired Princess." />
+    </card>
+	<card id="157a1065-6f1f-42e1-87b3-91c02ed139ee" name="Clothes Tailor">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="003" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale / Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="W" />
+		<property name="Atk" value="300" />
+		<property name="Def" value="300" />
+		<property name="Text" value="[Activate] Rest: Move target [Addition: Resonator] you control onto another resonator." />
+    </card>
+	<card id="b3af126c-6bf1-420e-895e-280e89177144" name="Dream of Juliet">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="004" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell : " />
+		<property name="Subtype" value="Chant - Instant" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1W" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Choose one. If you control Juliet, the Hope and Romeo, the Despair, choose up to three instead - Destroy target addition; or draw a card; or remove target resonator from the game, then put it into its owner's field." />
+    </card>
+	<card id="7def41d4-bc5c-45c3-843f-8c49feb016d7" name="Grimm, the Fairy Tale Prince">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="005" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Human" />
+		<property name="J-Ruler" value="Yes" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] You may pay the attribute cost of Fairy Tale resonators with will of any attribute.[Activate] Pay 1, discard a Fairy Tale resonator: Search your main deck for a Fairy Tale resonator, reveal it and put it into your hand. Then shuffle your main deck. This ability can be played only once per turn." />
+    </card>
+	<card id="447fcb3a-d180-46bf-b83e-f72c17c351f1" name="Holy Grail">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="006" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition : " />
+		<property name="Subtype" value="Field(Relic)" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="W" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Enter] Destroy target addition. [Activate] Rest: Remove all damage that was dealt to target J-Ruler this turn." />
+    </card>
+	<card id="e6894d9e-df5f-4dc2-b2f2-39b09c32d454" name="Jeweled Branch of Horai">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="007" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Addition : " />
+		<property name="Subtype" value="Field(Treasury)" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1W" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Activate] Pay W, Rest: Rest up to two target fire or dark resonators." />
+    </card>
 </cards>
 </set>
