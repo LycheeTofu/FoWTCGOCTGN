@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+      xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
+      name="Force of Will Trading Card Game" 
+      id="5c1280cc-f52d-4060-b0d9-11363df285fe" 
+      octgnVersion="3.1.1.0" 
+      version="0.0.0.1"
+      markersize="20"
+      tags="Force of Will, FoW, FoW TCG, FoWTCG, Force of Will Trading Card Game"
+      description="Force of Will Trading Card Game, by the Force of Will Co. Provided by ForcedTheWill.com"
+      setsurl="http://majime.co/FoWTCG/OCTGN/"
+      gameurl="http://majime.co/FoWTCG/OCTGN/"
+	  iconurl="http://majime.co/FOWTCG/OCTGN/FoW_Main_Image.png"
+      authors="Tim Cao">
+<scripts>
+<script src="scripts/actions.py" />
+<script src="scripts/generic.py" />
+<script src="scripts/constants.py" />
+<script src="scripts/events.py" /> 
+</scripts>
+<events>
+   <event name="OnLoadDeck" action="loadDeck" />
+</events>
+<fonts>
+</fonts>
+<proxygen definitionsrc="proxy/proxydef.xml">
+</proxygen>
+<documents>
+      <document name="Turn Sequence/Attack Table" icon="documents/Manual.png" src="documents/reference.png" />
+</documents>
+<globalvariables>
+</globalvariables>
+<card back="Cards/back.png" front="Cards/front.png" width="63" height="88">
+	<property name="Name" type="String" />
+	<property name="Block" type="String" />
+	<property name="Set" type="String"/>
+	<property name="Number" type="Integer" />
+    <property name="Rarity" type="String" />
+    <property name="Type" type="String" />
+	<property name="Subtype" type="String" />
+	<property name="Race/Trait" type="String" />
+	<property name="J-Ruler" type="String" />
+	<property name="Cost" type="String" />
+	<property name="Atk" type="Integer" />
+    <property name="Def" type="Integer" />
+	<property name="Text" type="String" />
+</card>
+<table name="Table" visibility="undefined" ordered="False" width="500" height="380" background="Background/Background.png" backgroundStyle="uniformToFill">
+   <groupaction menu="Recover all" shortcut="Ctrl+U" execute="recoverAll" />
+   <groupaction menu="Clear targets" shortcut="Ctrl+C" execute="clearAll" />
+   <groupaction menu="Roll a die" shortcut="Ctrl+R" execute="roll20" />
+   <groupaction menu="Flip a coin" shortcut="Ctrl+F" execute="flipCoin" />
+   <cardaction menu="Use Card" default="True" execute="useCard"/>
+   <cardaction menu="J-Activate" shortcut="Ctrl+J" execute="flip" />
+	<cardaction menu="Destroy/Banish" shortcut="Del" execute="discard" />
+	<cardaction menu="Move to bottom of Main Deck" execute="" />
+   <cardaction menu="Add Counter" shortcut="F1" execute="addCounter" />
+   <cardaction menu="Remove Counter" shortcut="F2" execute="removeCounter" />
+	<cardaction menu="Set Counter" shortcut="F3" execute="setCounter" />
+   <groupaction menu="Next Phase." default="False" shortcut="Ctrl+Enter" execute="nextPhase" />
+   <groupactions menu="Phase:">
+      <groupaction menu="Move to Draw Phase." default="False" shortcut="F5" execute="goToDraw" />
+      <groupaction menu="Move to Recovery Phase." default="False" shortcut="F6" execute="goToRecovery" />
+      <groupaction menu="Move to Main Phase." default="False" shortcut="F7" execute="goToMain" />
+      <groupaction menu="Move to End Phase." default="False" shortcut="F8" execute="goToEnd" />
+   </groupactions>
+</table>
+<player summary="Hand Size: {#Hand}">
+   <globalvariable name="phase" value="0" /> 
+	<hand name="Hand" visibility="me" ordered="False" width="63" height="88" icon="groups/hand.png">
+	<cardaction menu="Play Card" default="True" execute="play" />
+	<groupaction menu="Random Discard" execute="randomDiscard" />
+	<groupaction menu="Show a Card at Random" default="False" execute="randomReveal"/>
+</hand>
+	<group name="Main Deck" visibility="none" width="63" height="88" icon="groups/library.png" shortcut="F5">
+    <groupaction menu="Draw" default="True" shortcut="Ctrl+D" execute="draw" />
+    <groupaction menu="Draw X..." shortcut="Ctrl+X" execute="drawMany" />
+    <groupaction menu="Shuffle" shortcut="Ctrl+S" execute="shuffle" />
+	<groupaction menu="Reveal Top Card" shortcut="Ctrl+R" execute="revealTop" />
+    </group>
+	<group name="Magic Stone Deck" visibility="none" width="63" height="88" icon="" shortcut="F6">
+	<groupaction menu="Reveal Top Card" shortcut="Ctrl+T" execute="revealTopStone" />
+	<groupaction menu="Play Top Card" shortcut="Ctrl+E" execute="playTopStone" />
+	<groupaction menu="Shuffle Stone Deck" shortcut="Ctrl+A" execute="shuffleStones" />
+	</group>
+    <group name="Discard Pile" visibility="all" width="63" height="88" icon="groups/graveyard.png" shortcut="F7"></group>
+    <group name="Removed From Game" visibility="all" width="63" height="88" icon="groups/removed.png" collapsed="False" shortcut="F8"></group>
+    <group name="Side Deck" visibility="none" width="63" height="88" icon="groups/sideBoard.png" collapsed="False" shortcut="F9"></group>
+	<group name="Ruler" visibility="none" width="63" height="88" icon="groups/starting.png" collapsed="False" shortcut="F10"></group>
+</player>
+<shared>
+</shared>
+<deck>
+	<section name="Main Deck" group="Main Deck" />
+    <section name="Magic Stone Deck" group="Magic Stone Deck" />
+	<section name="Ruler" group="Ruler" />
+	<section name="Side Deck" group="Side Deck" />
+</deck>
+</game>
