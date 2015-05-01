@@ -31,8 +31,7 @@
 <globalvariables>
 </globalvariables>
 <card back="Cards/back.png" front="Cards/front.png" width="63" height="88">
-	<property name="Name" type="String" />
-	<property name="Block" type="String" />
+	<property name="Cluster" type="String" />
 	<property name="Set" type="String"/>
 	<property name="Number" type="Integer" />
     <property name="Rarity" type="String" />

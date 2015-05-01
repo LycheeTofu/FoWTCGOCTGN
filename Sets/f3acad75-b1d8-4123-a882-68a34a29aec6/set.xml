@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="Crimson Moon's Fairy Tale"
+     id="f3acad75-b1d8-4123-a882-68a34a29aec6" 
+     gameId="5c1280cc-f52d-4060-b0d9-11363df285fe" 
+     gameVersion="0.0.0.1" 
+     version="0.0.0.1">
+ <cards>
+	<!-Each card has their own unique GUID. 
+	   Generate a GUID at https://www.guidgenerator.com/online-guid-generator.aspx
+	   Fill in fields per card as below. For cards without values(like not a J-ruler) you can remove the property for that card
+	   Below is the card template from definition.xml
+	    property name="Cluster" type="String" 
+		property name="Set" type="String"
+		property name="Number" type="Integer" 
+		property name="Rarity" type="String" 
+		property name="Type" type="String" 
+		property name="Subtype" type="String" 
+		property name="Race/Trait" type="String" 
+		property name="J-Ruler" type="String" 
+		property name="Cost" type="String" 
+		property name="Atk" type="Integer" 
+		property name="Def" type="Integer" 
+		property name="Text" type="String" 
+		
+		Strings take anything as a value, Integers only accept whole numeral values or an empty string( Ex. "")
+		
+		Example of a J-Ruler card below.
+	   -!>
+	<card id="be009979-8fff-4694-ab64-9a38047d31ca" name="Pandora, Girl of the Box">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="013" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Human" />
+		<property name="J-Ruler" value="Yes" />
+		<property name="Cost" value="3WB" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+		<alternate name="Pandora of Light" type="jruler">
+			<property name="Number" value="013J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Race/Trait" value="Human" />
+			<property name="Atk" value="400" />
+			<property name="Def" value="800" />
+			<property name="Text" value="[Enter] Destroy all resonators." />
+		</alternate>
+		<alternate name="Pandora of Dark" type="jruler">
+			<property name="Number" value="087J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Race/Trait" value="Human" />
+			<property name="Atk" value="400" />
+			<property name="Def" value="800" />
+			<property name="Text" value="[Enter] Your opponent discards all cards from his or her hand." />
+		</alternate>
+	</card>
+	<card id="f9040d59-14a8-41a2-9e20-9015f2cd6695" name="Pandora, Girl of the Box">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="013" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Human" />
+		<property name="J-Ruler" value="Yes" />
+		<property name="Cost" value="3WB" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+		<alternate name="Pandora of Dark" type="jruler">
+			<property name="Number" value="087J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Race/Trait" value="Human" />
+			<property name="Atk" value="400" />
+			<property name="Def" value="800" />
+			<property name="Text" value="[Enter] Your opponent discards all cards from his or her hand." />
+		</alternate>
+	</card>
+	<card id="2513ce85-ab81-4875-a3a1-e30e358613cc" name="Aesop, the Prince's Tutor">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="001" />
+		<property name="Rarity" value="UC" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1W" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="[Continuous] Each Fairy Tale you control cannot be targeted by spells or abilities your opponent controls." />
+    </card>
+
+</cards>
+</set>
