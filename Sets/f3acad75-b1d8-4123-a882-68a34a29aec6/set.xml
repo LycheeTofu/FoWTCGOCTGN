@@ -118,9 +118,9 @@
 		<property name="Set" value="CMF"/>
 		<property name="Number" value="004" />
 		<property name="Rarity" value="C" />
-		<property name="Type" value="Spell : " />
-		<property name="Subtype" value="Chant - Instant" />
-		<property name="Race/Trait" value="" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="1W" />
 		<property name="Atk" value="" />
@@ -146,9 +146,9 @@
 		<property name="Set" value="CMF"/>
 		<property name="Number" value="006" />
 		<property name="Rarity" value="C" />
-		<property name="Type" value="Addition : " />
-		<property name="Subtype" value="Field(Relic)" />
-		<property name="Race/Trait" value="" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="Relic" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="W" />
 		<property name="Atk" value="" />
@@ -160,9 +160,9 @@
 		<property name="Set" value="CMF"/>
 		<property name="Number" value="007" />
 		<property name="Rarity" value="U" />
-		<property name="Type" value="Addition : " />
-		<property name="Subtype" value="Field(Treasury)" />
-		<property name="Race/Trait" value="" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="Treasury" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="1W" />
 		<property name="Atk" value="" />
