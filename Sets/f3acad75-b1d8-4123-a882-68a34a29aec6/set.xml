@@ -27,28 +27,6 @@
 		
 		Example of a J-Ruler card below.
 	   -!>
-	<card id="be009979-8fff-4694-ab64-9a38047d31ca" name="Pandora, Girl of the Box">
-		<property name="Cluster" value="Grimm" />
-		<property name="Set" value="CMF"/>
-		<property name="Number" value="013" />
-		<property name="Rarity" value="R" />
-		<property name="Type" value="Ruler" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Human" />
-		<property name="J-Ruler" value="Yes" />
-		<property name="Cost" value="3WB" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
-		<alternate name="Pandora of Light" type="jruler">
-			<property name="Number" value="013J" />
-			<property name="Type" value="J-Ruler" />
-			<property name="Race/Trait" value="Human" />
-			<property name="Atk" value="400" />
-			<property name="Def" value="800" />
-			<property name="Text" value="[Enter] Destroy all resonators." />
-		</alternate>
-	</card>
 	<card id="f9040d59-14a8-41a2-9e20-9015f2cd6695" name="Pandora, Girl of the Box">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="CMF"/>
@@ -169,5 +147,474 @@
 		<property name="Def" value="" />
 		<property name="Text" value="[Activate] Pay W, Rest: Rest up to two target fire or dark resonators." />
     </card>
-</cards>
+	<card id="5f5b3d0c-c287-46ce-a545-72742ec46aee" name="Juliet, the Hope">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="008" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale / Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1W" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="600" />
+		<property name="Text" value="[Continuous] This card cannot be destroyed as long as you control Romeo, the Despair. [Continuous] As long as you control Romeo, the Despair, each Nightmare resonator loses Nightmare and gains Fairy Tale." />
+    </card>
+	<card id="efaee122-7163-434a-995b-a2cc61c54068" name="King's Servant ">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="009" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale / Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1W" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="[Enter] Put target [Addition:Resonator] from your graveyard into your hand." />
+    </card>
+	<card id="3976816f-57bf-45c0-b01d-c4a91b22776f" name="Knight of Loyalty">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="010" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Human / Knight" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1WW" />
+		<property name="Atk" value="700" />
+		<property name="Def" value="700" />
+		<property name="Text" value="[Activate] Banish this card : Target light J/resonator you control cannot be targeted by spells or abilities until end of turn." />
+    </card>
+	<card id="263014b4-0755-43d2-8aad-cb4b826f27bd" name="Light of Hope">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="011" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Standby" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1W" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Trigger] Your life is 2000 or lower : Put target attacking resonator on top of its owner's main deck. Resonators cannot attack until end of turn." />
+    </card>
+	<card id="398ed1ce-1c76-45cf-84df-7dcd5e481a23" name="Light Palace, the King's Castle">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="012" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field(Castle)" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1W" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Each Human you control gains [+200/+200]. [Activate] Pay W, banish this card : Destroy target addition" />
+    </card>
+	<card id="be009979-8fff-4694-ab64-9a38047d31ca" name="Pandora, Girl of the Box">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="013" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Human" />
+		<property name="J-Ruler" value="Yes" />
+		<property name="Cost" value="3WB" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+		<alternate name="Pandora of Light" type="jruler">
+			<property name="Number" value="013J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Race/Trait" value="Human" />
+			<property name="Atk" value="400" />
+			<property name="Def" value="800" />
+			<property name="Text" value="[Enter] Destroy all resonators." />
+		</alternate>
+	</card>
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="f66ec962-fc5d-48f3-ae98-9085da0daeef" name="Rapunzel, the Long-Haired Princess">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="014" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale / Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1WW" />
+		<property name="Atk" value="600" />
+		<property name="Def" value="600" />
+		<property name="Text" value="[Continuous] This card doesn't recover during the recovery phase. [Activate] Rest a recovered resonator you control other than Rapunzel, the Long-Haired Princess : Recover this card. [Activate] Rest: Target resonator gains [+200/+0] and [Flying] until end of turn." />
+    </card>
+	<card id="7d2e1c23-2fa8-4f0b-ac4f-05c2e3152a94" name="Return to Stories">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="015" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1W" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Remove target Nightmare or Fairy Tale resonator from the game." />
+    </card>
+	<card id="d09a3ea5-12ee-471b-bec2-cca25d836762" name="Silver Stake">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="016" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator(Weapon)" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="W" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Resonator with this cannot attack or block if it's a Vampire. Otherwise, it gains [+400/+400], it cannot be targeted by Vampire spells or Vampire card's abilities and prevent any damage it would be dealt by Vampires. [Activate] Pay L: Return this card to its owner's hand." />
+    </card>
+	<card id="3ca57608-6d8a-4d93-b52c-04abeb2c9e7f" name="Tell a Fairy Tale">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="014" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2W" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Search your main deck for a Fairy Tale resonator, reveal it and put it into your hand. If your Ruler is Grimm, the Fairy Tale Prince, you may put it into your field instead. This triggers its [Enter] ability. Then shuffle your main deck." />
+    </card>
+	<card id="7fafc301-d925-4e43-8593-731de10da8e9" name="The Emperor with New Clothes">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="018" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale / Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2W" />
+		<property name="Atk" value="700" />
+		<property name="Def" value="700" />
+		<property name="Text" value="[Enter] Destroy all [Addition:Resonator] your opponent controls. [Continuous] Opponents cannot add [Addition:Resonator]." />
+    </card>
+	<card id="c99ecb78-a03c-4a6e-8eb7-9bacc5341800" name="Tinker Bell, the Spirit ">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="019" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale / Spirit" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="W" />
+		<property name="Atk" value="0" />
+		<property name="Def" value="0" />
+		<property name="Text" value="[Continuous] This card gains [+200/+200] for each Fairy Tale you control." />
+    </card>
+	<card id="" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="020" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="021" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="022" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="023" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="024" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="025" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="026" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="027" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="028" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="029" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="030" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="030" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="031" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="032" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="033" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="034" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="035" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="036" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="037" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="038" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	</cards>
 </set>
