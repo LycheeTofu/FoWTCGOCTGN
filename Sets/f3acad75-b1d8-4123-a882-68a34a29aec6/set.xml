@@ -825,9 +825,9 @@
 			<property name="Number" value="052j" />
 			<property name="Type" value="J-Ruler" />
 			<property name="Race/Trait" value="Human" />
-			<property name="Atk" value="This card cannot battle." />
+			<property name="Atk" value="" />
 			<property name="Def" value="" />
-			<property name="Text" value="[Activate] Pay 0: Change the text of target Treasury Item you control by replacing all instances of one attribute with another one until end of turn. [Activate] Pay UU1: Search your main deck for a Treasury Item, reveal it and put it into your hand. Then shuffle your main deck." />
+			<property name="Text" value="This card cannot battle. [Activate] Pay 0: Change the text of target Treasury Item you control by replacing all instances of one attribute with another one until end of turn. [Activate] Pay UU1: Search your main deck for a Treasury Item, reveal it and put it into your hand. Then shuffle your main deck." />
 		</alternate>
     </card>
 	<card id="50e2a221-c10f-4006-82cf-437e53e68c7d" name="Servant of Kaguya">
