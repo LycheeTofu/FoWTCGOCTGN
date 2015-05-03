@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="The Castle of Heaven and The Two Towers"
+     id="58ec8f70-a356-4767-99eb-22baaffdcfca" 
+     gameId="5c1280cc-f52d-4060-b0d9-11363df285fe" 
+     gameVersion="0.0.0.1" 
+     version="0.0.0.1">
+ <cards>
+	<!-Each card has their own unique GUID. 
+	   Generate a GUID at https://www.guidgenerator.com/online-guid-generator.aspx
+	   Fill in fields per card as below. For cards without values(like not a J-ruler) you can remove the property for that card
+	   Below is the card template from definition.xml
+	    property name="Cluster" type="String" 
+		property name="Set" type="String"
+		property name="Number" type="Integer" 
+		property name="Rarity" type="String" 
+		property name="Type" type="String" 
+		property name="Subtype" type="String" 
+		property name="Race/Trait" type="String" 
+		property name="J-Ruler" type="String" 
+		property name="Cost" type="String" 
+		property name="Atk" type="Integer" 
+		property name="Def" type="Integer" 
+		property name="Text" type="String" 
+		
+		Strings take anything as a value, Integers only accept whole numeral values or an empty string( Ex. "")
+		
+		Example of a J-Ruler card below.
+	   -!>
+
+	</cards>
+</set>
