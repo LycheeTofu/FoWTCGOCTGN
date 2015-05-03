@@ -27,28 +27,6 @@
 		
 		Example of a J-Ruler card below.
 	   -!>
-	<card id="f9040d59-14a8-41a2-9e20-9015f2cd6695" name="Pandora, Girl of the Box">
-		<property name="Cluster" value="Grimm" />
-		<property name="Set" value="CMF"/>
-		<property name="Number" value="087" />
-		<property name="Rarity" value="R" />
-		<property name="Type" value="Ruler" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Human" />
-		<property name="J-Ruler" value="Yes" />
-		<property name="Cost" value="3WB" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="[J-Activate] Pay WB3." />
-		<alternate name="Pandora of Dark" type="jruler">
-			<property name="Number" value="087J" />
-			<property name="Type" value="J-Ruler" />
-			<property name="Race/Trait" value="Human" />
-			<property name="Atk" value="400" />
-			<property name="Def" value="800" />
-			<property name="Text" value="[Enter] Your opponent discards all cards from his or her hand." />
-		</alternate>
-	</card>
 	<card id="2513ce85-ab81-4875-a3a1-e30e358613cc" name="Aesop, the Prince's Tutor">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="CMF"/>
@@ -1180,7 +1158,429 @@
 		<property name="Cost" value="1G" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="If your Ruler is &quot;Christie, the Wind Tracker&quot; or your J-Ruler is &quot;Helsing, the Vampire Hunter&quot;, you may pay 1 less to play this card. Search your main deck for a wind resonator, reveal it and put it into your hand. Then shuffle your main deck. " />
+		<property name="Text" value="If your Ruler is &quot;Christie, the Wind Tracker&quot; or your J-Ruler is &quot;Helsing, the Vampire Hunter&quot;, you may pay 1 less to play this card. Search your main deck for a wind resonator, reveal it and put it into your hand. Then shuffle your main deck." />
+    </card>
+	<card id="b41be980-4a34-43d4-8cb0-557567327420" name="Alucard, the Dark Noble">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="077" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Vampire" />
+		<property name="J-Ruler" value="Yes" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[J-Activate] Pay 0: You cannot play this ability if you don't control a Vampire resonator and a resonator your opponent controlled hasn't entered a graveyard this turn. [Activate] Rest: Target resonator gains [-0/-300] until end of turn." />
+		<alternate name="Dracula, the Demonic One" type="jruler">
+			<property name="Number" value="077J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Race/Trait" value="Vampire" />
+			<property name="Atk" value="1000" />
+			<property name="Def" value="1000" />
+			<property name="Text" value="[Flying] (This card cannot be blocked by resonators without [Flying].) [Imperishable] (If this card would be destroyed, move this card to your Ruler area as a Ruler without losing any abilities.) [Continuous] Whenever a resonator your opponent controls is put into a graveyard, if it was dealt damage by this card this turn, put it into your field under your control. It gains Nightmare and Vampire in addition to its own race." />
+		</alternate>
+    </card>
+	<card id="f12407ea-ddee-4e39-b1ee-ff12a0c40a9f" name="Alvarez, the Demon Castle">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="078" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="Castle" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1B" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Each Vampire you control gains [+200/+200]. [Activate] Pay B, banish this card: Put target Vampire resonator from your graveyard into your hand." />
+    </card>
+	<card id="f37fff99-e8af-4fa8-9391-783f84b1f29b" name="Black Coffin of Vampires">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="079" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
+		<property name="Race/Trait" value="Tool" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="BB" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Vampire resonator with this cannot be targeted by spells or abilities your opponent controls. Otherwise, it cannot attack or block. [Activate] Pay B: Return this card to its owner's hand. " />
+    </card>
+	<card id="3c59cdfb-f474-4b88-adb9-c0d03d222d05" name="Bloodsucking Impulse">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="080" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1B" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Target Vampire you control deals damage equal to its ATK to another target resonator. Then you gain life equal to half of that much damage. (Rounded up to the nearest 100.)" />
+    </card>
+	<card id="647d7d84-dbbc-484f-854f-1f6b57cb1179" name="Carmilla, the Queen of Vampires">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="081" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Vampire" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2BB" />
+		<property name="Atk" value="800" />
+		<property name="Def" value="800" />
+		<property name="Text" value="[Enter] Destroy target non-Vampire resonator. If your Ruler is &quot;Alucard, the Dark Noble&quot; or your J-Ruler is &quot;Dracula, the Demonic One&quot;, and the resonator destroyed this way is a Human, put it into your field under your control. It loses all races and becomes a Vampire." />
+    </card>
+	<card id="673214e6-ddce-492e-9ea7-e2a4ef4e5543" name="Cinderella, the Ashen Maiden">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="082" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Nightmare/Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="BB" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="[Continuous] Whenever this card deals damage to your opponent, you may search your main deck for a Prince resonator, reveal it and put it into your hand. Then shuffle your main deck. [Activate] Banish a resonator : this card deals 200 damage to each resonator your opponent controls." />
+    </card>
+	<card id="2af1bbb8-7118-4cea-8dce-430ed49927ea" name="Deadman Prince">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="083" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Nightmare/Immortal/Prince" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2B" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="[Enter] Put target resonator from your graveyard into your hand." />
+    </card>
+	<card id="4cbc6e4d-f66b-4a41-b84a-1f34c51d159d" name="Jewels on Dragon's Neck">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="084" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="Treasury Item" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2B" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Activate] Pay B, Rest: Put target dark addition from your graveyard into your hand." />
+    </card>
+	<card id="fc922b57-0046-4e11-9a48-866889a93aed" name="Lora, the Blood Speaker">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="085" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Vampire" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1B" />
+		<property name="Atk" value="300" />
+		<property name="Def" value="300" />
+		<property name="Text" value="[Enter] Search your main deck for a Vampire resonator, reveal it and put it into your hand. Then shuffle your main deck." />
+    </card>
+	<card id="00e6cc7b-bd38-46f8-8a97-3786b9018368" name="Midnight Bell">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="086" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Standby" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1B" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Trigger] Total number of all resonators and all magic stones is twelve: Each resonator your opponent controls loses all abilities and becomes [0/200] until end of turn." />
+    </card>
+	<card id="f9040d59-14a8-41a2-9e20-9015f2cd6695" name="Pandora, Girl of the Box">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="087" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Human" />
+		<property name="J-Ruler" value="Yes" />
+		<property name="Cost" value="3WB" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[J-Activate] Pay WB3." />
+		<alternate name="Pandora of Dark" type="jruler">
+			<property name="Number" value="087J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Race/Trait" value="Human" />
+			<property name="Atk" value="400" />
+			<property name="Def" value="800" />
+			<property name="Text" value="[Enter] Your opponent discards all cards from his or her hand." />
+		</alternate>
+	</card>
+	<card id="13c9793d-84fe-48cc-8afa-5dea42522e79" name="Pumpkin Witch">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="088" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Nightmare/Witch" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2B" />
+		<property name="Atk" value="300" />
+		<property name="Def" value="800" />
+		<property name="Text" value="[Enter] Each resonator you control gains [Flying] and [Swiftness] until end of turn." />
+    </card>
+	<card id="c9e1b5d7-826c-41ca-a8a4-b179158eafb4" name="Resurrection of Vampire">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="089" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2BB" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Put a Vampire resonator from your graveyard into your field. This triggers its Enter ability." />
+    </card>
+	<card id="54588839-6b63-48aa-88cc-779570f3c9a1" name="Romeo, the Despair">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="090" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonato" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Nightmare/Immortal" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="B" />
+		<property name="Atk" value="300" />
+		<property name="Def" value="300" />
+		<property name="Text" value="[Continuous] When this card is put into your graveyard from a field, if you control &quot;Juliet, the Hope&quot;, you may pay B. If you do, put this card from your graveyard into your field." />
+    </card>
+	<card id="d5bebf8d-01ae-40c5-a8a8-e1e527d81e18" name="Servant of Vampire">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="091" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Vampire" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="B" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="200" />
+		<property name="Text" value="[Continuous] As your opponent plays spells or abilities targeting a Vampire you control, he or she must choose this card as one of its target if able." />
+    </card>
+	<card id="84658994-3386-4b51-86df-d976cee8f74c" name="Slipper of Cinderella">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="092" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
+		<property name="Race/Trait" value="Arcane Item" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="B" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Resonator with this gains [+600/+600] if it's dark and its printed ATK and DEF is [400/400]. Otherwise, it gains [-400/-400]" />
+    </card>
+	<card id="98b038ae-4875-40a5-af35-614e60d135ae" name="Spiral of Despair">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="093" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="BB" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Your opponent discards two cards. If your Ruler is &quot;Pandora, Girl of the Box&quot; or your J-Ruler is &quot;Pandora of Light&quot; or &quot;Pandora of Dark&quot;, he or she discards two cards at random instead. " />
+    </card>
+	<card id="351fd288-0b3f-413c-a9d5-fac8ca2b4198" name="Vampire Bat">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="094" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Vampire" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1B" />
+		<property name="Atk" value="0" />
+		<property name="Def" value="200" />
+		<property name="Text" value="[Flying] (This card cannot be blocked by resonators without [Flying].) [Continuous] Whenever this card deals damage, you gain that much life. [Activate] Pay B: This card gains [+200/+0] until end of turn. " />
+    </card>
+	<card id="54256e1f-f8bb-4027-abe9-f24eedda8993" name="Vampire's Staff">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="095" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Vampire" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1B" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="[Continuous] At the beginning of your recovery phase, reveal the top card of your main deck. This card deals 100 damage to target player for each will symbol on the revealed card attribute cost and you gain that much life." />
+    </card>
+	<card id="1d53fbe6-416e-421d-b712-2b11a4e00203" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="096" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="79ab8f0b-c1e0-457a-8b5b-96fd7cd891c8" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="097" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="1d7dfcc5-ecfb-4999-b330-5b81eb25e5c8" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="098" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="ab7b81df-34a3-4e6c-8cde-ce2d304e6a32" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="099" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="b65bee02-2dba-40c1-a6a2-10cf5b76850e" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="100" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="db809b16-f76e-44dc-996f-ca52bdd85ecc" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="101" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="c523adba-2ead-4600-9629-aa545fe9c221" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="102" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="b9893e7d-df3a-4d66-bea6-0a4d9fbdf20c" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="103" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="d1ca1221-41bb-4ff8-b556-d1c5bf4fc1d9" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="104" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="d79233ff-f2f6-4136-bc44-9a95b25b0a48" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="105" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
     </card>
 	</cards>
 </set>
