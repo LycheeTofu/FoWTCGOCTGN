@@ -1442,145 +1442,145 @@
 		<property name="Def" value="400" />
 		<property name="Text" value="[Continuous] At the beginning of your recovery phase, reveal the top card of your main deck. This card deals 100 damage to target player for each will symbol on the revealed card attribute cost and you gain that much life." />
     </card>
-	<card id="1d53fbe6-416e-421d-b712-2b11a4e00203" name="">
+	<card id="1d53fbe6-416e-421d-b712-2b11a4e00203" name="Magic Stone of Black Silence">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="CMF"/>
 		<property name="Number" value="096" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="Special" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Continuous] Treat this card as wind magic stone and dark magic stone. [Activate] Rest : Produce G or B." />
     </card>
-	<card id="79ab8f0b-c1e0-457a-8b5b-96fd7cd891c8" name="">
+	<card id="79ab8f0b-c1e0-457a-8b5b-96fd7cd891c8" name="Magic Stone of Deep Wood">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="CMF"/>
 		<property name="Number" value="097" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="Special" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Continuous] Treat this card as wind magic stone and water magic stone. [Activate] Rest: Produce G or U . " />
     </card>
-	<card id="1d7dfcc5-ecfb-4999-b330-5b81eb25e5c8" name="">
+	<card id="1d7dfcc5-ecfb-4999-b330-5b81eb25e5c8" name="Magic Stone of Hearth's Core">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="CMF"/>
 		<property name="Number" value="098" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="Special" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Continuous] Treat this card as fire magic stone and water magic stone. [Activate] Rest : Produce R or U ." />
     </card>
-	<card id="ab7b81df-34a3-4e6c-8cde-ce2d304e6a32" name="">
+	<card id="ab7b81df-34a3-4e6c-8cde-ce2d304e6a32" name="Magic Stone of Heat Ray">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="CMF"/>
 		<property name="Number" value="099" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="Special" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Continuous] Treat this card as light magic stone and fire magic stone. [Activate] Rest: Produce W or R . " />
     </card>
-	<card id="b65bee02-2dba-40c1-a6a2-10cf5b76850e" name="">
+	<card id="b65bee02-2dba-40c1-a6a2-10cf5b76850e" name="Magic Stone of Heaven's Rift">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="CMF"/>
 		<property name="Number" value="100" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="Special" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Continuous] Treat this card as light magic stone and dark magic stone. [Activate] Rest: Produce W or B . " />
     </card>
-	<card id="db809b16-f76e-44dc-996f-ca52bdd85ecc" name="">
+	<card id="db809b16-f76e-44dc-996f-ca52bdd85ecc" name="Magic Stone of Darkness">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="CMF"/>
 		<property name="Number" value="101" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Magic Stone" />
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Rest: Produce B" />
     </card>
-	<card id="c523adba-2ead-4600-9629-aa545fe9c221" name="">
+	<card id="c523adba-2ead-4600-9629-aa545fe9c221" name="Magic Stone of Flame ">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="CMF"/>
 		<property name="Number" value="102" />
 		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Type" value="Magic Stone" />
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Rest: Produce R" />
     </card>
-	<card id="b9893e7d-df3a-4d66-bea6-0a4d9fbdf20c" name="">
+	<card id="b9893e7d-df3a-4d66-bea6-0a4d9fbdf20c" name="Magic Stone of Light ">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="CMF"/>
 		<property name="Number" value="103" />
 		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Type" value="Magic Stone" />
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Rest: Produce W" />
     </card>
-	<card id="d1ca1221-41bb-4ff8-b556-d1c5bf4fc1d9" name="">
+	<card id="d1ca1221-41bb-4ff8-b556-d1c5bf4fc1d9" name="Magic Stone of Water">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="CMF"/>
 		<property name="Number" value="104" />
 		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Type" value="Magic Stone" />
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Rest: Produce U" />
     </card>
-	<card id="d79233ff-f2f6-4136-bc44-9a95b25b0a48" name="">
+	<card id="d79233ff-f2f6-4136-bc44-9a95b25b0a48" name="Magic Stone of Wind">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="CMF"/>
 		<property name="Number" value="105" />
 		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Type" value="Magic Stone" />
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Rest: Produce G" />
     </card>
 	</cards>
 </set>
