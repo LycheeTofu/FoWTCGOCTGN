@@ -806,7 +806,7 @@
 		<property name="Cost" value="U" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="[Continuous] Resonator with this gains &quot;[Activate] Rest : Rest target resonator.&quot; [Continuous] If the resonator with this is &quot;Hamelin's Pied Piper&quot;, it gains &quot;[Activate] Pay Wa : Recover this card.&quot; [Activate] Pay Wa : Return this card to its owner's hand." />
+		<property name="Text" value="[Continuous] Resonator with this gains &quot;[Activate] Rest: Rest target resonator.&quot; [Continuous] If the resonator with this is &quot;Hamelin's Pied Piper&quot;, it gains &quot;[Activate] Pay U: Recover this card.&quot; [Activate] Pay U: Return this card to its owner's hand." />
     </card>
 	<card id="97939678-adc5-4d29-a7df-58f73dba8164" name="Seer of the Blue Moon">
 		<property name="Cluster" value="Grimm" />
@@ -822,7 +822,7 @@
 		<property name="Def" value="" />
 		<property name="Text" value="[J-Activate] Pay 0: You cannot play this ability if you haven't put any Treasury Item into a field this turn. [Continuous] You pay 1 to put chant-standby cards into your chant-standby area rather than pay 2." />
 		<alternate name="Kaguya, Princess of the Moon" type="jruler">
-			<property name="Number" value="052j" />
+			<property name="Number" value="052J" />
 			<property name="Type" value="J-Ruler" />
 			<property name="Race/Trait" value="Human" />
 			<property name="Atk" value="" />
@@ -899,6 +899,288 @@
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
 		<property name="Text" value="Banish a resonator you control. If you do, draw two cards. If you banished a Human in this way, draw three cards instead." />
+    </card>
+	<card id="0cd35148-cc9c-4259-8256-12702908b84d" name="Absolute Cake Zone">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="058" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1G" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Cancel target normal spell. If you control &quot;Hansel&quot; or &quot;Gretel&quot;, draw a card." />
+    </card>
+	<card id="397c5da2-f637-4fab-b790-f9a149ada1ec" name="Aramis, the Three Musketeers">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="059" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fiary Tale/Musketeer" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1GG" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="[Enter] Produce G for each Musketeer resonator you control." />
+    </card>
+	<card id="4be7af70-431f-40e1-afdd-5069ffc1e2b0" name="Athos, the Three Musketeers">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="060" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale/Musketeer" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2GG" />
+		<property name="Atk" value="800" />
+		<property name="Def" value="800" />
+		<property name="Text" value="[Enter] Search your main deck for an [Addition : Resonator], reveal it and put it into your hand. If your Ruler is &quot;Puss in Boots&quot; or your J-Ruler is &quot;D'Artagnan, the Bayoneteer&quot;, you may put that card on to this card instead. Then shuffle your main deck." />
+    </card>
+	<card id="91cd6491-b184-490b-bc84-f5fa7234b202" name="Christie, the Wind Tracker">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="061" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Elf" />
+		<property name="J-Ruler" value="Yes" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[J-Activate] Pay GG2: If your opponent controls a Vampire, Immortal or Werewolf resonator, you may pay 0 to play this ability instead. [Activate] Rest: Draw a card. You cannot play this ability if you don't have exactly five cards in your hand." />
+		<alternate name="Helsing, the Vampire Hunter" type="jruler">
+			<property name="Number" value="061J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Race/Trait" value="Elf" />
+			<property name="Atk" value="1000" />
+			<property name="Def" value="1000" />
+			<property name="Text" value="[Enter] Target non-Human J/resonator loses all abilities until end of turn. At the end of turn, destroy it." />
+		</alternate>
+    </card>
+	<card id="b70d2841-4a72-4e50-b1fc-37d0ff5fcf3a" name="Cottage of Cakes">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="062" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="House" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="G" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] &quot;Hansel&quot; and &quot;Gretel&quot; you control cannot be targeted by spells or abilities you opponent controls. [Activate] Pay G, Rest: Remove target resonator you control from the game. [Activate] Pay G, Rest, banish this card: Return all resonators removed from the game by this card into your field." />
+    </card>
+	<card id="40c39eb4-9245-40c5-aab8-928e129ab9e9" name="Cowrie of Swallows">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="063" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="Treasury Item" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2G" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Activate] Rest: Target wind resonator cannot be targeted by spells or abilities your opponent controls until end of turn." />
+    </card>
+	<card id="b0879d95-4f62-4622-b2d9-3223f005781c" name="Crucifix">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="064" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
+		<property name="Race/Trait" value="Weapon" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="GG" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Resonator with this gains [-1000/-1000] if it's a Vampire. Otherwise, it cannot be attacked or targeted by spells or abilities your opponent controls." />
+    </card>
+	<card id="66e36b35-b57d-4864-829f-6819534eacc4" name="Elvish Bowman">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="065" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Elf" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="G" />
+		<property name="Atk" value="300" />
+		<property name="Def" value="300" />
+		<property name="Text" value="[Activate] Rest: Destroy target addition" />
+    </card>
+	<card id="a5eab2e5-1338-466a-9ed3-6169c79667e1" name="Elvish Exorcist">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="066" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Elf" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1G" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="[Enter] Destroy target Vampire resonator." />
+    </card>
+	<card id="6e5439b3-d579-4f32-a758-98484a61ffb2" name="Elvish Priest ">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="067" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Elf" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="G" />
+		<property name="Atk" value="100" />
+		<property name="Def" value="400" />
+		<property name="Text" value="[Activate] Rest: Produce G." />
+    </card>
+	<card id="43b071f6-296d-4e6b-89b6-df0231f40cbe" name="Fina, the Silver Player">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="068" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Elf" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1GG" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="[Continuous] If your Ruler is &quot;Christie, the Wind Tracker&quot; or your J-Ruler is &quot;Helsing, the Vampire Hunter&quot;, each resonator your opponent controls loses its symbol skills. [Continuous] Each other Elf you control gains [+400/+400]." />
+    </card>
+	<card id="4324cb6d-3d61-47fd-ad29-c455e3f9fb59" name="Gretel">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="069" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale/Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1G" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="200" />
+		<property name="Text" value="[Enter] Reveal the top card of your magic stone deck, if it's a wind magic stone, put it into your magic stone area." />
+    </card>
+	<card id="8f8e88a4-b1d8-4539-80bf-11abb9b9fbd9" name="Hansel">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="070" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale/Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1GG" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="700" />
+		<property name="Text" value="[Continuous] This card cannot be attacked as long as you control &quot;Gretel&quot;. [Continuous] Whenever this card deals damage to an opponent, draw a card." />
+    </card>
+	<card id="adc8cdc2-ed19-406c-85f0-46461dd88acb" name="Law of Silence">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="071" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="GG" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Target player cannot play normal spells and summon spells until end of turn." />
+    </card>
+	<card id="8b16a4fc-963c-40d4-bca4-a6ab74858286" name="Musketeer's Bayonet">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="072" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
+		<property name="Race/Trait" value="Weapon" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="G" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Resonator with this gains [+400/+0]. If it's a Musketeer, it also gains [First Strike] and [Pierce]." />
+    </card>
+	<card id="f3416605-1b53-4d8d-bdaf-8d3f555cf216" name="Porthos, the Three Musketeers">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="073" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale/Musketeer" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1GG" />
+		<property name="Atk" value="700" />
+		<property name="Def" value="400" />
+		<property name="Text" value="[Pierce] (If this card deals more battle damage than the lethal damage to J/resonator, it deals excess damage to your opponent.)" />
+    </card>
+	<card id="83b1a67d-6163-4a46-b4e8-564c585413a0" name="Puss in Boots">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="074" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale/Cat" />
+		<property name="J-Ruler" value="Yes" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[J-Activate] Pay 9 : If you control &quot;Athos, the Three Musketeers&quot;, you may pay 3 less to play this ability. So does &quot;Aramis, the Three Musketeers&quot; and &quot;Porthos, the Three Musketeers&quot;. [Continuous] You may pay 1 less to play Musketeer resonators." />
+		<alternate name="D'Artagnan, the Bayoneteer" type="jruler">
+			<property name="Number" value="074J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Race/Trait" value="Fairy Tale/Musketeer" />
+			<property name="Atk" value="1000" />
+			<property name="Def" value="800" />
+			<property name="Text" value="[Pierce] (If this card deals more battle damage than the lethal damage to <J/resonator>, it deals excess damage to your opponent.) [Target Attack] (This card can attack against recovered <J/resonator>.) [Continuous] Each Musketeer resonator you control gains [+400/+400]." />
+		</alternate>
+    </card>
+	<card id="df8cdda6-b158-494b-b485-b5ee8a58e620" name="Siege Warfare">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="075" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Standby" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="3GG" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Trigger] Your Ruler is &quot;Puss in Boots&quot; or your J-Ruler is &quot;D'Artagnan, the Bayoneteer&quot;, and you control &quot;Athos, the Three Musketeers&quot;, &quot;Porthos, the Three Musketeers&quot; and &quot;Aramis, the Three Musketeers&quot; : Destroy target resonator or J-Ruler." />
+    </card>
+	<card id="6eb271e6-a1ab-43fe-b0c6-48368d1a9e93" name="Silver Bullet">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="CMF"/>
+		<property name="Number" value="076" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1G" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="If your Ruler is &quot;Christie, the Wind Tracker&quot; or your J-Ruler is &quot;Helsing, the Vampire Hunter&quot;, you may pay 1 less to play this card. Search your main deck for a wind resonator, reveal it and put it into your hand. Then shuffle your main deck. " />
     </card>
 	</cards>
 </set>
