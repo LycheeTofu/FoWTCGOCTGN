@@ -27,6 +27,265 @@
 		
 		Example of a J-Ruler card below.
 	   -!>
-
+	<card id="02456b62-a4b7-4735-8da1-5397a3a2aa80" name="Breath of the God">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="001" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1W" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="You may pay W1 less to play this card, if it targets a Saint. Target J/resonator you control cannot be targeted by spells or abilities until end of turn. Draw a card." />
+    </card>
+	<card id="ce8baa86-4f2d-4b17-a0ae-86b6f9806ab6" name="Caterina, the Saint of Fantasy">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="002" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fantasy/Saint" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1WW" />
+		<property name="Atk" value="600" />
+		<property name="Def" value="600" />
+		<property name="Text" value="[Continuous] Other resonators you control gain [+100/+100]." />
+    </card>
+	<card id="a0006d85-cc34-46f1-b281-14e1669fcbcc" name="Don Quijote, the Wandering Knight">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="003" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Knight/Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2WW" />
+		<property name="Atk" value="900" />
+		<property name="Def" value="900" />
+		<property name="Text" value="[Awakening] W(You may pay an additional W as you play this card. If you do, this card gains the following ability.) [Enter] Resonators you control cannot be destroyed until end of turn." />
+    </card>
+	<card id="609de434-d016-4291-9b9a-af4cee2f16a2" name="Grimm, the Avenger of Fairy Tales ">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="004" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale/Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="WW" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="[Enter] Choose target resonator: Remove it from the game if it's darkness. Otherwise, it gains [+200/+200] until end of turn. [Awakening] W: [Enter] If your J/ruler is &quot;Sacred Princess of Guidance&quot; or &quot;Lumia, the Creator of Hope&quot;, J/resonators your opponent controls lose all abilities until end of turn." />
+    </card>
+	<card id="fb9c94b1-cc16-41bb-ab1c-0a3dd7f1d885" name="Guardian of Tower ">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="005" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Ancient/Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1W" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="600" />
+		<property name="Text" value="[Continuous] [Addition:Field] cards you control cannot be targeted by spells or abilities your opponent controls. [Continuous] If you control a Tower, this card gains [+0/+600]." />
+    </card>
+	<card id="913b195d-40c7-4491-a5f4-e6aa5198d6fa" name="Jeanne d'Arc, the Awakening Purity">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="006" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Saint/Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="WWW" />
+		<property name="Atk" value="700" />
+		<property name="Def" value="700" />
+		<property name="Text" value="[Continuous] Each turn, prevent the first damage that would be dealt to a Fantasy or Human J/resonator you control. [Awakening] W (You may pay an additional W as you play this card. If you do, this card gains the following ability.) - [Enter] You may put a nonspell Fantasy card from your hand into your field." />
+    </card>
+	<card id="e5105ef7-9f8c-4860-ae56-0879be9f518d" name="Jump to the Sky">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="007" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Standby" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2WW" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Trigger] When a resonator you control deals damage to your opponent: Recover that resonator. You may put three hope counters on a &quot;Lumiel, the Tower of Hope&quot; you control. (Pay 2 to put this card into your chant-standby area. You may play this from the next turn if it fulfills [Trigger] condition and you control magic stones equal or more than its cost.)" />
+    </card>
+	<card id="a6244470-e20b-46ff-ace0-93ac0c205382" name="Light of Lumia">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="008" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="3W" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="If your J/ruler is &quot;Sacred Princess of Guidance&quot; or &quot;Lumia, the Creator of Hope&quot;, you may pay 2 less to play this card. Choose one - Rest all non-light, non-Fairy Tale resonators; or remove target non-light, non-Fairy Tale resonator from the game." />
+    </card>
+	<card id="be2bd81a-79f1-425f-a103-58922f2154cd" name="Longinus, the Holy Lance">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="009" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
+		<property name="Race/Trait" value="Relic/Treasury Item" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="WW" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Resonator with this gains [+500/+500], cannot be targeted by darkness spells or darkness card's abilities and prevent all damage that would be dealt to it by darkness cards." />
+    </card>
+	<card id="5c86fa4d-5548-416f-b39a-fa4f8d912786" name="Lumiel, the Tower of Hope">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="010" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="Tower" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1W" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] At the beginning of your main phase, put hope counters equal to the number of resonators you control on this card. Then, if there are ten or more hope counters on this card, banish it and destroy all resonators and additions your opponent controls." />
+    </card>
+	<card id="c3b2f244-ba70-4298-8e61-a13fee3e0431" name="March of Saints">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="011" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1W" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Light resonators you control gain [+300/+0] and [First Strike] until end of turn. If you control a Saint, they cannot be blocked until end of turn." />
+    </card>
+	<card id="a306ee06-2ddb-4d74-b686-99f8e78d2cbe" name="Pure Spirit of Fantasy">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="012" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fantasy" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1W" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="" />
+    </card>
+	<card id="78052823-ad23-44b0-a1b1-09d749f87d80" name="Realm of Pure Spirits">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="013" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1W" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Recovered resonators you control cannot be targeted by spells or abilities your opponent controls." />
+    </card>
+	<card id="83965bdf-f819-4541-b0a7-6825f839a768" name="Sacred Princess of Guidance">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="014" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Princess" />
+		<property name="J-Ruler" value="Yes" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[J-Activate] Pay W. Play this ability only if you control &quot;Almerius, the Levitating Stone&quot;. [J-Activate] Pay WW1. [Activate] Rest: You gain 300 life." />
+		<alternate name="Lumia, the Creator of Hope" type="jruler">
+			<property name="Number" value="014J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Race/Trait" value="Savior/Human" />
+			<property name="Atk" value="1000" />
+			<property name="Def" value="1000" />
+			<property name="Text" value="[Continuous] Once per turn, you may play a card from your removed from the game zone as though it were in your hand. [Activate] 0: If there are no cards in your removed from this game, remove top three cards of your main deck from the game face down. You may look at them at any time. " />
+		</alternate>
+    </card>
+	<card id="c3cab517-0dc2-4a10-8307-5dee8eea9217" name="Sacred Scepter of Exorcism">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="015" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
+		<property name="Race/Trait" value="Weapon" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="W" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Resonator with this gains &quot;[Activate] Rest : Rest target resonator. If it's a Demon, it cannot be recovered as long as this card is in a field.&quot;" />
+    </card>
+	<card id="cab3110d-9505-40e2-a93c-021ab01165b4" name="Seeking Sky Soldier">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="016" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Soldier/Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1W" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="[Flying] (While attacking, this card cannot be blocked by J/resonators without [Flying].) [Enter] You may look the top card of your opponent's main deck." />
+    </card>
+	<card id="670ca8f1-8822-4844-a0d4-8eb76b89338a" name="Sleeping Beauty">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="017" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale/Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="WW" />
+		<property name="Atk" value="0" />
+		<property name="Def" value="700" />
+		<property name="Text" value="[Continuous] You may choose not to recover this card during the recovery phase. [Activate] Pay 1 Rest: Resonators you control gain [+200/+200] as long as this card is rested." />
+    </card>
+	<card id="d69a02b9-f588-4e6c-b3bf-0edf990ee639" name="The Queen's Butler">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="018" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Butler/Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="W" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="400" />
+		<property name="Text" value="[Continuous] Your J/ruler cannot be targeted by your opponent's spells or abilities." />
+    </card>
 	</cards>
 </set>

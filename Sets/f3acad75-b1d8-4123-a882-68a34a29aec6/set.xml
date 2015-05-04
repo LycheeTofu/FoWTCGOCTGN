@@ -217,19 +217,6 @@
 			<property name="Text" value="[Enter] Destroy all resonators." />
 		</alternate>
 	</card>
-		<property name="Cluster" value="Grimm" />
-		<property name="Set" value="CMF"/>
-		<property name="Number" value="" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
-		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
-    </card>
 	<card id="f66ec962-fc5d-48f3-ae98-9085da0daeef" name="Rapunzel, the Long-Haired Princess">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="CMF"/>
