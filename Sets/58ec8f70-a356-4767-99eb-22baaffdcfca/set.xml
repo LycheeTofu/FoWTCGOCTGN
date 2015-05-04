@@ -287,5 +287,265 @@
 		<property name="Def" value="400" />
 		<property name="Text" value="[Continuous] Your J/ruler cannot be targeted by your opponent's spells or abilities." />
     </card>
+	<card id="31f4b43c-1342-4e74-aae7-d926d6f56c32" name="Beowulf, the Blazing Wolf">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="019" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Nightmare/Werewolf" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="RR" />
+		<property name="Atk" value="300" />
+		<property name="Def" value="500" />
+		<property name="Text" value="[Continuous] If this card would deal damage to your opponent or to a resonator, it deals double that much instead." />
+    </card>
+	<card id="ebb2450c-5b30-4f22-874b-e3c86685b6cc" name="Big-Bang Revolution">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="020" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Standby" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1R" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Trigger] When a resonator you control is destroyed: Two target resonators gain [+X/+Y] until end of turn, where X is the destroyed resonator's ATK and Y is the destroyed resonator's DEF." />
+    </card>
+	<card id="3985425a-c054-4354-84a8-60693d34e0fd" name="Card Soldier &quot;Diamond&quot;">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="021" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Card Soldier" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1R" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="[Continuous] When this card is put into a graveyard from your field, it deals 200 damage to target resonator." />
+    </card>
+	<card id="21c29ef7-f9df-4b60-9cba-7be229fa4c92" name="Card Soldier &quot;Heart&quot;">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="022" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Card Soldier" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1R" />
+		<property name="Atk" value="0" />
+		<property name="Def" value="700" />
+		<property name="Text" value="[Continuous] If damage would be dealt to a &quot;Queen of Hearts&quot; you control, it's dealt to this card instead." />
+    </card>
+	<card id="c88d1872-7945-4119-9b2d-b44821ec063d" name="Dragon King's Flame">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="023" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2R" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="This card deals 600 damage to target player or resonator. If your J/ruler is &quot;Falltgold, the Dragoon&quot; or &quot;Bahamut, the Dragon King&quot;, it deals 800 damage instead." />
+    </card>
+	<card id="04b1a354-910c-47e9-a1ba-02cd9fffd600" name="Duel of Truth">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="024" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="R" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Target J/resonator you control and target J/resonator your opponent control deal damage equal to their ATK to each other." />
+    </card>
+	<card id="09b4677c-de1f-4328-a228-9617fb8c23be" name="Endless War">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="025" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="RR" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Resonators must attack if able." />
+    </card>
+	<card id="9b265e2d-20b5-41b7-83f5-d59b409fcd07" name="Falltgold, the Dragoon">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="026" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Knight" />
+		<property name="J-Ruler" value="Yes" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[J-Activate] Banish a fire resonator. [Activate] Rest: Search your main deck for a Dragon resonator, reveal it and put it into your hand. Then shuffle your main deck." />
+		<alternate name="Bahamut, the Dragon King" type="jruler">
+			<property name="Number" value="026J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Race/Trait" value="Dragon" />
+			<property name="Atk" value="1000" />
+			<property name="Def" value="1000" />
+			<property name="Text" value="[Flying] (While attacking, this card cannot be blocked by J/resonator without [Flying].) [Enter] This card deals damage to target resonator equal to the ATK of resonator banished for its judgement. [Activate] Banish a fire resonator: This card gains [Imperishable] until end of turn." />
+		</alternate>
+    </card>
+	<card id="b51c36c1-7f4d-470a-a5a9-f136241b5593" name="Forced Growth">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="027" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="R" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Resonator with this gains [+400/-400]." />
+    </card>
+	<card id="f9afeb67-a070-4d23-869e-1ffde6544c72" name="Fthaggua, the Flame Spirit">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="028" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Flame Spirit/Cthulhu" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2R" />
+		<property name="Atk" value="0" />
+		<property name="Def" value="200" />
+		<property name="Text" value="[First Strike] (While attacking, this card deals its battle damage first to the blocker or attacked object.) [Continuous] This card gains [+200/+200] for each spell card in your graveyard." />
+    </card>
+	<card id="0d59725a-e002-45f0-a655-7ab5cc8b9b4b" name="Gliding Dragon Knight">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="029" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Knight" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1RR" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="800" />
+		<property name="Text" value="[Flying] (While attacking, this card cannot be blocked by J/resonators without [Flying].) [Activate] Rest: This card gains [+100/+0] until end of turn." />
+    </card>
+	<card id="a8b9092e-0ec8-4d1b-bc29-4567c62c0ea4" name="Kusanagi Sword">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="030" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="RR" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Enter] This card deals 600 damage to target resonator. [Continuous] If resonator with this would deal damage, it deals that much +200 instead." />
+    </card>
+	<card id="3e39b182-8f8a-44c4-8db8-5e92aaba2b68" name="Little Dread, the Fake Red Moon">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="031" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Nightmare" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1RR" />
+		<property name="Atk" value="800" />
+		<property name="Def" value="800" />
+		<property name="Text" value="[Target Attack] (This card can attack recovered <J/resonators>.) [Awakening] R: [Enter] Target resonator gains [+600/-600] until end of turn. [Awakening] R1 : [Enter] Recover target resonator. You gain control of it until end of turn. It gains [Swiftness] until end of turn." />
+    </card>
+	<card id="b3753a5a-bbf0-4624-abef-7ca3fd53935b" name="Rapid Decay">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="032" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="R" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Destroy target resonator with total cost 2 or less." />
+    </card>
+	<card id="2211c0c1-39e7-40de-957c-f3c8574718c2" name="Realm of the Dragon King">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="033" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1RR" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Whenever a non-Dragon resonator comes into a field, this card deals 500 damage to it. If you control &quot;Bahamut, the Dragon King&quot;, this card deals 800 damage instead." />
+    </card>
+	<card id="2503f52b-e3d7-4cbd-aaf9-281f537dd74d" name="Redbird of Omen">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="034" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Bird" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1RR" />
+		<property name="Atk" value="0" />
+		<property name="Def" value="700" />
+		<property name="Text" value="[Flying] [Continuous] At the beginning of your main phase, destroy all resonators with total cost equal to the number of omen counters on this card. [Continuous] At the end of your turn, put an omen counter on this card." />
+    </card>
+	<card id="d7b8d770-5e2e-40c9-ab0a-d34474af19a0" name="Wicked Witch of the West">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="035" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Nightmare/Witch" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1R" />
+		<property name="Atk" value="100" />
+		<property name="Def" value="200" />
+		<property name="Text" value="[Activate] Rest: This card deals 200 damage to target resonator. [Continuous] When this card becomes targeted by water spells or water card's abilities, destroy it." />
+    </card>
+	<card id="39ed7d7d-d419-4d57-9e43-5088966665d2" name="Yamata-no-Orochi, the Eight Disasters">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="036" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Nightmare/Dragon" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="5RRRRR" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="2000" />
+		<property name="Text" value="[Swiftness] [Target Attack] [Continuous] Attacking doesn't cause this card to rest. [Continuous] Each of your turns, this card can attack up to eight times. [Continuous] When this card is put into a graveyard from your field, you may search your main deck for a card named &quot;Kusanagi Sword&quot; and add it to a resonator. Then shuffle your main deck." />
+    </card>
 	</cards>
 </set>
