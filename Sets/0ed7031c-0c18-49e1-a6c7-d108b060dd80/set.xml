@@ -686,7 +686,7 @@
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
 		<property name="Text" value="[J-Activate] Pay 2 X. Spend only Moon will on X." />
-			<alternate name="Kaguya, the Immortal Princess" type="jruler">
+		<alternate name="Kaguya, the Immortal Princess" type="jruler">
 			<property name="Number" value="046J" />
 			<property name="Type" value="J-Ruler" />
 			<property name="Race/Trait" value="Wanderer/Little Girl" />
@@ -807,733 +807,735 @@
 		<property name="Def" value="400" />
 		<property name="Text" value="[Flying] [Activate] Pay Moon: This card gains [+0/+400] until end of turn. Play this ability only once per turn. " />
     </card>
-	<card id="79ad441c-a457-4e64-8338-2a2531a56e3f" name="">
+	<card id="79ad441c-a457-4e64-8338-2a2531a56e3f" name="Aladdin's Lamp">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="055" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="Treasury Item" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="1Wi" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Continuous] At the beginning of your main phase, you may reveal your hand. If you have no Spirit resonators in your hand, you may search your main deck for a Spirit resonator, reveal it and put it into your hand. Then shuffle your deck." />
     </card>
-	<card id="23c6f1d1-6b33-47f8-a209-88a6d50a67ba" name="">
+	<card id="23c6f1d1-6b33-47f8-a209-88a6d50a67ba" name="Ali Baba, The Earnest Worker">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="056" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Story/Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="2Wi" />
+		<property name="Atk" value="700" />
+		<property name="Def" value="700" />
+		<property name="Text" value="[Activate] Rest: Draw a card if you have no cards in your hand." />
     </card>
-	<card id="ed5ac891-0df6-462b-9dde-306ed2e603f4" name="">
+	<card id="ed5ac891-0df6-462b-9dde-306ed2e603f4" name="Art of Sinbad">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="057" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="Wi" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Prevent the next damage that would be dealt by target resonator." />
     </card>
-	<card id="c0243498-dec5-4b09-90f1-f5c0c154650b" name="">
+	<card id="c0243498-dec5-4b09-90f1-f5c0c154650b" name="Barrier Field">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="058" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="1Wi" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Continuous] If damage would be dealt to you by a normal spell, prevent 200 of it." />
     </card>
-	<card id="2da19150-4127-4c49-aee4-0728ea5a3179" name="">
+	<card id="2da19150-4127-4c49-aee4-0728ea5a3179" name="Djinn, the Spirit of Lamp">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="059" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Spirit" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="2WiWi" />
+		<property name="Atk" value="1000" />
+		<property name="Def" value="1000" />
+		<property name="Text" value="[Enter] Remove up to three target resonators you control from the game. At the end of turn, put all resonators removed this way into their owners field." />
     </card>
-	<card id="b5027ad3-8a2e-4491-81cd-850933f8948b" name="">
+	<card id="b5027ad3-8a2e-4491-81cd-850933f8948b" name="Exceed, the Ancient Magic">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="060" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="1WiWi" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Cancel target spell. If you control &quot;Fiethsing, the Magus of Holy Wind&quot;, draw a card." />
     </card>
-	<card id="cd24ec42-93f4-442b-8811-146ad6a07c5e" name="">
+	<card id="cd24ec42-93f4-442b-8811-146ad6a07c5e" name="Familiar of Holy Wind ">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="061" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Familiar/Cat" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="Wi" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="200" />
+		<property name="Text" value="[Enter] Draw a card. [Activate] Pay Wi, banish this card: This card deals 300 damage to target resonator. " />
     </card>
-	<card id="f0046b44-f331-47f7-8b0e-b51bb7757faa" name="">
+	<card id="f0046b44-f331-47f7-8b0e-b51bb7757faa" name="Fiethsing, the Magus of Holy Wind">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="062" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Elf/Six Sages" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="1WiWi" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="700" />
+		<property name="Text" value=" 	[Quickcast] (You may play this card anytime you can play Spell:Chant-Instant.) [Enter] Prevent all damage that would be dealt by target resonator until end of turn. [Activate] Rest: Produce one will of any attribute. " />
     </card>
-	<card id="badfd985-d5aa-4f16-a8c7-d6a5f7c20554" name="">
+	<card id="badfd985-d5aa-4f16-a8c7-d6a5f7c20554" name="Flying Carpet">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="063" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
+		<property name="Race/Trait" value="Arcane Item" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="Wi" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Enter] Draw a card. [Continuous] Added resonator gains [Flying]." />
     </card>
-	<card id="29f68d66-c7a5-4aab-801e-d310e85dc24b" name="">
+	<card id="29f68d66-c7a5-4aab-801e-d310e85dc24b" name="Liberator of Wind">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="064" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
-		<property name="J-Ruler" value="" />
+		<property name="Race/Trait" value="Human" />
+		<property name="J-Ruler" value="Yes" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="At the beginning of the game, search your magic stone deck for a card. Then, shuffle the rest of your magic stone deck and put that card on top of it. [J-Activate]: Pay 1." />
+		<alternate name="Scheherazade, the Teller of 1001 Stories" type="jruler">
+			<property name="Number" value="064J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Race/Trait" value="Wanderer" />
+			<property name="Atk" value="700" />
+			<property name="Def" value="800" />
+			<property name="Text" value="[Enter] Search your main deck for a card and put it into your hand. Then shuffle your main deck. [Activate] Rest: Draw two cards if you have no cards in your hand." />
+		</alternate>
     </card>
-	<card id="de240428-8547-44f8-ae1d-0ead8c7e6c87" name="">
+	<card id="de240428-8547-44f8-ae1d-0ead8c7e6c87" name="Morgiana, the Wise Servant">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="065" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Story/Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="Wi" />
+		<property name="Atk" value="300" />
+		<property name="Def" value="300" />
+		<property name="Text" value="[Continuous] If you would draw a card in a phase other than the draw phase, you may look at the top three cards of your main deck, put one of them into your hand and the rest on the bottom of your main deck in any order instead." />
     </card>
-	<card id="ac22b5ff-d774-458f-84b0-491657af6113" name="">
+	<card id="ac22b5ff-d774-458f-84b0-491657af6113" name="Open Sesame">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="066" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="WiWi" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Trigger] While you control &quot;Ali Baba, The Earnest Worker&quot;: Search your main deck for up to two resonators, reveal them and put them into your hand. Then shuffle your main deck. " />
     </card>
-	<card id="93b4d889-1b5e-4a5c-a178-25bcf144a149" name="">
+	<card id="93b4d889-1b5e-4a5c-a178-25bcf144a149" name="Rukh">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="067" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Bird" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="Wi" />
+		<property name="Atk" value="300" />
+		<property name="Def" value="300" />
+		<property name="Text" value="[Flying]" />
     </card>
-	<card id="cf92b9ea-ca1d-4253-ab91-a6e34b4a3000" name="">
+	<card id="cf92b9ea-ca1d-4253-ab91-a6e34b4a3000" name="Sinbad, the Windrider Merchant">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="068" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Story/Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="WiWi" />
+		<property name="Atk" value="600" />
+		<property name="Def" value="600" />
+		<property name="Text" value="[Continuous] [Addition: Resonator] cards in your hand gain [Quickcast]. [Continuous] If you would draw a card in a phase other than draw phase, you may skip drawing it instead. When you skip drawing a card this way, choose one- this card deals 300 damage to target resonator; target resonator gains [+400/+400] until end of turn; or destroy target addition." />
     </card>
-	<card id="c1579a8d-c04d-476f-b66c-2f8d7f5f960c" name="">
+	<card id="c1579a8d-c04d-476f-b66c-2f8d7f5f960c" name="Stories Told in 1001 Nights">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="069" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="WiWiWi" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Put target resonator on top of its owner's main deck. If your J/Ruler is &quot;Liberator of Wind&quot; or &quot;Scheherazade, the Teller of 1001 Stories&quot;, remove it from the game, then search its controller's main deck, graveyard and hand for all cards with the same name and remove them from the game instead. Then that player shuffles his or her main deck." />
     </card>
-	<card id="c35a6784-47de-441b-8765-0d3670aa4aed" name="">
+	<card id="c35a6784-47de-441b-8765-0d3670aa4aed" name="Survivor of Heaven Castle">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="070" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Ancient" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="WiWi" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="[Continuous] Whenever this card blocks or is blocked, it gains [+300/+300] until end of turn." />
     </card>
-	<card id="2f484ce8-1cfa-45c4-99da-0ca0c94f2402" name="">
+	<card id="2f484ce8-1cfa-45c4-99da-0ca0c94f2402" name="Wind Dagger">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="071" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
+		<property name="Race/Trait" value="Weapon" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="Wi" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Enter] Draw a card. [Activate] Pay Wi, banish this card: This card deals 300 damage to target resonator." />
     </card>
-	<card id="b316eae6-bfb2-4630-aec3-a2ca955f0ac6" name="">
+	<card id="b316eae6-bfb2-4630-aec3-a2ca955f0ac6" name="Wiseman of Winds">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="072" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Elf" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="1Wi" />
+		<property name="Atk" value="800" />
+		<property name="Def" value="600" />
+		<property name="Text" value="[Enter] Banish this card if you don't control another Elf." />
     </card>
-	<card id="771f4dbb-5867-4051-a1b2-fd0825bc863a" name="">
+	<card id="771f4dbb-5867-4051-a1b2-fd0825bc863a" name="Acolyte of Darkness">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="073" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="1D" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="[Continuous] When this card is banished by [Incarnation], you may pay 400 life. If you do, draw a card." />
     </card>
-	<card id="a1efa39e-681c-4502-8ca7-b98726cc38e1" name="">
+	<card id="a1efa39e-681c-4502-8ca7-b98726cc38e1" name="Awakening at the End">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="074" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="2DD" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="All resonators gains [-700/-700] until end of turn." />
     </card>
-	<card id="b0b1d6b2-3309-491c-bc1b-5f4e58180470" name="">
+	<card id="b0b1d6b2-3309-491c-bc1b-5f4e58180470" name="Bind of Gravity">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="075" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="D" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Enter] Rest added resonator. [Continuous] Added resonator cannot recover during recovery phase. [Activate] Pay 3: Recover added resonator." />
     </card>
-	<card id="33759690-a963-47f6-ac66-6c504b95cd30" name="">
+	<card id="33759690-a963-47f6-ac66-6c504b95cd30" name="Black Miasma">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="076" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="D" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Target resonator gains [+300/+300] until end of turn if it's darkness. Otherwise, it gains [-300/-300] until end of turn." />
     </card>
-	<card id="2d266666-332e-4141-bafd-a3f0d7b34710" name="">
+	<card id="2d266666-332e-4141-bafd-a3f0d7b34710" name="Black Moon">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="077" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="Moon" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="2DD" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Continuous] At the beginning of your main phase, put target Cthulhu non-spell card from your graveyard into your field. It gains [Swiftness] until end of turn. If it would leave your field this turn, remove it from the game instead. At the end of turn, remove it from the game. [Continuous] When this card is put into a graveyard from your field, you lose 1000 life." />
     </card>
-	<card id="f92a934e-94a2-4f43-b85d-4dfe8b4adff1" name="">
+	<card id="f92a934e-94a2-4f43-b85d-4dfe8b4adff1" name="Byakhee, the Winged Lady">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="078" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Cthulhu" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="3DD" />
+		<property name="Atk" value="900" />
+		<property name="Def" value="900" />
+		<property name="Text" value="[Flying] [Incarnation] D D (You may banish two darkness resonators rather than pay this card's cost.) [Activate] Rest : Target resonator gains [+900/+900] and [Flying]] until end of turn. When that resonator is destroyed this turn, banish this card." />
     </card>
-	<card id="7c3e893d-9ec3-4274-a07b-3e121e1f2441" name="">
+	<card id="7c3e893d-9ec3-4274-a07b-3e121e1f2441" name="Call of Cthulhu">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="079" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Standby" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="1D" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Trigger] While you have five or more Cthulhu cards in your graveyard: Put target Cthulhu non-spell card from your graveyard into your field." />
     </card>
-	<card id="b2515713-4eb4-4725-9094-68e026d4f4c2" name="">
+	<card id="b2515713-4eb4-4725-9094-68e026d4f4c2" name="Fiend of Dark Pyre">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="080" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
-		<property name="J-Ruler" value="" />
+		<property name="Race/Trait" value="Fiend" />
+		<property name="J-Ruler" value="Yes" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[J-Activate] Pay 0. Play this ability only if you put a Cthulhu into a field this turn." />
+		<alternate name="Nyarlathotep, the Faceless God" type="jruler">
+			<property name="Number" value="080J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Race/Trait" value="Cthulhu" />
+			<property name="Atk" value="0" />
+			<property name="Def" value="1200" />
+			<property name="Text" value="[Enter] Your opponent banishes a non-Cthulhu resonator. [Continuous] This card's ATK is equal to total ATK of Cthulhu resonators you control." />
+		</alternate>
     </card>
-	<card id="8ba47093-ed93-4484-8327-86a63d6e2f27" name="">
+	<card id="8ba47093-ed93-4484-8327-86a63d6e2f27" name="Hyde, the Chaos">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="081" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="DD" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="[Enter] Your opponent loses 200 life. [Activate] Pay L, banish this card: Search your main deck for a card named &quot;Jekyll, the Order&quot; and put it into your field. This triggers its [Enter] ability. Then shuffle your main deck." />
     </card>
-	<card id="ba4de3b3-6110-4bee-825c-4dd10280f9d0" name="">
+	<card id="ba4de3b3-6110-4bee-825c-4dd10280f9d0" name="King in Yellow">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="082" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Cthulhu/Avatar" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="1D" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="[Continuous] When this card is put into a graveyard from your field, search your main deck for a card named &quot;King in Yellow&quot;, reveal it and put it into your hand. Then shuffle your main deck." />
     </card>
-	<card id="75ea12ea-98a3-4550-92ef-38e4d8de6c71" name="">
+	<card id="75ea12ea-98a3-4550-92ef-38e4d8de6c71" name="Phantasm of Void">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="083" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Fantasy" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="D" />
+		<property name="Atk" value="300" />
+		<property name="Def" value="300" />
+		<property name="Text" value="If you control &quot;Zero, the Magus of Null&quot;, you may pay D less to play this card." />
     </card>
-	<card id="016851c1-0fe8-4f9d-8478-33627226f799" name="">
+	<card id="016851c1-0fe8-4f9d-8478-33627226f799" name="Shantak">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="084" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Cthulhu" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="D" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="200" />
+		<property name="Text" value="[Continuous] When this card is put into a graveyard from your field, you may discard a card. If you do, put this card from your graveyard into your hand." />
     </card>
-	<card id="b2399082-a8ad-4b54-b2ce-9b1de243c894" name="">
+	<card id="b2399082-a8ad-4b54-b2ce-9b1de243c894" name="Sheharyar, the Distrust King">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="085" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Nightmare/Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="2D" />
+		<property name="Atk" value="900" />
+		<property name="Def" value="700" />
+		<property name="Text" value="[Continuous] At the end of your turn, if no resonator you control attacked this turn, banish another resonator." />
     </card>
-	<card id="592383bd-3023-4815-8e0f-ac60e2656738" name="">
+	<card id="592383bd-3023-4815-8e0f-ac60e2656738" name="Shining Trapezohedron">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="086" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="Relic" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="1D" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Continuous] Cthulhu you control gain [+200/+200]. [Activate] Pay D, banish this card: Put the top five cards of your main deck into your graveyard." />
     </card>
-	<card id="c5db698a-b536-4bc0-89e8-0e9127c8b3ac" name="">
+	<card id="c5db698a-b536-4bc0-89e8-0e9127c8b3ac" name="Void Blast">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="087" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="1DD" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="If you control &quot;Zero, the Magus of Null&quot;. you may pay D Void 1 less to play this card. Remove target resonator from the game." />
     </card>
-	<card id="d950eef4-f5c1-450a-86b0-35050c47e71b" name="">
+	<card id="d950eef4-f5c1-450a-86b0-35050c47e71b" name="Yellow Sign">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="088" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="1D" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Continuous] Added resonator gains [-300/-300]. At the end of turn, this card deals 300 damage to added resonator's controller." />
     </card>
-	<card id="3763a119-446d-4cea-84bb-fced48fe78c5" name="">
+	<card id="3763a119-446d-4cea-84bb-fced48fe78c5" name="Yog-Sothoth, the Dark Myth">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="089" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Cthulhu" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="5DDD" />
+		<property name="Atk" value="1500" />
+		<property name="Def" value="1500" />
+		<property name="Text" value="[Incarnation] D,F or D,F or D (You may banish a darkness and any combination of two fire or darkness resonators rather than pay this card's cost.) [Pierce] [Enter] Destroy all resonators with total cost 2 or less" />
     </card>
-	<card id="ef414281-2385-4074-9002-3e8992828b0d" name="">
+	<card id="ef414281-2385-4074-9002-3e8992828b0d" name="Zero, the Magus of Null">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="090" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Human/Six Sages" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="1DD" />
+		<property name="Atk" value="700" />
+		<property name="Def" value="500" />
+		<property name="Text" value="[Quickcast] (You may play this card anytime you can play Spell:Chant-Instant.) [Enter] Resonators your opponent controls gain [-200/-200] and lose [Flying] until end of turn." />
     </card>
-	<card id="f2101425-e942-4cbd-93af-3d7544805905" name="">
+	<card id="f2101425-e942-4cbd-93af-3d7544805905" name="Alice, the Guardian of Dimensions">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="091" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Wanderer/Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="1LWa" />
+		<property name="Atk" value="700" />
+		<property name="Def" value="700" />
+		<property name="Text" value="[Flying] [Activate] Pay Wa: Target resonator you control cannot be targeted by spells or abilities your opponent controls until end of turn. [Activate] Pay L, Rest: Remove this card and target resonator from the game. " />
     </card>
-	<card id="84a94c87-c531-4e1b-869f-7389eb4af1f2" name="">
+	<card id="84a94c87-c531-4e1b-869f-7389eb4af1f2" name="Apollobreak, the Moon Blast">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="092" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="LWa" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Put target resonator on top of its owner's main deck. [Awakening] Moon Moon: If your J/Ruler is &quot;Moon Princess of Stellar Wars&quot; or &quot;Kaguya, the Immortal Princess&quot;, put target resonator on the bottom of its owner's main deck and draw a card instead." />
     </card>
-	<card id="ce7a0b9a-8a1c-432f-bec3-6f5f35c0ee35" name="">
+	<card id="ce7a0b9a-8a1c-432f-bec3-6f5f35c0ee35" name="Flame of Outer World">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="093" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="FD" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="This card deals 800 damage to target J/resonator. Players cannot chase to this card." />
     </card>
-	<card id="99165dc1-f88f-4ec7-a6a5-545ed860bb26" name="">
+	<card id="99165dc1-f88f-4ec7-a6a5-545ed860bb26" name="Gherta, the Tear of Passion">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="094" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Fairy Tale/Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="FWa" />
+		<property name="Atk" value="600" />
+		<property name="Def" value="600" />
+		<property name="Text" value="[Activate] Remove a counter from a card you control: This card gains [Swiftness], [Flying], or [Target Attack] until end of turn." />
     </card>
-	<card id="77a0480a-d22c-4e8f-bd71-ff793f75e81c" name="">
+	<card id="77a0480a-d22c-4e8f-bd71-ff793f75e81c" name="Giovanni, the Lonely Child">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="095" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="WaWi" />
+		<property name="Atk" value="600" />
+		<property name="Def" value="600" />
+		<property name="Text" value="[Enter] If you don't control other resonators, search your main deck for a card named &quot;Campanella, the Milky Way Moon&quot;, reveal it and put it into your hand. Then shuffle your main deck." />
     </card>
-	<card id="3b25d088-4ea5-47fc-8a52-eeeb1748e83e" name="">
+	<card id="3b25d088-4ea5-47fc-8a52-eeeb1748e83e" name="Hastur, the Unspeakable">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="096" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Cthulhu" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="2FD" />
+		<property name="Atk" value="700" />
+		<property name="Def" value="500" />
+		<property name="Text" value="[Incarnation] F or D , F or D (You may banish any combination of two fire or darkness resonators rather than pay this card's cost.) [Enter] Destroy target resonator with no addition." />
     </card>
-	<card id="5b81732d-04c7-4f50-9b88-1206dc3279ea" name="">
+	<card id="5b81732d-04c7-4f50-9b88-1206dc3279ea" name="Seth, the Arbiter">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="097" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="LD1" />
+		<property name="Atk" value="600" />
+		<property name="Def" value="600" />
+		<property name="Text" value="[Continuous] Whenever your opponent discards a card, draw a card. [Continuous] Whenever a resonator is put into a graveyard from your opponent's field, put target resonator from your graveyard into your hand." />
     </card>
-	<card id="5e97237a-358e-4bc9-b2e2-81d14b652697" name="">
+	<card id="5e97237a-358e-4bc9-b2e2-81d14b652697" name="Little Red, the Pure Stone">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="098" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="True" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="As this card comes into a magic stone area, choose an attribute. [Activate] Rest: Produce one will of the chosen attribute. [Activate] Rest: Target resonator that shares an attribute with the chosen attribute gains [+200/+200] until end of turn. [Continuous] When you control two or more true magic stones with the same name, banish all but one of them." />
     </card>
-	<card id="fa2467b9-efd0-46ff-8c40-3fc00b7df8b4" name="">
+	<card id="fa2467b9-efd0-46ff-8c40-3fc00b7df8b4" name="Magic Stone of Moon Light">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="099" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="Special" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Activate] Rest: Moon [Activate] Rest: Produce one will of any attribute that a magic stone you control could produce. " />
     </card>
-	<card id="cd21e467-d71c-4afe-a8cc-86b7dd8cfd47" name="">
+	<card id="cd21e467-d71c-4afe-a8cc-86b7dd8cfd47" name="Magic Stone of Moon Shade">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="100" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="Special" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Activate] Rest : Produce Moon. [Activate] Rest, pay 200 life: Produce L, F, Wa, Wi or D. " />
     </card>
-	<card id="f3f6a173-65eb-44ce-9746-99c83dd03a3c" name="">
+	<card id="f3f6a173-65eb-44ce-9746-99c83dd03a3c" name="Magic Stone of Darkness">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="101" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Magic Stone" />
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Rest: Produce D." />
     </card>
-	<card id="af14dd1c-45ae-4bad-a1d8-26550b08b5af" name="">
+	<card id="af14dd1c-45ae-4bad-a1d8-26550b08b5af" name="Magic Stone of Flame">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="102" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Magic Stone" />
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Rest: Produce F." />
     </card>
-	<card id="6b0927f4-4b0b-47b3-8ff0-8ededa23aa39" name="">
+	<card id="6b0927f4-4b0b-47b3-8ff0-8ededa23aa39" name="Magic Stone of Light">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="103" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Magic Stone" />
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Rest: Produce L." />
     </card>
-	<card id="a47561a8-dc00-4be5-9fd3-64aad7004f81" name="">
+	<card id="a47561a8-dc00-4be5-9fd3-64aad7004f81" name="Magic Stone of Water">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="104" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Magic Stone" />
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Rest: Produce Wa." />
     </card>
-	<card id="1a9fb388-5911-4f64-b8f9-5aaf9b069791" name="">
+	<card id="1a9fb388-5911-4f64-b8f9-5aaf9b069791" name="Magic Stone of Wind">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="105" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Magic Stone" />
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
-    </card>
-	<card id="" name="">
-		<property name="Cluster" value="Grimm" />
-		<property name="Set" value="MPR"/>
-		<property name="Number" value="105" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
-		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Rest: Produce Wi." />
     </card>
 	</cards>
 </set>

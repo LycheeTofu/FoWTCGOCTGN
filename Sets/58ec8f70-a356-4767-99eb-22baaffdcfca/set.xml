@@ -1495,7 +1495,7 @@
 		<property name="Def" value="" />
 		<property name="Text" value="Rest: Produce F." />
     </card>
-	<card id="415f3d6e-2616-43d5-bd21-46dbf311e500" name=" Magic Stone of Water">
+	<card id="415f3d6e-2616-43d5-bd21-46dbf311e500" name="Magic Stone of Water">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="TAT"/>
 		<property name="Number" value="103" />
