@@ -547,257 +547,265 @@
 		<property name="Def" value="200" />
 		<property name="Text" value="[Continuous] This card gains [+200/+200] for each card named &quot;The Hound of Tindalos&quot; in your graveyard. [Continuous] When this card is put into a graveyard from your field, you may pay . If you do, search your main deck for a card named &quot;The Hound of Tindalos&quot; and put it into your field rested. Then shuffle your main deck." />
     </card>
-	<card id="277c8898-e083-461d-a35b-2d5af9859998" name="">
+	<card id="277c8898-e083-461d-a35b-2d5af9859998" name="Apollosphere, the Moon Lance">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="037" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="J/Resonator" />
+		<property name="Race/Trait" value="Treasury Item" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="1Wa" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Continuous] Added J/resonator gains [+400/+0]. [Continuous] You may banish this card rather than pay the cost of a water [Spell:Chant-Instant]." />
     </card>
-	<card id="1fa3872c-a55e-4d08-93b8-82c15a41a235" name="">
+	<card id="1fa3872c-a55e-4d08-93b8-82c15a41a235" name="Campanella, the Milky Way Moon">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="038" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Fairy Tale/Fantasy" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="1Wa" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="200" />
+		<property name="Text" value="[Enter] Search your main deck for a water Moon card and put it into your field. Then shuffle your main deck. [Continuous] This card gains [+200/+200] as long as you control a Moon. [Continuous] When a resonator is put into a graveyard from your field, you may banish this card. If you do, put that resonator from its owner's graveyard into his or her hand" />
     </card>
-	<card id="932357e6-852b-4989-b598-5549546c9e3f" name="">
+	<card id="932357e6-852b-4989-b598-5549546c9e3f" name="Dark Shining Swordsman">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="039" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Wererabbit" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="2Wa" />
+		<property name="Atk" value="600" />
+		<property name="Def" value="600" />
+		<property name="Text" value="[Activate] Pay Moon Moon: Target resonator's printed ATK becomes 0 until the end of turn" />
     </card>
-	<card id="03e3f8dc-07e1-4350-b77a-6a991135a5d4" name="">
+	<card id="03e3f8dc-07e1-4350-b77a-6a991135a5d4" name="Elixir of Immortality">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="040" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="Wa" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Continuous Prevent all battle damage that would be dealt to or dealt by added resonator." />
     </card>
-	<card id="5e6da54c-dcab-45a7-b477-6556aa06488c" name="">
+	<card id="5e6da54c-dcab-45a7-b477-6556aa06488c" name="Etna, the Snow Queen">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="041" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="Fairy Tale/Queen" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="1WaWa" />
+		<property name="Atk" value="700" />
+		<property name="Def" value="700" />
+		<property name="Text" value="[Awakening] x: [Enter] Rest X target resonators. They cannot recover as long as long as this card is on a field. [Continuous] Whenever this card deals damage to your opponent, he or she discards a card." />
     </card>
-	<card id="34def403-cf2e-431e-a9e3-8cb5f3240354" name="">
+	<card id="34def403-cf2e-431e-a9e3-8cb5f3240354" name="Fallen Comet">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="042" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="2WaWa" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Return all rested resonators to their owners' hand. Then rest all resonators your opponent controls." />
     </card>
-	<card id="7020c994-0993-4c11-8d90-fb14979c340d" name="">
+	<card id="7020c994-0993-4c11-8d90-fb14979c340d" name="Glimpse of Kaguya">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="043" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="1Wa" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Cancel target [Activate] ability. Draw a card." />
     </card>
-	<card id="ccde762f-fec3-49a7-a1af-1a2657ec8741" name="">
+	<card id="ccde762f-fec3-49a7-a1af-1a2657ec8741" name="Joyful Bird-Catcher">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="044" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="Wa" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="200" />
+		<property name="Text" value="[Activate] Pay Wa, Rest: Search your main deck for a Bird resonator, reveal it and put it into your hand. Then shuffle your main deck." />
     </card>
-	<card id="a589f027-240e-4ae5-a4e2-97ec65f2b021" name="">
+	<card id="a589f027-240e-4ae5-a4e2-97ec65f2b021" name="Kai, the Frozen Heart">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="045" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Fairy Tale/Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="1WaWa" />
+		<property name="Atk" value="1200" />
+		<property name="Def" value="1200" />
+		<property name="Text" value="[Enter] Put three frozen counters on this card. [Continuous] This card cannot attack or block as long as it has a frozen counter on it. [Continuous] Whenever a resonator is put into a graveyard from your field, remove a frozen counter from this card." />
     </card>
-	<card id="f4007171-a0ba-4c89-a915-bb7f86d16a3b" name="">
+	<card id="f4007171-a0ba-4c89-a915-bb7f86d16a3b" name="Moon Princess of Stellar Wars">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="046" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
-		<property name="J-Ruler" value="" />
+		<property name="Race/Trait" value="Human" />
+		<property name="J-Ruler" value="Yes" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[J-Activate] Pay 2 X. Spend only Moon will on X." />
+			<alternate name="Kaguya, the Immortal Princess" type="jruler">
+			<property name="Number" value="046J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Race/Trait" value="Wanderer/Little Girl" />
+			<property name="Atk" value="400" />
+			<property name="Def" value="1000" />
+			<property name="Text" value="[Flying] [Imperishable] [Enter] Search your main deck for X Treasury Item cards and put them into your field. [Continuous] This card gains [+200/+0] for each Treasury Item you control. [Activate] Banish three Treasury Items: Gain control of target resonator. " />
+		</alternate>
     </card>
-	<card id="fec4ded9-c16d-4a62-a505-25f6cfcf62c3" name="">
+	<card id="fec4ded9-c16d-4a62-a505-25f6cfcf62c3" name="Moonglow Bird">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="047" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Bird" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="1Wa" />
+		<property name="Atk" value="300" />
+		<property name="Def" value="300" />
+		<property name="Text" value="[Flying] [Continuous] This card gains [+400/+400] as long as you control a Moon." />
     </card>
-	<card id="a800c172-b334-4113-9bba-71b3ede1eb13" name="">
+	<card id="a800c172-b334-4113-9bba-71b3ede1eb13" name="Pilot of Universe">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="048" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Wererabbit" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="Wa" />
+		<property name="Atk" value="300" />
+		<property name="Def" value="300" />
+		<property name="Text" value="[Activate] Pay Moon: This card gains [Flying] until end of turn." />
     </card>
-	<card id="a6168191-908b-4695-b7ee-ae253201bd0b" name="">
+	<card id="a6168191-908b-4695-b7ee-ae253201bd0b" name="Shooting Star">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="049" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="WaWa" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Change the target of target normal spell with a single target." />
     </card>
-	<card id="ae661508-9b2a-409b-b32d-64bd2d81beb9" name="">
+	<card id="ae661508-9b2a-409b-b32d-64bd2d81beb9" name="The Milky Way">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="050" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="Wa" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Enter] Draw a card. [Continuous] Resonators your opponent controls cannot be targeted by spells or abilities." />
     </card>
-	<card id="8af735f3-03a6-472b-a52e-8acdb2dc1028" name="">
+	<card id="8af735f3-03a6-472b-a52e-8acdb2dc1028" name="Total Eclipse">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="051" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Standby" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="1Wa" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Trigger] While you control a Moon: Non-Wererabbit resonators gain [-500/0] and Wererabbit resonators gain [+500/0] until end of turn." />
     </card>
-	<card id="f088bfd4-5c6e-490b-98d3-714d8541080f" name="">
+	<card id="f088bfd4-5c6e-490b-98d3-714d8541080f" name="Tsukuyomi, the Moon City">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="052" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="Moon/City" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="1Wa" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Activate] Pay 1, Rest: Produce Moon. [Activate] Pay 1, put this card on the bottom of your main deck: Target resonator you control gains [Flying] until end of turn. Draw a card. " />
     </card>
-	<card id="1d308036-5777-45c5-bc01-a062dc9a3da7" name="">
+	<card id="1d308036-5777-45c5-bc01-a062dc9a3da7" name="Yang Mage of Decrescent">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="053" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Wererabbit" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="WaWa" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="[Flying] [Activate] Pay Moon: This card gains [+400/+0] until end of turn. Play this ability only once per turn." />
     </card>
-	<card id="a0900b32-5b45-41eb-97a8-d2644730c992" name="">
+	<card id="a0900b32-5b45-41eb-97a8-d2644730c992" name="Yin Mage of Increscent">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MPR"/>
 		<property name="Number" value="054" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Wererabbit" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="C" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="[Flying] [Activate] Pay Moon: This card gains [+0/+400] until end of turn. Play this ability only once per turn. " />
     </card>
 	<card id="79ad441c-a457-4e64-8338-2a2531a56e3f" name="">
 		<property name="Cluster" value="Grimm" />
