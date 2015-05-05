@@ -807,5 +807,735 @@
 		<property name="Def" value="" />
 		<property name="Text" value="[Continuous] Resonator with this gains &quot;[Activate] Pay UU2 Rest : Destroy target rested resonator.&quot; and &quot; [Activate] Rest, banish this resonator: Draw three cards.&quot;" />
     </card>
+	<card id="28472321-eaef-49b4-82a7-1c9a14056658" name="Brainless Scarecrow">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="055" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="G" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="200" />
+		<property name="Text" value="[Enter] If you control &quot;Heartless Tin Man&quot; or &quot;Cowardly Lion&quot;, put an achievement counter on this card. [Continuous] This card gains [+300/+300] for each achievement counter on it. " />
+    </card>
+	<card id="f42d49be-a733-42d3-9b6b-f2a67232fc24" name="Cowardly Lion">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="056" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="G" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="200" />
+		<property name="Text" value="[Continuous] Whenever this card deals damage to your opponent, put an achievement counter on this card. [Continuous] This card gains [+300/+300] for each achievement counter on it." />
+    </card>
+	<card id="eb5c0865-0397-48cb-82c4-43a98ac0be3a" name="Crimson Girl in the Sky">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="057" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Little Girl" />
+		<property name="J-Ruler" value="Yes" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[J-Activate] Pay 0. Play this ability only if you put &quot;Refarth, the Castle in Heaven&quot; into a field this turn. [J-Activate] Pay GG1." />
+		<alternate name="Little Red, the True Fairy Tale" type="jruler">
+			<property name="Number" value="057J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Race/Trait" value="Fairy Tale/Ancient" />
+			<property name="Atk" value="800" />
+			<property name="Def" value="1000" />
+			<property name="Text" value="[Continuous] This card cannot be targeted by darkness or fire spells or darkness or fire card's abilities. [Continuous] If a spell or ability would increase ATK or DEF of resonators you control, it increases double that much instead. [Continuous] If a spell or ability would decrease ATK or DEF of resonators you control, it decreases none instead." />
+		</alternate>
+    </card>
+	<card id="a828f24c-877f-4ed9-9eb1-0b90fb48e549" name="Dorothy, the Lost Girl">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="058" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1G" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value=" 	[Continuous] Whenever this card deals damage to your opponent, put the top card of your magic stone deck into your magic stone area. [Awakening] G: [Enter] Reveal top five cards of your main deck. Put any number of cards named &quot;Heartless Tin Man&quot;, &quot;Brainless Scarecrow&quot;, &quot;Cowardly Lion&quot; and/or &quot;Silver Shoes&quot; among them into your hand. Put the rest on the bottom of your main deck in any order. " />
+    </card>
+	<card id="5826614d-c8b2-4c52-b806-81732a09e3d1" name="Dragonslayer">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="059" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1G" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Enter] Destroy target Dragon. [Continuous] If damage would be dealt to the resonator with this, prevent 500 of it." />
+    </card>
+	<card id="16c5e20a-1ae6-47a1-b6e3-a344e9d19259" name="Evolution of Limits">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="060" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="G" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Target resonator [+600/+600] until end of turn." />
+    </card>
+	<card id="70eddc8a-1b48-440d-a0af-5dcecc261e5a" name="Gardea, the Guardian Dragon of Heaven">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="061" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Ancient/Dragon" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1GG" />
+		<property name="Atk" value="800" />
+		<property name="Def" value="800" />
+		<property name="Text" value="[Enter] Search your magic stone deck for a card. Then, shuffle the rest of your magic stone deck and put that card on top of it. [Activate] Rest: Target resonator you control gains [+400/+0] until end of turn." />
+    </card>
+	<card id="11dc0b87-cf93-4ccd-a1ec-493f0f889725" name="Glinda, the Fairy">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="062" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="GG" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value=" [Enter] Target resonator cannot be blocked until end of turn. [Activate] Banish this card: Cancel target normal spell unless its controller pays 2. " />
+    </card>
+	<card id="70b22f27-9386-4f7e-903e-bc5b787843f6" name="Guide of Heaven">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="063" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Ancient/Elf" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1G" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="200" />
+		<property name="Text" value="[Activate] Rest: Reveal the top card of your main deck. If it's an Elf resonator, put it into your hand. [Awakening] G: [Enter] Search your main deck for an Elf resonator, reveal it and put it into your hand. Then shuffle your main deck. " />
+    </card>
+	<card id="bcb360a0-0b3f-45c0-baff-9be821048919" name="Heartless Tin Man">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="064" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="G" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="200" />
+		<property name="Text" value="[Continuous] When an addition is added to a resonator you control or an [Addition:Field] is put into your field, put an achievement counter on this card. [Continuous] This card gains [+300/+300] for each achievement counter on it." />
+    </card>
+	<card id="b8315e70-17eb-4c33-8fe9-29060364626c" name="Oz, the Great Wizard">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="065" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2G" />
+		<property name="Atk" value="600" />
+		<property name="Def" value="600" />
+		<property name="Text" value="[Enter] Search your main deck for a spell card with total cost 1, reveal it and put it into your hand. If its name is &quot;Oz's Magic&quot;, you may play it without paying its cost instead of putting it into your hand. Then shuffle your main deck." />
+    </card>
+	<card id="190d4d39-ec82-4614-8d6f-88c754b927a6" name="Oz's Magic">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="066" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="G" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Put an achievement counter on each of up to two target resonators. If you control &quot;Oz, the Great Wizard&quot;, draw a card." />
+    </card>
+	<card id="adb8623e-598b-45ff-8fee-56a0e34edbfe" name="Portal of Truth">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="067" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1G" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Trigger] Anytime: Destroy target resonator if its ATK is different from its printed ATK or its DEF is different from its printed DEF. (Pay 2 to put this card into your chant-standby area. You may play this from the next turn if it fulfills [Trigger] condition and you control magic stones equal or more than its cost.) " />
+    </card>
+	<card id="ede7eea5-f8f0-46a1-9045-1bdc3aae2e67" name="Realm of Evolution">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="068" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1G" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Fairy Tales you control gain [+200/+200]. [Activate] G, Banish this card: Search your main deck for a Fairy Tale resonator, reveal it and put it into your hand. Then shuffle your main deck." />
+    </card>
+	<card id="2be90722-97ad-4ff9-9ae4-1680c3bd2fe3" name="Refarth, the Castle in Heaven">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="069" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1G" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Resonators you control gain [+100/+100]. [Activate] Banish this card : Target resonator gains [+400/+400] until end of turn." />
+    </card>
+	<card id="ff776791-2308-49fe-a04a-bbd2c7e1691b" name="Silver Shoes">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="070" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="G" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Resonator with this gains [+300/+300]." />
+    </card>
+	<card id="8f3f2f5b-9696-4e52-a428-26729fc49403" name="Wolf in the Sky">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="071" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Ancient/Wolf" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="G" />
+		<property name="Atk" value="100" />
+		<property name="Def" value="400" />
+		<property name="Text" value="[Continuous] Whenever this card attacks, it gains [+400/+0] until end of turn." />
+    </card>
+	<card id="6d3ec9aa-c1ce-46b5-922c-df2bcee0ed64" name="Xeex the Ancient Magic">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="072" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="GG" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Choose one. If your J/ruler is &quot;Crimson Girl in the Sky&quot; or &quot;Little Red, the True Fairy Tale&quot;, choose up to four - Target resonator cannot be targeted by spells or abilities until end of turn; or cancel target summon spell; or resonators you control gain [+200/+200] until end of turn; or target player shuffles all magic stones from his or her graveyard into his magic stone deck, then shuffles all other cards from his or her graveyard into his of her main deck." />
+    </card>
+	<card id="e6e8b99d-4b00-4cf8-b052-24b572d20a54" name="Al-Hader, the Tower of Despair">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="073" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="Tower" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1B" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] When a resonator your opponent controls is put into a graveyard, put a despair counter on this card. [Continuous] At the beginning of your main phase, if there are seven or more despair counters on this card, banish it and you may search your main deck for up to two darkness resonators and play them without paying their cost. Then shuffle your main deck." />
+    </card>
+	<card id="7fd1708f-8cb9-4a6d-a867-b25449adf2fc" name="Card Soldier &quot;Club&quot;">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="074" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Nightmare/Card Soldier" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1B" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="[Enter] Reveal the top four cards of your main deck. Put a Card Soldier card among them into your hand. Put the rest into your graveyard." />
+    </card>
+	<card id="c74a1db9-11c7-47be-b933-e01fba9c24ac" name="Card Soldier &quot;Spade&quot;">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="075" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Nightmare/Card Soldier" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="B" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="200" />
+		<property name="Text" value="[Continuous] This card gains [+200/+200] for each other Card Soldier you control." />
+    </card>
+	<card id="9521b1a1-5d91-4128-bccd-fa733bbb9ad9" name="Death Sentence from the Queen">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="076" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Standby" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="BB" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Trigger] While a resonator your opponent controls is attacking: Your opponent banish a non-attacking resonator he or she controls. You gain life equal to its DEF. (Pay 2 to put this card into your chant-standby area. You may play this from the next turn if it fulfills [Trigger] condition and you control magic stones equal or more than its cost.)" />
+    </card>
+	<card id="c305dbce-fd29-4dfe-b165-de8b572d9b01" name="Demon's Curse">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="077" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1B" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Resonator with this gains [-200/-200]. When the resonator with this is put into a graveyard from a field, this card deals 500 damage to that resonator's controller." />
+    </card>
+	<card id="61b794f1-f38b-474c-ae84-356db8af7866" name="Ebony Devil">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="078" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Demon" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="B" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="[Continuous] At the end of your turn, this card deals 200 damage to you." />
+    </card>
+	<card id="65b2771c-6fae-4885-a999-1f359ee19083" name="Ebony Prophet">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="079" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Prophet" />
+		<property name="J-Ruler" value="Yes" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[J-Activate] Pay B. Play this ability only if you control &quot;Grusbalesta, the Sealing Stone&quot;. [J-Activate] Pay BB1. [Activate] Rest: Target resonator gains [-300/-300] until end of turn." />
+		<alternate name="" type="jruler">
+			<property name="Number" value="079J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Race/Trait" value="Wizard" />
+			<property name="Atk" value="1000" />
+			<property name="Def" value="1000" />
+			<property name="Text" value="[Continuous] [Enter] abilities of cards your opponent controls don't trigger. [Activate] 0 : Target resonator or addition loses all abilities until end of turn. You may play this ability up to twice per turn." />
+		</alternate>
+    </card>
+	<card id="ce25d6f0-b771-4c7f-94ef-79daf52f8eaa" name="Elder Things">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="080" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Cthulhu" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2BB" />
+		<property name="Atk" value="0" />
+		<property name="Def" value="200" />
+		<property name="Text" value="[Continuous] This card gains [+200/+200] for each resonator in all graveyard." />
+    </card>
+	<card id="dd539f8d-181e-4829-a5c5-3d8f0b03aa3f" name="Joker's Suit">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="081" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
+		<property name="Race/Trait" value="Clothes" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="B" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Resonator with this gains [+200/+200] and Card Soldier in addition to its own race. [Continuous] When this card is put into a graveyard from a field, you may add it to a target resonator you control." />
+    </card>
+	<card id="426e9d41-9f1a-4deb-b9a5-e589e4970e6d" name="Laplacia, the Demon of Fate">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="082" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Demon" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1BB" />
+		<property name="Atk" value="700" />
+		<property name="Def" value="700" />
+		<property name="Text" value="[Continuous] You opponent plays with top card of his or her main deck revealed. [Continuous] You may look at the top card of your main deck at any time. [Activate] Rest: Put the top card of your main deck and the top card of your opponent's main deck into their owner's graveyard. " />
+    </card>
+	<card id="e99f4380-7642-45bf-a10e-5c5b1604be61" name="Mephistopheles, the Abyssal Tyrant">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="083" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Demon" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2BB" />
+		<property name="Atk" value="1500" />
+		<property name="Def" value="1500" />
+		<property name="Text" value="[Flying] [Target Attack] [Continuous] When this card becomes targeted by spells or abilities your opponent controls, he or she loses 500 life. [Continuous] At the end of your turn, banish another resonator you control." />
+    </card>
+	<card id="5e2607e3-a881-4417-a071-e5942318ebe6" name="Necronomicon">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="084" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="Relic" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="BBB" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] You may play cards in your graveyard. [Continuous] If a card would be put into your graveyard from anywhere, remove it from the game. [Continuous] At the end of your turn, discard all cards. " />
+    </card>
+	<card id="da261b52-31fa-4488-9b7d-3b9e5c75ba83" name="Neithardt, the Demon Knight">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="085" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Demon/Knight" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="BB" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="[Continuous] This card cannot be targeted by light spells or light card's abilities and prevent all damage that would be dealt to this card by light cards" />
+    </card>
+	<card id="de0f1298-bab9-46e4-9d35-46a287a9b432" name="Queen of Hearts">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="086" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] You may pay Void 1 less to play Card Soldier resonators. [Enter] Put up to one target card named &quot;Card Soldier &quot;Spade&quot;&quot;, up to one target card named &quot;Card Soldier &quot;Club&quot;&quot;, up to one target card named &quot;Card Soldier &quot;Diamond&quot;&quot; and up to one target card named &quot;Card Soldier &quot;Heart&quot;&quot; from your graveyard into your hand. [Activate] Rest, banish two Card Soldiers: Destroy target resonator." />
+    </card>
+	<card id="4749f260-4da3-4095-90c3-d7d9ce72c2ce" name="Spire Shadow Drake">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="087" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Drake" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2B" />
+		<property name="Atk" value="700" />
+		<property name="Def" value="600" />
+		<property name="Text" value="[Flying] (While attacking this card cannot be blocked by J/resonators without [Flying].)" />
+    </card>
+	<card id="b3cf3763-8bc1-4201-bd82-338c5bc21690" name="Stoning to Death">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="088" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="BB" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Destroy target resonator." />
+    </card>
+	<card id="dfafe492-f788-450a-9730-76a936f7935b" name="Summoning Art of Alhazred">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="089" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="BB" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Search your main deck for a Demon resonator, reveal it and put it into your hand. Then shuffle your main deck. If your J/ruler is &quot;Ebony Prophet&quot; or &quot;Abdul Alhazred, the Harbinger of Despair&quot;, you may pay BB less to play cards with the same name as the card you searched until end of turn. " />
+    </card>
+	<card id="5870b95a-2c8b-4496-87e0-e9444631d20f" name="Whisper from the Abyss">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="090" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1B" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Pay any amount of life. Draw a card for each 500 life you lost this way." />
+    </card>
+	<card id="445c5909-bfdf-4ef3-8611-89670b5e5dcc" name="Almerius, the Levitating Stone">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="091" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="True" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Activate] Rest: Produce W. [Activate] W Rest: Target J/resonator gains [Flying] until end of turn. [Continuous] When you control two or more true magic stones with the same name, banish all but one of them." />
+    </card>
+	<card id="984bd7bc-d029-4ab3-84dd-2ed4c95036d9" name="Feethsing, the Holy Wind Stone">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="092" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="True" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Activate] Rest : Produce G. [Activate] G Rest: Target J/resonator cannot be targeted by normal spells you opponents control until end of turn [Continuous] When you control two or more true magic stones with the same name, banish all but one of them." />
+    </card>
+	<card id="098a2329-3bfe-4e27-ac35-292300b2460f" name="Grusbalesta, the Sealing Stone">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="093" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="True" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Activate] Rest: Produce B. [Activate] B Rest: Target J/resonator gains [+0/-200] until end of turn. [Continuous] When you control two or more true magic stones with the same name, banish all but one of them. " />
+    </card>
+	<card id="7252c5bf-46d5-414d-8fd8-95e04d80364c" name="Magic Stone of Blasting Waves">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="094" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="Special" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Treat this card as wind magic stone and fire magic stone. [Activate] Rest: Produce G or R. " />
+    </card>
+	<card id="65692260-ce0e-4f08-9aa6-39fd0b9ab913" name="Magic Stone of Dark Depth">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="095" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="Special" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Treat this card as darkness magic stone and water magic stone. [Activate] Rest: Produce B or U." />
+    </card>
+	<card id="68a869ea-ef71-4a92-b6e2-93a057efd279" name="Magic Stone of Gusting Skies">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="096" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="Special" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Treat this card as light magic stone and wind magic stone. [Activate] Rest: Produce W or G. " />
+    </card>
+	<card id="252ed1f1-3708-4146-abbf-2ffeb62119bf" name="Magic Stone of Light Vapors">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="097" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="Special" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Treat this card as light magic stone and water magic stone. [Activate] Rest: Produce W or U." />
+    </card>
+	<card id="238753a8-1720-4d2d-903a-0b8ba123f8c0" name="Magic Stone of Scorched Bales">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="098" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="Special" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Treat this card as darkness magic stone and fire magic stone. [Activate] Rest: Produce B or R. " />
+    </card>
+	<card id="6f501bc8-4f50-4782-803a-bc4769fbb4c0" name="Milest, the Ghostly Flame Stone">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="099" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="True" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Activate] Rest: Produce R. [Activate] R Rest: This turn, if target J/resonator would deal damage, it deals that much +200 instead. [Continuous] When you control two or more true magic stones with the same name, banish all but one of them. " />
+    </card>
+	<card id="b893a1a9-5849-4cc6-adfa-10078f6b5b77" name="Moojdart, the Fantasy Stone">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="100" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="True" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Activate] Rest: Produce U. [Activate] U Rest: Target J/resonator loses all races and gains a race of your choice until end of turn. [Continuous] When you control two or more true magic stones with the same name, banish all but one of them. " />
+    </card>
+	<card id="1c371d45-a943-4d09-aee6-185fc910de20" name="Magic Stone of Light">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="101" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Rest: Produce W." />
+    </card>
+	<card id="b204c879-cdf2-40c4-8018-5a6733c6d330" name="Magic Stone of Flame">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="102" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Rest: Produce R." />
+    </card>
+	<card id="415f3d6e-2616-43d5-bd21-46dbf311e500" name=" Magic Stone of Water">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="103" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Rest: Produce U." />
+    </card>
+	<card id="5c316c99-358c-4a80-ac9b-30987dfa93ad" name="Magic Stone of Wind">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="104" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Rest: Produce G." />
+    </card>
+	<card id="27ce220f-699a-4297-ae92-73c0e220c77c" name="Magic Stone of Darkness">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="TAT"/>
+		<property name="Number" value="105" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Rest: Produce B." />
+    </card>
 	</cards>
 </set>
