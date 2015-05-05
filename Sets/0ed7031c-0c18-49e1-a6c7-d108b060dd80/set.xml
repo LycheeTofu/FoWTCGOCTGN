@@ -27,6 +27,1483 @@
 		
 		Example of a J-Ruler card below.
 	   -!>
-
+	<card id="7d08482d-22ba-4c80-a4d7-68eaf025c563" name="&quot;I&quot;, the Pilot">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="001" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale/Prince" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1LL" />
+		<property name="Atk" value="800" />
+		<property name="Def" value="800" />
+		<property name="Text" value="[Awakening] L 1: [Enter] Search your main deck for a card named &quot;The Little Prince&quot; and put it into your field. This triggers its [Enter] ability. Then shuffle your main deck. [Enter] Rest target resonator your opponent controls. [Continuous] When &quot;The Little Prince&quot; is put into a graveyard from your field, you gain 1000 life. " />
+    </card>
+	<card id="17d16151-cd08-4ca3-9fd0-aa3eef6c3559" name="Abel, the Avenger of Gods">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="002" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1LL" />
+		<property name="Atk" value="700" />
+		<property name="Def" value="700" />
+		<property name="Text" value="[Target Attack] [Incarnation] L , L(You may banish two light resonators rather than pay this card's cost.) [Awakening] WW2: [Enter] Destroy all other resonators." />
+    </card>
+	<card id="4c2506a7-e715-4566-b726-31ba5a03d74e" name="Accede the Light">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="003" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1L" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="When target resonator you control is put into a graveyard this turn, search your main deck for a resonator with the same total cost as that resonator and put it into your field. Then shuffle your main deck." />
+    </card>
+	<card id="a5975c60-7654-496f-8457-51cc85b07a0c" name="Apostle of Paradise">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="004" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fantasy" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="LL" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="[Continuous] This card cannot be destroyed as long as you control &quot;Abel, the Avenger of Gods&quot;." />
+    </card>
+	<card id="330ccb11-7b7b-4c9a-b843-7c100da1dd20" name="Book of Genesis">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="005" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="Relic" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2LL" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] At the beginning of your main phase, put a creation counter on this card. Then, if this card has six or less creation counters on it, search your main deck for a resonator with total cost equal to the number of creation counters on this card and put it into your field. Then shuffle your main deck." />
+    </card>
+	<card id="c9f7b136-3c32-4e88-b019-1d72aa831dba" name="Genesis Creation">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="006" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2LL" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Put up to one target [Addition: Field] and up to one target resonator from your graveyard into your field. Put up to one target magic stone from your graveyard into your magic stone area." />
+    </card>
+	<card id="d0b314c5-c2ac-4f86-b81a-e469474a75dc" name="Holy Warrior of Hope">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="007" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="L" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="" />
+    </card>
+	<card id="09cd71b0-cd90-46be-b764-ad4eb89a77d4" name="Jekyll, the Order">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="008" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="LL" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="[Enter] You gain 200 life. [Activate] Pay D, banish this card: Search your main deck for a card named &quot;Hyde, the Chaos&quot; and put it into your field. This triggers its [Enter] ability. Then shuffle your main deck. " />
+    </card>
+	<card id="e1a7efcd-1dac-4c93-b1bc-4ace4147395e" name="Mind Reading Fox">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="009" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fox" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2WW" />
+		<property name="Atk" value="800" />
+		<property name="Def" value="800" />
+		<property name="Text" value="[Continuous] This card cannot be targeted by spells or abilities your opponent controls." />
+    </card>
+	<card id="fefe9a4f-ca8d-448f-bf03-30e529165dae" name="Pandora, the Weaver of Myth">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="010" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Princess" />
+		<property name="J-Ruler" value="Yes" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[J-Activate] Pay L L L L L. If your life is 3000 or less, pay L L L L. If your life is 2000 or less, pay L L. If your life is 1000 or less, pay 0 instead." />
+		<alternate name="Grimmia, the Savior of Myth" type="jruler">
+			<property name="Number" value="010J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Race/Trait" value="Avatar" />
+			<property name="Atk" value="1000" />
+			<property name="Def" value="1000" />
+			<property name="Text" value="[Continuous] Whenever this card attacks, you may search your main deck for a weapon [Addition: J/Resonator] and add it to this card. Then shuffle your main deck. [Activate] Pay L: This card gains [Swiftness] and [Target Attack] until end of turn. [Activate] Pay LL, banish an addition added to this card; Rest up to two target J/resonators." />
+		</alternate>
+    </card>
+	<card id="63595c71-7a33-4b71-be66-9f006e6e319d" name="Savior of Splendor">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="011" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="L" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Remove target darkness resonator from the game." />
+    </card>
+	<card id="d735db33-3ffa-48a3-95ce-3fc406ca03c3" name="Seal of Grimmia">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="012" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
+		<property name="Race/Trait" value="Seal" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="L" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Added resonator cannot attack." />
+    </card>
+	<card id="ec6c6308-dea2-4a50-bad8-0182dd8baf1b" name="Sign to the Future">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="013" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Standby" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1L" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Trigger] Your opponent controls three or more resonators than you: Remove two target resonators from the game. " />
+    </card>
+	<card id="32941076-0cbb-462f-9e7c-70f2f4eb7e99" name="Speaker of Creation">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="014" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Acient" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1L" />
+		<property name="Atk" value="0" />
+		<property name="Def" value="400" />
+		<property name="Text" value="[Enter] Search your main deck for an [Addition:Field], reveal it and put it into your hand. Then shuffle your main deck. [Activate] Pay L, banish this card: Destroy target [Addition: Field]." />
+    </card>
+	<card id="473398a9-9c45-4493-b1cc-47e95b2d0584" name="Sweet Rose">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="015" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
+		<property name="Race/Trait" value="Flower" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="L" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Added resonator gains [+300/+300]. If it's a Prince, it gains [+600/+600] and [Target Attack] instead." />
+    </card>
+	<card id="799c3fb8-d3be-417d-a338-75f6de032eee" name="The Little Prince">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="016" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale/Prince" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1L" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="200" />
+		<property name="Text" value="[Continuous] This card gains [+400/+400] for each different total cost among resonators you control that don't share this card's total cost. [Enter] You gain 1000 life if your life is 1000 or less. " />
+    </card>
+	<card id="3d62d0ab-c187-43b7-828f-06c017ace148" name="White Spirit">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="017" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Spirit" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="LL" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="[Enter] Your gain 500 life. " />
+    </card>
+	<card id="2350bec3-469c-4063-b4e1-ae2948e76e77" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="018" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="0ddb3e38-7235-488e-9a99-cb0f08291ca4" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="019" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="5fb99eeb-7b27-43bd-bf04-990a965baaef" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="020" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="d0b1ffd4-f97f-408a-a3ea-9012c734290a" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="021" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="fbf1fb37-0c44-4ca0-b3c1-a8da03d4a007" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="022" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="2a1c7fa0-a523-4156-8627-1f8a181d44fa" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="023" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="0c437c2d-deae-4b6b-9978-94d085a77bee" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="024" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="e77f7cca-5cdb-498c-89a1-a3b29c77a372" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="025" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="9ae68720-409c-428e-b211-0200154aa7de" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="026" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="471cf093-0398-4d45-8719-2a6625195d5f" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="027" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="5bda3e06-c0ad-4dc2-b335-5bf0963b03cb" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="028" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="d40d3336-d6c1-4f5d-b9b9-d629bd7d079d" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="029" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="7d108a11-f55c-48bd-8e22-43ac76c43eb3" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="030" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="9618df3d-fcbf-4f29-94b1-6c7ae51f1021" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="031" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="99fd5e04-5997-4e6e-bc73-40f2d0da9c06" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="032" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="3a870dc8-4c24-4269-8a38-e58308af3b5a" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="033" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="4337ee86-dce1-40b8-ac46-c7e6f06c39a4" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="034" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="1622d414-7416-46c9-8652-c63e073d2b50" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="035" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="277c8898-e083-461d-a35b-2d5af9859998" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="036" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="1fa3872c-a55e-4d08-93b8-82c15a41a235" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="037" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="932357e6-852b-4989-b598-5549546c9e3f" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="038" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="03e3f8dc-07e1-4350-b77a-6a991135a5d4" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="039" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="5e6da54c-dcab-45a7-b477-6556aa06488c" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="040" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="34def403-cf2e-431e-a9e3-8cb5f3240354" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="041" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="7020c994-0993-4c11-8d90-fb14979c340d" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="042" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="ccde762f-fec3-49a7-a1af-1a2657ec8741" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="043" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="a589f027-240e-4ae5-a4e2-97ec65f2b021" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="044" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="f4007171-a0ba-4c89-a915-bb7f86d16a3b" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="045" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="fec4ded9-c16d-4a62-a505-25f6cfcf62c3" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="046" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="a800c172-b334-4113-9bba-71b3ede1eb13" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="047" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="a6168191-908b-4695-b7ee-ae253201bd0b" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="048" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="ae661508-9b2a-409b-b32d-64bd2d81beb9" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="049" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="8af735f3-03a6-472b-a52e-8acdb2dc1028" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="050" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="f088bfd4-5c6e-490b-98d3-714d8541080f" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="051" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="1d308036-5777-45c5-bc01-a062dc9a3da7" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="052" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="a0900b32-5b45-41eb-97a8-d2644730c992" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="053" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="79ad441c-a457-4e64-8338-2a2531a56e3f" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="054" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="23c6f1d1-6b33-47f8-a209-88a6d50a67ba" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="055" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="ed5ac891-0df6-462b-9dde-306ed2e603f4" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="056" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="c0243498-dec5-4b09-90f1-f5c0c154650b" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="057" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="2da19150-4127-4c49-aee4-0728ea5a3179" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="058" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="b5027ad3-8a2e-4491-81cd-850933f8948b" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="059" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="cd24ec42-93f4-442b-8811-146ad6a07c5e" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="060" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="f0046b44-f331-47f7-8b0e-b51bb7757faa" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="061" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="badfd985-d5aa-4f16-a8c7-d6a5f7c20554" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="062" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="29f68d66-c7a5-4aab-801e-d310e85dc24b" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="063" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="de240428-8547-44f8-ae1d-0ead8c7e6c87" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="064" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="ac22b5ff-d774-458f-84b0-491657af6113" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="065" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="93b4d889-1b5e-4a5c-a178-25bcf144a149" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="066" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="cf92b9ea-ca1d-4253-ab91-a6e34b4a3000" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="067" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="c1579a8d-c04d-476f-b66c-2f8d7f5f960c" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="068" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="c35a6784-47de-441b-8765-0d3670aa4aed" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="069" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="2f484ce8-1cfa-45c4-99da-0ca0c94f2402" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="070" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="b316eae6-bfb2-4630-aec3-a2ca955f0ac6" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="071" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="771f4dbb-5867-4051-a1b2-fd0825bc863a" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="072" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="a1efa39e-681c-4502-8ca7-b98726cc38e1" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="073" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="b0b1d6b2-3309-491c-bc1b-5f4e58180470" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="074" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="33759690-a963-47f6-ac66-6c504b95cd30" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="075" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="2d266666-332e-4141-bafd-a3f0d7b34710" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="076" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="f92a934e-94a2-4f43-b85d-4dfe8b4adff1" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="077" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="7c3e893d-9ec3-4274-a07b-3e121e1f2441" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="078" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="b2515713-4eb4-4725-9094-68e026d4f4c2" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="079" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="8ba47093-ed93-4484-8327-86a63d6e2f27" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="080" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="ba4de3b3-6110-4bee-825c-4dd10280f9d0" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="081" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="75ea12ea-98a3-4550-92ef-38e4d8de6c71" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="082" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="016851c1-0fe8-4f9d-8478-33627226f799" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="083" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="b2399082-a8ad-4b54-b2ce-9b1de243c894" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="084" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="592383bd-3023-4815-8e0f-ac60e2656738" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="085" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="c5db698a-b536-4bc0-89e8-0e9127c8b3ac" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="086" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="d950eef4-f5c1-450a-86b0-35050c47e71b" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="087" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="3763a119-446d-4cea-84bb-fced48fe78c5" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="088" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="ef414281-2385-4074-9002-3e8992828b0d" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="089" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="f2101425-e942-4cbd-93af-3d7544805905" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="090" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="84a94c87-c531-4e1b-869f-7389eb4af1f2" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="091" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="ce7a0b9a-8a1c-432f-bec3-6f5f35c0ee35" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="092" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="99165dc1-f88f-4ec7-a6a5-545ed860bb26" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="093" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="77a0480a-d22c-4e8f-bd71-ff793f75e81c" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="094" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="3b25d088-4ea5-47fc-8a52-eeeb1748e83e" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="095" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="5b81732d-04c7-4f50-9b88-1206dc3279ea" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="096" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="5e97237a-358e-4bc9-b2e2-81d14b652697" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="097" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="fa2467b9-efd0-46ff-8c40-3fc00b7df8b4" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="098" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="cd21e467-d71c-4afe-a8cc-86b7dd8cfd47" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="099" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="f3f6a173-65eb-44ce-9746-99c83dd03a3c" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="100" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="af14dd1c-45ae-4bad-a1d8-26550b08b5af" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="101" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="6b0927f4-4b0b-47b3-8ff0-8ededa23aa39" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="102" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="a47561a8-dc00-4be5-9fd3-64aad7004f81" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="103" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="1a9fb388-5911-4f64-b8f9-5aaf9b069791" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="104" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="67b698e6-fd3d-49b8-b8b4-98364a041320" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MPR"/>
+		<property name="Number" value="105" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
 	</cards>
 </set>

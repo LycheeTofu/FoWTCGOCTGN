@@ -36,7 +36,7 @@
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="1W" />
+		<property name="Cost" value="1L" />
 		<property name="Atk" value="500" />
 		<property name="Def" value="500" />
 		<property name="Text" value="[Continuous] Each Fairy Tale you control cannot be targeted by spells or abilities your opponent controls." />
@@ -64,7 +64,7 @@
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="Fairy Tale/Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="W" />
+		<property name="Cost" value="L" />
 		<property name="Atk" value="300" />
 		<property name="Def" value="300" />
 		<property name="Text" value="[Activate] Rest: Move target [Addition: Resonator] you control onto another resonator." />
@@ -106,7 +106,7 @@
 		<property name="Subtype" value="Field" />
 		<property name="Race/Trait" value="Relic" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="W" />
+		<property name="Cost" value="L" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
 		<property name="Text" value="[Enter] Destroy target addition. [Activate] Rest: Remove all damage that was dealt to target J-Ruler this turn." />
@@ -120,10 +120,10 @@
 		<property name="Subtype" value="Field" />
 		<property name="Race/Trait" value="Treasury Item" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="1W" />
+		<property name="Cost" value="1L" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="[Activate] Pay W, Rest: Rest up to two target fire or dark resonators." />
+		<property name="Text" value="[Activate] Pay L, Rest: Rest up to two target fire or dark resonators." />
     </card>
 	<card id="5f5b3d0c-c287-46ce-a545-72742ec46aee" name="Juliet, the Hope">
 		<property name="Cluster" value="Grimm" />
@@ -134,7 +134,7 @@
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="Fairy Tale/Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="1W" />
+		<property name="Cost" value="1L" />
 		<property name="Atk" value="200" />
 		<property name="Def" value="600" />
 		<property name="Text" value="[Continuous] This card cannot be destroyed as long as you control &quot;Romeo, the Despair&quot;. [Continuous] As long as you control &quot;Romeo, the Despair&quot;, each Nightmare resonator loses Nightmare and gains Fairy Tale." />
@@ -148,7 +148,7 @@
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="Fairy Tale/Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="1W" />
+		<property name="Cost" value="1L" />
 		<property name="Atk" value="400" />
 		<property name="Def" value="400" />
 		<property name="Text" value="[Enter] Put target [Addition:Resonator] from your graveyard into your hand." />
@@ -162,7 +162,7 @@
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="Human/Knight" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="1WW" />
+		<property name="Cost" value="1LL" />
 		<property name="Atk" value="700" />
 		<property name="Def" value="700" />
 		<property name="Text" value="[Activate] Banish this card : Target light J/resonator you control cannot be targeted by spells or abilities until end of turn." />
@@ -176,7 +176,7 @@
 		<property name="Subtype" value="Chant" />
 		<property name="Race/Trait" value="Standby" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="1W" />
+		<property name="Cost" value="1L" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
 		<property name="Text" value="[Trigger] Your life is 2000 or lower : Put target attacking resonator on top of its owner's main deck. Resonators cannot attack until end of turn." />
@@ -190,10 +190,10 @@
 		<property name="Subtype" value="Field(Castle)" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="1W" />
+		<property name="Cost" value="1L" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="[Continuous] Each Human you control gains [+200/+200]. [Activate] Pay W, banish this card : Destroy target addition" />
+		<property name="Text" value="[Continuous] Each Human you control gains [+200/+200]. [Activate] Pay L, banish this card : Destroy target addition" />
     </card>
 	<card id="be009979-8fff-4694-ab64-9a38047d31ca" name="Pandora, Girl of the Box">
 		<property name="Cluster" value="Grimm" />
@@ -204,10 +204,10 @@
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="Human" />
 		<property name="J-Ruler" value="Yes" />
-		<property name="Cost" value="3WB" />
+		<property name="Cost" value="3LB" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="[J-Activate] Pay WB3." />
+		<property name="Text" value="[J-Activate] Pay LB3." />
 		<alternate name="Pandora of Light" type="jruler">
 			<property name="Number" value="013J" />
 			<property name="Type" value="J-Ruler" />
@@ -226,7 +226,7 @@
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="Fairy Tale/Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="1WW" />
+		<property name="Cost" value="1LL" />
 		<property name="Atk" value="600" />
 		<property name="Def" value="600" />
 		<property name="Text" value="[Continuous] This card doesn't recover during the recovery phase. [Activate] Rest a recovered resonator you control other than &quot;Rapunzel, the Long-Haired Princess&quot; : Recover this card. [Activate] Rest: Target resonator gains [+200/+0] and [Flying] until end of turn." />
@@ -240,7 +240,7 @@
 		<property name="Subtype" value="Chant" />
 		<property name="Race/Trait" value="Instant" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="1W" />
+		<property name="Cost" value="1L" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
 		<property name="Text" value="Remove target Nightmare or Fairy Tale resonator from the game." />
@@ -254,7 +254,7 @@
 		<property name="Subtype" value="Resonator(Weapon)" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="W" />
+		<property name="Cost" value="L" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
 		<property name="Text" value="[Continuous] Resonator with this cannot attack or block if it's a Vampire. Otherwise, it gains [+400/+400], it cannot be targeted by Vampire spells or Vampire card's abilities and prevent any damage it would be dealt by Vampires. [Activate] Pay L: Return this card to its owner's hand." />
@@ -268,7 +268,7 @@
 		<property name="Subtype" value="Chant" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="2W" />
+		<property name="Cost" value="2L" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
 		<property name="Text" value="Search your main deck for a Fairy Tale resonator, reveal it and put it into your hand. If your Ruler is &quot;Grimm, the Fairy Tale Prince&quot;, you may put it into your field instead. This triggers its [Enter] ability. Then shuffle your main deck." />
@@ -282,7 +282,7 @@
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="Fairy Tale/Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="2W" />
+		<property name="Cost" value="2L" />
 		<property name="Atk" value="700" />
 		<property name="Def" value="700" />
 		<property name="Text" value="[Enter] Destroy all [Addition:Resonator] your opponent controls. [Continuous] Opponents cannot add [Addition:Resonator]." />
@@ -296,7 +296,7 @@
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="Fairy Tale / Spirit" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="W" />
+		<property name="Cost" value="L" />
 		<property name="Atk" value="0" />
 		<property name="Def" value="0" />
 		<property name="Text" value="[Continuous] This card gains [+200/+200] for each Fairy Tale you control." />
@@ -545,7 +545,7 @@
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="[J-Activate] Pay WR2. [J-Activate] Pay 1, discard &quot;Poison Apple&quot;. " />
+		<property name="Text" value="[J-Activate] Pay LR2. [J-Activate] Pay 1, discard &quot;Poison Apple&quot;. " />
 		<alternate name="Bloody Snow White" type="jruler">
 			<property name="Number" value="036J" />
 			<property name="Type" value="J-Ruler" />
@@ -1304,10 +1304,10 @@
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="Human" />
 		<property name="J-Ruler" value="Yes" />
-		<property name="Cost" value="3WB" />
+		<property name="Cost" value="3LB" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="[J-Activate] Pay WB3." />
+		<property name="Text" value="[J-Activate] Pay LB3." />
 		<alternate name="Pandora of Dark" type="jruler">
 			<property name="Number" value="087J" />
 			<property name="Type" value="J-Ruler" />
@@ -1483,7 +1483,7 @@
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="[Continuous] Treat this card as light magic stone and fire magic stone. [Activate] Rest: Produce W or R . " />
+		<property name="Text" value="[Continuous] Treat this card as light magic stone and fire magic stone. [Activate] Rest: Produce L or R . " />
     </card>
 	<card id="b65bee02-2dba-40c1-a6a2-10cf5b76850e" name="Magic Stone of Heaven's Rift">
 		<property name="Cluster" value="Grimm" />
@@ -1497,7 +1497,7 @@
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="[Continuous] Treat this card as light magic stone and dark magic stone. [Activate] Rest: Produce W or B . " />
+		<property name="Text" value="[Continuous] Treat this card as light magic stone and dark magic stone. [Activate] Rest: Produce L or B . " />
     </card>
 	<card id="db809b16-f76e-44dc-996f-ca52bdd85ecc" name="Magic Stone of Darkness">
 		<property name="Cluster" value="Grimm" />
@@ -1539,7 +1539,7 @@
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="Rest: Produce W" />
+		<property name="Text" value="Rest: Produce L" />
     </card>
 	<card id="d1ca1221-41bb-4ff8-b556-d1c5bf4fc1d9" name="Magic Stone of Water">
 		<property name="Cluster" value="Grimm" />
