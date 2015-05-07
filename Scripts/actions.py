@@ -39,7 +39,7 @@ def tap(card, x = 0, y = 0):
 		  
 def jactivate(card, x = 0, y = 0):
     mute()
-    if card.isFaceUp:
+    if card.alternate == "":
         notify("{} J-Activates {} to {}".format(me, card, card.alternateProperty("jruler", "name")))
         card.switchTo('jactivate')
     else:

@@ -22,7 +22,6 @@
 <proxygen definitionsrc="proxy/proxydef.xml">
 </proxygen>
 <documents>
-      <document name="Rule Book." icon="documents/Manual.png" src="documents/reference.png" />
 </documents>
 <globalvariables>
 </globalvariables>
@@ -45,6 +44,7 @@
    <groupaction menu="Clear targets" shortcut="Ctrl+C" execute="clearAll" />
    <groupaction menu="Roll a die" shortcut="Ctrl+R" execute="roll20" />
    <groupaction menu="Flip a coin" shortcut="Ctrl+F" execute="flipCoin" />
+   <cardaction menu="Flip Card" execute="flip" />
    <cardaction menu="Use Card" default="True" execute="useCard"/>
    <cardaction menu="J-Activate" shortcut="Ctrl+J" execute="jactivate" />
 	<cardaction menu="Destroy/Banish" shortcut="Del" execute="discard" />
@@ -62,7 +62,7 @@
 </table>
 <player summary="Hand Size: {#Hand}">
    <globalvariable name="phase" value="0" /> 
-	<hand name="Hand" visibility="me" ordered="False" width="63" height="88" icon="groups/hand.png">
+	<hand name="Hand" visibility="me" ordered="False" width="63" height="88" >
 	<cardaction menu="Play Card" default="True" execute="play" />
 	<cardaction menu="Play Face-Down" execute="playFaceDown" />
 	<groupaction menu="Random Discard" execute="randomDiscard" />
@@ -70,7 +70,7 @@
 	<groupaction menu="Put at bottom of deck" execute="putBottom" />
 	<groupaction menu="Show a Card at Random" default="False" execute="randomReveal"/>
 </hand>
-	<group name="Main Deck" visibility="none" width="63" height="88" icon="groups/library.png" shortcut="F5">
+	<group name="Main Deck" visibility="none" width="63" height="88" shortcut="F5">
     <groupaction menu="Draw" default="True" shortcut="Ctrl+D" execute="draw" />
     <groupaction menu="Draw X..." shortcut="Ctrl+X" execute="drawMany" />
     <groupaction menu="Shuffle" shortcut="Ctrl+S" execute="shuffle" />
@@ -81,10 +81,10 @@
 	<groupaction menu="Play Top Card" shortcut="Ctrl+E" execute="playTopStone" />
 	<groupaction menu="Shuffle Stone Deck" shortcut="Ctrl+A" execute="shuffle" />
 	</group>
-    <group name="Discard Pile" visibility="all" width="63" height="88" icon="groups/graveyard.png" shortcut="F7"></group>
-    <group name="Removed From Game" visibility="all" width="63" height="88" icon="groups/removed.png" collapsed="False" shortcut="F8"></group>
-    <group name="Side Deck" visibility="me" width="63" height="88" icon="groups/sideBoard.png" collapsed="False" shortcut="F9"></group>
-	<group name="Ruler" visibility="me" width="63" height="88" icon="groups/starting.png" collapsed="False" shortcut="F10"></group>
+    <group name="Discard Pile" visibility="all" width="63" height="88" shortcut="F7"></group>
+    <group name="Removed From Game" visibility="all" width="63" height="88" collapsed="False" shortcut="F8"></group>
+    <group name="Side Deck" visibility="me" width="63" height="88" collapsed="False" shortcut="F9"></group>
+	<group name="Ruler" visibility="me" width="63" height="88" collapsed="False" shortcut="F10"></group>
 </player>
 <shared>
 </shared>
