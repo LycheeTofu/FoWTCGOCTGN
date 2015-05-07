@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<templates>
+  <blocks>
+    <block type="text" id="cardName">
+      <location x="45" y="30" />
+      <text color="#000000" size="25" />
+      <border color="#FFFFFF" size="3" />
+      <wordwrap height="40" width="470" shrinktofit="False" />
+    </block>
+	<block type="text" id="cardNormalName">
+      <location x="135" y="30" />
+      <text color="#000000" size="25" />
+      <border color="#FFFFFF" size="0" />
+      <wordwrap height="30" width="385" shrinktofit="False" />
+    </block>
+	<block type="text" id="cardCost">
+      <location x="180" y="80" />
+      <text color="#000000" size="25" />
+      <border color="#FFFFFF" size="2" />
+      <wordwrap height="45" width="335" shrinktofit="False" />
+    </block>
+	<block type="text" id="cardType">
+      <location x="280" y="80" />
+      <text color="#000000" size="22" />
+      <border color="#FFFFFF" size="2" />
+      <wordwrap height="120" width="204" shrinktofit="False" />
+    </block>
+	<block type="text" id="cardNormalType">
+      <location x="30" y="710" />
+      <text color="#000000" size="18" align="right"/>
+      <border color="#FFFFFF" size="1" />
+      <wordwrap height="30" width="180" shrinktofit="False" />
+    </block>
+	<block type="text" id="cardNormalRace">
+      <location x="290" y="710" />
+      <text color="#000000" size="18" align="right"/>
+      <border color="#FFFFFF" size="1" />
+      <wordwrap height="30" width="140" shrinktofit="False" />
+    </block>
+	<block type="text" id="cardNormalSubType">
+      <location x="165" y="710" />
+      <text color="#000000" size="18" align="right"/>
+      <border color="#FFFFFF" size="1" />
+      <wordwrap height="30" width="120" shrinktofit="False" />
+    </block>
+	<block type="text" id="jrulerAtk">
+		<location x="80" y="420"/>
+		<text color="#000000" size="26"  align="right" />
+		<border color="#FFFFFF" size="2" />
+	</block>
+	<block type="text" id="jrulerDef">
+		<location x="315" y="420"/>
+		<text color="#000000" size="26"  align="right" />
+		<border color="#FFFFFF" size="2" />
+	</block>
+	<block type="text" id="Atk">
+		<location x="80" y="440"/>
+		<text color="#000000" size="26"  align="right" />
+		<border color="#FFFFFF" size="2" />
+	</block>
+	<block type="text" id="Def">
+		<location x="290" y="440"/>
+		<text color="#000000" size="26"  align="right" />
+		<border color="#FFFFFF" size="2" />
+	</block>
+	<block type="text" id="cardSubType">
+      <location x="45" y="80" />
+      <text color="#000000" size="22"  align="right" />
+      <border color="#FFFFFF" size="2" />
+      <wordwrap height="120" width="204" shrinktofit="False" />
+    </block>
+    <block type="text" id="cardText">
+      <location x="45" y="500" />
+      <text color="#000000" size="22" />
+      <border color="#FFFFFF" size="2" />
+      <wordwrap height="195" width="470" shrinktofit="False" />
+    </block>
+    <block type="text" id="cardStoneText">
+      <location x="45" y="530" />
+      <text color="#000000" size="22" />
+      <border color="#FFFFFF" size="2" />
+	  <wordwrap height="110" width="470" shrinktofit="False" />
+    </block>
+ </blocks>
+
+  <template src="cards/Card_Front_Stone.png" default="True">
+    <matches>
+      <match name="Type" value="Magic Stone" />
+    </matches>
+    <textblocks>
+      <link block="cardName"><property name="Name" /></link>
+      <link block="cardStoneText"><property name="Text" /></link>
+	  <link block="cardType"><property name="Type" /></link>
+	  <link block="cardSubType"><property name="SubType" /></link>
+    </textblocks>
+	</template> 
+	
+	<template src="cards/Card_Front_Stone.png" default="True">
+		<matches>
+			<match name="Type" value="Ruler">
+		</matches>
+	<textblocks>
+	  <link block="cardName"><property name="Name" /></link>
+      <link block="cardStoneText"><property name="Text" /></link>
+	  <link block="cardType"><property name="Type" /></link>
+	  <link block="cardSubType"><property name="Race/Trait" /></link>
+	</textblocks>
+	</template>
+	
+	<template src="cards/Card_Front_Stone.png" default="True">
+		<matches>
+			<match name="Type" value="J-Ruler">
+		</matches>
+	<textblocks>
+	  <link block="cardName"><property name="Name" /></link>
+      <link block="cardStoneText"><property name="Text" /></link>
+	  <link block="jrulerAtk"><property name="Atk" /></link>
+	  <link block="jrulerDef"><property name="Def" /></link>
+	  <link block="cardType"><property name="Type" /></link>
+	  <link block="cardSubType"><property name="Race/Trait" /></link>
+	</textblocks>
+	</template>
+	
+	  <template src="cards/Card_Front_Normal.png" default="True">
+    <matches>
+      <match name="Type" value="Resonator" />
+    </matches>
+    <textblocks>
+      <link block="cardNormalName"><property name="Name" /></link>
+	  <link block="cardCost"><property name="Cost" /></link>
+      <link block="cardText"><property name="Text" /></link>
+	  <link block="Atk"><property name="Atk" /></link>
+	  <link block="Def"><property name="Def" /></link>
+	  <link block="cardNormalType"><property name="Type" /></link>
+	  <link block="cardNormalSubType"><property name="SubType" /></link>
+	  <link block="cardNormalRace"><property name="Race/Trait" /></link>
+    </textblocks>
+	</template> 
+	
+	<template src="cards/Card_Front_Normal.png" default="True">
+    <matches>
+      <match name="Type" value="Spell" />
+    </matches>
+    <textblocks>
+      <link block="cardNormalName"><property name="Name" /></link>
+	  <link block="cardCost"><property name="Cost" /></link>
+      <link block="cardText"><property name="Text" /></link>
+	  <link block="cardNormalType"><property name="Type" /></link>
+	  <link block="cardNormalSubType"><property name="SubType" /></link>
+	  <link block="cardNormalRace"><property name="Race/Trait" /></link>
+    </textblocks>
+	</template> 
+	
+	<template src="cards/Card_Front_Normal.png" default="True">
+    <matches>
+      <match name="Type" value="Addition" />
+    </matches>
+    <textblocks>
+      <link block="cardNormalName"><property name="Name" /></link>
+	  <link block="cardCost"><property name="Cost" /></link>
+      <link block="cardText"><property name="Text" /></link>
+	  <link block="cardNormalType"><property name="Type" /></link>
+	  <link block="cardNormalSubType"><property name="SubType" /></link>
+	  <link block="cardNormalRace"><property name="Race/Trait" /></link>
+    </textblocks>
+	</template> 
+	
+	
+
+	
+	
+</templates>
