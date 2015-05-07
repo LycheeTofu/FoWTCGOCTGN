@@ -50,7 +50,7 @@
    <groupaction menu="Roll a die" shortcut="Ctrl+R" execute="roll20" />
    <groupaction menu="Flip a coin" shortcut="Ctrl+F" execute="flipCoin" />
    <cardaction menu="Use Card" default="True" execute="useCard"/>
-   <cardaction menu="J-Activate" shortcut="Ctrl+J" execute="flip" />
+   <cardaction menu="J-Activate" shortcut="Ctrl+J" execute="jactivate" />
 	<cardaction menu="Destroy/Banish" shortcut="Del" execute="discard" />
 	<cardaction menu="Move to bottom of Main Deck" execute="" />
    <cardaction menu="Add Counter" shortcut="F1" execute="addCounter" />
