@@ -46,7 +46,7 @@ def jactivate(card, x = 0, y = 0):
         card.switchTo()
         notify("{} reverts {} back to {}.".format(me, card.alternateProperty("jruler", "name"), card))
 		
-def jactivate(card, x = 0, y = 0):
+def flip(card, x = 0, y = 0):
     mute()
     if card.isFaceUp:
         notify("{} flips {} face down.".format(me, card))
@@ -130,6 +130,31 @@ def drawBottom(group, x = 0, y = 0):
 
 def shuffle(group):
 	group.shuffle()
+	notify("{} shuffled his/her {}.".format(me, group.name))
+	
+def revealTop(group):
+	if len(group) == 0: return
+	mute()
+	group.lookAt(1, True).setVisibility('all')
+	notify("{} reveals the top of his/her {}.".format(me,group.name))
+	
+def playTopStone(group):
+	if len(group) == 0: return
+	mute()
+	card = me.group.top()
+	card.moveToTable()
+	notify("{} plays {} from the top of his/her {}.".format(me, card.name, group.name))
+	
+def discard(card):
+	mute()
+	notify("{} discards {}.".format(me,card.name))
+	card.moveTo(me.piles['Discard Pile'])
+
+def putBottom(card, group):
+	mute()
+	card.moveToBottom(me.piles['Main Deck'])
+	notify("{} moved a card from his/her {} to the bottom of his/her Main Deck.".format(me, group.name))
+		
   
 #---------------------------------------------------------------------------
 # Phases
@@ -142,7 +167,7 @@ def showCurrentPhase(phaseNR = None): # Just say a nice notification about which
 def endMyTurn(opponent = None):
    if not opponent: opponent = findOpponent()
    me.setGlobalVariable('phase','0') # In case we're on the last phase (Force), we end our turn.
-   notify("=== {} has ended their turn ===.".format(me))
+   notify("* {} has ended their turn *.".format(me))
    opponent.setActivePlayer() 
       
 def nextPhase(group = table, x = 0, y = 0, setTo = None):  
@@ -209,20 +234,6 @@ def playerside():
    else: side = 1   
    return side
    
- 
-#------------------------------------------------------------------------------
-# Button and Announcement functions
-#------------------------------------------------------------------------------
-
-def BUTTON_OK(group = None,x=0,y=0):
-   notify("--- {} has no further reactions.".format(me))
-
-def BUTTON_Wait(group = None,x=0,y=0):  
-   notify("--- Wait! {} wants to react.".format(me))
-
-def BUTTON_Actions(group = None,x=0,y=0):  
-   notify("--- {} is waiting for opposing actions.".format(me))
-
 def declarePass(group, x=0, y=0):
    notify("--- {} Passes".format(me))    
 

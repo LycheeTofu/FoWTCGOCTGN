@@ -16,21 +16,17 @@
 <script src="scripts/actions.py" />
 <script src="scripts/generic.py" />
 <script src="scripts/constants.py" />
-<script src="scripts/events.py" /> 
 </scripts>
-<events>
-   <event name="OnLoadDeck" action="loadDeck" />
-</events>
 <fonts>
 </fonts>
 <proxygen definitionsrc="proxy/proxydef.xml">
 </proxygen>
 <documents>
-      <document name="Turn Sequence/Attack Table" icon="documents/Manual.png" src="documents/reference.png" />
+      <document name="Rule Book." icon="documents/Manual.png" src="documents/reference.png" />
 </documents>
 <globalvariables>
 </globalvariables>
-<card back="Cards/back.png" front="Cards/front.png" width="63" height="88">
+<card back="Cards/back.png"  width="63" height="88">
 	<property name="Cluster" type="String" />
 	<property name="Set" type="String"/>
 	<property name="Number" type="Integer" />
@@ -52,7 +48,7 @@
    <cardaction menu="Use Card" default="True" execute="useCard"/>
    <cardaction menu="J-Activate" shortcut="Ctrl+J" execute="jactivate" />
 	<cardaction menu="Destroy/Banish" shortcut="Del" execute="discard" />
-	<cardaction menu="Move to bottom of Main Deck" execute="" />
+	<cardaction menu="Move to bottom of Main Deck" execute="putBottom" />
    <cardaction menu="Add Counter" shortcut="F1" execute="addCounter" />
    <cardaction menu="Remove Counter" shortcut="F2" execute="removeCounter" />
 	<cardaction menu="Set Counter" shortcut="F3" execute="setCounter" />
@@ -68,7 +64,10 @@
    <globalvariable name="phase" value="0" /> 
 	<hand name="Hand" visibility="me" ordered="False" width="63" height="88" icon="groups/hand.png">
 	<cardaction menu="Play Card" default="True" execute="play" />
+	<cardaction menu="Play Face-Down" execute="playFaceDown" />
 	<groupaction menu="Random Discard" execute="randomDiscard" />
+	<groupaction menu="Discard" execute="discard" />
+	<groupaction menu="Put at bottom of deck" execute="putBottom" />
 	<groupaction menu="Show a Card at Random" default="False" execute="randomReveal"/>
 </hand>
 	<group name="Main Deck" visibility="none" width="63" height="88" icon="groups/library.png" shortcut="F5">
@@ -78,14 +77,14 @@
 	<groupaction menu="Reveal Top Card" shortcut="Ctrl+R" execute="revealTop" />
     </group>
 	<group name="Magic Stone Deck" visibility="none" width="63" height="88" icon="" shortcut="F6">
-	<groupaction menu="Reveal Top Card" shortcut="Ctrl+T" execute="revealTopStone" />
+	<groupaction menu="Reveal Top Card" shortcut="Ctrl+T" execute="revealTop" />
 	<groupaction menu="Play Top Card" shortcut="Ctrl+E" execute="playTopStone" />
-	<groupaction menu="Shuffle Stone Deck" shortcut="Ctrl+A" execute="shuffleStones" />
+	<groupaction menu="Shuffle Stone Deck" shortcut="Ctrl+A" execute="shuffle" />
 	</group>
     <group name="Discard Pile" visibility="all" width="63" height="88" icon="groups/graveyard.png" shortcut="F7"></group>
     <group name="Removed From Game" visibility="all" width="63" height="88" icon="groups/removed.png" collapsed="False" shortcut="F8"></group>
-    <group name="Side Deck" visibility="none" width="63" height="88" icon="groups/sideBoard.png" collapsed="False" shortcut="F9"></group>
-	<group name="Ruler" visibility="none" width="63" height="88" icon="groups/starting.png" collapsed="False" shortcut="F10"></group>
+    <group name="Side Deck" visibility="me" width="63" height="88" icon="groups/sideBoard.png" collapsed="False" shortcut="F9"></group>
+	<group name="Ruler" visibility="me" width="63" height="88" icon="groups/starting.png" collapsed="False" shortcut="F10"></group>
 </player>
 <shared>
 </shared>
