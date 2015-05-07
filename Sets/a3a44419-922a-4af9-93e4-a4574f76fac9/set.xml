@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set name="Markers" id="a3a44419-922a-4af9-93e4-a4574f76fac9" gameId="5c1280cc-f52d-4060-b0d9-11363df285fe" gameVersion="3.1.0.0" version="0.0.0.1">
+  <markers>
+    <marker id="d363274a-cb0f-410d-ae66-9792e4535486" name="Counter" />
+  </markers>
+</set>

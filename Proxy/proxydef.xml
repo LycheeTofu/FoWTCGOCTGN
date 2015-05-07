@@ -27,45 +27,45 @@
     </block>
 	<block type="text" id="cardNormalType">
       <location x="30" y="710" />
-      <text color="#000000" size="18" align="right"/>
+      <text color="#000000" size="18" />
       <border color="#FFFFFF" size="1" />
       <wordwrap height="30" width="180" shrinktofit="False" />
     </block>
 	<block type="text" id="cardNormalRace">
       <location x="290" y="710" />
-      <text color="#000000" size="18" align="right"/>
+      <text color="#000000" size="18" />
       <border color="#FFFFFF" size="1" />
       <wordwrap height="30" width="140" shrinktofit="False" />
     </block>
 	<block type="text" id="cardNormalSubType">
       <location x="165" y="710" />
-      <text color="#000000" size="18" align="right"/>
+      <text color="#000000" size="18" />
       <border color="#FFFFFF" size="1" />
       <wordwrap height="30" width="120" shrinktofit="False" />
     </block>
 	<block type="text" id="jrulerAtk">
 		<location x="80" y="420"/>
-		<text color="#000000" size="26"  align="right" />
+		<text color="#000000" size="26" />
 		<border color="#FFFFFF" size="2" />
 	</block>
 	<block type="text" id="jrulerDef">
 		<location x="315" y="420"/>
-		<text color="#000000" size="26"  align="right" />
+		<text color="#000000" size="26" />
 		<border color="#FFFFFF" size="2" />
 	</block>
 	<block type="text" id="Atk">
 		<location x="80" y="440"/>
-		<text color="#000000" size="26"  align="right" />
+		<text color="#000000" size="26" />
 		<border color="#FFFFFF" size="2" />
 	</block>
 	<block type="text" id="Def">
 		<location x="290" y="440"/>
-		<text color="#000000" size="26"  align="right" />
+		<text color="#000000" size="26" />
 		<border color="#FFFFFF" size="2" />
 	</block>
 	<block type="text" id="cardSubType">
       <location x="45" y="80" />
-      <text color="#000000" size="22"  align="right" />
+      <text color="#000000" size="22" />
       <border color="#FFFFFF" size="2" />
       <wordwrap height="120" width="204" shrinktofit="False" />
     </block>
@@ -83,7 +83,7 @@
     </block>
  </blocks>
 
-  <template src="cards/Card_Front_Stone.png" default="True">
+  <template src="Card/Card_Front_Stone.png" default="True">
     <matches>
       <match name="Type" value="Magic Stone" />
     </matches>
@@ -95,9 +95,9 @@
     </textblocks>
 	</template> 
 	
-	<template src="cards/Card_Front_Stone.png" default="True">
+	<template src="Card/Card_Front_Stone.png" default="True">
 		<matches>
-			<match name="Type" value="Ruler">
+			<match name="Type" value="Ruler" />
 		</matches>
 	<textblocks>
 	  <link block="cardName"><property name="Name" /></link>
@@ -107,9 +107,9 @@
 	</textblocks>
 	</template>
 	
-	<template src="cards/Card_Front_Stone.png" default="True">
+	<template src="Card/Card_Front_Stone.png" default="True">
 		<matches>
-			<match name="Type" value="J-Ruler">
+			<match name="Type" value="J-Ruler" />
 		</matches>
 	<textblocks>
 	  <link block="cardName"><property name="Name" /></link>
@@ -121,7 +121,7 @@
 	</textblocks>
 	</template>
 	
-	  <template src="cards/Card_Front_Normal.png" default="True">
+	  <template src="Card/Card_Front_Normal.png" default="True">
     <matches>
       <match name="Type" value="Resonator" />
     </matches>
@@ -137,7 +137,7 @@
     </textblocks>
 	</template> 
 	
-	<template src="cards/Card_Front_Normal.png" default="True">
+	<template src="Card/Card_Front_Normal.png" default="True">
     <matches>
       <match name="Type" value="Spell" />
     </matches>
@@ -151,7 +151,7 @@
     </textblocks>
 	</template> 
 	
-	<template src="cards/Card_Front_Normal.png" default="True">
+	<template src="Card/Card_Front_Normal.png" default="True">
     <matches>
       <match name="Type" value="Addition" />
     </matches>

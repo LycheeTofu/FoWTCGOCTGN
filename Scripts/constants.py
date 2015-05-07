@@ -1,6 +1,6 @@
 phases = [
     "Opponent's Turn",
     "* Draw Phase *",
-    "* Recovery Phase *",,
+    "* Recovery Phase *",
     "* Main Phase *",
 	"* End Phase *"]

@@ -1,6 +1,6 @@
 
 ####################################################
-
+CounterMarker =("Counter", "d363274a-cb0f-410d-ae66-9792e4535486")
 	
 def recoverAll(group, x = 0, y = 0):
 	mute()
@@ -41,7 +41,7 @@ def jactivate(card, x = 0, y = 0):
     mute()
     if card.alternate == "":
         notify("{} J-Activates {} to {}".format(me, card, card.alternateProperty("jruler", "name")))
-        card.switchTo('jactivate')
+        card.switchTo('jruler')
     else:
         card.switchTo()
         notify("{} reverts {} back to {}.".format(me, card.alternateProperty("jruler", "name"), card))
@@ -84,9 +84,8 @@ def play(card, x = 0, y = 0):
 def playFaceDown(card, x = 0, y = 0):
 	mute()
 	src = card.group
-	card.isFaceUp = False
-	card.moveToTable(0,0)
-	notify("{} plays {} from their {} face down.".format(me, card, src.name))
+	card.moveToTable(0,0, True)
+	notify("{} plays a card from their {} face down.".format(me, src.name))
 
 def mulligan(group):
     mute()
@@ -132,28 +131,17 @@ def shuffle(group):
 	group.shuffle()
 	notify("{} shuffled his/her {}.".format(me, group.name))
 	
-def revealTop(group):
-	if len(group) == 0: return
-	mute()
-	group.lookAt(1, True).setVisibility('all')
-	notify("{} reveals the top of his/her {}.".format(me,group.name))
-	
 def playTopStone(group):
 	if len(group) == 0: return
 	mute()
-	card = me.group.top()
-	card.moveToTable()
+	card = group.top()
+	card.moveToTable(0,0)
 	notify("{} plays {} from the top of his/her {}.".format(me, card.name, group.name))
-	
-def discard(card):
-	mute()
-	notify("{} discards {}.".format(me,card.name))
-	card.moveTo(me.piles['Discard Pile'])
 
-def putBottom(card, group):
+def putBottom(card):
 	mute()
 	card.moveToBottom(me.piles['Main Deck'])
-	notify("{} moved a card from his/her {} to the bottom of his/her Main Deck.".format(me, group.name))
+	notify("{} moved a card from his/her hand to the bottom of his/her Main Deck.".format(me))
 		
   
 #---------------------------------------------------------------------------
@@ -183,7 +171,7 @@ def nextPhase(group = table, x = 0, y = 0, setTo = None):
          rnd(1,1000) # Pause to wait until they change their turn
       phase += 1
       if phase == 1: goToDraw()
-      elif phase == 2: goToRecover()
+      elif phase == 2: goToRecovery()
       elif phase == 3: goToMain()
       elif phase == 4: goToEnd()
 

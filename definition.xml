@@ -10,7 +10,7 @@
       description="Force of Will Trading Card Game, by the Force of Will Co. Provided by ForcedTheWill.com"
       setsurl="http://majime.co/FoWTCG/OCTGN/"
       gameurl="http://majime.co/FoWTCG/OCTGN/"
-	  iconurl="http://majime.co/FOWTCG/OCTGN/FoW_Main_Image.png"
+	  iconurl="http://majime.co/FoWTCG/OCTGN/FoW_Main_Image.png"
       authors="Tim Cao">
 <scripts>
 <script src="scripts/actions.py" />
@@ -25,18 +25,18 @@
 </documents>
 <globalvariables>
 </globalvariables>
-<card back="Cards/back.png"  width="63" height="88">
+<card back="Card/Card_Back.png" front="Card/Card_Back.png" width="63" height="88">
 	<property name="Cluster" type="String" />
 	<property name="Set" type="String"/>
-	<property name="Number" type="Integer" />
+	<property name="Number" type="String" />
     <property name="Rarity" type="String" />
     <property name="Type" type="String" />
 	<property name="Subtype" type="String" />
 	<property name="Race/Trait" type="String" />
 	<property name="J-Ruler" type="String" />
 	<property name="Cost" type="String" />
-	<property name="Atk" type="Integer" />
-    <property name="Def" type="Integer" />
+	<property name="Atk" type="String" />
+    <property name="Def" type="String" />
 	<property name="Text" type="String" />
 </card>
 <table name="Table" visibility="undefined" ordered="False" width="500" height="380" background="Background/Background.png" backgroundStyle="uniformToFill">
@@ -48,7 +48,6 @@
    <cardaction menu="Use Card" default="True" execute="useCard"/>
    <cardaction menu="J-Activate" shortcut="Ctrl+J" execute="jactivate" />
 	<cardaction menu="Destroy/Banish" shortcut="Del" execute="discard" />
-	<cardaction menu="Move to bottom of Main Deck" execute="putBottom" />
    <cardaction menu="Add Counter" shortcut="F1" execute="addCounter" />
    <cardaction menu="Remove Counter" shortcut="F2" execute="removeCounter" />
 	<cardaction menu="Set Counter" shortcut="F3" execute="setCounter" />
@@ -62,29 +61,25 @@
 </table>
 <player summary="Hand Size: {#Hand}">
    <globalvariable name="phase" value="0" /> 
-	<hand name="Hand" visibility="me" ordered="False" width="63" height="88" >
+	<hand name="Hand" visibility="me" ordered="False" icon="Groups/Hand.png" width="63" height="88" >
 	<cardaction menu="Play Card" default="True" execute="play" />
 	<cardaction menu="Play Face-Down" execute="playFaceDown" />
 	<groupaction menu="Random Discard" execute="randomDiscard" />
-	<groupaction menu="Discard" execute="discard" />
-	<groupaction menu="Put at bottom of deck" execute="putBottom" />
-	<groupaction menu="Show a Card at Random" default="False" execute="randomReveal"/>
+	<cardaction menu="Put at bottom of deck" execute="putBottom" />
 </hand>
-	<group name="Main Deck" visibility="none" width="63" height="88" shortcut="F5">
+	<group name="Main Deck" visibility="none" width="63" height="88" icon="Groups/deck.png" shortcut="F5">
     <groupaction menu="Draw" default="True" shortcut="Ctrl+D" execute="draw" />
     <groupaction menu="Draw X..." shortcut="Ctrl+X" execute="drawMany" />
     <groupaction menu="Shuffle" shortcut="Ctrl+S" execute="shuffle" />
-	<groupaction menu="Reveal Top Card" shortcut="Ctrl+R" execute="revealTop" />
     </group>
-	<group name="Magic Stone Deck" visibility="none" width="63" height="88" icon="" shortcut="F6">
-	<groupaction menu="Reveal Top Card" shortcut="Ctrl+T" execute="revealTop" />
+	<group name="Magic Stone Deck" visibility="none" width="63" height="88" icon="Groups/deck.png" shortcut="F6">
 	<groupaction menu="Play Top Card" shortcut="Ctrl+E" execute="playTopStone" />
 	<groupaction menu="Shuffle Stone Deck" shortcut="Ctrl+A" execute="shuffle" />
 	</group>
-    <group name="Discard Pile" visibility="all" width="63" height="88" shortcut="F7"></group>
-    <group name="Removed From Game" visibility="all" width="63" height="88" collapsed="False" shortcut="F8"></group>
-    <group name="Side Deck" visibility="me" width="63" height="88" collapsed="False" shortcut="F9"></group>
-	<group name="Ruler" visibility="me" width="63" height="88" collapsed="False" shortcut="F10"></group>
+    <group name="Discard Pile" visibility="all" icon="Groups/discard.png" width="63" height="88" shortcut="F7"></group>
+    <group name="Removed From Game" visibility="all" icon="Groups/discard.png" width="63" height="88" collapsed="False" shortcut="F8"></group>
+    <group name="Side Deck" visibility="me" width="63" height="88" icon="Groups/deck.png" collapsed="False" shortcut="F9"></group>
+	<group name="Ruler" visibility="me" width="63" height="88" collapsed="False" icon="Groups/deck.png" shortcut="F10"></group>
 </player>
 <shared>
 </shared>

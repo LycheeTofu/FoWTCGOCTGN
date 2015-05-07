@@ -6,27 +6,6 @@
      gameVersion="0.0.0.1" 
      version="0.0.0.1">
  <cards>
-	<!-Each card has their own unique GUID. 
-	   Generate a GUID at https://www.guidgenerator.com/online-guid-generator.aspx
-	   Fill in fields per card as below. For cards without values(like not a J-ruler) you can remove the property for that card
-	   Below is the card template from definition.xml
-	    property name="Cluster" type="String" 
-		property name="Set" type="String"
-		property name="Number" type="Integer" 
-		property name="Rarity" type="String" 
-		property name="Type" type="String" 
-		property name="Subtype" type="String" 
-		property name="Race/Trait" type="String" 
-		property name="J-Ruler" type="String" 
-		property name="Cost" type="String" 
-		property name="Atk" type="Integer" 
-		property name="Def" type="Integer" 
-		property name="Text" type="String" 
-		
-		Strings take anything as a value, Integers only accept whole numeral values or an empty string( Ex. "")
-		
-		Example of a J-Ruler card below.
-	   -!>
 	<card id="02456b62-a4b7-4735-8da1-5397a3a2aa80" name="Breath of the God">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="TAT"/>
@@ -475,7 +454,7 @@
 		<property name="Cost" value="1FF" />
 		<property name="Atk" value="800" />
 		<property name="Def" value="800" />
-		<property name="Text" value="[Target Attack] (This card can attack recovered <J/resonators>.) [Awakening] F: [Enter] Target resonator gains [+600/-600] until end of turn. [Awakening] F 1 : [Enter] Recover target resonator. You gain control of it until end of turn. It gains [Swiftness] until end of turn." />
+		<property name="Text" value="[Target Attack] (This card can attack recovered &lt;J/resonators&gt;.) [Awakening] F: [Enter] Target resonator gains [+600/-600] until end of turn. [Awakening] F 1 : [Enter] Recover target resonator. You gain control of it until end of turn. It gains [Swiftness] until end of turn." />
     </card>
 	<card id="b3753a5a-bbf0-4624-abef-7ca3fd53935b" name="Rapid Decay">
 		<property name="Cluster" value="Grimm" />
@@ -693,7 +672,7 @@
 		<property name="Cost" value="3WaWa" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="[Continuous] <Tea-Party Madness> Whenever a resonator you control becomes targeted by spells or abilities other than through <Tea-Party Madness>, choose a new target at random. (Choose at random among all the legal targets including the original one.)" />
+		<property name="Text" value="[Continuous] &lt;Tea-Party Madness&gt; Whenever a resonator you control becomes targeted by spells or abilities other than through &lt;Tea-Party Madness&gt;, choose a new target at random. (Choose at random among all the legal targets including the original one.)" />
     </card>
 	<card id="80491c5a-2739-4f22-a14e-05fe022df040" name="March Hare">
 		<property name="Cluster" value="Grimm" />
@@ -1121,7 +1100,7 @@
 		<property name="Cost" value="DD" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="[Trigger] While a resonator your opponent controls is attacking: Your opponent banish a non-attacking resonator he or she controls. You gain life equal to its DEF. (Pay 2 to put this card into your chant-standby area. You may play this from the next turn if it fulfills [Trigger] condition and you control magic stones equal or more than its cost.)" />
+		<property name="Text" value="[Trigger] While a resonator your opponent controls is attacking: Your opponent banish a non-attacking resonator he or she controls. You gain life equal to its DEF. (Pay 2 to put this card into your chant-standby area. You may play this from the next turn if it fulfils [Trigger] condition and you control magic stones equal or more than its cost.)" />
     </card>
 	<card id="c305dbce-fd29-4dfe-b165-de8b572d9b01" name="Demon's Curse">
 		<property name="Cluster" value="Grimm" />
