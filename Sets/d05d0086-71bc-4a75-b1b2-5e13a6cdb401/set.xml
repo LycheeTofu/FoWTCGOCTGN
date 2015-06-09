@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="The Millennia of Ages"
+     id="d05d0086-71bc-4a75-b1b2-5e13a6cdb401" 
+     gameId="5c1280cc-f52d-4060-b0d9-11363df285fe" 
+     gameVersion="0.0.0.1" 
+     version="0.0.0.1">
+ <cards>
+ 	<card id="450dbf2e-0a93-41fb-a3f5-2bdad35a25f8" name="Almerius, the Magus of Light">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="001" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Six Sages/Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2WW" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="[Quickcast] (You may play this card anytime you can play a [Spell:Chant-Instant].) [Enter] Put a knowledge counter on this card. [Continuous] Whenever another Six Sages enters your field, put a knowledge counter on this card. [Activate] Remove a knowledge counter from this card: Remove target attacking resonator from the game." />
+    </card>
+ 	<card id="a2126244-7889-4ff9-a38b-70dc6154768a" name="Duet of Light">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="002" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="W" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="As an additional cost to play this card, rest two recovered light resonators you control. Remove target resonator from the game." />
+    </card>
+ 	<card id="c8e570b3-b54d-46e2-895d-3f5dcd100fc6" name="Kaguya, the Tale of the Bamboo Cutter">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="004" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fariy Tale/Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="W" />
+		<property name="Atk" value="300" />
+		<property name="Def" value="300" />
+		<property name="Text" value="[Activate] 1 Rest: Put a knowledge counter on target Six Sages. [Activate] Remove three knowledge counters from any number of resonators you control: Remove target resonator from the game." />
+    </card>
+ 	<card id="53b17e0b-3bbe-4668-9712-28d3838434c7" name="Shining Bamboo">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="008" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="Treasury Item" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="W" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Enter] Search your main deck for a card named &quot;Kaguya, the Tale of the Bamboo Cutter&quot;, reveal it and put it into your hand. Then shuffle your main deck. [Activate] Rest: Recover target resonator named &quot;Kaguya, the Tale of the Bamboo Cutter&quot;. " />
+    </card>
+ 	<card id="32477ac8-8016-43ff-9eeb-c71ce5e7867c" name="Zero, the Flashing Mage-Warrior">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="010" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Six Sages/Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1WW" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="700" />
+		<property name="Text" value="[Quickcast] (You may play this card anytime you can play a [Spell:Chant-Instant].) [Enter] Put a knowledge counter on this card. [Continuous] Whenever another Six Sages enters your field, put a knowledge counter on this card. [Activate] Remove a knowledge counter from this card: Prevent the next 300 damage that would be dealt to target resonator this turn." />
+    </card>
+	</cards>
+</set>

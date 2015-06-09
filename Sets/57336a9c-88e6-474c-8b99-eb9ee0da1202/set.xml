@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="Vingolf - Engage Knights"
+     id="57336a9c-88e6-474c-8b99-eb9ee0da1202" 
+     gameId="5c1280cc-f52d-4060-b0d9-11363df285fe" 
+     gameVersion="0.0.0.1" 
+     version="0.0.0.1">
+ <cards>
+ 	<card id="c221e5d0-8517-4b1d-a98a-0dbc5742584c" name="Faust">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="VIN"/>
+		<property name="Number" value="065" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Alchemist" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1D" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="200" />
+		<property name="Text" value="DD: This card gains [+600/+600] until end of turn. Play this ability only once per turn." />
+    </card>
+ 	<card id="efaccc7a-35b2-4a84-909a-dc84293505d5" name="Nobunaga Oda">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="VIN"/>
+		<property name="Number" value="068" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Archenemy" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="4DD" />
+		<property name="Atk" value="1000" />
+		<property name="Def" value="1000" />
+		<property name="Text" value="When this card enters your field, destroy target resonator with total cost 2 or less. Non-darkness resonators gain [-200/-200]." />
+    </card>
+ 	<card id="b967abb8-b00a-4be3-83c1-fa11bc401ed3" name="Rasputin">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="VIN"/>
+		<property name="Number" value="070" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Wizard" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="D" />
+		<property name="Atk" value="100" />
+		<property name="Def" value="100" />
+		<property name="Text" value="When this card is put into a graveyard from your field, you may pay 200 life. If you do, put it into your hand." />
+    </card>
+ 	<card id="284e2e92-c816-48e7-b078-d939a592c667" name="Solomon">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="VIN"/>
+		<property name="Number" value="072" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="King" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2DD" />
+		<property name="Atk" value="800" />
+		<property name="Def" value="800" />
+		<property name="Text" value="As long as your life is 2000 or less, this card gains [+200/+200]." />
+    </card>
+	<card id="e8daed8c-cfd0-4f59-89f0-19a3150fe22f" name="Vlad Tepes">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="VIN"/>
+		<property name="Number" value="075" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Vampire" />
+		<property name="J-Ruler" value="Yes" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="J-Activate D 2 2: This card deals 200 damage to target opponent. You gain 200 life." />
+		<alternate name="Vlad Tepes" type="jruler">
+			<property name="Number" value="075J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Race/Trait" value="" />
+			<property name="Atk" value="800" />
+			<property name="Def" value="1000" />
+			<property name="Text" value="When this card enters your field, destroy target resonator with total cost 3 or less. You gain life equal to its DEF, D 2, banish a darkness resonator: This card gain Imperishable until end of turn." />
+		</alternate>
+    </card>
+	</cards>
+</set>
