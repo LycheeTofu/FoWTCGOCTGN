@@ -15,7 +15,7 @@
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="Six Sages/Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="2WW" />
+		<property name="Cost" value="2LL" />
 		<property name="Atk" value="500" />
 		<property name="Def" value="500" />
 		<property name="Text" value="[Quickcast] (You may play this card anytime you can play a [Spell:Chant-Instant].) [Enter] Put a knowledge counter on this card. [Continuous] Whenever another Six Sages enters your field, put a knowledge counter on this card. [Activate] Remove a knowledge counter from this card: Remove target attacking resonator from the game." />
@@ -29,10 +29,24 @@
 		<property name="Subtype" value="Chant" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="W" />
+		<property name="Cost" value="L" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
 		<property name="Text" value="As an additional cost to play this card, rest two recovered light resonators you control. Remove target resonator from the game." />
+    </card>
+ 	<card id="a05ad091-4146-42d6-9bda-6c8bd7020a52" name="Grimm, the Heroic King of Aspiration">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="003" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="LL" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="Other light resonators you control gain [+200/+200]" />
     </card>
  	<card id="c8e570b3-b54d-46e2-895d-3f5dcd100fc6" name="Kaguya, the Tale of the Bamboo Cutter">
 		<property name="Cluster" value="Grimm" />
@@ -43,10 +57,52 @@
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="Fariy Tale/Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="W" />
+		<property name="Cost" value="L" />
 		<property name="Atk" value="300" />
 		<property name="Def" value="300" />
 		<property name="Text" value="[Activate] 1 Rest: Put a knowledge counter on target Six Sages. [Activate] Remove three knowledge counters from any number of resonators you control: Remove target resonator from the game." />
+    </card>
+ 	<card id="540d0478-0fa6-4686-a1ed-f8e81f10da59" name="Lumia, the Saint Lady of World Rebirth">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="005" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1L" />
+		<property name="Atk" value="600" />
+		<property name="Def" value="600" />
+		<property name="Text" value="Banish this card: You gain life equal to the damage that was dealt to you this turn." />
+    </card>
+ 	<card id="0ecd485e-94ed-4527-92c0-c2c8b0632b9d" name="Pandora, the Princess of History Chanter">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="006" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="L" />
+		<property name="Atk" value="300" />
+		<property name="Def" value="300" />
+		<property name="Text" value="[Awakening] L L: When this card enters your field, search your main deck for a card named &quot;Grimm, the Heroic Prince of Aspiration&quot; and put it into your field. Then shuffle your main deck." />
+    </card>
+ 	<card id="ff40c700-101b-4153-a203-b552949d0ad1" name="Pandora's Box of Hope">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="007" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="Relic" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="LLL" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="At the beginning of your main phase, remove the top card of your main deck from the game face down. You may look at that card at any time. Banish this card: Put a resonator or [Addition:Field] removed by this card into your field rested." />
     </card>
  	<card id="53b17e0b-3bbe-4668-9712-28d3838434c7" name="Shining Bamboo">
 		<property name="Cluster" value="Grimm" />
@@ -57,10 +113,24 @@
 		<property name="Subtype" value="Field" />
 		<property name="Race/Trait" value="Treasury Item" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="W" />
+		<property name="Cost" value="L" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
 		<property name="Text" value="[Enter] Search your main deck for a card named &quot;Kaguya, the Tale of the Bamboo Cutter&quot;, reveal it and put it into your hand. Then shuffle your main deck. [Activate] Rest: Recover target resonator named &quot;Kaguya, the Tale of the Bamboo Cutter&quot;. " />
+    </card>
+ 	<card id="55af5091-7713-483f-960b-d88feb535326" name="Temporal Spell of Millennia">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="009" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="L" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Remove target Cthulhu resonator from the game." />
     </card>
  	<card id="32477ac8-8016-43ff-9eeb-c71ce5e7867c" name="Zero, the Flashing Mage-Warrior">
 		<property name="Cluster" value="Grimm" />
@@ -71,10 +141,570 @@
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="Six Sages/Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="1WW" />
+		<property name="Cost" value="1LL" />
 		<property name="Atk" value="500" />
 		<property name="Def" value="700" />
 		<property name="Text" value="[Quickcast] (You may play this card anytime you can play a [Spell:Chant-Instant].) [Enter] Put a knowledge counter on this card. [Continuous] Whenever another Six Sages enters your field, put a knowledge counter on this card. [Activate] Remove a knowledge counter from this card: Prevent the next 300 damage that would be dealt to target resonator this turn." />
+    </card>
+ 	<card id="f86729ce-a604-4d19-ade6-9abc2f3c3f4b" name="Ame-no-Habakiri">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="011" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
+		<property name="Race/Trait" value="Weapon" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="FF" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Added resonator gains [+400/+400]. [Continuous] Whenever added resonator deals damage to a resonator your opponent controls, this card deals that much damage to that resonator's controller." />
+    </card>
+ 	<card id="576f9244-7d1f-4951-970e-149ba591ecbf" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="012" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+ 	<card id="a4ca7193-c09a-4498-8362-159986a3c47c" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="013" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+ 	<card id="28cedc18-1d8e-4de7-9966-f7c2b0a74555" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="014" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+ 	<card id="3b8bcbbf-460f-4258-bb47-95b974878d5e" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="015" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+ 	<card id="22dd97e5-3098-4548-8538-a7569ddefd4c" name="Ghostflame">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="016" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="F" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="This card deals 300 damage to target player or resonator. [Activate] F F 1: Put this card from your graveyard into your hand. " />
+    </card>
+ 	<card id="7a3a0df3-d167-4287-b77e-69df88ffdccc" name="Little Red, the Hope of Millennia">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="017" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fairy Tale/Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="F" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="200" />
+		<property name="Text" value="[Awakening] F: When this card enters your field, search your main deck for card with &quot;Granny&quot; in its name, reveal it and put it into your field. Rest, discard a card with &quot;Apple&quot; in its name: This card deals 1000 damage to target resonator." />
+    </card>
+ 	<card id="3f6281eb-e19b-494b-9e91-05877a3233cf" name="Milest, the Invisible Ghostly Flame">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="018" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Six Sages/Spirit" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="FF" />
+		<property name="Atk" value="600" />
+		<property name="Def" value="300" />
+		<property name="Text" value="[Enter] Put a knowledge counter on this card. [Continuous] Whenever another Six Sages enters your field, put a knowledge counter on this card. [Activate] Remove a knowledge counter from this card: This card deals 300 damage to target player or resonator." />
+    </card>
+ 	<card id="3d957280-08fa-436d-af41-cfb167b19920" name="Susanowo, the Ten-Fist Sword">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="019" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Myth" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="3FFF" />
+		<property name="Atk" value="1200" />
+		<property name="Def" value="1200" />
+		<property name="Text" value="[Swiftness] (This card can attack and play its Rest abilities the same turn it enters a field.) [Pierce] [Continuous] If your opponent controls a Dragon, you may pay FFF less to play this card. [Enter] You may add a card name &quot;Ame-no-Habakiri&quot; from your hand to this card. [Enter] This card deals damage equal to its ATK to target resonator your opponent controls." />
+    </card>
+ 	<card id="4fe03603-8670-4b02-b967-501ebfb31e72" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="020" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+ 	<card id="e0b1c80b-cd36-400f-9789-6514a94b30a7" name="Alice's Pursuit">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="021" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="Wa" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Return target resonator your opponent controls with total cost 5 or greater to its owner's hand. Draw a card." />
+    </card>
+ 	<card id="d209873d-7ca7-4fd0-bb81-9d3bbf30cf50" name="Alice's Soldier">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="022" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fantasy" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1Wa" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="This card cannot be targeted by spells or abilities." />
+    </card>
+ 	<card id="50597633-db85-4603-a678-45131c0f169f" name="Emperor of Millennia">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="023" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1WaWa" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="200" />
+		<property name="Text" value="[Activate] Rest: Draw a card." />
+    </card>
+ 	<card id="0c98ac61-28fe-4640-90f1-066b84d67635" name="House of the Old Man">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="024" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="Residence" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1Wa" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Magic stones you control gain &quot;[Activate] Rest: Produce one will of any attribute.&quot;." />
+    </card>
+ 	<card id="83102190-153f-4910-8fbc-df07aee8313f" name="Lunya, the Liar Girl">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="025" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="WaWaWa" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="700" />
+		<property name="Text" value="When this card enters your field, destroy target Cthulhu. Whenever a resonator is put into a graveyard from your field, recover this card." />
+    </card>
+ 	<card id="8d1f77bf-3bc8-496a-ab45-205ee05a9de6" name="Moojdart, the Queen of Fantasy World">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="026" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Six Sages/Spirit" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2WaWa" />
+		<property name="Atk" value="700" />
+		<property name="Def" value="900" />
+		<property name="Text" value="[Enter] Put two knowledge counters on this card. [Continuous] Whenever another Six Sages enters your field, put two knowledge counters on this card. [Activate] Remove a knowledge counter from this card: Rest target resonator. [Activate] Remove two knowledge counters from this card: Draw a card." />
+    </card>
+ 	<card id="fd3f098b-0416-4580-a286-64dfeb9bcf10" name="Moon Incarnation">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="027" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="Wa" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Search your main deck for a Moon addition, reveal it and put it into your hand. Then shuffle your main deck. [Awakening] 2: You may put a Moon addition from your hand into your field." />
+    </card>
+ 	<card id="1cecf128-f4c2-475d-8f54-133d67395747" name="Oracle of Tsukuyomi">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="028" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Wererabbit" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="Wa" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="200" />
+		<property name="Text" value="When this card is put into a graveyard from your field, reveal the top card of your main deck. If it's a Wererabbit, put it into your field. Otherwise, put it into your graveyard." />
+    </card>
+ 	<card id="93ac2c9e-585d-4be2-8ff6-080d81c14f3d" name="Purplemist, the Fantasy Dragon">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="029" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Fantasy/Dragon" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2WaWaWa" />
+		<property name="Atk" value="1000" />
+		<property name="Def" value="1000" />
+		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].) [Continuous] This card cannot be targeted by spells or abilities. " />
+    </card>
+ 	<card id="713c478f-88b2-4f57-980d-af82b9016640" name="Transparent Moon">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="030" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="Moon" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1Wa" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Magic stones with non-will activate abilities don't recover during recovery phase." />
+    </card>
+ 	<card id="7774cbd0-15d9-4943-b423-c196b44c5928" name="Bastet, the Elder God">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="031" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Cthulhu" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1Wi" />
+		<property name="Atk" value="0" />
+		<property name="Def" value="200" />
+		<property name="Text" value="[Continuous] This card gains [+100/100] for each card in your opponent's graveyard." />
+    </card>
+ 	<card id="6d82e57a-486c-4c5d-856f-ee181f3e6706" name="Christie, the Warden of Sanctuary">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="032" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Elf" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="WiWi" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="Other Elves you control cannot be targeted by spells or abilities your opponent controls. Rest five recovered Elves you control: You gain 500 life and draw two cards." />
+    </card>
+ 	<card id="81bdcb3a-b82a-431f-b269-e79b5d298110" name="Fiethsing, the Elvish Oracle">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="033" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Six Sages/Elf" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2WiWi" />
+		<property name="Atk" value="600" />
+		<property name="Def" value="1000" />
+		<property name="Text" value="[Quickcast] (You may play this card any time you can play a [Spell:Chant-Instant].) [Enter] Put a knowledge counter on this card. [Continuous] Whenever another Six Sages enters your field, put a knowledge counter on this card. [Activate] Remove a knowledge counter from this card: Cancel target spell unless its controllers pays 1. " />
+    </card>
+ 	<card id="6bfb5dcc-2088-4ca1-94c0-4a572b665ea5" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="034" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+ 	<card id="c5218a64-d23b-45d7-8365-7d52a450cfc6" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="035" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+ 	<card id="ee68ec33-2dc9-4eec-9176-42ee8665271c" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="036" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+ 	<card id="f8ecb37e-1444-4ca2-8221-e4e477f94081" name="Melfee, the Successor of Sacred Wind">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="037" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Elf" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1Wi" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="Rest two recovered Elves you control: Produce one will of any attribute." />
+    </card>
+ 	<card id="980b3676-9736-4706-a7b6-aabb5bb4a391" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="038" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+ 	<card id="c2f6b3d5-7e18-49c9-8883-e9795023b2cc" name="">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="039" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+ 	<card id="9f9a8415-5efa-426f-b076-47aba9cce42c" name="Wind of Gods">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="040" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="Wi" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Put target fire or darkness resonator on top of its owner's main deck." />
+    </card>
+ 	<card id="261737c7-9083-46a6-809f-2e17c448e032" name="Aria, the Last Vampire">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="041" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Vampire" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1DD" />
+		<property name="Atk" value="700" />
+		<property name="Def" value="700" />
+		<property name="Text" value="When this card is put into a graveyard from your field, put target Vampire card with total cost 2 or less from your graveyard into your hand." />
+    </card>
+ 	<card id="9668fbb1-8b33-4937-9e6b-06f5be5c976b" name="Book of Eibon">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="042" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="Relic" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="1DD" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="When this card enters your field, put target resonator from a graveyard into your field. When this card leaves your field, banish the resonator put into your field by this card." />
+    </card>
+ 	<card id="dfd0d18e-0276-47a4-a28e-71b3d2eefc97" name="Dark Pulse">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="043" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2DD" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Destroy all resonators with total cost 2 or less." />
+    </card>
+ 	<card id="5f050016-acb1-4b77-90a7-816833f8453b" name="Eibon, the Mage">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="044" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Awakening] D: [Enter] Search your main deck for a card named &quot;Book of Eibon&quot;, reveal it and put it into your hand. Then shuffle your main deck. [Activate] D D 1: Target resonator gains [-400/-400] until end of turn." />
+    </card>
+ 	<card id="c6523136-d435-4ae9-8d70-2f11542fa023" name="Grusbalesta, the Keeper of Magic Stones">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="045" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Six Sages/Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2DD" />
+		<property name="Atk" value="800" />
+		<property name="Def" value="800" />
+		<property name="Text" value="[Enter] Put two knowledge counters on this card. [Continuous] Whenever another Six Sages enters your field, put two knowledge counters on this card. [Activate] Remove a knowledge counter from this card: Target resonator gains [+0/-400] until end of turn." />
+    </card>
+ 	<card id="695db407-d8d3-45dc-bbfe-b222ca6bf981" name="Hazzard, the Dark Forest Augur">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="046" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Augur" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="DD" />
+		<property name="Atk" value="0" />
+		<property name="Def" value="200" />
+		<property name="Text" value="This card cannot be targeted by spells or abilities. At the beginning of your main phase, this card deals 200 damage to target player or resonator." />
+    </card>
+ 	<card id="bcd714ac-6287-4512-ac22-3485c376a077" name="Mephistopheles, the Demon Collaborator">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="047" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Demon" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="DD" />
+		<property name="Atk" value="300" />
+		<property name="Def" value="300" />
+		<property name="Text" value="Rest: Target resonator gains [+200/+0] until end of turn." />
+    </card>
+ 	<card id="f4d8ffe7-656f-4e77-a557-1e68cf9eaefd" name="Mount Immortal">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="048" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="Mountain" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="DDDD" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Continuous] Non-darkness resonators gain [-200/-200]." />
+    </card>
+ 	<card id="056d1631-f3d0-4030-b580-5c7e652375c4" name="Nyarlathotep, the Usurper">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="049" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Race/Trait" value="Cthulhu" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="2DD" />
+		<property name="Atk" value="800" />
+		<property name="Def" value="800" />
+		<property name="Text" value=" 	[Incarnation] D, D or F (You may banish one darkness resonator and one fire or darkness resonator rather than pay this card's cost.) [Enter] You may look at target player's hand and choose a card. He or she discards that card." />
+    </card>
+ 	<card id="160146e4-25dd-4223-9ecb-962aec60d68e" name="Ritual of Millennia">
+		<property name="Cluster" value="Grimm" />
+		<property name="Set" value="MOA"/>
+		<property name="Number" value="050" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="DD" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Choose target resonator from a graveyard that was put into that zone this turn and put it into its owner's field." />
     </card>
 	</cards>
 </set>
