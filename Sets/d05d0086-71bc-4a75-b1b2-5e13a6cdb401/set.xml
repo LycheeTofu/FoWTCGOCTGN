@@ -468,47 +468,47 @@
 		<property name="Def" value="1000" />
 		<property name="Text" value="[Quickcast] (You may play this card any time you can play a [Spell:Chant-Instant].) [Enter] Put a knowledge counter on this card. [Continuous] Whenever another Six Sages enters your field, put a knowledge counter on this card. [Activate] Remove a knowledge counter from this card: Cancel target spell unless its controllers pays 1. " />
     </card>
- 	<card id="6bfb5dcc-2088-4ca1-94c0-4a572b665ea5" name="">
+ 	<card id="6bfb5dcc-2088-4ca1-94c0-4a572b665ea5" name="Hansel and Gretel">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MOA"/>
 		<property name="Number" value="034" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Fairy Tale/Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="WiWiWiWi" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="When this card enters your field, draw a card and put the top card of your magic stone deck into your magic stone area rested." />
     </card>
- 	<card id="c5218a64-d23b-45d7-8365-7d52a450cfc6" name="">
+ 	<card id="c5218a64-d23b-45d7-8365-7d52a450cfc6" name="Leaves of Yggdrasil">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MOA"/>
 		<property name="Number" value="035" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
+		<property name="Race/Trait" value="Treasury Item" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="Wi" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="When added resonator is put into a graveyard from a field, put that resonator into its owner's field." />
     </card>
- 	<card id="ee68ec33-2dc9-4eec-9176-42ee8665271c" name="">
+ 	<card id="ee68ec33-2dc9-4eec-9176-42ee8665271c" name="Liberate the World">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MOA"/>
 		<property name="Number" value="036" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="WiWi" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Look at the top three cards of your main deck. Put one of them into your hand and remove the rest from the game face down." />
     </card>
  	<card id="f8ecb37e-1444-4ca2-8221-e4e477f94081" name="Melfee, the Successor of Sacred Wind">
 		<property name="Cluster" value="Grimm" />
@@ -524,33 +524,33 @@
 		<property name="Def" value="400" />
 		<property name="Text" value="Rest two recovered Elves you control: Produce one will of any attribute." />
     </card>
- 	<card id="980b3676-9736-4706-a7b6-aabb5bb4a391" name="">
+ 	<card id="980b3676-9736-4706-a7b6-aabb5bb4a391" name="Refarth, the Wind Castle">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MOA"/>
 		<property name="Number" value="038" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="Castle" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="1Wi" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Continuous} Prevent all damage that would be dealt by normal spells to resonators you control." />
     </card>
- 	<card id="c2f6b3d5-7e18-49c9-8883-e9795023b2cc" name="">
+ 	<card id="c2f6b3d5-7e18-49c9-8883-e9795023b2cc" name="Scheherazade, the Teller of the Crimson Moon">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MOA"/>
 		<property name="Number" value="039" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Wanderer" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="3WiWi" />
+		<property name="Atk" value="1000" />
+		<property name="Def" value="1200" />
+		<property name="Text" value="[Enter]: Choose a race. As long as you control this card, J/resonators of the chosen race cannot attack you. [Activate] Wi Wi, Rest: Remove target resonator from the game." />
     </card>
  	<card id="9f9a8415-5efa-426f-b076-47aba9cce42c" name="Wind of Gods">
 		<property name="Cluster" value="Grimm" />
