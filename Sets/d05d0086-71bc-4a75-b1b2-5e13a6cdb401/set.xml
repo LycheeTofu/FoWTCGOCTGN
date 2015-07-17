@@ -160,61 +160,61 @@
 		<property name="Def" value="" />
 		<property name="Text" value="[Continuous] Added resonator gains [+400/+400]. [Continuous] Whenever added resonator deals damage to a resonator your opponent controls, this card deals that much damage to that resonator's controller." />
     </card>
- 	<card id="576f9244-7d1f-4951-970e-149ba591ecbf" name="">
+ 	<card id="576f9244-7d1f-4951-970e-149ba591ecbf" name="Blazer, the Awakener">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MOA"/>
 		<property name="Number" value="012" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Wanderer" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="2FFF" />
+		<property name="Atk" value="1200" />
+		<property name="Def" value="800" />
+		<property name="Text" value="[Swiftness] (This card can attack and pla its Rest abilities the same turn it enters a field.) Whenever a resonator that was dealt damage by this card this turn is put into a graveyard, recover this card. This ability triggers only once per turn. F: This card gains [First Strike] until end of turn. " />
     </card>
- 	<card id="a4ca7193-c09a-4498-8362-159986a3c47c" name="">
+ 	<card id="a4ca7193-c09a-4498-8362-159986a3c47c" name="Cthugha, the Living Flame">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MOA"/>
 		<property name="Number" value="013" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Cthulhu" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="2F" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="[Swiftness] (This card can attack and play its Rest abilities the same turn it enters a field.) [Incarnation] F (You may banish one fire resonator rather than pay this card's cost.)" />
     </card>
- 	<card id="28cedc18-1d8e-4de7-9966-f7c2b0a74555" name="">
+ 	<card id="28cedc18-1d8e-4de7-9966-f7c2b0a74555" name="Emissary of Another Dimension">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MOA"/>
 		<property name="Number" value="014" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="FF1" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value=" 	When this card enters your field, recovers target resonator. Banish this card: Destroy target card in a chant-standby area." />
     </card>
- 	<card id="3b8bcbbf-460f-4258-bb47-95b974878d5e" name="">
+ 	<card id="3b8bcbbf-460f-4258-bb47-95b974878d5e" name="Fetal Movement in Outer World">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MOA"/>
 		<property name="Number" value="015" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Race/Trait" value="Instant" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="FF" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Remove all cards in target player's graveyard from the game. This card deals 100 damage to your opponent for each card removed this way." />
     </card>
  	<card id="22dd97e5-3098-4548-8538-a7569ddefd4c" name="Ghostflame">
 		<property name="Cluster" value="Grimm" />
@@ -272,19 +272,19 @@
 		<property name="Def" value="1200" />
 		<property name="Text" value="[Swiftness] (This card can attack and play its Rest abilities the same turn it enters a field.) [Pierce] [Continuous] If your opponent controls a Dragon, you may pay FFF less to play this card. [Enter] You may add a card name &quot;Ame-no-Habakiri&quot; from your hand to this card. [Enter] This card deals damage equal to its ATK to target resonator your opponent controls." />
     </card>
- 	<card id="4fe03603-8670-4b02-b967-501ebfb31e72" name="">
+ 	<card id="4fe03603-8670-4b02-b967-501ebfb31e72" name="Wormhole">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MOA"/>
 		<property name="Number" value="020" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Race/Trait" value="Singularity" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="3FF" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="When this card enters your field, you may put a resonator from your hand into your field. It gains [Swiftness] until end of turn. At the end of turn, banish it. 1 x, Rest: Put a resonator with total cost X or less from your hand into your field. It gains [Swiftness] until end of turn." />
     </card>
  	<card id="e0b1c80b-cd36-400f-9789-6514a94b30a7" name="Alice's Pursuit">
 		<property name="Cluster" value="Grimm" />
