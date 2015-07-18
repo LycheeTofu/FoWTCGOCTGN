@@ -18,7 +18,7 @@
 		<property name="Cost" value="2LL" />
 		<property name="Atk" value="500" />
 		<property name="Def" value="500" />
-		<property name="Text" value="[Quickcast] (You may play this card anytime you can play a [Spell:Chant-Instant].) [Enter] Put a knowledge counter on this card. [Continuous] Whenever another Six Sages enters your field, put a knowledge counter on this card. [Activate] Remove a knowledge counter from this card: Remove target attacking resonator from the game." />
+		<property name="Text" value="[Quickcast] (You may play this card anytime you can play a [Spell:Chant-Instant].) &#13;&#10; [Enter] Put a knowledge counter on this card. &#13;&#10; [Continuous] Whenever another Six Sages enters your field, put a knowledge counter on this card. &#13;&#10; [Activate] Remove a knowledge counter from this card: Remove target attacking resonator from the game." />
     </card>
  	<card id="a2126244-7889-4ff9-a38b-70dc6154768a" name="Duet of Light">
 		<property name="Cluster" value="Grimm" />
@@ -60,7 +60,7 @@
 		<property name="Cost" value="L" />
 		<property name="Atk" value="300" />
 		<property name="Def" value="300" />
-		<property name="Text" value="[Activate] 1 Rest: Put a knowledge counter on target Six Sages. [Activate] Remove three knowledge counters from any number of resonators you control: Remove target resonator from the game." />
+		<property name="Text" value="[Activate] 1 Rest: Put a knowledge counter on target Six Sages. &#13;&#10; [Activate] Remove three knowledge counters from any number of resonators you control: Remove target resonator from the game." />
     </card>
  	<card id="540d0478-0fa6-4686-a1ed-f8e81f10da59" name="Lumia, the Saint Lady of World Rebirth">
 		<property name="Cluster" value="Grimm" />
@@ -88,9 +88,9 @@
 		<property name="Cost" value="L" />
 		<property name="Atk" value="300" />
 		<property name="Def" value="300" />
-		<property name="Text" value="[Awakening] L L: When this card enters your field, search your main deck for a card named &quot;Grimm, the Heroic Prince of Aspiration&quot; and put it into your field. Then shuffle your main deck." />
+		<property name="Text" value="[Awakening] LL: When this card enters your field, search your main deck for a card named &quot;Grimm, the Heroic Prince of Aspiration&quot; and put it into your field. Then shuffle your main deck." />
     </card>
- 	<card id="ff40c700-101b-4153-a203-b552949d0ad1" name="Pandora's Box of Hope">
+ 	<card id="ff40c700-101b-4153-a203-b552949d0ad1" name="Pandora&apos;s Box of Hope">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MOA"/>
 		<property name="Number" value="007" />
@@ -158,7 +158,7 @@
 		<property name="Cost" value="FF" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="[Continuous] Added resonator gains [+400/+400]. [Continuous] Whenever added resonator deals damage to a resonator your opponent controls, this card deals that much damage to that resonator's controller." />
+		<property name="Text" value="[Continuous] Added resonator gains [+400/+400]. [Continuous] Whenever added resonator deals damage to a resonator your opponent controls, this card deals that much damage to that resonator&apos;s controller." />
     </card>
  	<card id="576f9244-7d1f-4951-970e-149ba591ecbf" name="Blazer, the Awakener">
 		<property name="Cluster" value="Grimm" />
@@ -172,7 +172,7 @@
 		<property name="Cost" value="2FFF" />
 		<property name="Atk" value="1200" />
 		<property name="Def" value="800" />
-		<property name="Text" value="[Swiftness] (This card can attack and pla its Rest abilities the same turn it enters a field.) Whenever a resonator that was dealt damage by this card this turn is put into a graveyard, recover this card. This ability triggers only once per turn. F: This card gains [First Strike] until end of turn. " />
+		<property name="Text" value="[Swiftness] (This card can attack and play its Rest abilities the same turn it enters a field.) Whenever a resonator that was dealt damage by this card this turn is put into a graveyard, recover this card. This ability triggers only once per turn. F: This card gains [First Strike] until end of turn. " />
     </card>
  	<card id="a4ca7193-c09a-4498-8362-159986a3c47c" name="Cthugha, the Living Flame">
 		<property name="Cluster" value="Grimm" />
@@ -186,7 +186,7 @@
 		<property name="Cost" value="2F" />
 		<property name="Atk" value="500" />
 		<property name="Def" value="500" />
-		<property name="Text" value="[Swiftness] (This card can attack and play its Rest abilities the same turn it enters a field.) [Incarnation] F (You may banish one fire resonator rather than pay this card's cost.)" />
+		<property name="Text" value="[Swiftness] (This card can attack and play its Rest abilities the same turn it enters a field.) [Incarnation] F (You may banish one fire resonator rather than pay this card&apos;s cost.)" />
     </card>
  	<card id="28cedc18-1d8e-4de7-9966-f7c2b0a74555" name="Emissary of Another Dimension">
 		<property name="Cluster" value="Grimm" />
@@ -197,7 +197,7 @@
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="FF1" />
+		<property name="Cost" value="1FF" />
 		<property name="Atk" value="400" />
 		<property name="Def" value="400" />
 		<property name="Text" value=" 	When this card enters your field, recovers target resonator. Banish this card: Destroy target card in a chant-standby area." />
@@ -214,7 +214,7 @@
 		<property name="Cost" value="FF" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="Remove all cards in target player's graveyard from the game. This card deals 100 damage to your opponent for each card removed this way." />
+		<property name="Text" value="Remove all cards in target player&apos;s graveyard from the game. This card deals 100 damage to your opponent for each card removed this way." />
     </card>
  	<card id="22dd97e5-3098-4548-8538-a7569ddefd4c" name="Ghostflame">
 		<property name="Cluster" value="Grimm" />
@@ -286,7 +286,7 @@
 		<property name="Def" value="" />
 		<property name="Text" value="When this card enters your field, you may put a resonator from your hand into your field. It gains [Swiftness] until end of turn. At the end of turn, banish it. 1 x, Rest: Put a resonator with total cost X or less from your hand into your field. It gains [Swiftness] until end of turn." />
     </card>
- 	<card id="e0b1c80b-cd36-400f-9789-6514a94b30a7" name="Alice's Pursuit">
+ 	<card id="e0b1c80b-cd36-400f-9789-6514a94b30a7" name="Alice&apos;s Pursuit">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MOA"/>
 		<property name="Number" value="021" />
@@ -298,9 +298,9 @@
 		<property name="Cost" value="Wa" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="Return target resonator your opponent controls with total cost 5 or greater to its owner's hand. Draw a card." />
+		<property name="Text" value="Return target resonator your opponent controls with total cost 5 or greater to its owner&apos;s hand. Draw a card." />
     </card>
- 	<card id="d209873d-7ca7-4fd0-bb81-9d3bbf30cf50" name="Alice's Soldier">
+ 	<card id="d209873d-7ca7-4fd0-bb81-9d3bbf30cf50" name="Alice&apos;s Soldier">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="MOA"/>
 		<property name="Number" value="022" />
@@ -396,7 +396,7 @@
 		<property name="Cost" value="Wa" />
 		<property name="Atk" value="200" />
 		<property name="Def" value="200" />
-		<property name="Text" value="When this card is put into a graveyard from your field, reveal the top card of your main deck. If it's a Wererabbit, put it into your field. Otherwise, put it into your graveyard." />
+		<property name="Text" value="When this card is put into a graveyard from your field, reveal the top card of your main deck. If it&apos;s a Wererabbit, put it into your field. Otherwise, put it into your graveyard." />
     </card>
  	<card id="93ac2c9e-585d-4be2-8ff6-080d81c14f3d" name="Purplemist, the Fantasy Dragon">
 		<property name="Cluster" value="Grimm" />
@@ -424,7 +424,7 @@
 		<property name="Cost" value="1Wa" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="Magic stones with non-will activate abilities don't recover during recovery phase." />
+		<property name="Text" value="Magic stones with non-will activate abilities don&apos;t recover during recovery phase." />
     </card>
  	<card id="7774cbd0-15d9-4943-b423-c196b44c5928" name="Bastet, the Elder God">
 		<property name="Cluster" value="Grimm" />
@@ -438,7 +438,7 @@
 		<property name="Cost" value="1Wi" />
 		<property name="Atk" value="0" />
 		<property name="Def" value="200" />
-		<property name="Text" value="[Continuous] This card gains [+100/100] for each card in your opponent's graveyard." />
+		<property name="Text" value="[Continuous] This card gains [+100/100] for each card in your opponent&apos;s graveyard." />
     </card>
  	<card id="6d82e57a-486c-4c5d-856f-ee181f3e6706" name="Christie, the Warden of Sanctuary">
 		<property name="Cluster" value="Grimm" />
@@ -494,7 +494,7 @@
 		<property name="Cost" value="Wi" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="When added resonator is put into a graveyard from a field, put that resonator into its owner's field." />
+		<property name="Text" value="When added resonator is put into a graveyard from a field, put that resonator into its owner&apos;s field." />
     </card>
  	<card id="ee68ec33-2dc9-4eec-9176-42ee8665271c" name="Liberate the World">
 		<property name="Cluster" value="Grimm" />
@@ -564,7 +564,7 @@
 		<property name="Cost" value="Wi" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="Put target fire or darkness resonator on top of its owner's main deck." />
+		<property name="Text" value="Put target fire or darkness resonator on top of its owner&apos;s main deck." />
     </card>
  	<card id="261737c7-9083-46a6-809f-2e17c448e032" name="Aria, the Last Vampire">
 		<property name="Cluster" value="Grimm" />
@@ -615,11 +615,11 @@
 		<property name="Rarity" value="R" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Human" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
+		<property name="Cost" value="DD" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="500" />
 		<property name="Text" value="[Awakening] D: [Enter] Search your main deck for a card named &quot;Book of Eibon&quot;, reveal it and put it into your hand. Then shuffle your main deck. [Activate] D D 1: Target resonator gains [-400/-400] until end of turn." />
     </card>
  	<card id="c6523136-d435-4ae9-8d70-2f11542fa023" name="Grusbalesta, the Keeper of Magic Stones">
@@ -690,7 +690,7 @@
 		<property name="Cost" value="2DD" />
 		<property name="Atk" value="800" />
 		<property name="Def" value="800" />
-		<property name="Text" value=" 	[Incarnation] D, D or F (You may banish one darkness resonator and one fire or darkness resonator rather than pay this card's cost.) [Enter] You may look at target player's hand and choose a card. He or she discards that card." />
+		<property name="Text" value=" 	[Incarnation] D, D or F (You may banish one darkness resonator and one fire or darkness resonator rather than pay this card&apos;s cost.) [Enter] You may look at target player&apos;s hand and choose a card. He or she discards that card." />
     </card>
  	<card id="160146e4-25dd-4223-9ecb-962aec60d68e" name="Ritual of Millennia">
 		<property name="Cluster" value="Grimm" />
@@ -704,7 +704,7 @@
 		<property name="Cost" value="DD" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="Choose target resonator from a graveyard that was put into that zone this turn and put it into its owner's field." />
+		<property name="Text" value="Choose target resonator from a graveyard that was put into that zone this turn and put it into its owner&apos;s field." />
     </card>
 	</cards>
 </set>

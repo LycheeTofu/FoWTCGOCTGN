@@ -20,19 +20,19 @@
 		<property name="Def" value="600" />
 		<property name="Text" value="When this card enters your field, you may destroy target addition. " />
     </card>
- 	<card id="e0f23340-fe4e-4d27-af06-55567e4370cd" name="Excalibur, the God's Sword">
+ 	<card id="e0f23340-fe4e-4d27-af06-55567e4370cd" name="Excalibur, the God&#39;s Sword">
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="VS01"/>
 		<property name="Number" value="002" />
 		<property name="Rarity" value="R" />
 		<property name="Type" value="Regalia" />
-		<property name="Subtype" value="God's Item" />
+		<property name="Subtype" value="God&#39;s Item" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="0" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="Your J-Ruler gains [Target Attack]. Rest: Your J-Ruler gains [+200/+200] until end of turn. If it's &quot;Faria, the Ruler of God Sword&quot; it gains [Imperishable] until end of turn and you may pay Void 2 less to play its God's Art abilities this turn. Discard this card: Produce L. Banish this card: Your J-Ruler gains [Imperishable] this turn." />
+		<property name="Text" value="Your J-Ruler gains [Target Attack]. &#13;&#10; Rest: Your J-Ruler gains [+200/+200] until end of turn. If it&#39;s &quot;Faria, the Ruler of God Sword&quot; it gains [Imperishable] until end of turn and you may pay Void 2 less to play its God&#39;s Art abilities this turn. &#13;&#10; Discard this card: Produce L. &#13;&#10; Banish this card: Your J-Ruler gains [Imperishable] this turn." />
     </card>
 	<card id="c012da79-0339-4771-a946-d837ec0be7ef" name="Faria, the Sacred Queen">
 		<property name="Cluster" value="Alice" />
@@ -46,15 +46,14 @@
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="[J-Activate] Pay L L 
-		L L: Gain 200 life. " />
+		<property name="Text" value="[J-Activate] Pay LL &#13;&#10; LL: Gain 200 life." />
 		<alternate name="Faria, the Ruler of God Sword" type="jruler">
 			<property name="Number" value="003J" />
 			<property name="Type" value="J-Ruler" />
 			<property name="Race/Trait" value="Seven Kings" />
 			<property name="Atk" value="800" />
 			<property name="Def" value="800" />
-			<property name="Text" value=" 	[Target Attack] (This card can attack recovered J/resonators.) When this card enters your field, put the top card of your magic stone into your magic stone area. Whenever this card attacks, recover target Regalia you control. God's Art<God's Breath> L L 4 : Recover all resonators you control. Play God's Art <God's Breath> only once per game." />
+			<property name="Text" value=" 	[Target Attack] (This card can attack recovered J/resonators.) When this card enters your field, put the top card of your magic stone into your magic stone area. &#13;&#10; Whenever this card attacks, recover target Regalia you control. &#13;&#10; God&#39;s Art<God&#39;s Breath> 4LL : Recover all resonators you control. Play God&#39;s Art <God&#39;s Breath> only once per game." />
 		</alternate>
     </card>
  	<card id="ad0c2ad7-54fc-4eba-a309-13c6786e6218" name="Galahad, the Son of the God">
@@ -83,9 +82,9 @@
 		<property name="Cost" value="LL" />
 		<property name="Atk" value="300" />
 		<property name="Def" value="700" />
-		<property name="Text" value="Other Knight of the Round Table resonators you control gain [+200/+200]. Whenever this card attacks or blocks, rest target resonator." />
+		<property name="Text" value="Other Knight of the Round Table resonators you control gain [+200/+200]. &#13;&#10; Whenever this card attacks or blocks, rest target resonator." />
     </card>
- 	<card id="1c232319-a288-4ac8-9cde-1b71f26c82d6" name="Gloria's Castle Town">
+ 	<card id="1c232319-a288-4ac8-9cde-1b71f26c82d6" name="Gloria&#39;s Castle Town">
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="VS01"/>
 		<property name="Number" value="006" />
@@ -111,7 +110,7 @@
 		<property name="Cost" value="4L" />
 		<property name="Atk" value="1200" />
 		<property name="Def" value="1200" />
-		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].) You may pay 2 less to play this card for each resonator that entered your field this turn." />
+		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].) &#13;&#10; You may pay 2 less to play this card for each resonator that entered your field this turn." />
     </card>
  	<card id="ae4420b1-9c04-452f-b2ae-f9ad9ce73e64" name="Herald of Sacred Queen">
 		<property name="Cluster" value="Alice" />
@@ -127,7 +126,7 @@
 		<property name="Def" value="300" />
 		<property name="Text" value="When this card enters your field, search your main deck for a card named &quot;Herald of Sacred Queen&quot;, reveal it and put it into your hand. Then shuffle your main deck." />
     </card>
- 	<card id="c39fa66a-d468-4b07-a5ac-152b4e508e22" name="Justice of God's Sword">
+ 	<card id="c39fa66a-d468-4b07-a5ac-152b4e508e22" name="Justice of God&#39;s Sword">
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="VS01"/>
 		<property name="Number" value="009" />
@@ -167,7 +166,7 @@
 		<property name="Cost" value="L" />
 		<property name="Atk" value="200" />
 		<property name="Def" value="200" />
-		<property name="Text" value="When this card enters your field, reveal the top five cards of your main deck. You may put a Regalia or Knight of the Round Table among them into your hand. Put the rest to the bottom of your main deck in any order. Banish this card: Prevent all damage that would be dealt to target J-ruler or Knight of the Round Table until end of turn." />
+		<property name="Text" value="When this card enters your field, reveal the top five cards of your main deck. You may put a Regalia or Knight of the Round Table among them into your hand. Put the rest to the bottom of your main deck in any order. &#13;&#10; Banish this card: Prevent all damage that would be dealt to target J-ruler or Knight of the Round Table until end of turn." />
     </card>
  	<card id="5833524c-b335-496e-b180-f7fe55012f01" name="Pride of Knights">
 		<property name="Cluster" value="Alice" />
@@ -209,7 +208,7 @@
 		<property name="Cost" value="2L" />
 		<property name="Atk" value="600" />
 		<property name="Def" value="600" />
-		<property name="Text" value="As long as you control another Knight of the Round Table, this card gains [Swiftness] Whenever this card attacks, resonators you control gain [+100/+0] until end of turn." />
+		<property name="Text" value="As long as you control another Knight of the Round Table, this card gains [Swiftness]. &#13;&#10; Whenever this card attacks, resonators you control gain [+100/+0] until end of turn." />
     </card>
  	<card id="e355dc86-d355-4124-ac3f-570ae6b2937e" name="Veteran Master">
 		<property name="Cluster" value="Alice" />
@@ -295,7 +294,7 @@
 		<property name="Def" value="1200" />
 		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].) You may pay 1 less to play this card for each resonator put into a graveyard from your field this turn." />
     </card>
- 	<card id="2f9e0fe2-08d3-4ba2-9ab1-9313a268e421" name="Flame King's Shout">
+ 	<card id="2f9e0fe2-08d3-4ba2-9ab1-9313a268e421" name="Flame King&#39;s Shout">
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="VS01"/>
 		<property name="Number" value="021" />
@@ -321,7 +320,7 @@
 		<property name="Cost" value="2F" />
 		<property name="Atk" value="600" />
 		<property name="Def" value="600" />
-		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].) F: This card gains [+200/+0] until end of turn." />
+		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].) &#13;&#10; F: This card gains [+200/+0] until end of turn." />
     </card>
  	<card id="f55474cc-f249-4b99-9477-48bb09925e9a" name="Flash of Demon Sword">
 		<property name="Cluster" value="Alice" />
@@ -349,7 +348,7 @@
 		<property name="Cost" value="F" />
 		<property name="Atk" value="200" />
 		<property name="Def" value="400" />
-		<property name="Text" value="Rest, banish a resonator: Draw two cards, then discard a card. F, Rest: Target resonator you control gains [+400/+400] until end of turn. When it deals or is dealt damage this turn, banish it." />
+		<property name="Text" value="Rest, banish a resonator: Draw two cards, then discard a card. &#13;&#10; F, Rest: Target resonator you control gains [+400/+400] until end of turn. When it deals or is dealt damage this turn, banish it." />
     </card>
  	<card id="d380ca43-1705-408e-8dea-2c8a225332fe" name="Hector de Maris, the Acolyte of Mad Demon">
 		<property name="Cluster" value="Alice" />
@@ -371,13 +370,13 @@
 		<property name="Number" value="026" />
 		<property name="Rarity" value="R" />
 		<property name="Type" value="Regalia" />
-		<property name="Subtype" value="God's Item" />
+		<property name="Subtype" value="God&#39;s Item" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="0" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="Your J-Ruler gains [Swiftness]. Rest: Until end of turn, if your J-ruler would deal damage, it deals that much +200 damage instead. If you J-Ruler is &quot;Melgis, the One Charmed by the Demon Sword&quot;, it gains [Imperishable] until end of turn and you may pay Void 2 less ot play it's God's Art abilities this turn. Banish a resonator: Recover this card. Discard another copy of &quot;Laevateinn, the Demon Sword&quot;: Produce F. Banish this card: Your J-Ruler gains [Imperishable] this turn." />
+		<property name="Text" value="Your J-Ruler gains [Swiftness]. &#13;&#10; Rest: Until end of turn, if your J-ruler would deal damage, it deals that much +200 damage instead. If you J-Ruler is &quot;Melgis, the One Charmed by the Demon Sword&quot;, it gains [Imperishable] until end of turn and you may pay Void 2 less ot play it&#39;s God&#39;s Art abilities this turn. &#13;&#10; Banish a resonator: Recover this card. &#13;&#10; Discard another copy of &quot;Laevateinn, the Demon Sword&quot;: Produce F. &#13;&#10; Banish this card: Your J-Ruler gains [Imperishable] this turn." />
     </card>
  	<card id="98f0a41a-9fdf-4b94-8672-d78f9c69f554" name="Lancelot, the Knight of Mad Demon">
 		<property name="Cluster" value="Alice" />
@@ -391,7 +390,7 @@
 		<property name="Cost" value="FF" />
 		<property name="Atk" value="600" />
 		<property name="Def" value="600" />
-		<property name="Text" value="[Swiftness] (This card can attack and play its Rest abilities the same turn it enters a field.) As you choose a card to attack, you must choose this card if able. Whenever this card attacks, if this card's ATK is 1000 or more, this card deals 700 damage to target resonator. F: This card gains [+100/+0] until end of turn. " />
+		<property name="Text" value="[Swiftness] (This card can attack and play its Rest abilities the same turn it enters a field.) As you choose a card to attack, you must choose this card if able. Whenever this card attacks, if this card&#39;s ATK is 1000 or more, this card deals 700 damage to target resonator. &#13;&#10; F: This card gains [+100/+0] until end of turn. " />
     </card>
 	<card id="06adfd13-aba9-4ef5-929a-d90203c713b8" name="Melgis, the Flame King">
 		<property name="Cluster" value="Alice" />
@@ -412,8 +411,8 @@
 			<property name="Type" value="J-Ruler" />
 			<property name="Race/Trait" value="Seven Kings" />
 			<property name="Atk" value="1000" />
-			<property name="Def" value="5000" />
-			<property name="Text" value="[First Strike] (While attacking, this card deals battle damage first to the blocked or attacked object.) When this card enters your field, put the top card of your magic stone into your magic stone area. F banish a magic stone or resonator: This card deals 300 damage to target resonator. God's Art<Unleash the Demon Sword> F F 4 : Destroy target resonator. This card gains [+X/+0] until end of turn, where X is the ATK of the destroyed resonator. Play God's Art <Unleash the Demon Sword> only once per game. " />
+			<property name="Def" value="500" />
+			<property name="Text" value="[First Strike] (While attacking, this card deals battle damage first to the blocked or attacked object.) When this card enters your field, put the top card of your magic stone into your magic stone area. F, banish a magic stone or resonator: This card deals 300 damage to target resonator. God&#39;s Art<Unleash the Demon Sword> 4FF : Destroy target resonator. This card gains [+X/+0] until end of turn, where X is the ATK of the destroyed resonator. Play God&#39;s Art <Unleash the Demon Sword> only once per game. " />
 		</alternate>
     </card>
  	<card id="095d609b-9631-42bd-b8d0-f44ce7cd9c64" name="Mordred, the Traitor">
