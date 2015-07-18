@@ -681,7 +681,7 @@
 		<property name="Rarity" value="R" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="" />
+		<property name="Race/Trait" value="Fairy Tale" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="Wa" />
 		<property name="Atk" value="500" />

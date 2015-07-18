@@ -40,7 +40,7 @@ def tap(card, x = 0, y = 0):
 def jactivate(card, x = 0, y = 0):
     mute()
     if card.alternate == "":
-        notify("{} J-Activates {} to {}".format(me, card, card.alternateProperty("jruler", "name")))
+        notify("{} J-Activates {} to {}".format(me, card.alternateProperty("jruler", "name"), card))
         card.switchTo('jruler')
     else:
         card.switchTo()
@@ -58,6 +58,16 @@ def flip(card, x = 0, y = 0):
 def discard(card, x = 0, y = 0):
 	card.moveTo(me.piles['Discard Pile'])
 	notify("{} discards {}".format(me, card))
+	
+def destroy(card, x = 0, y = 0):
+	mute()
+	card.moveTo(me.piles['Discard Pile'])
+	notify("{} was sent to {} graveyard.".format(card.name, me))
+
+def rfg(card, x = 0, y = 0):
+	mute()
+	card.moveTo(me.piles['Removed From Game'])
+	notify("{} was sent to {} Remove From Game zone.".format(card.name, me))
 
 def addCounter(card, x = 0, y = 0):
 	mute()
@@ -100,6 +110,11 @@ def mulligan(group):
     me.piles["Life Deck"].shuffle()
     for card in me.piles["Life Deck"].top(newCount):
         card.moveTo(me.hand)
+		
+def discard(card):
+	mute()
+	card.moveTo(me.piles['Discard Pile'])
+	notify("{} discarded {} from his/her hand.".format(me, card.name))
 
 def randomDiscard(group):
 	mute()
@@ -135,9 +150,14 @@ def playTopStone(group):
 	if len(group) == 0: return
 	mute()
 	card = group.top()
-	card.moveToTable(0,0)
+	card.moveToTable(250,250)
 	notify("{} plays {} from the top of his/her {}.".format(me, card.name, group.name))
 
+def putTop(card):
+	mute()
+	card.moveTo(me.piles['Main Deck'])
+	notify("{} moved a card from his/her hand to the top of his/her Main Deck.".format(me))
+	
 def putBottom(card):
 	mute()
 	card.moveToBottom(me.piles['Main Deck'])
@@ -160,22 +180,24 @@ def endMyTurn(opponent = None):
       
 def nextPhase(group = table, x = 0, y = 0, setTo = None):  
 # Function to take you to the next phase. 
-   mute()
-   phase = num(me.getGlobalVariable('phase'))
-   if phase == 4: 
-      endMyTurn()
-      return  
-   else:
-      if not me.isActivePlayer and confirm("Your opponent does not seem to have ended their turn yet. Switch to your turn?"):
-         remoteCall(findOpponent(),'endMyTurn',[me])
-         rnd(1,1000) # Pause to wait until they change their turn
-      phase += 1
-      if phase == 1: goToDraw()
-      elif phase == 2: goToRecovery()
-      elif phase == 3: goToMain()
-      elif phase == 4: goToEnd()
+	mute()
+	phase = num(me.getGlobalVariable('phase'))
+	notify("* {} Phase".format(phase))
+	if phase == 4: 
+		endMyTurn()
+		return  
+	else:
+		if not me.isActivePlayer and confirm("Your opponent does not seem to have ended their turn yet. Switch to your turn?"):
+			remoteCall(findOpponent(),'endMyTurn',[me])
+			rnd(1,1000) # Pause to wait until they change their turn
+		phase += 1
+		notify("* {} Phase".format(phase))
+		if phase == 1: goToDraw()
+		elif phase == 2: goToRecovery()
+		elif phase == 3: goToMain()
+		elif phase == 4: goToEnd()
 
-def goToDraw(group = table, x = 0, y = 0): # Go directly to the Balance phase
+def goToDraw(group = table, x = 0, y = 0): # Go* directly to the Balance phase
    mute()
    me.setGlobalVariable('phase','1')
    showCurrentPhase(1)

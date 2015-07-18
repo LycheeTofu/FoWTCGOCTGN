@@ -53,7 +53,7 @@
 			<property name="Race/Trait" value="Seven Kings" />
 			<property name="Atk" value="800" />
 			<property name="Def" value="800" />
-			<property name="Text" value=" 	[Target Attack] (This card can attack recovered J/resonators.) When this card enters your field, put the top card of your magic stone into your magic stone area. &#13;&#10; Whenever this card attacks, recover target Regalia you control. &#13;&#10; God&#39;s Art<God&#39;s Breath> 4LL : Recover all resonators you control. Play God&#39;s Art <God&#39;s Breath> only once per game." />
+			<property name="Text" value=" 	[Target Attack] (This card can attack recovered J/resonators.) When this card enters your field, put the top card of your magic stone into your magic stone area. &#13;&#10; Whenever this card attacks, recover target Regalia you control. &#13;&#10; God&#39;s Art&lt;God&#39;s Breath&gt; 4LL : Recover all resonators you control. Play God&#39;s Art &lt;God&#39;s Breath&gt; only once per game." />
 		</alternate>
     </card>
  	<card id="ad0c2ad7-54fc-4eba-a309-13c6786e6218" name="Galahad, the Son of the God">
@@ -412,7 +412,7 @@
 			<property name="Race/Trait" value="Seven Kings" />
 			<property name="Atk" value="1000" />
 			<property name="Def" value="500" />
-			<property name="Text" value="[First Strike] (While attacking, this card deals battle damage first to the blocked or attacked object.) When this card enters your field, put the top card of your magic stone into your magic stone area. F, banish a magic stone or resonator: This card deals 300 damage to target resonator. God&#39;s Art<Unleash the Demon Sword> 4FF : Destroy target resonator. This card gains [+X/+0] until end of turn, where X is the ATK of the destroyed resonator. Play God&#39;s Art <Unleash the Demon Sword> only once per game. " />
+			<property name="Text" value="[First Strike] (While attacking, this card deals battle damage first to the blocked or attacked object.) When this card enters your field, put the top card of your magic stone into your magic stone area. F, banish a magic stone or resonator: This card deals 300 damage to target resonator. God&#39;s Art&lt;Unleash the Demon Sword&gt; 4FF : Destroy target resonator. This card gains [+X/+0] until end of turn, where X is the ATK of the destroyed resonator. Play God&#39;s Art &lt;Unleash the Demon Sword&gt; only once per game. " />
 		</alternate>
     </card>
  	<card id="095d609b-9631-42bd-b8d0-f44ce7cd9c64" name="Mordred, the Traitor">

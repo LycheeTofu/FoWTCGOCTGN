@@ -3,13 +3,14 @@
       xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
       name="Force of Will Trading Card Game" 
       id="5c1280cc-f52d-4060-b0d9-11363df285fe" 
-      octgnVersion="3.1.1.0" 
-      version="0.0.0.1"
+      octgnVersion="3.1.127.0"
+      version="0.0.1.0"
       markersize="20"
       tags="Force of Will, FoW, FoW TCG, FoWTCG, Force of Will Trading Card Game"
       description="Force of Will Trading Card Game, by the Force of Will Co. Provided by ForcedTheWill.com"
-      setsurl="http://majime.co/FoWTCG/OCTGN/"
-      gameurl="http://majime.co/FoWTCG/OCTGN/"
+      setsurl="http://forcedthewill.com/FoWTCG/OCTGN/"
+      gameurl="http://forcedthewill.com/FoWTCG/OCTGN/"
+	  scriptVersion="3.1.0.1"
 	  iconurl="http://majime.co/FoWTCG/OCTGN/FoW_Main_Image.png"
       authors="Tim Cao">
 <scripts>
@@ -39,7 +40,7 @@
     <property name="Def" type="String" />
 	<property name="Text" type="String" />
 </card>
-<table name="Table" visibility="undefined" ordered="False" width="500" height="380" background="Background/Background.png" backgroundStyle="uniformToFill">
+<table name="Table" visibility="undefined" ordered="False" width="1200" height="600" background="Background/Background.png" backgroundStyle="uniformToFill">
    <groupaction menu="Recover all" shortcut="Ctrl+U" execute="recoverAll" />
    <groupaction menu="Clear targets" shortcut="Ctrl+C" execute="clearAll" />
    <groupaction menu="Roll a die" shortcut="Ctrl+R" execute="roll20" />
@@ -47,7 +48,7 @@
    <cardaction menu="Flip Card" execute="flip" />
    <cardaction menu="Use Card" default="True" execute="useCard"/>
    <cardaction menu="J-Activate" shortcut="Ctrl+J" execute="jactivate" />
-	<cardaction menu="Destroy/Banish" shortcut="Del" execute="discard" />
+	<cardaction menu="Destroy/Banish" shortcut="Del" execute="destroy" />
    <cardaction menu="Add Counter" shortcut="F1" execute="addCounter" />
    <cardaction menu="Remove Counter" shortcut="F2" execute="removeCounter" />
 	<cardaction menu="Set Counter" shortcut="F3" execute="setCounter" />
@@ -65,6 +66,7 @@
 	<cardaction menu="Play Card" default="True" execute="play" />
 	<cardaction menu="Play Face-Down" execute="playFaceDown" />
 	<groupaction menu="Random Discard" execute="randomDiscard" />
+	<cardaction menu="Put at top of deck" execute="putTop" />
 	<cardaction menu="Put at bottom of deck" execute="putBottom" />
 </hand>
 	<group name="Main Deck" visibility="none" width="63" height="88" icon="Groups/deck.png" shortcut="F5">
