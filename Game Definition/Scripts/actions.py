@@ -88,13 +88,21 @@ def setCounter(card, x = 0, y = 0):
 def play(card, x = 0, y = 0):
 	mute()
 	src = card.group
-	card.moveToTable(0, 0)
+	if me.hasInvertedTable():
+		card.moveToTable(playerside() * 0, -200)
+	else:
+		card.moveToTable(playerside() * 0, 100)
 	notify("{} plays {} from their {}.".format(me, card, src.name))
 	
 def playFaceDown(card, x = 0, y = 0):
 	mute()
 	src = card.group
-	card.moveToTable(0,0, True)
+	if me.hasInvertedTable():
+		card.moveToTable(playerside() * 250, -325, True)
+	else:
+		card.moveToTable(playerside() * 250, 225, True)
+	whisper("You played {} face down.".format(card.name))
+	card.isFaceUp = False
 	notify("{} plays a card from their {} face down.".format(me, src.name))
 
 def mulligan(group):
@@ -150,7 +158,10 @@ def playTopStone(group):
 	if len(group) == 0: return
 	mute()
 	card = group.top()
-	card.moveToTable(250,250)
+	if me.hasInvertedTable():
+		card.moveToTable(playerside() * -250, -325)
+	else:
+		card.moveToTable(playerside() * -250, 225)
 	notify("{} plays {} from the top of his/her {}.".format(me, card.name, group.name))
 
 def putTop(card):

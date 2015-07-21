@@ -670,7 +670,7 @@ def giveCard(card,player,pile = None): # Passes control of a card to a given pla
 # Card Placement functions
 #---------------------------------------------------------------------------
 
-def cwidth(card = None, divisor = 10):
+def cwidth(card, divisor = 10):
 #debugNotify(">>> cwidth(){}".format(extraASDebug())) #Debug
 # This function is used to always return the width of the card plus an offset that is based on the percentage of the width of the card used.
 # The smaller the number given, the less the card is divided into pieces and thus the larger the offset added.
@@ -679,16 +679,16 @@ def cwidth(card = None, divisor = 10):
 # Thus, no matter what the size of the table and cards becomes, the distances used will be relatively the same.
 # The default is to return an offset equal to 1/10 of the card width. A divisor of 0 means no offset.
    if divisor == 0: offset = 0
-   else: offset = CardWidth / divisor
-   return (CardWidth + offset)
+   else: offset = card.width / divisor
+   return (card.width + offset)
 
-def cheight(card = None, divisor = 10):
+def cheight(card, divisor = 10):
    #debugNotify(">>> cheight(){}".format(extraASDebug())) #Debug
    if divisor == 0: offset = 0
-   else: offset = CardHeight / divisor
-   return (CardHeight + offset)
+   else: offset = card.height / divisor
+   return (card.height + offset)
 
-def yaxisMove(card = None):
+def yaxisMove(card):
    #debugNotify(">>> yaxisMove(){}".format(extraASDebug())) #Debug
 # Variable to move the cards played by player 2 on a 2-sided table, more towards their own side. 
 # Player's 2 axis will fall one extra card length towards their side.

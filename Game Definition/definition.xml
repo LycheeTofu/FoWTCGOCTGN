@@ -4,7 +4,7 @@
       name="Force of Will Trading Card Game" 
       id="5c1280cc-f52d-4060-b0d9-11363df285fe" 
       octgnVersion="3.1.127.0"
-      version="0.0.1.0"
+      version="0.0.2.0"
       markersize="20"
       tags="Force of Will, FoW, FoW TCG, FoWTCG, Force of Will Trading Card Game"
       description="Force of Will Trading Card Game, by the Force of Will Co. Provided by ForcedTheWill.com"
@@ -26,7 +26,7 @@
 </documents>
 <globalvariables>
 </globalvariables>
-<card back="Card/Card_Back.png" front="Card/Card_Back.png" width="63" height="88">
+<card back="Card/Card_Back.png" front="Card/Card_Back.png" width="60" height="100">
 	<property name="Cluster" type="String" />
 	<property name="Set" type="String"/>
 	<property name="Number" type="String" />
@@ -40,7 +40,7 @@
     <property name="Def" type="String" />
 	<property name="Text" type="String" />
 </card>
-<table name="Table" visibility="undefined" ordered="False" width="1200" height="600" background="Background/Background.png" backgroundStyle="uniformToFill">
+<table name="Table" visibility="all" ordered="False" width="1200" height="600" background="Background/Background.png" backgroundStyle="uniformToFill">
    <groupaction menu="Recover all" shortcut="Ctrl+U" execute="recoverAll" />
    <groupaction menu="Clear targets" shortcut="Ctrl+C" execute="clearAll" />
    <groupaction menu="Roll a die" shortcut="Ctrl+R" execute="roll20" />
@@ -74,9 +74,9 @@
     <groupaction menu="Draw X..." shortcut="Ctrl+X" execute="drawMany" />
     <groupaction menu="Shuffle" shortcut="Ctrl+S" execute="shuffle" />
     </group>
-	<group name="Magic Stone Deck" visibility="none" width="63" height="88" icon="Groups/deck.png" shortcut="F6">
-	<groupaction menu="Play Top Card" shortcut="Ctrl+E" execute="playTopStone" />
-	<groupaction menu="Shuffle Stone Deck" shortcut="Ctrl+A" execute="shuffle" />
+		<group name="Magic Stone Deck" visibility="none" width="63" height="88" icon="Groups/deck.png" shortcut="F6">
+		<groupaction menu="Play Top Card" shortcut="Ctrl+E" execute="playTopStone" />
+		<groupaction menu="Shuffle Stone Deck" shortcut="Ctrl+A" execute="shuffle" />
 	</group>
     <group name="Discard Pile" visibility="all" icon="Groups/discard.png" width="63" height="88" shortcut="F7"></group>
     <group name="Removed From Game" visibility="all" icon="Groups/discard.png" width="63" height="88" collapsed="False" shortcut="F8"></group>
