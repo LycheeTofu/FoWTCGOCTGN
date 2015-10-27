@@ -1240,14 +1240,14 @@
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="TAT"/>
 		<property name="Number" value="086" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
 		<property name="Race/Trait" value="" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
+		<property name="Cost" value="2DD" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="600" />
 		<property name="Text" value="[Continuous] You may pay 1 less to play Card Soldier resonators. [Enter] Put up to one target card named &quot;Card Soldier &quot;Spade&quot;&quot;, up to one target card named &quot;Card Soldier &quot;Club&quot;&quot;, up to one target card named &quot;Card Soldier &quot;Diamond&quot;&quot; and up to one target card named &quot;Card Soldier &quot;Heart&quot;&quot; from your graveyard into your hand. [Activate] Rest, banish two Card Soldiers: Destroy target resonator." />
     </card>
 	<card id="4749f260-4da3-4095-90c3-d7d9ce72c2ce" name="Spire Shadow Drake">
