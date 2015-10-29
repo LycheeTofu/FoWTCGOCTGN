@@ -794,7 +794,7 @@
 		<property name="Def" value="" />
 		<property name="Text" value="Target player cannot play normal spells and summon spells until end of turn." />
     </card>
-	<card id="8f9106fe-c6e7-4c89-b2e4-d80c0eb80f13" name="Minamoto no Yoshitsune">
+	<card id="07ea0256-6c27-4449-9266-0b12a34e0935" name="Minamoto no Yoshitsune">
 		<property name="Cluster" value="Grimm" />
 		<property name="Set" value="VIN"/>
 		<property name="Number" value="055" />
