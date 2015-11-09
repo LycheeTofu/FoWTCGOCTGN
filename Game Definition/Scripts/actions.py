@@ -1,7 +1,31 @@
 
 ####################################################
 CounterMarker =("Counter", "d363274a-cb0f-410d-ae66-9792e4535486")
-	
+
+def lifeChangeEvent(args):
+    mute()
+    if args.scripted == True:
+        return
+    if args.player != me:
+        return
+    if args.counter.name != "Life":
+        return
+    oldLife = args.value
+    if me.Life - oldLife == 1:
+        me.Life += 99
+    elif me.Life - oldLife == -1:
+        me.Life -= 99
+
+def gainLife(group, x = 0, y = 0):
+    mute()
+    me.Life += 100
+    notify("{} gains 100 life.".format(me))
+
+def loseLife(group, x = 0, y = 0):
+    mute()
+    me.Life -= 100
+    notify("{} loses 100 life.".format(me))
+
 def recoverAll(group, x = 0, y = 0):
 	mute()
 	notify("{} recovers all of his/her cards".format(me))
@@ -36,24 +60,25 @@ def tap(card, x = 0, y = 0):
 		notify('{} rests {}'.format(me, card))
     else:
         notify('{} recovers {}'.format(me, card))
-		  
-def jactivate(card, x = 0, y = 0):
-    mute()
-    if card.alternate == "":
-        notify("{} J-Activates {} to {}".format(me, card.alternateProperty("jruler", "name"), card))
-        card.switchTo('jruler')
-    else:
-        card.switchTo()
-        notify("{} reverts {} back to {}.".format(me, card.alternateProperty("jruler", "name"), card))
-		
+
 def flip(card, x = 0, y = 0):
     mute()
-    if card.isFaceUp:
-        notify("{} flips {} face down.".format(me, card))
-        card.isFaceUp = False
+    if "jruler" in card.alternates:
+        if card.isFaceUp == False:
+            card.isFaceUp = True
+        if card.alternate == "":
+            notify("{} J-Activates {} to {}".format(me, card.alternateProperty("jruler", "name"), card))
+            card.alternate = 'jruler'
+        else:
+            card.alternate = ''
+            notify("{} reverts {} back to {}.".format(me, card.alternateProperty("jruler", "name"), card))
     else:
-        card.isFaceUp = True
-        notify("{} flips {} face up.".format(me, card))
+        if card.isFaceUp:
+            notify("{} flips {} face down.".format(me, card))
+            card.isFaceUp = False
+        else:
+            card.isFaceUp = True
+            notify("{} flips {} face up.".format(me, card))
 
 def discard(card, x = 0, y = 0):
 	card.moveTo(me.piles['Discard Pile'])
@@ -88,7 +113,7 @@ def setCounter(card, x = 0, y = 0):
 def play(card, x = 0, y = 0):
 	mute()
 	src = card.group
-	if me.hasInvertedTable():
+	if me.isInverted:
 		card.moveToTable(playerside() * 0, -200)
 	else:
 		card.moveToTable(playerside() * 0, 100)
@@ -97,7 +122,7 @@ def play(card, x = 0, y = 0):
 def playFaceDown(card, x = 0, y = 0):
 	mute()
 	src = card.group
-	if me.hasInvertedTable():
+	if me.isInverted == True:
 		card.moveToTable(playerside() * 250, -325, True)
 	else:
 		card.moveToTable(playerside() * 250, 225, True)
@@ -105,20 +130,6 @@ def playFaceDown(card, x = 0, y = 0):
 	card.isFaceUp = False
 	notify("{} plays a card from their {} face down.".format(me, src.name))
 
-def mulligan(group):
-    mute()
-    newCount = len(group) - 1
-    if newCount < 0: return
-    if not confirm("Mulligan down to %i ?" % newCount): return
-    notify("{} mulls down to {}".format(me, newCount))
-    librarycount = len(me.piles["Life Deck"])
-    for card in group:
-        n = rnd(0, librarycount)
-        card.moveTo(me.piles["Life Deck"], n)
-    me.piles["Life Deck"].shuffle()
-    for card in me.piles["Life Deck"].top(newCount):
-        card.moveTo(me.hand)
-		
 def discard(card):
 	mute()
 	card.moveTo(me.piles['Discard Pile'])
@@ -158,7 +169,7 @@ def playTopStone(group):
 	if len(group) == 0: return
 	mute()
 	card = group.top()
-	if me.hasInvertedTable():
+	if me.isInverted:
 		card.moveToTable(playerside() * -250, -325)
 	else:
 		card.moveToTable(playerside() * -250, 225)
@@ -251,7 +262,7 @@ def fetchAllOpponents(targetPL = me):
    return opponentList   
 
 def playerside():
-   if me.hasInvertedTable(): side = -1
+   if me.isInverted: side = -1
    else: side = 1   
    return side
    

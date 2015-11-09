@@ -1,23 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <game xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
       xmlns:xsd="http://www.w3.org/2001/XMLSchema" 
-      name="Force of Will Trading Card Game" 
+      name="Force of Will TCG" 
       id="5c1280cc-f52d-4060-b0d9-11363df285fe" 
       octgnVersion="3.1.127.0"
-      version="0.0.2.0"
+      version="0.1.0.2"
       markersize="20"
       tags="Force of Will, FoW, FoW TCG, FoWTCG, Force of Will Trading Card Game"
       description="Force of Will Trading Card Game, by the Force of Will Co. Provided by ForcedTheWill.com"
       setsurl="http://forcedthewill.com/FoWTCG/OCTGN/"
       gameurl="http://forcedthewill.com/FoWTCG/OCTGN/"
-	  scriptVersion="3.1.0.1"
+	  scriptVersion="3.1.0.2"
 	  iconurl="http://majime.co/FoWTCG/OCTGN/FoW_Main_Image.png"
       authors="Tim Cao">
 <scripts>
 <script src="scripts/actions.py" />
-<script src="scripts/generic.py" />
 <script src="scripts/constants.py" />
 </scripts>
+  <events>
+	<event name="OnCounterChanged" action="lifeChangeEvent" />
+  </events>
 <fonts>
 </fonts>
 <proxygen definitionsrc="proxy/proxydef.xml">
@@ -26,28 +28,29 @@
 </documents>
 <globalvariables>
 </globalvariables>
-<card back="Card/Card_Back.png" front="Card/Card_Back.png" width="60" height="100">
+<card back="Card/Card_Back.png" front="Card/Card_Front_Normal.png" width="63" height="88" cornerRadius="2">
 	<property name="Cluster" type="String" />
 	<property name="Set" type="String"/>
 	<property name="Number" type="String" />
-    <property name="Rarity" type="String" />
-    <property name="Type" type="String" />
-	<property name="Subtype" type="String" />
-	<property name="Race/Trait" type="String" />
-	<property name="J-Ruler" type="String" />
-	<property name="Cost" type="String" />
-	<property name="Atk" type="String" />
-    <property name="Def" type="String" />
+    <property name="Rarity" type="String" textKind="Enum"/>
+    <property name="Type" type="String" textKind="Enum"/>
+	<property name="Subtype" type="String" textKind="Enum"/>
+	<property name="Trait" type="String" textKind="Tokens"/>
+	<property name="J-Ruler" type="String" textKind="Enum"/>
+	<property name="Cost" type="String" textKind="Enum"/>
+	<property name="Atk" type="String" textKind="Enum"/>
+    <property name="Def" type="String" textKind="Enum"/>
 	<property name="Text" type="String" />
 </card>
-<table name="Table" visibility="all" ordered="False" width="1200" height="600" background="Background/Background.png" backgroundStyle="uniformToFill">
+<table name="Table" visibility="undefined" ordered="False" width="1200" height="600" background="Background/Background.png" backgroundStyle="uniformToFill">
+    <groupaction menu="Lose 100 Life" shortcut="ctrl+Q" execute="loseLife" />
+    <groupaction menu="Gain 100 Life" shortcut="ctrl+W" execute="gainLife" />
    <groupaction menu="Recover all" shortcut="Ctrl+U" execute="recoverAll" />
-   <groupaction menu="Clear targets" shortcut="Ctrl+C" execute="clearAll" />
+   <groupaction menu="Clear targets" shortcut="esc" execute="clearAll" />
    <groupaction menu="Roll a die" shortcut="Ctrl+R" execute="roll20" />
    <groupaction menu="Flip a coin" shortcut="Ctrl+F" execute="flipCoin" />
    <cardaction menu="Flip Card" execute="flip" />
    <cardaction menu="Use Card" default="True" execute="useCard"/>
-   <cardaction menu="J-Activate" shortcut="Ctrl+J" execute="jactivate" />
 	<cardaction menu="Destroy/Banish" shortcut="Del" execute="destroy" />
    <cardaction menu="Add Counter" shortcut="F1" execute="addCounter" />
    <cardaction menu="Remove Counter" shortcut="F2" execute="removeCounter" />
@@ -60,14 +63,16 @@
       <groupaction menu="Move to End Phase." default="False" shortcut="F8" execute="goToEnd" />
    </groupactions>
 </table>
-<player summary="Hand Size: {#Hand}">
+<player summary="Life:{#Life} | Hand Size: {#Hand}">
    <globalvariable name="phase" value="0" /> 
+    <counter name="Life" icon="Counters/life.png" default="4000" />
 	<hand name="Hand" visibility="me" ordered="False" icon="Groups/Hand.png" width="63" height="88" >
 	<cardaction menu="Play Card" default="True" execute="play" />
 	<cardaction menu="Play Face-Down" execute="playFaceDown" />
 	<groupaction menu="Random Discard" execute="randomDiscard" />
-	<cardaction menu="Put at top of deck" execute="putTop" />
-	<cardaction menu="Put at bottom of deck" execute="putBottom" />
+	<cardaction menu="Discard Card" shortcut="del" execute="discard" />
+	<cardaction menu="Move to Top of Deck" execute="putTop" />
+	<cardaction menu="Move to Bottom of Deck" execute="putBottom" />
 </hand>
 	<group name="Main Deck" visibility="none" width="63" height="88" icon="Groups/deck.png" shortcut="F5">
     <groupaction menu="Draw" default="True" shortcut="Ctrl+D" execute="draw" />
@@ -76,7 +81,7 @@
     </group>
 		<group name="Magic Stone Deck" visibility="none" width="63" height="88" icon="Groups/deck.png" shortcut="F6">
 		<groupaction menu="Play Top Card" shortcut="Ctrl+E" execute="playTopStone" />
-		<groupaction menu="Shuffle Stone Deck" shortcut="Ctrl+A" execute="shuffle" />
+		<groupaction menu="Shuffle Stone Deck" shortcut="Ctrl+Shift+S" execute="shuffle" />
 	</group>
     <group name="Discard Pile" visibility="all" icon="Groups/discard.png" width="63" height="88" shortcut="F7"></group>
     <group name="Removed From Game" visibility="all" icon="Groups/discard.png" width="63" height="88" collapsed="False" shortcut="F8"></group>
