@@ -5,6 +5,11 @@
      gameId="5c1280cc-f52d-4060-b0d9-11363df285fe" 
      gameVersion="0.0.0.1" 
      version="0.0.0.1">
+  <packaging>
+    <pack name="Rulers" id="8b8051f3-d5af-4612-8d10-bf4dd9273464">
+      <pick qty="unlimited" key="Type" value="Ruler" />
+    </pack>
+  </packaging>
 	<cards>
  	<card id="7ef3050d-bc83-46fd-ad69-7c4f106d8a54" name="Blessed Holy Wolf">
 		<property name="Cluster" value="Alice" />
@@ -13,26 +18,26 @@
 		<property name="Rarity" value="C" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Holy Beast" />
+		<property name="Trait" value="Holy Beast" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="1L" />
+		<property name="Cost" value="{L}{1}" />
 		<property name="Atk" value="400" />
 		<property name="Def" value="600" />
-		<property name="Text" value="When this card enters your field, you may destroy target addition. " />
+		<property name="Text" value="When this card enters your field, you may destroy target addition." />
     </card>
- 	<card id="e0f23340-fe4e-4d27-af06-55567e4370cd" name="Excalibur, the God&#39;s Sword">
+ 	<card id="e0f23340-fe4e-4d27-af06-55567e4370cd" name="Excalibur, the God's Sword">
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="VS01"/>
 		<property name="Number" value="002" />
 		<property name="Rarity" value="R" />
 		<property name="Type" value="Regalia" />
-		<property name="Subtype" value="God&#39;s Item" />
-		<property name="Race/Trait" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="God's Item" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="0" />
+		<property name="Cost" value="{0}" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="Your J-Ruler gains [Target Attack]. &#13;&#10; Rest: Your J-Ruler gains [+200/+200] until end of turn. If it&#39;s &quot;Faria, the Ruler of God Sword&quot; it gains [Imperishable] until end of turn and you may pay Void 2 less to play its God&#39;s Art abilities this turn. &#13;&#10; Discard this card: Produce L. &#13;&#10; Banish this card: Your J-Ruler gains [Imperishable] this turn." />
+		<property name="Text" value="Your J-Ruler gains [Target Attack].&#xd;&#xa;{Rest}: Your J-Ruler gains [+200/+200] until end of turn. If it's &quot;Faria, the Ruler of God Sword&quot; it gains [Imperishable] until end of turn and you may pay {2} less to play its God's Art abilities this turn.&#xd;&#xa;Discard this card: Produce {L}.&#xd;&#xa;Banish this card: Your J-Ruler gains [Imperishable] this turn." />
     </card>
 	<card id="c012da79-0339-4771-a946-d837ec0be7ef" name="Faria, the Sacred Queen">
 		<property name="Cluster" value="Alice" />
@@ -41,19 +46,19 @@
 		<property name="Rarity" value="R" />
 		<property name="Type" value="Ruler" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Seven Kings" />
+		<property name="Trait" value="Seven Kings" />
 		<property name="J-Ruler" value="Yes" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="[J-Activate] Pay LL &#13;&#10; LL: Gain 200 life." />
+		<property name="Text" value="[J-Activate] Pay {L}{L}&#xd;&#xa;{L}{L}: Gain 200 life." />
 		<alternate name="Faria, the Ruler of God Sword" type="jruler">
 			<property name="Number" value="003J" />
 			<property name="Type" value="J-Ruler" />
-			<property name="Race/Trait" value="Seven Kings" />
+			<property name="Trait" value="Seven Kings" />
 			<property name="Atk" value="800" />
 			<property name="Def" value="800" />
-			<property name="Text" value=" 	[Target Attack] (This card can attack recovered J/resonators.) When this card enters your field, put the top card of your magic stone into your magic stone area. &#13;&#10; Whenever this card attacks, recover target Regalia you control. &#13;&#10; God&#39;s Art&lt;God&#39;s Breath&gt; 4LL : Recover all resonators you control. Play God&#39;s Art &lt;God&#39;s Breath&gt; only once per game." />
+			<property name="Text" value=" 	[Target Attack] (This card can attack recovered J/resonators.) When this card enters your field, put the top card of your magic stone into your magic stone area.&#xd;&#xa;Whenever this card attacks, recover target Regalia you control.&#xd;&#xa;God's Art&lt;God's Breath&gt; 4LL: Recover all resonators you control. Play God's Art &lt;God's Breath&gt; only once per game." />
 		</alternate>
     </card>
  	<card id="ad0c2ad7-54fc-4eba-a309-13c6786e6218" name="Galahad, the Son of the God">
@@ -63,12 +68,12 @@
 		<property name="Rarity" value="R" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Knight of the Round Table" />
+		<property name="Trait" value="Knight of the Round Table" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="1L" />
+		<property name="Cost" value="{L}{1}" />
 		<property name="Atk" value="400" />
 		<property name="Def" value="400" />
-		<property name="Text" value="Whenever this card attacks, you gain 500 life. When this card is put into a graveyard from your field, rest target resonator your opponent controls." />
+		<property name="Text" value="Whenever this card attacks, you gain 500 life.&#xd;&#xa;When this card is put into a graveyard from your field, rest target resonator your opponent controls." />
     </card>
  	<card id="e081a4d5-4f24-481e-be79-21df6391eedc" name="Gawain, the Knight of the Sun">
 		<property name="Cluster" value="Alice" />
@@ -77,23 +82,23 @@
 		<property name="Rarity" value="SR" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Knight of the Round Table" />
+		<property name="Trait" value="Knight of the Round Table" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="LL" />
+		<property name="Cost" value="{L}{L}" />
 		<property name="Atk" value="300" />
 		<property name="Def" value="700" />
-		<property name="Text" value="Other Knight of the Round Table resonators you control gain [+200/+200]. &#13;&#10; Whenever this card attacks or blocks, rest target resonator." />
+		<property name="Text" value="Other Knight of the Round Table resonators you control gain [+200/+200].&#xd;&#xa;Whenever this card attacks or blocks, rest target resonator." />
     </card>
- 	<card id="1c232319-a288-4ac8-9cde-1b71f26c82d6" name="Gloria&#39;s Castle Town">
+ 	<card id="1c232319-a288-4ac8-9cde-1b71f26c82d6" name="Gloria's Castle Town">
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="VS01"/>
 		<property name="Number" value="006" />
 		<property name="Rarity" value="U" />
 		<property name="Type" value="Addition" />
 		<property name="Subtype" value="Field" />
-		<property name="Race/Trait" value="Castle" />
+		<property name="Trait" value="Castle" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="1L" />
+		<property name="Cost" value="{L}{1}" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
 		<property name="Text" value="Whenever you gain life, target resonator gains [+300/+300] until end of turn." />
@@ -105,12 +110,12 @@
 		<property name="Rarity" value="U" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Dragon" />
+		<property name="Trait" value="Dragon" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="4L" />
+		<property name="Cost" value="{L}{4}" />
 		<property name="Atk" value="1200" />
 		<property name="Def" value="1200" />
-		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].) &#13;&#10; You may pay 2 less to play this card for each resonator that entered your field this turn." />
+		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].)&#xd;&#xa;You may pay {2} less to play this card for each resonator you control that entered your field this turn." />
     </card>
  	<card id="ae4420b1-9c04-452f-b2ae-f9ad9ce73e64" name="Herald of Sacred Queen">
 		<property name="Cluster" value="Alice" />
@@ -119,23 +124,23 @@
 		<property name="Rarity" value="C" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Soldier" />
+		<property name="Trait" value="Soldier" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="1L" />
+		<property name="Cost" value="{L}{1}" />
 		<property name="Atk" value="300" />
 		<property name="Def" value="300" />
 		<property name="Text" value="When this card enters your field, search your main deck for a card named &quot;Herald of Sacred Queen&quot;, reveal it and put it into your hand. Then shuffle your main deck." />
     </card>
- 	<card id="c39fa66a-d468-4b07-a5ac-152b4e508e22" name="Justice of God&#39;s Sword">
+ 	<card id="c39fa66a-d468-4b07-a5ac-152b4e508e22" name="Justice of God's Sword">
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="VS01"/>
 		<property name="Number" value="009" />
 		<property name="Rarity" value="U" />
 		<property name="Type" value="Spell" />
 		<property name="Subtype" value="Chant" />
-		<property name="Race/Trait" value="Standby" />
+		<property name="Trait" value="Standby" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="L" />
+		<property name="Cost" value="{L}" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
 		<property name="Text" value="[Trigger] When a resonator your opponent controls attacks or blocks: This card deals 500 damage to target attacking or blocking resonator. If your control a J-Ruler, this card deals damage equal to its ATK instead." />
@@ -147,9 +152,9 @@
 		<property name="Rarity" value="C" />
 		<property name="Type" value="Spell" />
 		<property name="Subtype" value="Chant" />
-		<property name="Race/Trait" value="" />
+		<property name="Trait" value="" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="1LL" />
+		<property name="Cost" value="{L}{L}{1}" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
 		<property name="Text" value="Rest target resonator. Resonators you control gain [+400/+400] until end of turn." />
@@ -161,12 +166,12 @@
 		<property name="Rarity" value="SR" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Knight of the Round Table" />
+		<property name="Trait" value="Knight of the Round Table" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="L" />
+		<property name="Cost" value="{L}" />
 		<property name="Atk" value="200" />
 		<property name="Def" value="200" />
-		<property name="Text" value="When this card enters your field, reveal the top five cards of your main deck. You may put a Regalia or Knight of the Round Table among them into your hand. Put the rest to the bottom of your main deck in any order. &#13;&#10; Banish this card: Prevent all damage that would be dealt to target J-ruler or Knight of the Round Table until end of turn." />
+		<property name="Text" value="When this card enters your field, reveal the top five cards of your main deck. You may put a Regalia or Knight of the Round Table among them into your hand. Put the rest to the bottom of your main deck in any order.&#xd;&#xa;Banish this card: Prevent all damage that would be dealt to target J-ruler or Knight of the Round Table until end of turn." />
     </card>
  	<card id="5833524c-b335-496e-b180-f7fe55012f01" name="Pride of Knights">
 		<property name="Cluster" value="Alice" />
@@ -175,9 +180,9 @@
 		<property name="Rarity" value="C" />
 		<property name="Type" value="Spell" />
 		<property name="Subtype" value="Chant" />
-		<property name="Race/Trait" value="Instant" />
+		<property name="Trait" value="Instant" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="L" />
+		<property name="Cost" value="{L}" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
 		<property name="Text" value="Target J/resonator you control gains [+200/+200] until end of turn. You gain 200 life." />
@@ -189,9 +194,9 @@
 		<property name="Rarity" value="C" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Bishop" />
+		<property name="Trait" value="Bishop" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="L" />
+		<property name="Cost" value="{L}" />
 		<property name="Atk" value="200" />
 		<property name="Def" value="400" />
 		<property name="Text" value="When this card enters your field, you gain 400 life." />
@@ -203,12 +208,12 @@
 		<property name="Rarity" value="U" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Knight of the Round Table" />
+		<property name="Trait" value="Knight of the Round Table" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="2L" />
+		<property name="Cost" value="{L}{2}" />
 		<property name="Atk" value="600" />
 		<property name="Def" value="600" />
-		<property name="Text" value="As long as you control another Knight of the Round Table, this card gains [Swiftness]. &#13;&#10; Whenever this card attacks, resonators you control gain [+100/+0] until end of turn." />
+		<property name="Text" value="As long as you control another Knight of the Round Table, this card gains [Swiftness].&#xd;&#xa;Whenever this card attacks, resonators you control gain [+100/+0] until end of turn." />
     </card>
  	<card id="e355dc86-d355-4124-ac3f-570ae6b2937e" name="Veteran Master">
 		<property name="Cluster" value="Alice" />
@@ -217,12 +222,12 @@
 		<property name="Rarity" value="C" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Knight" />
+		<property name="Trait" value="Knight" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="2L" />
+		<property name="Cost" value="{L}{2}" />
 		<property name="Atk" value="600" />
 		<property name="Def" value="600" />
-		<property name="Text" value="Rest: Target resonator with total cost 2 or less gains [+200/+200] until end of turn." />
+		<property name="Text" value="{Rest}: Target resonator with total cost 2 or less gains [+200/+200] until end of turn." />
     </card>
  	<card id="23f5c8a6-f6ef-4544-b465-4bfb9a5d1c89" name="Young Knight of Gloria">
 		<property name="Cluster" value="Alice" />
@@ -231,9 +236,9 @@
 		<property name="Rarity" value="C" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Knight" />
+		<property name="Trait" value="Knight" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="L" />
+		<property name="Cost" value="{L}" />
 		<property name="Atk" value="300" />
 		<property name="Def" value="300" />
 		<property name="Text" value="[Target Attack] (This card can attack recovered J/resonators.) " />
@@ -245,12 +250,12 @@
 		<property name="Rarity" value="U" />
 		<property name="Type" value="Addition" />
 		<property name="Subtype" value="Field" />
-		<property name="Race/Trait" value="Mountain" />
+		<property name="Trait" value="Mountain" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="1F" />
+		<property name="Cost" value="{F}{1}" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="Players cannot gain life. Whenever a resonator is put into a graveyard from a field, this card deals 100 damage to each player." />
+		<property name="Text" value="Players cannot gain life.&#xd;&#xa;Whenever a resonator is put into a graveyard from a field, this card deals 100 damage to each player." />
     </card>
  	<card id="7bd45fc9-bdba-4148-aef4-7b0af76c825b" name="Demonflame">
 		<property name="Cluster" value="Alice" />
@@ -259,9 +264,9 @@
 		<property name="Rarity" value="C" />
 		<property name="Type" value="Spell" />
 		<property name="Subtype" value="Chant" />
-		<property name="Race/Trait" value="Instant" />
+		<property name="Trait" value="Instant" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="F" />
+		<property name="Cost" value="{F}" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
 		<property name="Text" value="Choose one - This card deals 500 damage to target resonator; or destroy target resonator that was dealt damage this turn." />
@@ -273,9 +278,9 @@
 		<property name="Rarity" value="C" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Knight" />
+		<property name="Trait" value="Knight" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="1F" />
+		<property name="Cost" value="{F}{1}" />
 		<property name="Atk" value="500" />
 		<property name="Def" value="500" />
 		<property name="Text" value="[Target Attack] (This card can attack recovered J/resonators.) " />
@@ -287,23 +292,23 @@
 		<property name="Rarity" value="U" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Dragon" />
+		<property name="Trait" value="Dragon" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="4F" />
+		<property name="Cost" value="{F}{4}" />
 		<property name="Atk" value="1200" />
 		<property name="Def" value="1200" />
-		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].) You may pay 1 less to play this card for each resonator put into a graveyard from your field this turn." />
+		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].)&#xd;&#xa;You may pay {1} less to play this card for each resonator put into a graveyard from your field this turn." />
     </card>
- 	<card id="2f9e0fe2-08d3-4ba2-9ab1-9313a268e421" name="Flame King&#39;s Shout">
+ 	<card id="2f9e0fe2-08d3-4ba2-9ab1-9313a268e421" name="Flame King's Shout">
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="VS01"/>
 		<property name="Number" value="021" />
 		<property name="Rarity" value="C" />
 		<property name="Type" value="Spell" />
 		<property name="Subtype" value="Chant" />
-		<property name="Race/Trait" value="" />
+		<property name="Trait" value="" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="1FF" />
+		<property name="Cost" value="{F}{F}{1}" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
 		<property name="Text" value="This card deals 400 damage to each resonator your opponent controls. Then you may put a fire resonator with total cost 3 or less from your hand into your field. It gains [Swiftness] until end of turn." />
@@ -315,12 +320,12 @@
 		<property name="Rarity" value="C" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Dragon" />
+		<property name="Trait" value="Dragon" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="2F" />
+		<property name="Cost" value="{F}{2}" />
 		<property name="Atk" value="600" />
 		<property name="Def" value="600" />
-		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].) &#13;&#10; F: This card gains [+200/+0] until end of turn." />
+		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].)&#xd;&#xa;{F}: This card gains [+200/+0] until end of turn." />
     </card>
  	<card id="f55474cc-f249-4b99-9477-48bb09925e9a" name="Flash of Demon Sword">
 		<property name="Cluster" value="Alice" />
@@ -329,9 +334,9 @@
 		<property name="Rarity" value="U" />
 		<property name="Type" value="Spell" />
 		<property name="Subtype" value="Chant" />
-		<property name="Race/Trait" value="Standby" />
+		<property name="Trait" value="Standby" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="1F" />
+		<property name="Cost" value="{F}{1}" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
 		<property name="Text" value="[Trigger] When a J/resonator you control attacks: Target resonator cannot block until end of turn. If you control a J-ruler, this card deals, damage equal to its ATK to that resonator." />
@@ -343,12 +348,12 @@
 		<property name="Rarity" value="SR" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Queen" />
+		<property name="Trait" value="Queen" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="F" />
+		<property name="Cost" value="{F}" />
 		<property name="Atk" value="200" />
 		<property name="Def" value="400" />
-		<property name="Text" value="Rest, banish a resonator: Draw two cards, then discard a card. &#13;&#10; F, Rest: Target resonator you control gains [+400/+400] until end of turn. When it deals or is dealt damage this turn, banish it." />
+		<property name="Text" value="{Rest}, banish a resonator: Draw two cards, then discard a card.&#xd;&#xa;{F}, {Rest}: Target resonator you control gains [+400/+400] until end of turn. When it deals or is dealt damage this turn, banish it." />
     </card>
  	<card id="d380ca43-1705-408e-8dea-2c8a225332fe" name="Hector de Maris, the Acolyte of Mad Demon">
 		<property name="Cluster" value="Alice" />
@@ -357,12 +362,12 @@
 		<property name="Rarity" value="U" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Knight of the Round Table" />
+		<property name="Trait" value="Knight of the Round Table" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="1F" />
+		<property name="Cost" value="{F}{1}" />
 		<property name="Atk" value="400" />
 		<property name="Def" value="400" />
-		<property name="Text" value="You may pay F less to play this card if your control &quot;Lancelot, the Knight of Mad Demon&quot;. When this card enters your field, target resonator gains [+400/+0] until end of turn." />
+		<property name="Text" value="You may pay {F} less to play this card if your control &quot;Lancelot, the Knight of Mad Demon&quot;.&#xd;&#xa;When this card enters your field, target resonator gains [+400/+0] until end of turn." />
     </card>
  	<card id="db73b9fa-de8b-4f83-a525-75ba4f04be05" name="Laevateinn, the Demon Sword">
 		<property name="Cluster" value="Alice" />
@@ -370,13 +375,13 @@
 		<property name="Number" value="026" />
 		<property name="Rarity" value="R" />
 		<property name="Type" value="Regalia" />
-		<property name="Subtype" value="God&#39;s Item" />
-		<property name="Race/Trait" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="God's Item" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="0" />
+		<property name="Cost" value="{0}" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="Your J-Ruler gains [Swiftness]. &#13;&#10; Rest: Until end of turn, if your J-ruler would deal damage, it deals that much +200 damage instead. If you J-Ruler is &quot;Melgis, the One Charmed by the Demon Sword&quot;, it gains [Imperishable] until end of turn and you may pay Void 2 less ot play it&#39;s God&#39;s Art abilities this turn. &#13;&#10; Banish a resonator: Recover this card. &#13;&#10; Discard another copy of &quot;Laevateinn, the Demon Sword&quot;: Produce F. &#13;&#10; Banish this card: Your J-Ruler gains [Imperishable] this turn." />
+		<property name="Text" value="Your J-Ruler gains [Swiftness].&#xd;&#xa;{Rest}: Until end of turn, if your J-ruler would deal damage, it deals that much +200 damage instead. If your J-Ruler is &quot;Melgis, the One Charmed by the Demon Sword&quot;, it gains [Imperishable] until end of turn and you may pay {2} less ot play it's God's Art abilities this turn.&#xd;&#xa;Banish a resonator: Recover this card.&#xd;&#xa;Discard another copy of &quot;Laevateinn, the Demon Sword&quot;: Produce {F}.&#xd;&#xa;Banish this card: Your J-Ruler gains [Imperishable] this turn." />
     </card>
  	<card id="98f0a41a-9fdf-4b94-8672-d78f9c69f554" name="Lancelot, the Knight of Mad Demon">
 		<property name="Cluster" value="Alice" />
@@ -385,12 +390,12 @@
 		<property name="Rarity" value="SR" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Knight of the Round Table" />
+		<property name="Trait" value="Knight of the Round Table" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="FF" />
+		<property name="Cost" value="{F}{F}" />
 		<property name="Atk" value="600" />
 		<property name="Def" value="600" />
-		<property name="Text" value="[Swiftness] (This card can attack and play its Rest abilities the same turn it enters a field.) As you choose a card to attack, you must choose this card if able. Whenever this card attacks, if this card&#39;s ATK is 1000 or more, this card deals 700 damage to target resonator. &#13;&#10; F: This card gains [+100/+0] until end of turn. " />
+		<property name="Text" value="[Swiftness] (This card can attack and play its {Rest} abilities the same turn it enters a field.)&#xd;&#xa;As you choose a card to attack, you must choose this card if able.&#xd;&#xa;Whenever this card attacks, if this card's ATK is 1000 or more, this card deals 700 damage to target resonator.&#xd;&#xa;{F}: This card gains [+100/+0] until end of turn." />
     </card>
 	<card id="06adfd13-aba9-4ef5-929a-d90203c713b8" name="Melgis, the Flame King">
 		<property name="Cluster" value="Alice" />
@@ -399,20 +404,19 @@
 		<property name="Rarity" value="R" />
 		<property name="Type" value="Ruler" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Seven Kings" />
+		<property name="Trait" value="Seven Kings" />
 		<property name="J-Ruler" value="Yes" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="[J-Activate] Pay F F
-		F F: This card deals 200 damage to target opponent." />
+		<property name="Text" value="[J-Activate] Pay {F}{F}&#xd;&#xa;{F}{F}: This card deals 200 damage to target opponent." />
 		<alternate name="Melgis, the One Charmed by the Demon Sword" type="jruler">
 			<property name="Number" value="028J" />
 			<property name="Type" value="J-Ruler" />
-			<property name="Race/Trait" value="Seven Kings" />
+			<property name="Trait" value="Seven Kings" />
 			<property name="Atk" value="1000" />
 			<property name="Def" value="500" />
-			<property name="Text" value="[First Strike] (While attacking, this card deals battle damage first to the blocked or attacked object.) When this card enters your field, put the top card of your magic stone into your magic stone area. F, banish a magic stone or resonator: This card deals 300 damage to target resonator. God&#39;s Art&lt;Unleash the Demon Sword&gt; 4FF : Destroy target resonator. This card gains [+X/+0] until end of turn, where X is the ATK of the destroyed resonator. Play God&#39;s Art &lt;Unleash the Demon Sword&gt; only once per game. " />
+			<property name="Text" value="[First Strike] (While attacking, this card deals battle damage first to the blocked or attacked object.)&#xd;&#xa;When this card enters your field, put the top card of your magic stone into your magic stone area.&#xd;&#xa;{F}, banish a magic stone or resonator: This card deals 300 damage to target resonator.&#xd;&#xa;God's Art&lt;Unleash the Demon Sword&gt; {4}{F}{F}: Destroy target resonator. This card gains [+X/+0] until end of turn, where X is the ATK of the destroyed resonator. Play God's Art &lt;Unleash the Demon Sword&gt; only once per game." />
 		</alternate>
     </card>
  	<card id="095d609b-9631-42bd-b8d0-f44ce7cd9c64" name="Mordred, the Traitor">
@@ -422,12 +426,12 @@
 		<property name="Rarity" value="R" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Knight of the Round Table" />
+		<property name="Trait" value="Knight of the Round Table" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="2FF" />
+		<property name="Cost" value="{F}{F}{2}" />
 		<property name="Atk" value="900" />
 		<property name="Def" value="900" />
-		<property name="Text" value="Whenever this card attacks, you may banish another resonator. If you do, this card deals 1000 damage to target resonator. " />
+		<property name="Text" value="Whenever this card attacks, you may banish another resonator. If you do, this card deals 1000 damage to target resonator." />
     </card>
  	<card id="2a5bb0b6-6509-4653-8e96-2c892bcf65a7" name="Rukh Egg">
 		<property name="Cluster" value="Alice" />
@@ -436,12 +440,12 @@
 		<property name="Rarity" value="C" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Egg" />
+		<property name="Trait" value="Egg" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="F" />
+		<property name="Cost" value="{F}" />
 		<property name="Atk" value="0" />
 		<property name="Def" value="200" />
-		<property name="Text" value="This card cannot attack. When this card is put into a graveyard from your field, search your main deck for a fire resonator, reveal it and put it into your hand. Then shuffle your main deck." />
+		<property name="Text" value="This card cannot attack.&#xd;&#xa;When this card is put into a graveyard from your field, search your main deck for a fire resonator, reveal it and put it into your hand. Then shuffle your main deck." />
     </card>
  	<card id="adb95c1c-ee12-443f-bb80-83ef5c5ec3e4" name="Spirit of Certo">
 		<property name="Cluster" value="Alice" />
@@ -450,12 +454,12 @@
 		<property name="Rarity" value="C" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Spirit" />
+		<property name="Trait" value="Spirit" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="1FF" />
+		<property name="Cost" value="{F}{F}{1}" />
 		<property name="Atk" value="900" />
 		<property name="Def" value="400" />
-		<property name="Text" value="[Swiftness] (This card can attack and play its Rest abilities the same turn it enters a field.) " />
+		<property name="Text" value="[Swiftness] (This card can attack and play its {Rest} abilities the same turn it enters a field.) " />
     </card>
  	<card id="90385c4d-d534-4781-98e9-ed3a1f2aece3" name="Whelp Drake">
 		<property name="Cluster" value="Alice" />
@@ -464,12 +468,12 @@
 		<property name="Rarity" value="C" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Race/Trait" value="Dragon" />
+		<property name="Trait" value="Dragon" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="1F" />
+		<property name="Cost" value="{F}{1}" />
 		<property name="Atk" value="400" />
 		<property name="Def" value="400" />
-		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].) When this card is put into a graveyard from your field, it deals 400 damage to target resonator." />
+		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].)&#xd;&#xa;When this card is put into a graveyard from your field, it deals 400 damage to target resonator." />
     </card>
 	</cards>
 </set>
