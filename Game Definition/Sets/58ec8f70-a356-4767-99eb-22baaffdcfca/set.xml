@@ -1170,7 +1170,7 @@
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
 		<property name="Text" value="[J-Activate] Pay {D}. Play this ability only if you control &quot;Grusbalesta, the Sealing Stone&quot;.&#xd;&#xa;[J-Activate] Pay {D}{D}{1}.&#xd;&#xa;[Activate] {Rest}: Target resonator gains [-300/-300] until end of turn." />
-		<alternate name="" type="jruler">
+		<alternate name="Abdul Alhazred, the Harbinger of Despair" type="jruler">
 			<property name="Number" value="079J" />
 			<property name="Type" value="J-Ruler" />
 			<property name="Trait" value="Wizard" />
