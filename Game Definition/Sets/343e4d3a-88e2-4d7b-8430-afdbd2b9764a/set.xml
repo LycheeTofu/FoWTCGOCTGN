@@ -475,5 +475,33 @@
 		<property name="Def" value="400" />
 		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].)&#xd;&#xa;When this card is put into a graveyard from your field, it deals 400 damage to target resonator." />
     </card>
+	<card id="ea9154b4-a2f6-49a1-b9ed-0d3eb83dfb57" name="Fire Magic Stone">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="VS01"/>
+		<property name="Number" value="033" />
+		<property name="Rarity" value="MS" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="{Rest}: Produce {F}." />
+    </card>
+	<card id="a35e7b3f-5931-4e54-a953-ec2edc82a85e" name="Light Magic Stone">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="VS01"/>
+		<property name="Number" value="034" />
+		<property name="Rarity" value="MS" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="{Rest}: Produce {L}." />
+    </card>
 	</cards>
 </set>
