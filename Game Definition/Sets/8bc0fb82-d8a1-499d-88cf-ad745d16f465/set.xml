@@ -1,0 +1,1617 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="The Twilight Wanderer"
+     id="8bc0fb82-d8a1-499d-88cf-ad745d16f465" 
+     gameId="5c1280cc-f52d-4060-b0d9-11363df285fe" 
+     gameVersion="0.0.0.1" 
+     version="0.0.0.1">
+  <packaging>
+    <pack name="Booster" id="8280ae85-57dc-4a0f-b180-b6f754b53eb8">
+      <options>
+        <option probability="0.42">
+          <pick qty="1" key="Rarity" value="SR" />
+        </option>
+        <option probability="0.15">
+          <pick qty="1" key="Rarity" value="R" />
+        </option>
+        <option probability="0.19">
+          <pick qty="1" key="Rarity" value="U" />
+        </option>
+        <option probability="0.24">
+          <pick qty="1" key="Rarity" value="C" />
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="R" />
+      <pick qty="2" key="Rarity" value="U" />
+      <pick qty="6" key="Rarity" value="C" />
+    </pack>
+    <pack name="Magic Stones" id="5a00ba50-cc0f-46be-aba2-89d50a25d323">
+      <pick qty="unlimited" key="Rarity" value="MS" />
+    </pack>
+    <pack name="Rulers" id="b10e69d1-709d-4667-9147-5015a6b4fcfb">
+      <pick qty="unlimited" key="Type" value="Ruler" />
+    </pack>
+  </packaging>
+ <cards>
+	<card id="f94e8fe2-39e8-4a6c-9f86-9630852432ba" name="Alice, Girl of the Lake">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="001" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Wanderer" />
+		<property name="J-Ruler" value="Yes" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Judgement]. You may pay less to play this ability for each Fairy you control." />
+		<alternate name="Alice, Fairy Queen" type="jruler">
+			<property name="Number" value="001J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Trait" value="Queen/Fairy" />
+			<property name="Atk" value="900" />
+			<property name="Def" value="900" />
+			<property name="Text" value="[Flying]&#xd;&#xa;When this card enters your field, recover all Fairies you control.&#xd;&#xa;God's Art [Reminiscence of Utopia] {L}{L}: J/resonators you control gain [+200/+200]. Search your main deck for a card names &quot;Excalibur, the Spirit of God's Sword&quot; and put it into your field. Then shuffle your main deck. (Play God's Art <Reminiscence of Utopia> only once per game.)" />
+		</alternate>
+	</card>
+	<card id="94a310f4-7448-42aa-befd-f7c03242833d" name="Alice's Little Supply Force">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="002" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Soldier" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{L}" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="200" />
+		<property name="Text" value="{L}, banish this card: Recover target resonator." />
+    </card>
+	<card id="43b043a8-e7fc-4a5b-b2a0-f5ed49dc6212" name="Arthur Pendragon, King of the Round Table">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="003" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Knight of the Round Table" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{L}{L}{3}" />
+		<property name="Atk" value="1200" />
+		<property name="Def" value="1200" />
+		<property name="Text" value="This card cannot be targeted by fire or darkness spells or abilities.&#xd;&#xa;Resonators your opponent controls must attack this card if able.&#xd;&#xa;{Rest}: Target resonator gains [0/+800] until end of turn." />
+    </card>
+	<card id="88c43349-31c3-48ee-9c87-117653f7f4e6" name="Elaine, the Fairy">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="004" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Fairy" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{L}{L}" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].)&#xd;&#xa;Awakening{L}: When this card enters your field, search your main deck for a card named &quotProtection of the Fairies&quot, reveal it and put it into your hand. Then shuffle your main deck. &#xd;&#xa;Other Fairies J/resonators you control gain [+200/0]." />
+    </card>
+	<card id="1f55d7d6-5ee7-494f-b714-2fc53129f7b9" name="Fairy of the Lake">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="005" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Fairy" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{L}{1}" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].)" />
+    </card>
+	<card id="7356fe02-e9e4-4e4f-a42e-17c2cf64dbee" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="006" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="738c5155-bb73-4c13-b5e9-a54bb6cb7eac" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="007" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="30945a09-01e4-4dfb-97d0-43d67ec8b39b" name="Gloria's Castle Town">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="008" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Trait" value="Castle" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{L}{1}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Whenever you gain life, target resonator gains [+300/+300] until end of turn." />
+    </card>
+	<card id="9c06b0d7-58cd-41ea-9063-34ff460c9dbf" name="Grand Cross">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="009" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{L}{L}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Remove target addition or resonator that has or shares the highest ATK from the game. As long as your J-ruler is &quot;Alice, Fairy Queen&quot;, you may pay less {L}{L} to play its God's Art abilities this turn." />
+    </card>
+	<card id="7356fe02-e9e4-4e4f-a42e-17c2cf64dbee" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="010" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="b289b350-727a-4e8d-8879-84548631d1bb" name="Light Sprite">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="011" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Fairy" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{L}" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="300" />
+		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].) &#xd;&#xa;{Rest}: Gain 100 life for each Fairy you control." />
+    </card>
+	<card id="5ee0bcbe-b9a0-43ea-9099-63104e289800" name="Nimue, the Fairy">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="012" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Fiary" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{L}{L}" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].) &#xd;&#xa;Awakening {L}: When this card enters your field, put target card named &quot;Protection of the Fairies&quot; from your graveyard into your hand. &#xd;&#xa;Other Fairy J/resonators you control gain [0/+200]." />
+    </card>
+	<card id="baadd357-b69a-441b-a4ef-c889489fa897" name="Perceval, the Seeker of Holy Grail">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="013" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Knight of the Round Table" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{L}" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="200" />
+		<property name="Text" value="When this card enters your field, reveal the top five cards of your main deck. You may put a Regalia or Knight of the Round Table among them into your hand. Put the rest to the bottom of your main deck in any order.&#xd;&#xa;Banish this card: Prevent all damage that would be dealt to target J-ruler or Knight of the Round Table until end of turn." />
+    </card>
+	<card id="1f915208-61fc-42c6-8cf8-349e9d6f4470" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="014" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="ceec646f-7761-4540-bc9c-8a8dbeff77a3" name="Protection of the Fairies">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="015" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{L}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="You may pay {L} less to play this card, if it targets a Fairy resonator. &#xd;&#xa;Added resonator gains [+200/+200]. &#xd;&#xa;Banish this card: Prevent the next damage that would be dealt to target resonator until end of turn." />
+    </card>
+	<card id="8e93924f-039a-405b-ba2a-54de2cbcfac4" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="016" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="55e9e6b2-71f6-4637-810c-d3d6078687f1" name="Viviane, Lady of the Lake">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="017" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Fairy" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{L}{L}{1}" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="700" />
+		<property name="Text" value=" [Flying] (This card cannot be blocked by J/resonators without [Flying].) &#xd;&#xa;{Rest}: Put a Fairy resonator with total cost 1 or less from your hand into your field. &#xd;&#xa;Whenever a Fairy resonator enters your field, Fairy J/resonators you control gain [+200/+200] until end of turn." />
+    </card>
+	<card id="c3e68979-b1f6-41d2-8baf-70bfffe44e9f" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="018" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="2aadda44-8284-40ed-b071-384796ada166" name="Barrier of Flame">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="019" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{F}{1}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="If a normal spell you control would deal damage, it deals that much +200 instead." />
+    </card>
+	<card id="05b20bee-ed58-45f1-8fdc-239bc9de778d" name="Beat of the Phoenix Wings">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="020" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{F}{1}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="This card deals 500 damage to each resonator without [Flying]. If your J/ruler is &quot;Sylvia Gill Palarilias&quot;, it deals 500 damage to each resonator instead." />
+    </card>
+	<card id="e6be3104-9e5a-40a0-815c-35dad68ad435" name="Burn to Cinders">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="021" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{F}{F}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="This card deals 700 damage to target J/resonator. If it's a J-ruler, it loses [Imperishable] until end of turn. If it's a resonator and it would be put into a graveyard from a field this turn, remove it from game instead." />
+    </card>
+	<card id="4ea3c8fc-11f0-491d-8d0c-d63d09878362" name="Caldera-Born Dragon">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="022" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Dragon" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{F}{F}{2}" />
+		<property name="Atk" value="800" />
+		<property name="Def" value="800" />
+		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators withouth [Flying].) &#xd;&#xa;[Swiftness] (This card can attack and you can play its {Rest} abilities the same turn it enters a field.)" />
+    </card>
+	<card id="4d67a7e4-9783-4a12-9d31-d733724214df" name="Flame Dragon Commandant">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="023" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Human" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{F}{F}" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="Dragon resonators you control gain [+200/+200]. &#xd;&#xa;As long as you control a Dragon, this card gains [Flying]." />
+    </card>
+	<card id="4b94dc84-70e7-4f2b-9629-31a43745532d" name="Flame Sprite">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="024" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Fairy" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{F}" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="300" />
+		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].) &#xd;&#xa;[Swiftness] (This card can attack and you can play its {Rest} abilities the same turn it enters a field.) &#xd;&#xa;{Rest}: This card deals 100 damage to target resonator for each Fairy you control." />
+    </card>
+	<card id="f7dd28ff-9e49-4ac3-a57c-198fdadf455b" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="025" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="cb33281d-1f51-4d39-8541-3d4e715100a4" name="Flash of Demon Sword">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="026" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="21951111-c9da-4acb-874a-28181e088ebc" name="Guinevere, the Jealous Queen">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="027" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Queen" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{F}" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="400" />
+		<property name="Text" value="{Rest}, banish a resonator: Draw two cards, then discard a card.&#xd;&#xa;{F}, {Rest}: Target resonator you control gains [+400/+400] until end of turn. When it deals or is dealt damage this turn, banish it." />
+    </card>
+	<card id="0267eddb-e9e6-4061-93ff-e2b46eeb1aa5" name="Hector de Maris, the Acolyte of Mad Demon">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="028" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Knight of the Round Table" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{F}{1}" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="You may pay {F} less to play this card if your control &quot;Lancelot, the Knight of Mad Demon&quot;.&#xd;&#xa;When this card enters your field, target resonator gains [+400/+0] until end of turn." />
+    </card>
+	<card id="e9932223-19bf-4a3c-9707-45a224d2df51" name="Lancelot, the Knight of Mad Demon">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="029" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Knight of the Round Table" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{F}{F}" />
+		<property name="Atk" value="600" />
+		<property name="Def" value="600" />
+		<property name="Text" value="[Swiftness] (This card can attack and play its {Rest} abilities the same turn it enters a field.)&#xd;&#xa;As you choose a card to attack, you must choose this card if able.&#xd;&#xa;Whenever this card attacks, if this card's ATK is 1000 or more, this card deals 700 damage to target resonator.&#xd;&#xa;{F}: This card gains [+100/+0] until end of turn." />
+    </card>
+	<card id="7f84fe91-b8db-4da2-96f0-092244256c7d" name="Magic Matchstick">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="030" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{F}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Added Resonator gains [Swiftness] and [First Strike]. &#xd;&#xa;Banish this card: This card deals 200 damage to target J/resonator." />
+    </card>
+	<card id="76918488-881b-4f7f-a331-6e8ee9391ae0" name="Phoenix, the Flame of the World">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="031" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Twelve Apostles/Phoenix" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{F}{F}{F}{1}" />
+		<property name="Atk" value="900" />
+		<property name="Def" value="900" />
+		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].) &#xd;&#xa;When this card enters your field, it deals 300 damage to each resonator your opponent controls. &#xd;&#xa;When this card is put into a graveyard from your field, you may pay {F}{F}. If you do, put this card into its owner's field." />
+    </card>
+	<card id="486a42bc-eacd-450b-81da-2e26543920f1" name="Sylvia Gill Palarilias">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="032" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Clan Founder" />
+		<property name="J-Ruler" value="Yes" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Judgement] {F}{Wi}{2}. &#xd;&#xa;Fire magic stones you control gain &quot;{Rest}: Produce {Wi}&quot;." />
+		<alternate name="Sylvia Gill Palarilias [J-Ruler]" type="jruler">
+			<property name="Number" value="032J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Trait" value="Clan Founder/Dragon" />
+			<property name="Atk" value="1000" />
+			<property name="Def" value="1000" />
+			<property name="Text" value="[Flying] &#xd;&#xa;[Swiftness] &#xd;&#xa;When this card enters your field, it deals 1000 damage to target J/resonator. &#xd;&#xa;Whenever a J/resonator that was dealt damage by this card this turn is destroyed, you may recover up to three target magic stones you control." />
+		</alternate>
+    </card>
+	<card id="2eab129b-dc42-429e-9c37-afcc025cb3e7" name="Sylvia's Clanmate">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="033" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Dragon" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{F}{1}" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].) &#xd;&#xa;Banish this card: You pay {1} less to play [Judgement] abilities of your ruler this turn. &#xd;&#xa;{F}: This card gains [+100/0] until end of turn." />
+    </card>
+	<card id="a6cd9d5b-ee98-4a1e-9cb8-56090a9c863c" name="Sylvia's Roar">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="034" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{F}{1}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Choose one. If your J/ruler is &quot;Sylvia Gill Palarilias&quot; choose up to two instead - &#xd;&#xa;Resonators you control gain [+300/0] until end of turn; &#xd;&#xa;or Dragon J/resonators you control gain &quot;Whenever this card attacks, it deals damage equal to its ATK to target resonator.&quot; until end of turn." />
+    </card>
+	<card id="3b7e7d4c-8571-456f-809a-5e146851dc15" name="The Little Match Girl">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="035" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Fairy Tale" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{F}{1}" />
+		<property name="Atk" value="600" />
+		<property name="Def" value="600" />
+		<property name="Text" value="[Awakening]{x}: When this card enters your field, search your main deck for up to X cards named &quot;Magic Matchstick&quot;, reveal them and put them into your hand. Then shuffle your main deck. &#xd;&#xa;[Awakening]{x}: When this card enters your field, put X target cards named &quot;Magic Matchstick&quot; from your graveyard into your hand. &#xd;&#xa;Discard a card named &quot;Magic Matchstick&quot;: This card deals 400 damage to target J/resonator." />
+    </card>
+	<card id="f9837e9b-110b-4dcc-b4fc-36012e813a08" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="036" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="97e2996b-9258-4277-9ab8-319ecfff2249" name="Adombrali, the Unfathomable">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="037" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Twelve Apostles/Cthulhu" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wa}{Wa}{1}" />
+		<property name="Atk" value="600" />
+		<property name="Def" value="800" />
+		<property name="Text" value="[Incarnation] {L} or {F} or {Wa} or {Wa} or {D},{L} or {F} or {Wa} or {Wa} or {D}(You may banish any combination of two light, fire, water, wind or darkness resonators rather than pay this card's cost.)&#xd;&#xa;When this card enters your field, if it was played by its Incarnation, for each different attribute among all banished resonators do the following: &#xd;&#xa;{L}: Gain 400 life. &#xd;&#xa;{F}: This card deals 400 damage to up to one target resonator. &#xd;&#xa;{Wa}: Draw a card. &#xd;&#xa;{Wa}: Produce {L}, {F}, {Wa}, {Wi}, or {D}. &#xd;&#xa;{D}: Your opponent loses 400 life." />
+    </card>
+	<card id="f869393c-0f3d-454c-a9fa-0b9e0e68ef26" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="038" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="850f2b02-4832-4422-bf95-abd284bbc2f5" name="Hera, the Goddess of Jealousy">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="039" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Goddess" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wa}{1}" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="When this card enters your field, you may destroy target regalia with total cost 0. If you do, draw a card." />
+    </card>
+	<card id="5759e4a2-547d-41bc-be00-5cc057b9a489" name="Insomniac Dormouse">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="040" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Fairy Tale" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wa}{1}" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="600" />
+		<property name="Text" value="{Wa}: Put a tea party counter on each &quot;Insomniac Dormouse&quot;, &quot;Sane Hatter&quot; and &quot;September Hare&quot;. &#xd;&#xa;{Rest}: Rest target resonator with total cost less than or equal to the number of tea party counters on this card. It doesn't recover during its controller's next recovery phase. Then remove all tea party counters on this card." />
+    </card>
+	<card id="56c16d51-85cf-4cc0-b7ac-fbfff2d04a7f" name="Invasion Ship, Golden Hind">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="041" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wa}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="You may choose not to recover this card during the recovery phase. &#xd;&#xa;{Wa}, {Rest}: Rest target resonator. It doesn't recover during the recovery phase as long as this card is rested." />
+    </card>
+	<card id="9808957b-d1c9-4b5b-9856-eacebcaa0ecd" name="Laying the Foundation">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="042" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wa}{1}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Draw three cards. Then put two cards from your hand on top of your main deck in any order." />
+    </card>
+	<card id="789d4632-28c5-4603-a4ec-56d512adb50f" name="Leviathan, the First of the Sea">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="043" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Twelve Apostles/Beast" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wa}{Wa}{Wa}{3}" />
+		<property name="Atk" value="1500" />
+		<property name="Def" value="1500" />
+		<property name="Text" value="&#xd;&#xa;When this card enters your field, discard your hand. Then return all resonators your opponent controls with total cost less than or equal to the number of cards discarded this way to their owner's hands.&#xd;&#xa;Banish a water magic stone: This card gains [+200/+200] until end of turn.&#xd;&#xa;Banish two water magic stones: This card cannot be targeted by spells or abilities your opponent controls until end of turn.&#xd;&#xa;Banish three water magic stones: Rest all resonators your opponent controls." />
+    </card>
+	<card id="33e3f517-1c71-427a-b02e-f12565bdae40" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="044" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="e1426537-df64-4a2f-a8d2-ef82dda9e092" name="Valentina, Plotting Lord of the Seas">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="045" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Overlord" />
+		<property name="J-Ruler" value="Yes" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="&#xd;&#xa;[Judgement] {Wa}{2}. &#xd;&#xa;{Wa}{1}: Search your main deck for a regalia, reveal it and put it into your hand. Then shuffle your main deck." />
+		<alternate name="Overlord of the Seven Lands, Valentina" type="jruler">
+			<property name="Number" value="045J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Trait" value="Overlord" />
+			<property name="Atk" value="700" />
+			<property name="Def" value="700" />
+			<property name="Text" value="When this card enters your field, you may reveal any number of Seven Kings J-Rulers with different names you own from outside the game and keep them revealed until end of game.  &#xd;&#xa;This card gains [+100/+100] for each card revealed this way and it gains all of those cards names and God's Art abilities." />
+		</alternate>
+	</card>
+	<card id="6b76a042-3de8-45cd-89ca-cfd6ce74b0b7" name="Sane Hatter">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="046" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Fairy Tale" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wa}{2}" />
+		<property name="Atk" value="600" />
+		<property name="Def" value="700" />
+		<property name="Text" value="{Wa}: Put a tea party counter on each &quot;Insomniac Dormouse&quot;, &quot;Sane Hatter&quot; and &quot;September Hare&quot;. &#xd;&#xa;{Rest}: Return target resonator with total cost less than or equal to the number of tea party counters on this card to it's owners hand. Then remove all tea party counters from this card." />
+    </card>
+	<card id="b389bd34-11bb-41cb-9668-9c5468f11af8" name="Send Back">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="047" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wa}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Return target addition, resonator, or regalia to its owner's hand." />
+    </card>
+	<card id="304c9066-4f7f-46ea-9904-ff8d04607c29" name="September Hare">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="048" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Fairy Tale" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wa}" />
+		<property name="Atk" value="100" />
+		<property name="Def" value="500" />
+		<property name="Text" value="{Wa}: Put a tea party counter on each &quot;Insomniac Dormouse&quot;, &quot;Sane Hatter&quot; and &quot;September Hare&quot;. &#xd;&#xa;{Rest}: If there are two or more tea party counters on this card, draw a card. If you do, remove all tea party counters from this card." />
+    </card>
+	<card id="151a46dc-b9d1-4aed-a6dc-0d59269ee0a3" name="Suseri-hime, Goddess of Passion">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="049" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Goddess" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wa}{2}" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="900" />
+		<property name="Text" value="{Wa}: Switch the ATK and DEF of this card until end of turn. &#xd;&#xa;{Wa}: This card gains [0/+100] until end of turn." />
+    </card>
+	<card id="f7a3e678-af5a-4d25-a7cc-7a60b0f50b37" name="The Overload's Baptism">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="050" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wa}{Wa}{2}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Choose a race. Return all resonators of the chosen race to their owner's hand. As long as your J-ruler is &quot;Overlord of the Seven Lands, Valentina&quot;, you may pay {2} less to play its next God's Art ability rather than pay its cost this turn." />
+    </card>
+	<card id="5d1956b4-e85a-4778-b5b5-c29c83f357d6" name="The Overlord's Invasion Party">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="051" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Soldier" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wa}{Wa}" />
+		<property name="Atk" value="300" />
+		<property name="Def" value="300" />
+		<property name="Text" value="This card gains [+100/+100] for each water magic stone you control." />
+    </card>
+	<card id="2131cc23-7bd5-48d2-b399-2a0ce9d14bc1" name="Valentina's Zealot">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="052" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Soldier" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wa}" />
+		<property name="Atk" value="100" />
+		<property name="Def" value="500" />
+		<property name="Text" value="Banish this card: You J-ruler cannot be targeted by spells or abilities until end of turn." />
+    </card>
+	<card id="73b47801-13a0-4161-a495-bf825bfc1c90" name="Wall of Ideas">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="053" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wa}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Target resonator gains [-800/0] or [0/+800] until end turn." />
+    </card>
+	<card id="de094f83-4fb8-4fd1-b6cb-f1ea4e19183a" name="Water Sprite">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="054" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Fairy" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wa}" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="300" />
+		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].) &#xd;&#xa;When this card enters your field, reveal the top card of your main deck. If it's a Fairy resonator, put it into your hand." />
+    </card>
+	<card id="bfb8b91a-abd9-43fd-a4d5-5d1f633a5a4a" name="Beastly Attack">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="055" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wi}{Wi}{1}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Target attacking resonator gains [+600/+600] and &quot;Whenever this card deals damage to a resonator, it deals that much damage to your opponent.&quot; until end of turn." />
+    </card>
+	<card id="3cb38d76-da33-40ed-a233-9686d958863d" name="Drop of Yggdrasil">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="056" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wi}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Added resonator cannot be targeted by spells of abilities your opponent controls.&#xd;&#xa;Banish this card: Target resonator gains [+200/+200] until end of turn." />
+    </card>
+	<card id="515a4877-3c10-4e62-94df-c4d97d49f519" name="Familiar of Refrain">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="057" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Beast" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wi}{1}" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="If magic counters would be put on your J/ruler, put that many plus one instead." />
+    </card>
+	<card id="d7fad645-3089-4a76-a0e2-0b78436271f1" name="Final Forfeit">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="058" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wi}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Target J/resonator loses all abilities and cannot gain abilities until end of turn." />
+    </card>
+	<card id="e3a69333-6b23-47d9-b006-c1677296cc8a" name="Fruit of Yggdrasil">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="059" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Fruit" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wi}{1}" />
+		<property name="Atk" value="0" />
+		<property name="Def" value="800" />
+		<property name="Text" value="When this card enters your field, draw a card." />
+    </card>
+	<card id="f7dce8fb-5a67-424b-b995-31c0e0a31d3f" name="Holy Ground of the Four Sacred Beasts">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="060" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wi}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="When this card enters your field, choose one - &#xd;&#xa;Put target Four Sacred Beasts resonator from your graveyard into your hand; &#xd;&#xa;or draw a card.&#xd;&#xa;You may pay {1} less to play [Evolution] abilities of resonators you control." />
+    </card>
+	<card id="adf6c907-f781-4397-b132-70e77737f380" name="Hraesvelgr, Drinker of Death">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="061" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Beast" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wi}{1}" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="[Evolution] {1} Discard a Beast. (If there are no evolution counters on this card, put an evolution counter on it.)&#xd;&#xa;As long as there are one or more evolution counters on this card, it gains [+300/+300].&#xd;&#xa;Whenever an evolution counter is put on this card, target player shuffles all magic stones from their graveyard into their magic stone deck and shuffles all other cards from their graveyard into their main deck." />
+    </card>
+	<card id="0457b0e1-7a2b-4078-ac99-88d0ee6ec5eb" name="Pricia, Beast Queen in Hiding">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="062" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Human/Beast" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wi}{Wi}{1}" />
+		<property name="Atk" value="700" />
+		<property name="Def" value="700" />
+		<property name="Text" value="When this card enters your field, you may put an evolution counter on target resonator with no evolution counters on it.&#xd;&#xa;If a spell or ability would increase this card's ATK or DEF, it increases by double that much instead.&#xd;&#xa;{Wi}: Choose any number of attributes. This card becomes those attributes until end of turn." />
+    </card>
+	<card id="7cf5eb9e-00e5-4a17-8974-496a30a6c61f" name="Reflect, Child of Potential">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="063" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Little Boy" />
+		<property name="J-Ruler" value="Yes" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Judgement] {0}. &#xd;&#xa;{0}: Choose one. Play this ability only once per turn - &#xd;&#xa;Target resonator gains [+200/+200] until end of turn. Put a magic counter on this card. &#xd;&#xa;or draw a card, put a card from your hand on the bottom of your main deck. Put a magic counter on this card; &#xd;&#xa;or recover target resonator at the of turn. Put a magic counter on this card." />
+		<alternate name="Refrain, Child of Convergence" type="jruler">
+			<property name="Number" value="063J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Trait" value="Little Girl" />
+			<property name="Atk" value="" />
+			<property name="Def" value="" />
+			<property name="Text" value="This card cannot battle. &#xd;&#xa;{0}: Put this card into your ruler area, as a ruler. Play this ability only during your opponent's turn. &#xd;&#xa;{Rest}, remove two magic counters from this card: Return target resonator to its owner's hand.&#xd;&#xa;{Rest}, remove X magic counters from this card: Cancel target normal spell your opponent controls with total cost X. &#xd;&#xa;{Rest}, remove four magic counters from this card: Search your main deck for a card and put put it into your hand. Then shuffle your main deck." />
+		</alternate>
+	</card>
+	<card id="f4fe05ec-ee74-4c9b-af92-1b676cde5fef" name="Rewriting Laws">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="064" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wi}{1}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Magic stones you control gain &quot;{Rest}: Produce {L}, {F}, {Wa}, {Wi}, or {D}.&quot; until end of turn. Recover up to two magic stones you control. &#xd;&#xa;Draw a card." />
+    </card>
+	<card id="02a68722-1817-449a-8d65-91cc60f15005" name="Servant of Reflect">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="065" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Elf" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wi}" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="200" />
+		<property name="Text" value="This card gains [+100/+100] for each two magic counters on your J/ruler.&#xd;&#xa;Remove a magic counter from your J/ruler: Return this card to its owner's hand." />
+    </card>
+	<card id="eafd5ea5-79c0-4ed6-be02-888121afa1b2" name="Spell-Weaver Elf">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="066" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Elf" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wi}{2}" />
+		<property name="Atk" value="600" />
+		<property name="Def" value="600" />
+		<property name="Text" value="When this card enters your field, put three magic counters on your J/ruler." />
+    </card>
+	<card id="ef215499-baa6-4140-8ebd-0277f7408dcd" name="Spirit of Yggdrasil">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="067" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Spirit" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wi}{Wi}{1}" />
+		<property name="Atk" value="600" />
+		<property name="Def" value="600" />
+		<property name="Text" value="Whenever an addition is added to this card, draw a card." />
+    </card>
+	<card id="bc1fd1f5-2810-478a-8c46-b0705dc0113b" name="The Beast Queen's Counterattack">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="068" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wi}{Wi}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Target J/resonator you control gains [+400/+400] until end of turn. Then that card and target J/resonator your opponent controls deal damage equal to their ATK to each other." />
+    </card>
+	<card id="570c6138-9784-406b-8fc1-17d07b21723e" name="The Beast Queen's Guardian">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="069" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Beast" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wi}" />
+		<property name="Atk" value="300" />
+		<property name="Def" value="300" />
+		<property name="Text" value="[Evolution] {Wi}{1}. (If there are no evolution counters on this card, put an evolution counter on it.)&#xd;&#xa;As long as there are one or more evolution counters on this card, it gains [+300/+300]." />
+    </card>
+	<card id="4ad2cea6-6e7d-44f2-92fc-ee567d18a1d9" name="Vedfolnir, Eraser of Wind">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="070" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Beast" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wi}{2}" />
+		<property name="Atk" value="700" />
+		<property name="Def" value="700" />
+		<property name="Text" value="[Evolution] {1} Discard a Beast. (If there are no evolution counters on this card, put an evolution counter on it.)&#xd;&#xa;As long as there are one or more evolution counters on this card, it gains [+300/+300] and [Target Attack].&#xd;&#xa;Whenever an evolution counter is put on this card, search your main deck for a card named &quot;Drop of Yggdrasil&quot;, reveal it and put it into your hand. Then shuffle your main deck." />
+    </card>
+	<card id="1a4936b1-85e8-4c29-9af1-99ed71d4e8ec" name="Wind Sprite">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="071" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Fairy" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wi}" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="200" />
+		<property name="Text" value="{Rest}: Produce {L}." />
+    </card>
+	<card id="efcfa2fb-6196-4a9e-826e-ef133abf17bc" name="Ziz, the Bird that Envelopes the Sky">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="072" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Twelve Apostles/Beast" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{Wi}{Wi}" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="Evolution {Wi}{Wi}{2}. (If there are no evolution counters on thi card, put an evolution counter on it.)&#xd;&#xa;As long as there are one or more evolution counters on this card, it gains [+300/+300] and [Flying].&#xd;&#xa;Whenever an evolution counter is put on this card, you may put an evolution counter on taret resonator with no evolution counters on it." />
+    </card>
+	<card id="88eede82-65fc-47c3-b795-9f5523d3dd7b" name="Barrier of Shadows">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="073" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{D}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Your opponent pays {1} more to play Judgement or God's Art abilities.&#xd;&#xa;Your opponent pays {1} more to play regalia's activate abilities." />
+    </card>
+	<card id="ca693b21-4163-4a4f-9d47-684fe904d1d3" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="074" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="b0bfea08-67c8-4c79-a599-15b064bb0a02" name="Dance of the Shadows">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="075" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Trait" value="Instant" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{D}{3}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Remnant] (You may play this card from your graveyard. If you do, remove it from the game instead of putting it any time it would leave the chase.) &#xd;&#xa;Put target resonator from your graveyard into your field. Remove it from the game at end of turn." />
+    </card>
+	<card id="ec4c4301-faaf-4281-ab3c-9d795f8598ec" name="Girl in Twilight Garb">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="076" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Wanderer" />
+		<property name="J-Ruler" value="Yes" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Judgement] {0}. Play this ability only if you have removed three or more cards from the game with this card's ability.&#xd;&#xa; {D}: Remove target card in your opponent's graveyard from the game." />
+		<alternate name="" type="jruler">
+			<property name="Number" value="076J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Trait" value="Shadow/Knight" />
+			<property name="Atk" value="900" />
+			<property name="Def" value="900" />
+			<property name="Text" value="[Target Attack] &#xd;&#xa;When this card enters your field, choose a number. Destroy all resonators with total cost equal to the chosen number.&#xd;&#xa;God's Art [Walpurgis Night] {D}{D}: J/resonators your opponent controls gain [-200/-200]. Search your main deck for a card named &quot;Schrödinger, the Fallen Black Cat&quot; and put it into your field. Then shffle your main deck. (Play God's Art <Walpurgis Night> only once per game.)" />
+		</alternate>
+    </card>
+	<card id="099fa1ff-e0ae-451d-b9c0-789c9a91c0db" name="Dark Alice's Familiar">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="077" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Shadow/Bat" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{D}" />
+		<property name="Atk" value="300" />
+		<property name="Def" value="20" />
+		<property name="Text" value="When this card enters your field, reveal the top card of your main deck. If it's a Shadow resonator, put it into your hand." />
+    </card>
+	<card id="4bbbdda7-5894-46f9-b38a-71c407871633" name="Dark Alice's Shadow Warrior">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="078" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Shadow/Soldier" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{D}" />
+		<property name="Atk" value="300" />
+		<property name="Def" value="300" />
+		<property name="Text" value="Banish this card: Target resonator gains [-200/-200] until end of turn." />
+    </card>
+	<card id="47ca0670-2bcb-406b-b1e3-7af791155a89" name="Dark Arla, the Shadow Wing">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="079" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Shadow/Seven Kings" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{D}{2}" />
+		<property name="Atk" value="700" />
+		<property name="Def" value="500" />
+		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].) &#xd;&#xa;{D}{1}: This card deals 600 damage to target resonator with Flying." />
+    </card>
+	<card id="8c3d9e10-9621-45c5-bcdb-7e48f2080985" name="Dark Faria, Shadow Princess of Ebony">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="080" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Shadow/Seven Kings" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{D}{D}" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="[Awakening] {D}{D}: When this card enters your field, destroy target resonator. &#xd;&#xa;Other Shadow resonators you control gain [+200/+200]. &#xd;&#xa;Whenever this card deals damage, you gain that much life." />
+    </card>
+	<card id="6dee8ff3-9e52-4483-b3aa-cac55eaeb3ed" name="Dark Melgis, the Shadow Flame">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="081" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Shadow/Seven Kings" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{D}{D}{2}" />
+		<property name="Atk" value="1000" />
+		<property name="Def" value="1000" />
+		<property name="Text" value="[Awakening] {F}: When this card enters your field, it deals 1000 damage to target resonator." />
+    </card>
+	<card id="34a494f5-7bde-42df-8728-668eceaf3d19" name="Dark Rezzard, the Dying Shadow">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="082" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Shadow/Seven Kings" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{D}{D}{D}" />
+		<property name="Atk" value="800" />
+		<property name="Def" value="800" />
+		<property name="Text" value="[Stealth] You control three or more Shadow resonators. (While this card is in your chant-standy area, you may play it without paying its cost when its [Stealth] condition is met.) &#xd;&#xa;When this card enters your field from a chant-standby area, you may banish another resonator. If you do, your opponent discards a card and banishes a resonator." />
+    </card>
+	<card id="38520e5b-b4fe-4ba9-a6e6-f2f4fd748a2f" name="Elisabeth, Shadow Princess of Blood">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="083" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Shadow/Vampire" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{D}{D}{1}" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="900" />
+		<property name="Text" value="When a resonator is put into a graveyard from your opponent's field, recover this card and it gains [+400/0] until end of turn." />
+    </card>
+	<card id="88b4ac5d-067c-421f-8087-0a49e360c422" name="Jeanne d'Arc, Shadow Princess of Purity">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="084" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Shadow" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{D}" />
+		<property name="Atk" value="300" />
+		<property name="Def" value="300" />
+		<property name="Text" value="When a resonator is put into a graveyard from your opponent's field, rest target resonator your opponent controls." />
+    </card>
+	<card id="8ea36720-c5cf-434d-8ddf-24f697baae05" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="085" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="172ce79c-2bd8-4014-a999-ac14ab715958" name="Recollection of Dystopia">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="086" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{D}{D}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Your opponent banishes a resonator. As long as your J-ruler is &quot;Dark Alice, Maiden of Slaughter&quot;, you may pay {D}{D} less to play its God's Art abilities this turn." />
+    </card>
+	<card id="d24c6123-6b57-49c6-ac36-dcb5d166511f" name="Shadow Assassin">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="087" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Shadow" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{D}{D}" />
+		<property name="Atk" value="100" />
+		<property name="Def" value="500" />
+		<property name="Text" value="When this card deals damage to a resonator, destroy that resonator." />
+    </card>
+	<card id="51ec8603-1359-44da-9ecf-c08d34c533a2" name="Shadow Doppelganger">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="088" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Shadow" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{D}{3}" />
+		<property name="Atk" value="0" />
+		<property name="Def" value="0" />
+		<property name="Text" value="As this card enters your field, you may remove a resonator in your graveyard from the game. If you do, this card enters your field as a copy of the card removed this way." />
+    </card>
+	<card id="b5a02929-0e78-4ddc-bddf-e38ff869341b" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="089" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="bbedb925-1d67-47eb-9dec-a4884da5c476" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="090" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="3024e11c-9db4-4385-9b22-e85fffe814bd" name="Dark Machina, Gliding Shadow">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="091" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Shadow/Seven Kings" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{3}" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="When this card enters your field, search your main deck for a card with no attribute, reveal it and put it into your hand. Then shuffle your main deck." />
+    </card>
+	<card id="b7d36c1f-bfce-4d97-9d0c-6a6644ddf4fb" name="Deployable Defense Device">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="092" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Machine" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{3}" />
+		<property name="Atk" value="0" />
+		<property name="Def" value="1200" />
+		<property name="Text" value="Banish this card: Target addition or regalia cannot be destroyed until end of turn." />
+    </card>
+	<card id="44f48f09-7ecc-4e80-b2f0-f80b96cdc64d" name="Mass Produced Giant Land Mine">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="093" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Machine" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{2}" />
+		<property name="Atk" value="0" />
+		<property name="Def" value="100" />
+		<property name="Text" value="[Stealth] When a J/resonator you control is attacked.(While this card is in your chant-standby area, you may play it without paying its cost when its [Stealth] condition is met.)&#xd;&#xa;When this card enters your field from a chant-standby area, it deals 1000 damage to target attacking J/resonator." />
+    </card>
+	<card id="87b4ccb4-182c-4084-ba40-496d8fd5b7e4" name="Mechanical Knight">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="094" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Machine/Knight of the Round Table" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{2}" />
+		<property name="Atk" value="600" />
+		<property name="Def" value="600" />
+		<property name="Text" value="{1}: This card gains [Target Attack] until end of turn." />
+    </card>
+	<card id="210c4f56-d23c-49e9-9c49-ee469a8bff85" name="Mechanical Sprite">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="095" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Machine/Fairy" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{1}" />
+		<property name="Atk" value="300" />
+		<property name="Def" value="300" />
+		<property name="Text" value="{1}: This card gains [Flying] until end of turn." />
+    </card>
+	<card id="af1127f5-17d0-4296-8918-f44bece27e93" name="Change the World, Orb of Illusion">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="096" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Regalia" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{0}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="{Rest}: Put a magic counter on your J/ruler. &#xd;&#xa;{Rest}, remove a magic counter from your J-ruler: If your J-ruler has no ATK and DEF, recover it. &#xd;&#xa;{Wi}, {Rest}, remove two magic counters from your J/ruler: Draw a card." />
+    </card>
+	<card id="0ab1c1e6-68f8-4cb7-826c-673d4aaed070" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="097" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="5b0d4a94-09cd-48fb-aa1b-9b1c35fed1a3" name="Excalibur, the Spirit God's Sword">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="098" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Regalia" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{2}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Your J-ruler gains [+100/+100] for each resonator you control.&#xd;&#xa;{Rest}: Produce {L}, {F}, {Wa}, {Wi}, or {D}. Spend that will only to play Fairy resonators.&#xd;&#xa;Banish this card: Your J-ruler gains Imperishable until end of turn." />
+    </card>
+	<card id="8c6552dc-a6c9-4f45-9552-b8e0036ab5be" name="Laevateinn, the Demon Sword">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="099" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Regalia" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{0}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Your J-Ruler gains [Swiftness].&#xd;&#xa;{Rest}: Until end of turn, if your J-ruler would deal damage, it deals that much +200 damage instead. If your J-Ruler is &quot;Melgis, the One Charmed by the Demon Sword&quot;, it gains [Imperishable] until end of turn and you may pay {2} less ot play it's God's Art abilities this turn.&#xd;&#xa;Banish a resonator: Recover this card.&#xd;&#xa;Discard another copy of &quot;Laevateinn, the Demon Sword&quot;: Produce {F}.&#xd;&#xa;Banish this card: Your J-Ruler gains [Imperishable] this turn." />
+    </card>
+	<card id="99a7f82a-498e-4ae7-939f-c058e2016822" name="Schrödinger, the Fallen Black Cat">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="100" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Regalia" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{3}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="As long as there are five or more cards in your opponent's removed area, your J-ruler gains [+500/+500]. As long as there are ten or more cards in your opponent's removed area, you J-ruler gains [Swiftness] and [Target Attack].&#xd;&#xa; {Rest}: Produce {L}, {F}, {Wa}, {Wi}, or {D}.&#xd;&#xa;Banish this card: Your J-ruler gains [Imperishable] until end of turn." />
+    </card>
+	<card id="c36f38c0-dfb6-42c8-a591-9604b1416815" name="Fairy's Memoria">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="101" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="Special" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="As this card enters your magic stone area, you may reveal a Fairy from your hand. If you don't, this card enters your magic stone area rested.&#xd;&#xa; {Rest}: Produce {L}.&#xd;&#xa; {Rest}: Produce {L}, {F}, {Wa}, {Wi}, or {D}.&#xd;&#xa; Spend that will only to play Fairy resonators.&#xd;&#xa; {L}, {Rest}: Target Fairy resonator gains [+200/+200] until end of turn." />
+    </card>
+	<card id="44fa11e4-075d-4025-841d-9f823d4142a6" name="Ruler's Memoria">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="102" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="Special" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="If you don't control a regalia, this card enters your magic stone area rested.&#xd;&#xa; {Rest}: Produce {L}, {F}, {Wa}, {Wi}, or {D}." />
+    </card>
+	<card id="72e823ae-b98f-4056-a1ab-ba4966ed9f16" name="Sacred Beast's Memoria">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="103" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="Special" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="As this card enters your magic stone area, you may reveal a Beast of Four Sacred Beasts from your hand. If you don't, this card enters your magic stone area rested.&#xd;&#xa; {Rest}: Produce {Wi}.&#xd;&#xa; {Wi}, {Rest}: Target Four Sacred Beasts or Beast J/resonator gains [+200/+200] until end of turn." />
+    </card>
+	<card id="35f1362a-4dbc-48e1-b53d-ba95de3fe700" name="Shadow's Memoria">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="104" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="Special" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="If your J/ruler isn't &quot;Girl in Twilight Garb&quot; or &quot;Dark Alice, Maiden of Slaughter&quot;, this card enters your magic stone area rested.&#xd;&#xa; {Rest}: Produce {D}.&#xd;&#xa; Whenever a Shadow resonator enters your field, target resonator gains [-100/0] until end of turn." />
+    </card>
+	<card id="5f62d6ca-866d-4fea-9b2b-97d08d8c9e8f" name="Unyielding Flame's Memoria">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="105" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="If your opponent's life is exactly 4000, this card enters your magic stone area rested.&#xd;&#xa; {Rest}: Produce {F}.&#xd;&#xa; {Rest}: If target resonator would deal damage this turn, it deals that much +200 instead." />
+    </card>
+	<card id="b968de40-9658-4c56-ab3d-88d5156d2a4b" name="Darkness Magic Stone">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="106" />
+		<property name="Rarity" value="MS" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="{Rest}: Produce {D}." />
+    </card>
+	<card id="73563452-3397-4a52-85ad-158f65a8bd2a" name="Fire Magic Stone">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="107" />
+		<property name="Rarity" value="MS" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="{Rest}: Produce {F}." />
+    </card>
+	<card id="feeba57b-e0b2-4edf-869d-1dafc60d455d" name="Light Magic Stone">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="108" />
+		<property name="Rarity" value="MS" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="{Rest}: Produce {L}." />
+    </card>
+	<card id="43c591ec-0ef1-4ded-a089-75cef71a4a99" name="Water Magic Stone">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="109" />
+		<property name="Rarity" value="MS" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="{Rest}: Produce {Wa}." />
+    </card>
+	<card id="96a2cce0-233b-4c16-af2d-04ddead52288" name="Wind Magic Stone">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TTW"/>
+		<property name="Number" value="110" />
+		<property name="Rarity" value="MS" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="{Rest}: Produce {Wi}." />
+    </card>
+	</cards>
+</set>
