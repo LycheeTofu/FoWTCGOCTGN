@@ -52,7 +52,7 @@
 			<property name="Trait" value="Queen/Fairy" />
 			<property name="Atk" value="900" />
 			<property name="Def" value="900" />
-			<property name="Text" value="[Flying]&#xd;&#xa;When this card enters your field, recover all Fairies you control.&#xd;&#xa;God's Art [Reminiscence of Utopia] {L}{L}: J/resonators you control gain [+200/+200]. Search your main deck for a card names &quot;Excalibur, the Spirit of God's Sword&quot; and put it into your field. Then shuffle your main deck. (Play God's Art <Reminiscence of Utopia> only once per game.)" />
+			<property name="Text" value="[Flying]&#xd;&#xa;When this card enters your field, recover all Fairies you control.&#xd;&#xa;God's Art &lt;Reminiscence of Utopia&gt; {L}{L}: J/resonators you control gain [+200/+200]. Search your main deck for a card names &quot;Excalibur, the Spirit of God's Sword&quot; and put it into your field. Then shuffle your main deck. (Play God's Art &lt;Reminiscence of Utopia&gt; only once per game.)" />
 		</alternate>
 	</card>
 	<card id="94a310f4-7448-42aa-befd-f7c03242833d" name="Alice's Little Supply Force">
@@ -95,7 +95,7 @@
 		<property name="Cost" value="{L}{L}" />
 		<property name="Atk" value="400" />
 		<property name="Def" value="400" />
-		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].)&#xd;&#xa;Awakening{L}: When this card enters your field, search your main deck for a card named &quotProtection of the Fairies&quot, reveal it and put it into your hand. Then shuffle your main deck. &#xd;&#xa;Other Fairies J/resonators you control gain [+200/0]." />
+		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].)&#xd;&#xa;Awakening{L}: When this card enters your field, search your main deck for a card named &quot;Protection of the Fairies&quot;, reveal it and put it into your hand. Then shuffle your main deck. &#xd;&#xa;Other Fairies J/resonators you control gain [+200/0]." />
     </card>
 	<card id="1f55d7d6-5ee7-494f-b714-2fc53129f7b9" name="Fairy of the Lake">
 		<property name="Cluster" value="Alice" />
@@ -1134,7 +1134,7 @@
 			<property name="Trait" value="Shadow/Knight" />
 			<property name="Atk" value="900" />
 			<property name="Def" value="900" />
-			<property name="Text" value="[Target Attack] &#xd;&#xa;When this card enters your field, choose a number. Destroy all resonators with total cost equal to the chosen number.&#xd;&#xa;God's Art [Walpurgis Night] {D}{D}: J/resonators your opponent controls gain [-200/-200]. Search your main deck for a card named &quot;Schrödinger, the Fallen Black Cat&quot; and put it into your field. Then shffle your main deck. (Play God's Art <Walpurgis Night> only once per game.)" />
+			<property name="Text" value="[Target Attack] &#xd;&#xa;When this card enters your field, choose a number. Destroy all resonators with total cost equal to the chosen number.&#xd;&#xa;God's Art &lt;Walpurgis Night&gt; {D}{D}: J/resonators your opponent controls gain [-200/-200]. Search your main deck for a card named &quot;Schrodinger, the Fallen Black Cat&quot; and put it into your field. Then shffle your main deck. (Play God's Art &lt;Walpurgis Night&gt; only once per game.)" />
 		</alternate>
     </card>
 	<card id="099fa1ff-e0ae-451d-b9c0-789c9a91c0db" name="Dark Alice's Familiar">
@@ -1459,7 +1459,7 @@
 		<property name="Def" value="" />
 		<property name="Text" value="Your J-Ruler gains [Swiftness].&#xd;&#xa;{Rest}: Until end of turn, if your J-ruler would deal damage, it deals that much +200 damage instead. If your J-Ruler is &quot;Melgis, the One Charmed by the Demon Sword&quot;, it gains [Imperishable] until end of turn and you may pay {2} less ot play it's God's Art abilities this turn.&#xd;&#xa;Banish a resonator: Recover this card.&#xd;&#xa;Discard another copy of &quot;Laevateinn, the Demon Sword&quot;: Produce {F}.&#xd;&#xa;Banish this card: Your J-Ruler gains [Imperishable] this turn." />
     </card>
-	<card id="99a7f82a-498e-4ae7-939f-c058e2016822" name="Schrödinger, the Fallen Black Cat">
+	<card id="99a7f82a-498e-4ae7-939f-c058e2016822" name="Schrodinger, the Fallen Black Cat">
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="TTW"/>
 		<property name="Number" value="100" />
