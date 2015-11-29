@@ -4,14 +4,14 @@
       name="Force of Will TCG" 
       id="5c1280cc-f52d-4060-b0d9-11363df285fe" 
       octgnVersion="3.1.127.0"
-      version="0.1.0.2"
+      version="0.1.0.3"
       markersize="20"
       tags="Force of Will, FoW, FoW TCG, FoWTCG, Force of Will Trading Card Game"
       description="Force of Will Trading Card Game, by the Force of Will Co. Provided by ForcedTheWill.com"
-      setsurl="http://forcedthewill.com/FoWTCG/OCTGN/"
-      gameurl="http://forcedthewill.com/FoWTCG/OCTGN/"
+      setsurl="http://www.octgngames.com/fowtcg"
+      gameurl="http://www.octgngames.com/fowtcg"
 	  scriptVersion="3.1.0.2"
-	  iconurl="http://majime.co/FoWTCG/OCTGN/FoW_Main_Image.png"
+	  iconurl="https://raw.githubusercontent.com/GeneralCake/FoWTCGOCTGN/master/Game%20Definition/FoW_Main_Image.png"
       authors="Tim Cao">
 <scripts>
 <script src="scripts/actions.py" />
