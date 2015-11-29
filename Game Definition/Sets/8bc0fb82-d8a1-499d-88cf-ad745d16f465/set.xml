@@ -111,19 +111,19 @@
 		<property name="Def" value="500" />
 		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without [Flying].)" />
     </card>
-	<card id="7356fe02-e9e4-4e4f-a42e-17c2cf64dbee" name="">
+	<card id="7356fe02-e9e4-4e4f-a42e-17c2cf64dbee" name="Galahad, the Son of the God">
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="TTW"/>
 		<property name="Number" value="006" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Trait" value="" />
+		<property name="Trait" value="Knight of the Round Table" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="{L}{1}" />
+		<property name="Atk" value="400" />
+		<property name="Def" value="400" />
+		<property name="Text" value="Whenever this card attacks, you gain 500 life.&#xd;&#xa;When this card is put into a graveyard from your field, rest target resonator your opponent controls." />
     </card>
 	<card id="738c5155-bb73-4c13-b5e9-a54bb6cb7eac" name="">
 		<property name="Cluster" value="Alice" />
@@ -251,19 +251,19 @@
 		<property name="Def" value="" />
 		<property name="Text" value="You may pay {L} less to play this card, if it targets a Fairy resonator. &#xd;&#xa;Added resonator gains [+200/+200]. &#xd;&#xa;Banish this card: Prevent the next damage that would be dealt to target resonator until end of turn." />
     </card>
-	<card id="8e93924f-039a-405b-ba2a-54de2cbcfac4" name="">
+	<card id="8e93924f-039a-405b-ba2a-54de2cbcfac4" name="The Final Word">
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="TTW"/>
 		<property name="Number" value="016" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Trait" value="" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Trait" value="Instant" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="{L}" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Target blocking resonator you control gains [+1000/+1000] until end of turn." />
     </card>
 	<card id="55e9e6b2-71f6-4637-810c-d3d6078687f1" name="Viviane, Lady of the Lake">
 		<property name="Cluster" value="Alice" />
@@ -395,15 +395,15 @@
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="TTW"/>
 		<property name="Number" value="026" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Trait" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Trait" value="Standby" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="{F}{1}" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="[Trigger] When a J/resonator you control attacks. Target resonator cannot block until the end of turn. If you controla J-ruler, this card deals damage equal to its ATK to that resonator." />
     </card>
 	<card id="21951111-c9da-4acb-874a-28181e088ebc" name="Guinevere, the Jealous Queen">
 		<property name="Cluster" value="Alice" />
@@ -651,19 +651,19 @@
 		<property name="Def" value="1500" />
 		<property name="Text" value="&#xd;&#xa;When this card enters your field, discard your hand. Then return all resonators your opponent controls with total cost less than or equal to the number of cards discarded this way to their owner's hands.&#xd;&#xa;Banish a water magic stone: This card gains [+200/+200] until end of turn.&#xd;&#xa;Banish two water magic stones: This card cannot be targeted by spells or abilities your opponent controls until end of turn.&#xd;&#xa;Banish three water magic stones: Rest all resonators your opponent controls." />
     </card>
-	<card id="33e3f517-1c71-427a-b02e-f12565bdae40" name="">
+	<card id="33e3f517-1c71-427a-b02e-f12565bdae40" name="Maritime Lookout">
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="TTW"/>
 		<property name="Number" value="044" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Trait" value="" />
+		<property name="Trait" value="Soldier" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="{Wa}{1}" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="When this card enters your field, return target fire resonator to its owner's hand." />
     </card>
 	<card id="e1426537-df64-4a2f-a8d2-ef82dda9e092" name="Valentina, Plotting Lord of the Seas">
 		<property name="Cluster" value="Alice" />
@@ -1417,19 +1417,19 @@
 		<property name="Def" value="" />
 		<property name="Text" value="{Rest}: Put a magic counter on your J/ruler. &#xd;&#xa;{Rest}, remove a magic counter from your J-ruler: If your J-ruler has no ATK and DEF, recover it. &#xd;&#xa;{Wi}, {Rest}, remove two magic counters from your J/ruler: Draw a card." />
     </card>
-	<card id="0ab1c1e6-68f8-4cb7-826c-673d4aaed070" name="">
+	<card id="0ab1c1e6-68f8-4cb7-826c-673d4aaed070" name="Excalibur, the God's Sword">
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="TTW"/>
 		<property name="Number" value="097" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Regalia" />
 		<property name="Subtype" value="" />
 		<property name="Trait" value="" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="{0}" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Your J-Ruler gains [Target Attack].&#xd;&#xa;{Rest}: Your J-Ruler gains [+200/+200] until end of turn. If it's &quot;Faria, the Ruler of God Sword&quot; it gains [Imperishable] until end of turn and you may pay {2} less to play its God's Art abilities this turn.&#xd;&#xa;Discard this card: Produce {L}.&#xd;&#xa;Banish this card: Your J-Ruler gains [Imperishable] this turn." />
     </card>
 	<card id="5b0d4a94-09cd-48fb-aa1b-9b1c35fed1a3" name="Excalibur, the Spirit God's Sword">
 		<property name="Cluster" value="Alice" />
