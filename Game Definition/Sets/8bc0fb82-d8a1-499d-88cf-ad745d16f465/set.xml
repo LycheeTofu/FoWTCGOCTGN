@@ -125,19 +125,19 @@
 		<property name="Def" value="400" />
 		<property name="Text" value="Whenever this card attacks, you gain 500 life.&#xd;&#xa;When this card is put into a graveyard from your field, rest target resonator your opponent controls." />
     </card>
-	<card id="738c5155-bb73-4c13-b5e9-a54bb6cb7eac" name="">
+	<card id="738c5155-bb73-4c13-b5e9-a54bb6cb7eac" name="Gawain, the Knight of the Sun">
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="TTW"/>
 		<property name="Number" value="007" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Trait" value="" />
+		<property name="Trait" value="Knight of the Round Table" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Cost" value="{L}{L}" />
+		<property name="Atk" value="300" />
+		<property name="Def" value="700" />
+		<property name="Text" value="Other Knight of the Round Table resonators you control gain [+200/+200].&#xd;&#xa;Whenever this card attacks or blocks, rest target resonator." />
     </card>
 	<card id="30945a09-01e4-4dfb-97d0-43d67ec8b39b" name="Gloria's Castle Town">
 		<property name="Cluster" value="Alice" />
