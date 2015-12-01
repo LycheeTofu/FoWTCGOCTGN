@@ -1087,19 +1087,19 @@
 		<property name="Def" value="" />
 		<property name="Text" value="Your opponent pays {1} more to play Judgement or God's Art abilities.&#xd;&#xa;Your opponent pays {1} more to play regalia's activate abilities." />
     </card>
-	<card id="ca693b21-4163-4a4f-9d47-684fe904d1d3" name="">
+	<card id="ca693b21-4163-4a4f-9d47-684fe904d1d3" name="Black Ribbon">
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="TTW"/>
 		<property name="Number" value="074" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Resonator" />
 		<property name="Trait" value="" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="{D}" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Added Resonator [-200/-200].&#xd;&#xa;Banish this card: Target resonator gains [-400/-400] until end of turn." />
     </card>
 	<card id="b0bfea08-67c8-4c79-a599-15b064bb0a02" name="Dance of the Shadows">
 		<property name="Cluster" value="Alice" />
@@ -1305,33 +1305,33 @@
 		<property name="Def" value="0" />
 		<property name="Text" value="As this card enters your field, you may remove a resonator in your graveyard from the game. If you do, this card enters your field as a copy of the card removed this way." />
     </card>
-	<card id="b5a02929-0e78-4ddc-bddf-e38ff869341b" name="">
+	<card id="b5a02929-0e78-4ddc-bddf-e38ff869341b" name="The Scorn of Dark Alice">
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="TTW"/>
 		<property name="Number" value="089" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
 		<property name="Trait" value="" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="{D}" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Look at target opponent's hand and choose a resonator. They discard that card." />
     </card>
-	<card id="bbedb925-1d67-47eb-9dec-a4884da5c476" name="">
+	<card id="bbedb925-1d67-47eb-9dec-a4884da5c476" name="Unseen Pressure">
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="TTW"/>
 		<property name="Number" value="090" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
-		<property name="Trait" value="" />
+		<property name="Rarity" value="C" />
+		<property name="Type" value="Spell" />
+		<property name="Subtype" value="Chant" />
+		<property name="Trait" value="Instant" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="" />
+		<property name="Cost" value="{D}" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="" />
+		<property name="Text" value="Destroy target resonator with 400 or less ATK." />
     </card>
 	<card id="3024e11c-9db4-4385-9b22-e85fffe814bd" name="Dark Machina, Gliding Shadow">
 		<property name="Cluster" value="Alice" />
