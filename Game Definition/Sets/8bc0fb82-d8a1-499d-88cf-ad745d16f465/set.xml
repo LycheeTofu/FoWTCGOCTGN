@@ -185,7 +185,7 @@
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="TTW"/>
 		<property name="Number" value="011" />
-		<property name="Rarity" value="" />
+		<property name="Rarity" value="C" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
 		<property name="Trait" value="Fairy" />
@@ -202,7 +202,7 @@
 		<property name="Rarity" value="U" />
 		<property name="Type" value="Resonator" />
 		<property name="Subtype" value="" />
-		<property name="Trait" value="Fiary" />
+		<property name="Trait" value="Fairy" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="{L}{L}" />
 		<property name="Atk" value="400" />
@@ -1128,7 +1128,7 @@
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
 		<property name="Text" value="[Judgement] {0}. Play this ability only if you have removed three or more cards from the game with this card's ability.&#xd;&#xa; {D}: Remove target card in your opponent's graveyard from the game." />
-		<alternate name="" type="jruler">
+		<alternate name="Dark Alice, Maiden of Slaughter" type="jruler">
 			<property name="Number" value="076J" />
 			<property name="Type" value="J-Ruler" />
 			<property name="Trait" value="Shadow/Knight" />
@@ -1254,9 +1254,9 @@
 		<property name="Set" value="TTW"/>
 		<property name="Number" value="085" />
 		<property name="Rarity" value="C" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="Resonator" />
-		<property name="Trait" value="Demon" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="Demon" />
+		<property name="Trait" value="" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="{D}{1}" />
 		<property name="Atk" value="600" />
@@ -1533,15 +1533,15 @@
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="TTW"/>
 		<property name="Number" value="105" />
-		<property name="Rarity" value="" />
-		<property name="Type" value="" />
-		<property name="Subtype" value="" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Magic Stone" />
+		<property name="Subtype" value="Special" />
 		<property name="Trait" value="" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="If your opponent's life is exactly 4000, this card enters your magic stone area rested.&#xd;&#xa; {Rest}: Produce {F}.&#xd;&#xa; {Rest}: If target resonator would deal damage this turn, it deals that much +200 instead." />
+		<property name="Text" value="If your opponent's life is exactly 4000, this card enters your magic stone area rested.&#xd;&#xa;{Rest}: Produce {F}.&#xd;&#xa;{Rest}: If target resonator would deal damage this turn, it deals that much +200 instead." />
     </card>
 	<card id="b968de40-9658-4c56-ab3d-88d5156d2a4b" name="Darkness Magic Stone">
 		<property name="Cluster" value="Alice" />
