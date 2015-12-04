@@ -181,7 +181,6 @@
 		<property name="Def" value="" />
 		<property name="Text" value="[Trigger] When a resonator your opponent controls attacks or blocks: This card deals 500 damage to target attacking or blocking resonator. If your control a J-Ruler, this card deals damage equal to its ATK instead." />
     </card>
-    </card>
 	<card id="b289b350-727a-4e8d-8879-84548631d1bb" name="Light Sprite">
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="TTW"/>
