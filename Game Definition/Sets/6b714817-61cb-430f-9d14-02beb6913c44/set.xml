@@ -1,0 +1,1514 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd" 
+     name="The Moonlit Savior"
+     id="6b714817-61cb-430f-9d14-02beb6913c44" 
+     gameId="5c1280cc-f52d-4060-b0d9-11363df285fe" 
+     gameVersion="0.0.0.1" 
+     version="0.0.0.1">
+  <packaging>
+    <pack name="Booster" id="252ea5ff-0f3d-4118-8501-d8bce9616bd3">
+      <options>
+        <option probability="0.42">
+          <pick qty="1" key="Rarity" value="SR" />
+        </option>
+        <option probability="0.15">
+          <pick qty="1" key="Rarity" value="R" />
+        </option>
+        <option probability="0.19">
+          <pick qty="1" key="Rarity" value="U" />
+        </option>
+        <option probability="0.24">
+          <pick qty="1" key="Rarity" value="C" />
+        </option>
+      </options>
+      <pick qty="1" key="Rarity" value="R" />
+      <pick qty="2" key="Rarity" value="U" />
+      <pick qty="6" key="Rarity" value="C" />
+    </pack>
+    <pack name="Magic Stones" id="7434d120-3a9f-4acf-b5b8-b94ef5adad95">
+      <pick qty="unlimited" key="Rarity" value="MS" />
+    </pack>
+    <pack name="Rulers" id="9c2a329c-e75e-4288-b2ee-1f46732dcfb0">
+      <pick qty="unlimited" key="Type" value="Ruler" />
+    </pack>
+  </packaging>
+ <cards>
+	<card id="6b714817-61cb-430f-9d14-02beb6913c44" name="Angel of Wisdom, Cherudim">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="001" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Angel" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{L}{1}" />
+		<property name="Atk" value="500" />
+		<property name="Def" value="500" />
+		<property name="Text" value="[Flying] (This card cannot be blocked by J/resonators without Flying.)&#xd;&#xa; [Awakening]{M} : When this card enters your field, destroy target fire or darkness resonator. If you do, put two [+100/+100] counters on this card." />
+    </card>
+	<card id="959c30d3-4549-425c-bf36-0b8b67473124" name="Crescent Moon Magician">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="002" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Wererabbit" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{L}" />
+		<property name="Atk" value="200" />
+		<property name="Def" value="600" />
+		<property name="Text" value="[Awakening] {M}{1}: When this card enters your field, it deals 600 damage to target rested resonator. If damage was dealt this way, put two [+100/+100] counters on this card." />
+    </card>
+	<card id="29adb792-64db-4e13-880c-eea41d05ea7a" name="Friend from Another World, Kaguya">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="003" />
+		<property name="Rarity" value="R" />
+		<property name="Type" value="Ruler" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Wanderer/Little Girl" />
+		<property name="J-Ruler" value="Yes" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="[Judgment]{L}{M}{1} You may spend {M} as it were {Wi}.&#xd;&#xa; Whenever a Moon enters your field, you may draw a card." />
+		<alternate name="Kaguya, the Moonlit Savior" type="jruler">
+			<property name="Number" value="003J" />
+			<property name="Type" value="J-Ruler" />
+			<property name="Trait" value="" />
+			<property name="Atk" value="700" />
+			<property name="Def" value="900" />
+			<property name="Text" value="You may spend {M} as it were {Wi}.&#xd;&#xa; Whenever you awaken a card, put two [+100/+100] counters on this card.&#xd;&#xa; {M}: Cancel target automatic ability. &#xd;&#xa;{L}{1}: Prevent the next damage that would be dealt to this card this turn. &#xd;&#xa;God's Art &lt;Light of the Sacred Moon&gt;{L}{M}{3}: Rest all J/resonators your opponent controls. Then recover all magic stones you control. You may pay Awakening costs {M} less this turn. (Play God's Art &lt;Light of the Sacred Moon&gt; only once per game.)" />
+		</alternate>
+    </card>
+	<card id="040bf3d7-fec7-4808-baed-6697e2f8836c" name="Holy Moon of Pure Nights">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="004" />
+		<property name="Rarity" value="U" />
+		<property name="Type" value="Addition" />
+		<property name="Subtype" value="Field" />
+		<property name="Trait" value="Moon" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{L}{1}" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="J/resonators you control with [Awakening] gain [+200/+200].&#xd;&#xa; {M}{2}: Rest target J-ruler." />
+    </card>
+	<card id="a537ceb1-f1c3-47ee-813e-7a9610a82483" name="Izanagi, Keeper of the Seal">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="005" />
+		<property name="Rarity" value="SR" />
+		<property name="Type" value="Resonator" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Myth" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="{L}{L}{4}" />
+		<property name="Atk" value="1100" />
+		<property name="Def" value="1100" />
+		<property name="Text" value="When this card enters your field, you may remove up to three target resonators and/or regalia your opponent controls from the game.&#xd;&#xa;When this card leaves your field for a non-field zone, put those removed cards into their owner's hands.&#xd;&#xa;This card gains [+300/+300] for each card in all removed areas that was removed by this card." />
+    </card>
+	<card id="0b2891b2-e80e-4ff0-a4b0-9612ff568ef8" name="Kaguya's Premonition">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="006" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="Target resonator gains [+200/+400] until end of turn.&#xd;&#xa;[Awakening]{M}: Prevent the next damage that would be dealt to that resonator this turn. For each 100 damage prevented this way, put a [+100/+100] counter on it." />
+    </card>
+	<card id="3868dd4b-d75c-4292-a323-4a9fa2f22272" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="007" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="fd845dc6-b601-4493-8a03-4616f177862d" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="008" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="b2327ae1-ab7d-4eee-b257-680449645848" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="009" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="8c3d71ae-6b15-4ebc-9399-ee2ead2c5270" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="010" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="ee4f7c1c-3982-45e2-b864-eb8c084a25c8" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="011" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="5182dc74-0216-4e29-bd01-66526c046ef2" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="012" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="d56e2b7e-eb74-4155-8172-68b4f609ed99" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="013" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="9e34e91c-9986-4316-8fd2-7335beb21a4a" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="014" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="435dce38-6e93-4735-a8ef-32e6b10961eb" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="015" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="712bf673-e7d7-4f04-9333-d03dd5c77993" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="016" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="eb2b6b0b-b4b9-44ae-a4d5-4379f7db97fd" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="017" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="53fc247a-93c3-4da8-bb70-a51f922c23b2" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="018" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="09e1118e-d6f4-4569-97eb-f30121179928" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="019" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="e83962b1-ca6a-45c8-aeac-057b348bc8fe" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="020" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="a5134e05-7f0c-4863-a700-0fc7396f3843" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="021" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="5fc8815c-9681-4e9b-aa9b-0a0315f2b678" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="022" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="5c255d59-f84b-468c-ac48-1ceb96efbfa6" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="023" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="e94f1b7a-54d8-4022-acd3-eb4755bf8076" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="024" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="0d94840d-71f7-4a0f-bb49-54066a70f872" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="025" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="15ad9464-5f05-4ce6-b12e-77c1a1709db6" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="026" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="b4142a4d-3e19-491f-b88e-dccfc64d8acd" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="027" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="495db058-fb40-400c-81e8-0f38685012b1" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="028" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="753a50b6-01bd-4336-b62f-70f9ec731582" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="029" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="2c6c092c-505d-41ce-968b-aa6a2224f766" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="030" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="293b6245-45aa-4d37-8321-6da84d88ed66" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="031" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="7c4415cb-d618-4b65-afc6-ba6898545e20" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="032" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="1ed7bfe5-0ed8-4da6-bf27-f79cf83a59fa" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="033" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="c6596082-7e77-4f02-a759-fd1f4b33b03c" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="034" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="9b719c12-19eb-49ca-aa3d-b5ba8f308074" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="035" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="b0462ee7-9c40-475e-b973-c6a6014abcbd" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="036" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="e20b1ac0-b90a-4b48-a74f-ca080bb4665d" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="037" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="0b4548c7-1b37-4d38-9dc0-4fd8492977c7" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="038" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="2e0212f8-034b-404f-87b0-2f81fd73bb33" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="039" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="74a3ac53-6caf-4665-b47c-6f0bd97287f6" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="040" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="ec8fe494-6e70-4c69-a2f7-9f1ca5e81871" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="041" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="a2d47f49-e59c-4fa4-afb6-56f55732b5ea" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="042" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="1f02146a-9c04-475f-a25c-e6e5dab95a2f" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="043" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="56f797e5-1187-46d6-b4c6-2c4c5666e689" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="044" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="c5d7f4dd-9567-42bc-826f-b5c512803bdc" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="045" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="7eb25f88-0ef3-4828-9be4-e8accf156b9b" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="046" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="7ed7ed48-23a3-4f81-9881-e074cf7cbc54" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="047" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="8667631f-5620-4722-8f9d-66ae27659848" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="048" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="52354436-fc11-4ad2-920f-1b77bc5f5aaf" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="049" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="f834544a-31e3-4306-aedc-0ddda59cf668" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="050" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="d657bbc3-a9f9-4dbf-a51d-09e361809762" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="051" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="f30281eb-34db-4c9f-8315-6253d2d9d6a9" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="052" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="2e1a09f8-6419-4325-a953-5a2f7ddd57a0" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="053" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="28246a45-09da-48c9-a240-2b4fa4f23fd7" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="054" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="26848361-02e8-4344-b630-6dd5b7474cb5" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="055" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="f58b55f0-afb3-495d-80d5-f7528372e62e" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="056" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="d520ff16-d4bf-4573-9b04-f28e8dce12b2" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="057" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="a2fb1108-f855-426b-8e9c-8388e4e2f435" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="058" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="b7929d4d-ea23-483d-881e-462050edd0e8" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="059" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="f63a50d5-9c81-4282-88d4-e91e4b205e80" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="060" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="32c629d0-d4de-4f0f-8417-8e7eb51b021e" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="061" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="19d4b52c-b52e-4a70-8cc9-a1c35583bf5b" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="062" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="1b4a700c-4cc5-4282-822d-c6beb5cc5157" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="063" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="f060b9f8-6b4a-4ed0-92a4-d398c9e64d7a" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="064" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="82be3720-a060-4fef-b9f9-50b2a64d0938" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="065" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="dba9750c-c7f3-43c3-828b-481837c25b26" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="066" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="0cb82920-78e2-4b19-9be6-f98efe1f67e6" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="067" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="e579e488-e435-4b09-8c3a-84252bc39da8" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="068" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="406fb709-4ab6-4e68-aff7-d46ccbf24e55" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="069" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="8a701bd5-dbee-4feb-937b-377d58ff7d49" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="070" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="8cfc49d7-8cbf-4733-bc5f-878db12761c7" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="071" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="e017d5e5-b0eb-4814-9b5f-5739060bba0d" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="072" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="0ae3251f-43d7-4363-bcf8-4ef3a43fbd2c" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="073" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="6e51ae20-5ce9-4761-8c1b-ce662e89453a" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="074" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="0c11ea1b-5e06-4d3b-a309-471efaab212c" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="075" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="6c7c3160-3c15-4df6-908b-7b0b4e56eba2" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="076" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="ddedfed0-539e-4ac4-a9e1-bbea0dd16537" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="077" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="44405d95-276f-4b40-a30f-6962dba61927" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="078" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="a711e89b-9588-443b-a632-a5151ef05176" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="079" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="cdfe49a2-d70e-4d78-9947-f76bdd9aaa99" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="080" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="fc4e8f7c-99fd-4de2-9339-cf65cb521b0a" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="081" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="f7e2fabf-c762-4efd-a97f-2c9daf7c200b" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="082" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="46bf04c9-7a35-49e4-9b85-0a370f84e2f2" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="083" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="cb824f4b-b17f-41e4-b7a1-c238440ad8ad" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="084" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="65f0682a-e2e4-4124-a09d-5ba3c16e7a5e" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="085" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="8f6fecee-8071-481b-8266-25935ce214e1" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="086" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="7339c185-de24-4e84-a207-76d3b84fec28" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="087" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="f5e33d53-aad5-41a4-96a7-69a3aa643401" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="088" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="ec8fbdf7-300c-4f69-aad1-733856787195" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="089" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="62e402e0-fd1e-45b0-bd39-0ae8a6a60d81" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="090" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="bcfdcd2b-de0b-4382-baa1-1c4c9da1e67a" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="091" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="b17bf896-b68e-4e5b-bab0-67e20d30c4cf" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="092" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="70664f67-5da2-4182-9e21-ca4a589dd665" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="093" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="a154bbea-cf95-4589-bc37-a8bb2c8e1be6" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="094" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="a9a6d84f-6fc4-46c4-a385-35a12e4522a0" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="095" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="3923b80f-9e2b-45c6-a177-2d4b388d2c01" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="096" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="70c53736-2f79-4b5c-b07d-f34f3b06f7a8" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="097" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="364b3103-777e-46fb-b674-e056cf68a2f4" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="098" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="069af118-955d-4374-84dd-995f15badbd5" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="099" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="67826fb9-8c82-45ae-aa6b-7f8ea51795e7" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="100" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="7f738191-fab8-407f-acc9-e77db5dfe436" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="101" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="a2e57003-241b-42f4-a596-e7ddcefab89b" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="102" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="d215a9c5-5452-40b6-b61a-40f1fca288db" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="103" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="24a925d8-4343-493c-accd-e3e86a669e50" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="104" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+	<card id="88c2f5a2-153a-4ea1-875f-b6835dbd3981" name="">
+		<property name="Cluster" value="Alice" />
+		<property name="Set" value="TMS"/>
+		<property name="Number" value="105" />
+		<property name="Rarity" value="" />
+		<property name="Type" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="" />
+		<property name="J-Ruler" value="" />
+		<property name="Cost" value="" />
+		<property name="Atk" value="" />
+		<property name="Def" value="" />
+		<property name="Text" value="" />
+    </card>
+</set>
