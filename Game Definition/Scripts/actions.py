@@ -63,15 +63,21 @@ def tap(card, x = 0, y = 0):
 
 def flip(card, x = 0, y = 0):
     mute()
-    if "jruler" in card.alternates:
-        if card.isFaceUp == False:
-            card.isFaceUp = True
+    if "jruler" in card.alternates and card.isFaceUp:
         if card.alternate == "":
             notify("{} J-Activates {} to {}".format(me, card.alternateProperty("jruler", "name"), card))
             card.alternate = 'jruler'
         else:
             card.alternate = ''
             notify("{} reverts {} back to {}.".format(me, card.alternateProperty("jruler", "name"), card))
+    elif "shift" in card.alternates and card.isFaceUp:
+        if card.alternate == "":
+            notify("{} shifts {} to {}".format(me, card.alternateProperty("shift", "name"), card))
+            card.alternate = 'shift'
+        else:
+            card.alternate = ''
+            notify("{} reverts {} back to {}.".format(me, card.alternateProperty("shift", "name"), card))
+
     else:
         if card.isFaceUp:
             notify("{} flips {} face down.".format(me, card))
