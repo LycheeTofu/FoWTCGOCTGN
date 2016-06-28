@@ -1255,8 +1255,8 @@
 		<property name="Number" value="085" />
 		<property name="Rarity" value="C" />
 		<property name="Type" value="Resonator" />
-		<property name="Subtype" value="Demon" />
-		<property name="Trait" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Demon" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="{D}{1}" />
 		<property name="Atk" value="600" />

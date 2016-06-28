@@ -126,7 +126,7 @@
 		<property name="Def" value="1000" />
 		<property name="Text" value="[Swiftness]&#xD;&#xA;When this card enters your field, you may play a fire [Spell : Chant] or [Spell : Chant - Instant] card with total cost 3 or less from your removed area without paying its cost." />
     </card>
-	<card id="b5b68fb4-6f15-4187-863d-6778d136cbdc" name="Memoria Of The Seven Lands" >
+	<card id="b5b68fb4-6f15-4187-863d-6778d136cbdc" name="Memoria of the Seven Lands" >
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="BFA"/>
 		<property name="Number" value="091/92/93/94/95" />
@@ -148,7 +148,7 @@
 			<property name="Text" value="This card gains &quot;Faria, the Ruler of God Sword&quot; in addition to its other names.&#xD;&#xA;When this card enters your field, if you control a &quot;Call to Action's Memoria&quot; destroy up to one target resonator. If you control four &quot;Call to Action's Memoria&quot;, destroy all resonators your opponent controls instead.&#xD;&#xA;Whenever you gain life, put a [+100/+100] counter on each J/Resonator you control." />
 		</alternate>
 	</card>
-	<card id="696cd2af-3be6-49d1-99e8-b242d2ac84a6" name="Memoria Of The Seven Lands" >
+	<card id="696cd2af-3be6-49d1-99e8-b242d2ac84a6" name="Memoria of the Seven Lands" >
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="BFA"/>
 		<property name="Number" value="091/92/93/94/95" />
@@ -170,7 +170,7 @@
 			<property name="Text" value="This card gains &quot;Melgis, the One Charmed by the Demon Sword&quot; in addition to its other names.&#xD;&#xA;When this card enters your field, if you control a &quot;Brutal Conqueror's Memoria&quot; reveal the top three cards of your main deck. Put all resonators with a cost 3 or less from among them into your field. They gain swiftness until end of turn. Put the rest on the top of your main deck in any order. If you control four &quot;Brutal Conqueror's Memoria&quot;  put all resonators from among them into your field instead of all resonators with total cost 3 or less." />
 		</alternate>
 	</card>
-	<card id="cf257e60-720d-42ba-b7ee-10cfdb68250d" name="Memoria Of The Seven Lands" >
+	<card id="cf257e60-720d-42ba-b7ee-10cfdb68250d" name="Memoria of the Seven Lands" >
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="BFA"/>
 		<property name="Number" value="091/92/93/94/95" />
@@ -192,7 +192,7 @@
 			<property name="Text" value="This card gains &quot;Machina, the Mechanical Emperor&quot; in addition to its other names.&#xD;&#xA;When this card enters your field, if you control an &quot;Aloof Researcher's Memoria&quot; search your main deck for up to two Machines whose combined total cost is 7 or less, and put them into your field. Then shuffle your main deck. If you control four &quot;Aloof Researcher's Memoria&quot; search your main deck for up to four Machines whose combined total is cost is 12 or less and put them into your field instead. Then shuffle your main deck.&quot;This card gains [+200/+200] for each Machine you control." />
 		</alternate>
 	</card>
-	<card id="53bc4f61-bf7f-420d-8d25-7a3c493cb74e" name="Memoria Of The Seven Lands" >
+	<card id="53bc4f61-bf7f-420d-8d25-7a3c493cb74e" name="Memoria of the Seven Lands" >
 		<property name="Cluster" value="Alice" />
 		<property name="Set" value="BFA"/>
 		<property name="Number" value="091/92/93/94/95" />
@@ -266,6 +266,7 @@
 		<alternate name="Illusory Demonic Globe, Attoractia" type="shift">
 			<property name="Number" value="081" />
 			<property name="Type" value="Regalia" />
+			<property name="Subtype" value="" />
 			<property name="Trait" value="" />
 			<property name="Cost" value="{7}" />
 			<property name="Atk" value="" />
@@ -308,7 +309,7 @@
 		<property name="Rarity" value="R" />
 		<property name="Type" value="Spell" />
 		<property name="Subtype" value="Chant" />
-		<property name="Trait" value="Instant(Ancient Magic)" />
+		<property name="Trait" value="Instant (Ancient Magic)" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="{D}{D}" />
 		<property name="Atk" value="" />
@@ -506,7 +507,7 @@
 		<property name="Subtype" value="Chant" />
 		<property name="Trait" value="Instant" />
 		<property name="J-Ruler" value="" />
-		<property name="Cost" value="{W}" />
+		<property name="Cost" value="{Wa}" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
 		<property name="Text" value="Destroy target fire resonator." />
@@ -810,8 +811,8 @@
 		<property name="Trait" value="Little Girl" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="{L}{L}{1}" />
-		<property name="Atk" value="" />
-		<property name="Def" value="" />
+		<property name="Atk" value="800" />
+		<property name="Def" value="800" />
 		<property name="Text" value="[Awakening]{M}{1}: When this card enters your field, you may search your main deck for up to four Rabbit resonators with total cost 1 and put them into your field. Then shuffle your main deck.&#xD;&#xA;Whenever a resonator is put into a graveyard from your field, put a [+100/+100] counter on this card." />
 	</card>
 	<card id="238f4b55-df50-4056-9977-c1cb1e4d681c" name="Lapis' Beast Of Flame" >
@@ -891,7 +892,7 @@
 		<property name="Rarity" value="R" />
 		<property name="Type" value="Addition" />
 		<property name="Subtype" value="Field" />
-		<property name="Trait" value="(Machine)" />
+		<property name="Trait" value="Machine" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="{2}" />
 		<property name="Atk" value="" />
@@ -1356,8 +1357,8 @@
 		<property name="Number" value="044" />
 		<property name="Rarity" value="U" />
 		<property name="Type" value="Resonator" />
-		<property name="Subtype" value="Human" />
-		<property name="Trait" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Human" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="{Wa}{2}" />
 		<property name="Atk" value="600" />
