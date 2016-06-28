@@ -6,7 +6,7 @@
      gameVersion="0.0.0.1" 
      version="0.0.0.1">
   <packaging>
-    <pack name="Booster" id="252ea5ff-0f3d-4118-8501-d8bce9616bd3">
+    <pack name="Booster" id="101bb001-cac3-4cc5-b391-3778c03cb648">
       <options>
         <option probability="0.42">
           <pick qty="1" key="Rarity" value="SR" />
