@@ -6,7 +6,7 @@
      gameVersion="0.0.0.1" 
      version="0.0.0.1">
   <packaging>
-    <pack name="Booster" id="8280ae85-57dc-4a0f-b180-b6f754b53eb8">
+    <pack name="Booster" id="cda14558-8d75-45e0-bce2-81b046546603">
       <options>
         <option probability="0.42">
           <pick qty="1" key="Rarity" value="SR" />
@@ -1255,8 +1255,8 @@
 		<property name="Number" value="085" />
 		<property name="Rarity" value="C" />
 		<property name="Type" value="Resonator" />
-		<property name="Subtype" value="Demon" />
-		<property name="Trait" value="" />
+		<property name="Subtype" value="" />
+		<property name="Trait" value="Demon" />
 		<property name="J-Ruler" value="" />
 		<property name="Cost" value="{D}{1}" />
 		<property name="Atk" value="600" />
