@@ -4,7 +4,7 @@
       name="Force of Will TCG" 
       id="5c1280cc-f52d-4060-b0d9-11363df285fe" 
       octgnVersion="3.1.127.0"
-      version="0.1.2.0"
+      version="0.1.3.0"
       markersize="15"
       tags="Force of Will, FoW, FoW TCG, FoWTCG, Force of Will Trading Card Game"
       description="Force of Will Trading Card Game, by the Force of Will Co. Provided by ForcedTheWill.com"
@@ -37,6 +37,7 @@
 	<property name="Subtype" type="String" textKind="Enum"/>
 	<property name="Trait" type="String" textKind="Tokens"/>
 	<property name="J-Ruler" type="String" textKind="Enum"/>
+    <property name="Attribute" type="String" textKind="Tokens" />
 	<property name="Cost" type="String" textKind="Enum"/>
 	<property name="Atk" type="String" textKind="Enum"/>
     <property name="Def" type="String" textKind="Enum"/>
