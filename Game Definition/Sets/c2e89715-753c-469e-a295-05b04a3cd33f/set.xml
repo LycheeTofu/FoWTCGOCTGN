@@ -176,7 +176,7 @@
             <property name="Attribute" value="Fire" />
             <property name="Type" value="Chant" />
             <property name="Subtype" value="" />
-            <property name="Trait" value="" />
+            <property name="Trait" value="Ancient Magic" />
             <property name="Atk" value="" />
             <property name="Def" value="" />
             <property name="Set" value="LEL" />
@@ -228,7 +228,7 @@
             <property name="Attribute" value="Fire" />
             <property name="Type" value="Chant" />
             <property name="Subtype" value="" />
-            <property name="Trait" value="" />
+            <property name="Trait" value="Ancient Magic" />
             <property name="Atk" value="" />
             <property name="Def" value="" />
             <property name="Set" value="LEL" />
@@ -319,7 +319,7 @@
             <property name="Attribute" value="Water" />
             <property name="Type" value="Chant" />
             <property name="Subtype" value="" />
-            <property name="Trait" value="" />
+            <property name="Trait" value="Ancient Magic" />
             <property name="Atk" value="" />
             <property name="Def" value="" />
             <property name="Set" value="LEL" />
@@ -449,7 +449,7 @@
             <property name="Attribute" value="Dark" />
             <property name="Type" value="Chant" />
             <property name="Subtype" value="" />
-            <property name="Trait" value="" />
+            <property name="Trait" value="Ancient Magic" />
             <property name="Atk" value="" />
             <property name="Def" value="" />
             <property name="Set" value="LEL" />
@@ -1151,7 +1151,7 @@
             <property name="Attribute" value="Fire/Water" />
             <property name="Type" value="Chant" />
             <property name="Subtype" value="" />
-            <property name="Trait" value="" />
+            <property name="Trait" value="Ancient Magic" />
             <property name="Atk" value="" />
             <property name="Def" value="" />
             <property name="Set" value="LEL" />
@@ -1229,7 +1229,7 @@
             <property name="Attribute" value="Fire/Water" />
             <property name="Type" value="Chant" />
             <property name="Subtype" value="" />
-            <property name="Trait" value="" />
+            <property name="Trait" value="Ancient Magic" />
             <property name="Atk" value="" />
             <property name="Def" value="" />
             <property name="Set" value="LEL" />
@@ -1242,7 +1242,7 @@
             <property name="Attribute" value="Fire/Water" />
             <property name="Type" value="Chant" />
             <property name="Subtype" value="" />
-            <property name="Trait" value="" />
+            <property name="Trait" value="Ancient Magic" />
             <property name="Atk" value="" />
             <property name="Def" value="" />
             <property name="Set" value="LEL" />
@@ -1331,8 +1331,8 @@
         <card name="Awakened Magic Stone, the Earth" id="d8a33236-9191-4863-b613-7e3faae1b8f2" >
             <property name="Cost" value="" />
             <property name="Attribute" value="" />
-            <property name="Type" value="Special Magic Stone" />
-            <property name="Subtype" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="Special" />
             <property name="Trait" value="" />
             <property name="Atk" value="" />
             <property name="Def" value="" />
@@ -1344,8 +1344,8 @@
         <card name="Killing Stone" id="d08fbb10-0665-4101-8bf5-244691e466b7" >
             <property name="Cost" value="" />
             <property name="Attribute" value="" />
-            <property name="Type" value="Special Magic Stone" />
-            <property name="Subtype" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="Special" />
             <property name="Trait" value="" />
             <property name="Atk" value="" />
             <property name="Def" value="" />
@@ -1357,8 +1357,8 @@
         <card name="Magic Stone of Vaporization" id="38fa23fd-7f1e-4926-9a0a-e874a0eb8700" >
             <property name="Cost" value="" />
             <property name="Attribute" value="" />
-            <property name="Type" value="Special Magic Stone" />
-            <property name="Subtype" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="Special" />
             <property name="Trait" value="" />
             <property name="Atk" value="" />
             <property name="Def" value="" />
@@ -1370,8 +1370,8 @@
         <card name="Pricia's Memoria" id="e6337cd1-a907-40f6-845b-2d2cd88ac12b" >
             <property name="Cost" value="" />
             <property name="Attribute" value="" />
-            <property name="Type" value="Special Magic Stone" />
-            <property name="Subtype" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="Special" />
             <property name="Trait" value="" />
             <property name="Atk" value="" />
             <property name="Def" value="" />
@@ -1383,8 +1383,8 @@
         <card name="Remains of Attoractia" id="10009780-1eb8-425a-88d1-18668dbed2a4" >
             <property name="Cost" value="" />
             <property name="Attribute" value="" />
-            <property name="Type" value="Special Magic Stone" />
-            <property name="Subtype" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="Special" />
             <property name="Trait" value="" />
             <property name="Atk" value="" />
             <property name="Def" value="" />
