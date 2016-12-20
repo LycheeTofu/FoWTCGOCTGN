@@ -3,4 +3,78 @@
   <markers>
     <marker id="d363274a-cb0f-410d-ae66-9792e4535486" name="Counter" />
   </markers>
+  <cards>
+    <card id="c0fcabcb-070f-483c-b0ef-1eb951775675" name="Elf">
+        <property name="Attribute" value="Wind" />
+        <property name="Type" value="Resonator" />
+        <property name="Subtype" value="Token" />
+        <property name="Trait" value="Elf" />
+        <property name="Atk" value="100" />
+        <property name="Def" value="100" />
+        <property name="Set" value="LEL" />
+        <property name="Number" value="1" />
+        <property name="Rarity" value="Token" />
+        <property name="Text" value="" />
+    </card>
+    <card id="125c1d3d-7482-45df-9218-6a0f3c05da11" name="Elf">
+        <property name="Attribute" value="Wind" />
+        <property name="Type" value="Resonator" />
+        <property name="Subtype" value="Token" />
+        <property name="Trait" value="Elf" />
+        <property name="Atk" value="100" />
+        <property name="Def" value="100" />
+        <property name="Set" value="LEL" />
+        <property name="Number" value="1" />
+        <property name="Rarity" value="Token" />
+        <property name="Text" value="" />
+    </card>
+    <card id="57c4fb04-5938-44e9-a488-8505a224f75a" name="Fantasy">
+        <property name="Attribute" value="Water/Dark" />
+        <property name="Type" value="Resonator" />
+        <property name="Subtype" value="Token" />
+        <property name="Trait" value="Fantasy" />
+        <property name="Atk" value="400" />
+        <property name="Def" value="400" />
+        <property name="Set" value="LEL" />
+        <property name="Number" value="2" />
+        <property name="Rarity" value="Token" />
+        <property name="Text" value="" />
+    </card>
+    <card id="46a0f3d8-1bb8-41e6-bf7d-422816f224df" name="Fantasy">
+        <property name="Attribute" value="Water/Dark" />
+        <property name="Type" value="Resonator" />
+        <property name="Subtype" value="Token" />
+        <property name="Trait" value="Fantasy" />
+        <property name="Atk" value="X00" />
+        <property name="Def" value="X00" />
+        <property name="Set" value="LEL" />
+        <property name="Number" value="2" />
+        <property name="Rarity" value="Token" />
+        <property name="Text" value="" />
+    </card>
+    <card id="0ff8d2eb-36f6-4fcf-914e-85061a9048b1" name="Bomb">
+        <property name="Attribute" value="Fire" />
+        <property name="Type" value="Resonator" />
+        <property name="Subtype" value="Token" />
+        <property name="Trait" value="Bomb" />
+        <property name="Atk" value="100" />
+        <property name="Def" value="100" />
+        <property name="Set" value="LEL" />
+        <property name="Number" value="3" />
+        <property name="Rarity" value="Token" />
+        <property name="Text" value="At the beginning of your turn &#x2192; Banish this card. If you do, it deals 1000 damage to your opponent and each J/resonator your opponent controls." />
+    </card>
+    <card id="c32a393a-88b9-4d4a-8a8f-90d1f8455c01" name="Bomb">
+        <property name="Attribute" value="Fire" />
+        <property name="Type" value="Resonator" />
+        <property name="Subtype" value="Token" />
+        <property name="Trait" value="Bomb" />
+        <property name="Atk" value="100" />
+        <property name="Def" value="100" />
+        <property name="Set" value="LEL" />
+        <property name="Number" value="3" />
+        <property name="Rarity" value="Token" />
+        <property name="Text" value="At the end of your turn &#x2192; Banish this card. If you do, it deals 1000 damage to your opponent and each J/resonator your opponent controls.&#xd;&#xa;At the beginning of your turn &#x2192; Banish this card. If you do, it deals 1000 damage to your opponent and each J/resonator your opponent controls." />
+    </card>
+    </cards>
 </set>

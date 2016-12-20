@@ -100,6 +100,12 @@ def rfg(card, x = 0, y = 0):
 	card.moveTo(me.piles['Removed From Game'])
 	notify("{} was sent to {} Remove From Game zone.".format(card.name, me))
 
+def token(group, x = 0, y = 0):
+    guid, quantity = askCard({"Rarity":"Token"}, "And")
+    if quantity == 0:
+        return
+    token = table.create(guid, x, y, quantity)
+
 def addCounter(card, x = 0, y = 0):
 	mute()
 	notify("{} adds 1 counter to {}.".format(me, card))
