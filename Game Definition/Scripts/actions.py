@@ -65,18 +65,21 @@ def flip(card, x = 0, y = 0):
     mute()
     if "jruler" in card.alternates and card.isFaceUp:
         if card.alternate == "":
-            notify("{} J-Activates {} to {}".format(me, card.alternateProperty("jruler", "name"), card))
+            notify("{} J-Activates {} to {}".format(me, card.name, card))
             card.alternate = 'jruler'
+        elif card.alternate == "jruler" and "jruler2" in card.alternates:
+            notify("{} J-Activates {} to {}".format(me, card.name, card))
+            card.alternate = "jruler2"
         else:
+            notify("{} reverts {} back to {}.".format(me, card.name, card))
             card.alternate = ''
-            notify("{} reverts {} back to {}.".format(me, card.alternateProperty("jruler", "name"), card))
     elif "shift" in card.alternates and card.isFaceUp:
         if card.alternate == "":
-            notify("{} shifts {} to {}".format(me, card.alternateProperty("shift", "name"), card))
+            notify("{} shifts {} to {}".format(me, card.name, card))
             card.alternate = 'shift'
         else:
+            notify("{} reverts {} back to {}.".format(me, card.name, card))
             card.alternate = ''
-            notify("{} reverts {} back to {}.".format(me, card.alternateProperty("shift", "name"), card))
 
     else:
         if card.isFaceUp:
