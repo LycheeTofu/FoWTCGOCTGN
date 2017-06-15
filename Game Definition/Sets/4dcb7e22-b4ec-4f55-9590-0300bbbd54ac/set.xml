@@ -1,0 +1,1315 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd"  name="Vingolf 2 - Valkyrie Chronicles" id="4dcb7e22-b4ec-4f55-9590-0300bbbd54ac"  gameId="5c1280cc-f52d-4060-b0d9-11363df285fe"  gameVersion="0.0.0.1"  version="0.0.0.1">
+    <packaging>
+        <pack name="Magic Stones" id="64a04d0e-64f8-40db-848a-32ebf4647d18">
+            <pick qty="unlimited" key="Rarity" value="MS" >
+                <property key="Subtype" value="" />
+            </pick>
+        </pack>
+        <pack name="Rulers" id="6355f870-042d-4f01-aa0d-eb71547713fd">
+            <pick qty="unlimited" key="Type" value="Ruler" />
+        </pack>
+    </packaging>
+    <cards>
+        <card name="Alicia Melchiott" id="5d2a62b6-f874-45f0-8c5b-611106980c3d" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Ruler" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Squad 7" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="1" />
+            <property name="Rarity" value="RU" />
+            <property name="Text" value="[Judgment] {7}. You may pay {1} less to play this ability for each Squad 7 resonator you control." />
+            <alternate name="Alicia Gunther" type="jruler" >
+                <property name="Cost" value="" />
+                <property name="Attribute" value="Light" />
+                <property name="Type" value="J-Ruler" />
+                <property name="Subtype" value="" />
+                <property name="Trait" value="Baker" />
+                <property name="Atk" value="400" />
+                <property name="Def" value="1000" />
+                <property name="Set" value="VIN002" />
+                <property name="Number" value="1" />
+                <property name="Rarity" value="JR" />
+                <property name="Text" value="When this card enters your field &#x2192; Recover all Squad 7 resonators you control.&#xd;&#xa;Squad 7 resonators you control gain [+200/+200]." />
+            </alternate>
+        </card>
+        <card name="Clementia Förster" id="466cbfd1-152b-419b-b370-f714d08fbe24" >
+            <property name="Cost" value="{L}{2}" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Researcher" />
+            <property name="Atk" value="400" />
+            <property name="Def" value="400" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="2" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Search your main deck for an addition, reveal it and put it into your hand. Then shuffle your main deck." />
+        </card>
+        <card name="Edy Nelson" id="bd997cb1-9097-42cb-b396-1981fe33f814" >
+            <property name="Cost" value="{L}{1}" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Squad 7" />
+            <property name="Atk" value="500" />
+            <property name="Def" value="500" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="3" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="As long as you control another Squad 7, this card gains [0/+500].&#xd;&#xa;When a Squad 7 you control is destroyed &#x2192; Rest this card." />
+        </card>
+        <card name="Elshan Flower" id="7729d607-d50d-41fa-ab1c-0f616dbe12cc" >
+            <property name="Cost" value="{L}{L}" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Spell" />
+            <property name="Subtype" value="Chant" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="4" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Choose one - Recover target resonator; or rest target resonator." />
+        </card>
+        <card name="First Aid" id="54a32504-597e-4a3b-a23a-b4c3d9f10b82" >
+            <property name="Cost" value="{L}{L}{2}" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Spell" />
+            <property name="Subtype" value="Chant" />
+            <property name="Trait" value="Instant" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="5" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="You gain 200 life for each magic stone you control." />
+        </card>
+        <card name="Flak Jacket" id="884ade25-c15e-4027-99c7-d34d4f487687" >
+            <property name="Cost" value="{L}{2}" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Addition" />
+            <property name="Subtype" value="J/Resonator" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="6" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Prevent all damage that would be dealt to added J/resonator." />
+        </card>
+        <card name="Homer Peron" id="50e6eff9-28cf-4b9d-800b-2974fd2103e3" >
+            <property name="Cost" value="{L}{2}" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Squad 7" />
+            <property name="Atk" value="700" />
+            <property name="Def" value="700" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="7" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; You gain 500 life." />
+        </card>
+        <card name="Irene Ellet" id="e31b40ae-f1b6-4b58-9ca4-63397915605d" >
+            <property name="Cost" value="{L}" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Reporter" />
+            <property name="Atk" value="200" />
+            <property name="Def" value="200" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="8" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Reveal the top card of your main deck. If it's a Squad 7, put it into your hand." />
+        </card>
+        <card name="Jann Walker" id="823e7311-3e7c-4e7b-9f97-30a10c542b1b" >
+            <property name="Cost" value="{L}{1}" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Squad 7" />
+            <property name="Atk" value="500" />
+            <property name="Def" value="500" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="9" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Destroy target Tank." />
+        </card>
+        <card name="Lynn" id="9763f927-e02f-4d67-9607-ce88c9d88ce2" >
+            <property name="Cost" value="{L}{L}{2}" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Squad 7" />
+            <property name="Atk" value="900" />
+            <property name="Def" value="900" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="10" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="" />
+        </card>
+        <card name="Marina Wulfstan" id="6df3d645-e9d8-46ab-a421-c331ea265510" >
+            <property name="Cost" value="{L}{2}" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Squad 7" />
+            <property name="Atk" value="200" />
+            <property name="Def" value="600" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="11" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="{Rest}: Rest target resonator." />
+        </card>
+        <card name="Martha Lipponen" id="648d0ea4-2262-4b17-9864-dcd36608d7f4" >
+            <property name="Cost" value="{L}{1}" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Servant" />
+            <property name="Atk" value="0" />
+            <property name="Def" value="1000" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="12" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="" />
+        </card>
+        <card name="Susie Evans" id="19eb8cb9-07e7-40f4-8c4e-5ebd1284d112" >
+            <property name="Cost" value="{L}" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Squad 7" />
+            <property name="Atk" value="0" />
+            <property name="Def" value="600" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="13" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Look at the top three cards of your main deck or magic stone deck and put them back in any order." />
+        </card>
+        <card name="Symbol of Peace" id="331c5b5b-0b8f-4f4e-8ff0-023fca922d63" >
+            <property name="Cost" value="{L}{1}" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Spell" />
+            <property name="Subtype" value="Chant" />
+            <property name="Trait" value="Instant" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="14" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Up to two target resonators cannot attack this turn." />
+        </card>
+        <card name="Welvar Glenn" id="99f96d90-3226-417c-8cde-73030e99b54a" >
+            <property name="Cost" value="{L}{L}" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Clerk" />
+            <property name="Atk" value="400" />
+            <property name="Def" value="400" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="15" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="{L}{L},{Rest}: Recover target resonator." />
+        </card>
+        <card name="Alfons Auclair" id="004b922a-6c3f-41b2-a603-099ac019ea86" >
+            <property name="Cost" value="{F}{3}" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Nameless" />
+            <property name="Atk" value="800" />
+            <property name="Def" value="800" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="16" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Target resonator must block this turn if able." />
+        </card>
+        <card name="Amy Apple" id="f9c723e2-1ee6-4b02-bae1-fcab858cafe2" >
+            <property name="Cost" value="{F}{F}" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Nameless" />
+            <property name="Atk" value="500" />
+            <property name="Def" value="400" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="17" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="This card cannot be attacked." />
+        </card>
+        <card name="Bombardment" id="e69e75d3-9239-4cd8-809e-a0a870a07e40" >
+            <property name="Cost" value="{F}{F}" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Spell" />
+            <property name="Subtype" value="Chant" />
+            <property name="Trait" value="Instant" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="18" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="This card deals 600 damage to target player or resonator." />
+        </card>
+        <card name="Carisa Contzen" id="2d466fcd-3265-45a7-9ed8-4ca7f3f0681a" >
+            <property name="Cost" value="{F}" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Nameless" />
+            <property name="Atk" value="200" />
+            <property name="Def" value="200" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="19" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="{F}{1},{Rest}: Search your main deck for a regalia with total cost 1 or more, reveal it and put it into your hand. Then shuffle your main deck." />
+        </card>
+        <card name="Clarissa Callaghan" id="112ada2d-1003-460e-a092-211760a9baf1" >
+            <property name="Cost" value="{F}" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Nameless" />
+            <property name="Atk" value="200" />
+            <property name="Def" value="200" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="20" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="{Rest}: Target resonator gains [Swiftness] until end of turn." />
+        </card>
+        <card name="Courageous Stand" id="1dd7beb8-6652-4ab6-9679-3f56d9456a87" >
+            <property name="Cost" value="{F}{1}" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Spell" />
+            <property name="Subtype" value="Chant" />
+            <property name="Trait" value="Instant" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="21" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Target resonator gains [+800/0] until end of turn." />
+        </card>
+        <card name="Frederica Lipps" id="2fbaae0c-acde-4223-9ecf-54ca5dc8af37" >
+            <property name="Cost" value="{F}{5}" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Nameless" />
+            <property name="Atk" value="300" />
+            <property name="Def" value="700" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="22" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Gain control of target recovered resonator your opponent controls until end of turn. It gains [Swiftness] until end of turn." />
+        </card>
+        <card name="Gusurg" id="5699d43e-b687-497b-ae85-3cf0411a4180" >
+            <property name="Cost" value="{F}{2}" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Nameless" />
+            <property name="Atk" value="800" />
+            <property name="Def" value="800" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="23" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="" />
+        </card>
+        <card name="Imca" id="380e9934-54f3-49bc-854b-f9e76403e688" >
+            <property name="Cost" value="{F}{F}" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Nameless" />
+            <property name="Atk" value="500" />
+            <property name="Def" value="500" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="24" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="As long as you control &quot;Kurt Irving&quot;, this card gains [+300/+300].&#xd;&#xa;As long as your opponent controls a J-ruler, this card gains [Swiftness] and [+500/+500]." />
+        </card>
+        <card name="Kurt Irving" id="a5c6ff10-37c4-4df9-a17c-b91be8dd7831" >
+            <property name="Cost" value="{F}{F}{3}" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Nameless" />
+            <property name="Atk" value="1000" />
+            <property name="Def" value="1000" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="25" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="[Swiftness] [First Strike]&#xd;&#xa;Whenever a resonator that was dealt damage by this card this turn is put into a graveyard &#x2192; This card deals 500 damage to your opponent." />
+        </card>
+        <card name="Large Explosion" id="30e33e07-b67e-4bbc-9e45-62c534cbd481" >
+            <property name="Cost" value="{F}{F}{3}" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Spell" />
+            <property name="Subtype" value="Chant" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="26" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="This card deals 800 damage to each player and resonator." />
+        </card>
+        <card name="Leila Peron" id="e4dd7e02-f3b2-4646-bdbf-258ac374156c" >
+            <property name="Cost" value="{F}{1}" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Nameless" />
+            <property name="Atk" value="400" />
+            <property name="Def" value="400" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="27" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="{Rest}: Target resonator gains [+400/0] until end of turn.&#xd;&#xa;{F}{F},{Rest}: This card deals damage equal to its ATK to target resonator." />
+        </card>
+        <card name="Margit Ravelli" id="94462887-1efa-469e-a42e-3d575c9691a0" >
+            <property name="Cost" value="{F}{F}{2}" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Nameless" />
+            <property name="Atk" value="700" />
+            <property name="Def" value="700" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="28" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Whenever this card attacks &#x2192; Resonators you control gain [+300/+300] until end of turn." />
+        </card>
+        <card name="Riela Marcellis" id="e4ab7a2f-643a-41b8-9eb0-57d1eb63a9a6" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Ruler" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Nameless" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="29" />
+            <property name="Rarity" value="RU" />
+            <property name="Text" value="[Judgment] {9}. You may pay {1} less to play this ability for each Nameless resonator you control." />
+            <alternate name="Riela Marcellis" type="jruler" >
+                <property name="Cost" value="" />
+                <property name="Attribute" value="Fire" />
+                <property name="Type" value="J-Ruler" />
+                <property name="Subtype" value="" />
+                <property name="Trait" value="Valkyrur/Nameless" />
+                <property name="Atk" value="1000" />
+                <property name="Def" value="600" />
+                <property name="Set" value="VIN002" />
+                <property name="Number" value="29" />
+                <property name="Rarity" value="JR" />
+                <property name="Text" value="As long as you control &quot;Kurt Irving&quot;, this card gains [Swiftness].&#xd;&#xa;When this card enters your field &#x2192; It deals 1000 damage to target resonator." />
+            </alternate>
+        </card>
+        <card name="Riela's Lance" id="5fa1e2a2-3dab-4c9a-92e9-a4756bec39f3" >
+            <property name="Cost" value="{F}{2}" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Addition" />
+            <property name="Subtype" value="J/Resonator" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="30" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Added J/resonator gains [+1000/0]." />
+        </card>
+        <card name="Alicia Melchiott" id="b9de80df-0737-48c9-b1a3-9b61f3ae27f3" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Ruler" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Squad 7" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="31" />
+            <property name="Rarity" value="RU" />
+            <property name="Text" value="[Judgment] {7}. You may pay {1} less to play this ability for each Squad 7 resonator you control." />
+            <alternate name="Alicia Melchiott" type="jruler" >
+                <property name="Cost" value="" />
+                <property name="Attribute" value="Water" />
+                <property name="Type" value="J-Ruler" />
+                <property name="Subtype" value="" />
+                <property name="Trait" value="Valkyrur/Squad 7" />
+                <property name="Atk" value="800" />
+                <property name="Def" value="800" />
+                <property name="Set" value="VIN002" />
+                <property name="Number" value="31" />
+                <property name="Rarity" value="JR" />
+                <property name="Text" value="When this card enters your field &#x2192; Return target resonator to its owner's hand. When this card enters your field &#x2192; You may add an [Addition:J/Resonator] from your hand to this card." />
+            </alternate>
+        </card>
+        <card name="Alicia's Lance" id="500c5a6a-3c19-4f79-85f7-97c04bb71eb1" >
+            <property name="Cost" value="{Wa}{Wa}{1}" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Addition" />
+            <property name="Subtype" value="J/Resonator" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="32" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Added J/resonator gains [+400/+400]. As long as it's &quot;Alicia Melchiott&quot;, it gains [Flying].&#xd;&#xa;Whenever damage is dealt to added J/resonator &#x2192; Draw a card." />
+        </card>
+        <card name="Brigitte &quot;Rosie&quot; Stark" id="04b22915-572f-40e8-89b9-f4b6c50d9739" >
+            <property name="Cost" value="{Wa}{1}" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Squad 7" />
+            <property name="Atk" value="700" />
+            <property name="Def" value="700" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="33" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Whenever this card blocks or is blocked &#x2192; It gains [-300/-300] until end of turn." />
+        </card>
+        <card name="Cordelia Gi Randgriz" id="95f5c533-836c-4fb2-a65c-06aca0a29a52" >
+            <property name="Cost" value="{Wa}" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Archduchess" />
+            <property name="Atk" value="0" />
+            <property name="Def" value="600" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="34" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="{Wa}{Wa}{1},{Rest}, discard a card: Return target resonator to its owner's hand." />
+        </card>
+        <card name="Eleanor Varrot" id="70bfb5e9-53c1-40d0-90be-9d7aba7c0366" >
+            <property name="Cost" value="{Wa}{Wa}{3}" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military" />
+            <property name="Atk" value="900" />
+            <property name="Def" value="900" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="35" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; You may put a Squad 7 with total cost 3 or less from your hand into your field." />
+        </card>
+        <card name="Faldio Landzaat" id="e6b58b5d-ec99-4756-8994-ea456ddd652e" >
+            <property name="Cost" value="{Wa}{Wa}{1}" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military" />
+            <property name="Atk" value="600" />
+            <property name="Def" value="600" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="36" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="This card gains [+300/+300] as long as you control a regalia." />
+        </card>
+        <card name="Isara Gunther" id="db74e5ff-1a78-4f83-aa89-1584ecf862d1" >
+            <property name="Cost" value="{Wa}" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Squad 7" />
+            <property name="Atk" value="200" />
+            <property name="Def" value="200" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="37" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Look at the top four cards of your main deck. You may reveal a card named &quot;Welkin Gunther&quot; from among them and put it into your hand. Put the rest on the bottom of your main deck.&#xd;&#xa;Banish this card: Draw a card." />
+        </card>
+        <card name="Kreis Czherny" id="569f3c4b-60a7-44b9-b868-af9a3897b7aa" >
+            <property name="Cost" value="{Wa}{1}" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Squad 7" />
+            <property name="Atk" value="300" />
+            <property name="Def" value="300" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="38" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Draw a card." />
+        </card>
+        <card name="Largo Potter" id="8315154c-3d92-4984-85bd-1faaa9dcd8c3" >
+            <property name="Cost" value="{Wa}{Wa}{2}" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Squad 7" />
+            <property name="Atk" value="60" />
+            <property name="Def" value="600" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="39" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Whenever this card attacks &#x2192; It gains [+100/+100] for each Squad 7 resonator you control until end of turn." />
+        </card>
+        <card name="Maurits Von Borg" id="2d889556-ea3d-4d4d-9c8a-29d7eda9191e" >
+            <property name="Cost" value="{Wa}{1}" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Prime Minister" />
+            <property name="Atk" value="200" />
+            <property name="Def" value="1000" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="40" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Cards named &quot;Cordelia Gi Randgriz&quot; you control cannot be targeted by spells or abilities your opponent controls.If damage would be dealt to a &quot;Cordelia Gi Randgriz&quot; you control, it's dealt to this card instead." />
+        </card>
+        <card name="Momentary Respite" id="e4a52493-f09d-42a6-8ae9-2c99ca094ba0" >
+            <property name="Cost" value="{Wa}{2}" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Spell" />
+            <property name="Subtype" value="Chant" />
+            <property name="Trait" value="Instant" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="41" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Rest up to two target resonators your opponent controls. They don't recover during their controller's next recovery phase." />
+        </card>
+        <card name="Sniping From The Blind Spot" id="f802fa1e-2472-4e4f-8f82-1a7dedb4718b" >
+            <property name="Cost" value="{Wa}" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Spell" />
+            <property name="Subtype" value="Chant" />
+            <property name="Trait" value="Instant" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="42" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Return target rested resonator to its owner's hand." />
+        </card>
+        <card name="The Carefree Three" id="683e5b5a-564c-493f-8a9d-7eed3b950bd9" >
+            <property name="Cost" value="{Wa}{Wa}{2}" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Spell" />
+            <property name="Subtype" value="Chant" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="43" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Draw three cards." />
+        </card>
+        <card name="Welkin Gunther" id="30076263-a40d-4ee8-8b9a-c3c66d1fa00f" >
+            <property name="Cost" value="{Wa}{Wa}{1}" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Squad 7" />
+            <property name="Atk" value="700" />
+            <property name="Def" value="700" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="44" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Return target resonator to its owner's hand if you control less resonators than your opponent." />
+        </card>
+        <card name="Zaka" id="44fe13ce-8b9d-4954-9d04-bb3dfa23d8b9" >
+            <property name="Cost" value="{Wa}{2}" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Squad 7" />
+            <property name="Atk" value="600" />
+            <property name="Def" value="600" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="45" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Search your main deck for a card named &quot;Edelweiss&quot;, reveal it and put it into your hand. Then shuffle your main deck." />
+        </card>
+        <card name="Alexis Hilden" id="5fca16c4-1b8d-4459-9500-1c194b60eab0" >
+            <property name="Cost" value="{Wi}{Wi}" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Student" />
+            <property name="Atk" value="600" />
+            <property name="Def" value="600" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="46" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="" />
+        </card>
+        <card name="Aliasse" id="202894f8-9c2a-498b-8350-eab9bb5ddc55" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Ruler" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Student/Class G" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="47" />
+            <property name="Rarity" value="RU" />
+            <property name="Text" value="[Judgment] {5}." />
+            <alternate name="Aliasse" type="jruler" >
+                <property name="Cost" value="" />
+                <property name="Attribute" value="Wind" />
+                <property name="Type" value="J-Ruler" />
+                <property name="Subtype" value="" />
+                <property name="Trait" value="Valkyrur" />
+                <property name="Atk" value="800" />
+                <property name="Def" value="1000" />
+                <property name="Set" value="VIN002" />
+                <property name="Number" value="47" />
+                <property name="Rarity" value="JR" />
+                <property name="Text" value="[Flying]&#xd;&#xa;Whenever this card attacks &#x2192; Recover all magic stones you control." />
+            </alternate>
+        </card>
+        <card name="Aliasse's Lance" id="a9c796ee-783f-49be-ae26-b643a78d4837" >
+            <property name="Cost" value="{Wi}" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Addition" />
+            <property name="Subtype" value="J/Resonator" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="48" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Added J/resonator gains [+100/+100] for each recovered magic stone you control." />
+        </card>
+        <card name="Anisette Nelson" id="0eb71d88-a108-4080-8293-efca37c92188" >
+            <property name="Cost" value="{Wi}{Wi}{2}" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Student" />
+            <property name="Atk" value="800" />
+            <property name="Def" value="800" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="49" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Draw a card." />
+        </card>
+        <card name="Avan Hardins" id="cb89b498-438a-41fe-aa63-efd6b925d200" >
+            <property name="Cost" value="{Wi}{Wi}{Wi}{5}" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Student/Class G" />
+            <property name="Atk" value="1500" />
+            <property name="Def" value="1500" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="50" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="You may pay {1} less to play this card for each Student resonator you control." />
+        </card>
+        <card name="Bulletproof Barrier" id="b8b46d0f-a9af-43bc-83c7-ff24b0a9222d" >
+            <property name="Cost" value="{Wi}" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Spell" />
+            <property name="Subtype" value="Chant" />
+            <property name="Trait" value="Instant" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="51" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Prevent the next damage that would be dealt to target resonator this turn." />
+        </card>
+        <card name="Cosette Coalhearth" id="a7105a63-6414-4ce0-b2d5-72f27193b039" >
+            <property name="Cost" value="{Wi}{Wi}{3}" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Student/Class G" />
+            <property name="Atk" value="800" />
+            <property name="Def" value="800" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="52" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Other resonators you control gain [+400/+400]." />
+        </card>
+        <card name="Destructive Assault" id="0e469342-a21d-4418-8d2a-90dd0ce70505" >
+            <property name="Cost" value="{Wi}" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Spell" />
+            <property name="Subtype" value="Chant" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="53" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Destroy target addition or regalia." />
+        </card>
+        <card name="Juliana Everhart" id="cb73f302-b9f2-4a48-97ab-c14324612e19" >
+            <property name="Cost" value="{Wi}{Wi}{3}" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Student/Class Rep" />
+            <property name="Atk" value="1000" />
+            <property name="Def" value="1000" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="54" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="{Wi}: This card gains [+200/+200] until end of turn." />
+        </card>
+        <card name="Lavinia Lane" id="ade19cf3-86c9-46e1-88c8-aa2889e55a5a" >
+            <property name="Cost" value="{Wi}" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Student/Class G" />
+            <property name="Atk" value="300" />
+            <property name="Def" value="300" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="55" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="{Rest}: Recover target regalia." />
+        </card>
+        <card name="Magari" id="02ae9d70-1193-4c34-9359-a3e907dda176" >
+            <property name="Cost" value="{Wi}{Wi}{1}" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Student" />
+            <property name="Atk" value="200" />
+            <property name="Def" value="400" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="56" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="{Rest}: Produce {Wi}{Wi}." />
+        </card>
+        <card name="Marion Siegbahn" id="5e7c6520-f8d4-4288-8ac5-d68a11482054" >
+            <property name="Cost" value="{Wi}{1}" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Student" />
+            <property name="Atk" value="200" />
+            <property name="Def" value="400" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="57" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When you play an addition &#x2192; Draw a card." />
+        </card>
+        <card name="Power of Unity" id="f9d5956e-acbc-4710-a2fd-6b329a6579cc" >
+            <property name="Cost" value="{Wi}{1}" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Spell" />
+            <property name="Subtype" value="Chant" />
+            <property name="Trait" value="Instant" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="58" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Target resonator gains [+600/+600] until end of turn. If you control four or more resonators, it also gains &quot;Whenever this card deals damage to a resonator &#x2192; This card deals that much damage to your opponent.&quot; until end of turn." />
+        </card>
+        <card name="Rene Randall" id="bdfb0c32-35e1-4456-8a13-cf066f18650f" >
+            <property name="Cost" value="{Wi}{1}" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Student" />
+            <property name="Atk" value="400" />
+            <property name="Def" value="600" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="59" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Cards named &quot;Magari&quot; you control cannot be targeted by spells or abilities your opponent controls." />
+        </card>
+        <card name="Zeri" id="3c78984f-7286-4c0c-aca1-48bd5b163e21" >
+            <property name="Cost" value="{Wi}{Wi}" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Student/Class G" />
+            <property name="Atk" value="500" />
+            <property name="Def" value="500" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="60" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Put the top card of your magic stone deck into your magic stone area if you control less magic stones than your opponent." />
+        </card>
+        <card name="Audrey Gassenarl" id="a001fa79-4256-4076-b9e0-a10660ce76f6" >
+            <property name="Cost" value="{D}{1}" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Gallian Army" />
+            <property name="Atk" value="400" />
+            <property name="Def" value="400" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="61" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="This card gains [+200/+200] as long as you control another Gallian Army." />
+        </card>
+        <card name="Baldren Gassenarl" id="805a6121-cbc7-4129-8d3f-3e5abf299d97" >
+            <property name="Cost" value="{D}{2}" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Gallian Army" />
+            <property name="Atk" value="700" />
+            <property name="Def" value="700" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="62" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card is put into a graveyard from a field &#x2192; Your opponent loses 400 life." />
+        </card>
+        <card name="Berthold Gregor" id="5279f600-920c-4e3f-b4ac-328c023d5ed3" >
+            <property name="Cost" value="{D}{D}{1}" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Drei Stern" />
+            <property name="Atk" value="300" />
+            <property name="Def" value="500" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="63" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Whenever this card attacks &#x2192; Target resonator gains [-400/-400] until end of turn." />
+        </card>
+        <card name="Dahau" id="9f53f4ab-c899-4985-85b2-17413777f418" >
+            <property name="Cost" value="{D}{D}{3}" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Calamity Raven" />
+            <property name="Atk" value="1000" />
+            <property name="Def" value="1000" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="64" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field ⇒ Put target resonator from your graveyard into your hand." />
+        </card>
+        <card name="Dirk Gassenarl" id="77ef6fa1-aa10-4195-8f8b-43938ebb9791" >
+            <property name="Cost" value="{D}" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Gallian Army" />
+            <property name="Atk" value="300" />
+            <property name="Def" value="300" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="65" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="" />
+        </card>
+        <card name="Gilbert Gassenarl" id="85b1fce0-e037-4ff2-b7b1-84c63434b00b" >
+            <property name="Cost" value="{D}{D}{2}" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Gallian Army" />
+            <property name="Atk" value="800" />
+            <property name="Def" value="800" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="66" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Other Gallian Armies you control gain [+200/+200]." />
+        </card>
+        <card name="Hammer of the Valkyrur" id="69ed7a02-fad2-4425-9a6d-7a75a7586e95" >
+            <property name="Cost" value="{D}{D}{2}" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Spell" />
+            <property name="Subtype" value="Chant" />
+            <property name="Trait" value="Instant" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="67" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Destroy target J/resonator." />
+        </card>
+        <card name="Lydia Agthe" id="5da2ec86-9b60-4b72-8ae0-7430bae5b0fd" >
+            <property name="Cost" value="{D}" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Calamity Raven" />
+            <property name="Atk" value="400" />
+            <property name="Def" value="400" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="68" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Rest it if you don't control another Calamity Raven." />
+        </card>
+        <card name="Maximilian" id="cfdc131f-301c-47d9-aa4a-1c51e5479d09" >
+            <property name="Cost" value="{D}{D}{4}" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Imperial General" />
+            <property name="Atk" value="1000" />
+            <property name="Def" value="1200" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="69" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Destroy target resonator your opponent controls.Whenever a resonator is put into a graveyard from your opponent's field &#x2192; You gain 400 life." />
+        </card>
+        <card name="Radi Jaeger" id="b276145f-317b-489e-8f37-39ead7553a5b" >
+            <property name="Cost" value="{D}{D}" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Drei Stern" />
+            <property name="Atk" value="500" />
+            <property name="Def" value="500" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="70" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Target resonator your opponent controls gains [-200/-200] until end of turn." />
+        </card>
+        <card name="Ragnide Gas" id="7f8b14ee-e696-4103-8474-42ddc022f566" >
+            <property name="Cost" value="{D}{1}" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Spell" />
+            <property name="Subtype" value="Chant" />
+            <property name="Trait" value="Instant" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="71" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Target J/resonator gains [-500/-500] until end of turn." />
+        </card>
+        <card name="Schemes of the Empire" id="c58ea969-775d-42d6-a6aa-00cd254cbbbe" >
+            <property name="Cost" value="{D}{1}" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Spell" />
+            <property name="Subtype" value="Chant" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="72" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Look at target opponent's hand and choose a card. They discard that card." />
+        </card>
+        <card name="Selvaria Bles" id="325dca5f-ddf5-4288-9af3-44bf5b327b88" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Ruler" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Drei Stern" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="73" />
+            <property name="Rarity" value="RU" />
+            <property name="Text" value="[Judgment] {6}. You may pay {3} less to play this ability if you control &quot;Maximilian&quot;." />
+            <alternate name="Selvaria Bles" type="jruler" >
+                <property name="Cost" value="" />
+                <property name="Attribute" value="Dark" />
+                <property name="Type" value="J-Ruler" />
+                <property name="Subtype" value="" />
+                <property name="Trait" value="Drei Stern" />
+                <property name="Atk" value="900" />
+                <property name="Def" value="700" />
+                <property name="Set" value="VIN002" />
+                <property name="Number" value="73" />
+                <property name="Rarity" value="JR" />
+                <property name="Text" value="When this card enters your field &#x2192; Up to two target resonators gain [-300/-300] for each Drei Stern you control." />
+            </alternate>
+        </card>
+        <card name="Selvaria's Lance" id="53c85b5f-5e01-4a1f-beae-4a33574de1d6" >
+            <property name="Cost" value="{D}{D}{2}" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Addition" />
+            <property name="Subtype" value="J/Resonator" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="74" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Added J/resonator gains [+400/+400] and &quot;Whenever this card deals damage &#x2192; You gain that much life.&quot;." />
+        </card>
+        <card name="Zig" id="41e1c7a2-4241-4c65-8bff-5c47647f3a55" >
+            <property name="Cost" value="{D}{1}" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Military/Calamity Raven" />
+            <property name="Atk" value="300" />
+            <property name="Def" value="700" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="75" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="As long as you control a &quot;Dahau&quot;, this card gains [+400/0]." />
+        </card>
+        <card name="Class G's Tank" id="b6a6ac23-d009-4f9a-bd94-3bbd73303742" >
+            <property name="Cost" value="{2}" />
+            <property name="Attribute" value="Void" />
+            <property name="Type" value="Regalia" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Tank" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="76" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="{1}, {Rest}: You gain 200 life.&#xd;&#xa;{2}, {Rest}:Target resonator cannot be targeted by spells or abilities your opponent controls until end of turn.&#xd;&#xa;{3}, {Rest}: Draw a card.&#xd;&#xa;{4}, {Rest}: Rest target J/resonator." />
+        </card>
+        <card name="Edelweiss" id="d266f5f2-aa49-46e3-b415-ef964ccb94e3" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="Void" />
+            <property name="Type" value="Regalia" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Tank" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="77" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="You pay {2} less to play [Judgment] abilities. Banish this card: Squad 7 you contrl gain [+400/+400] until end of turn. Play this ability only if you control a J-ruler." />
+        </card>
+        <card name="Imperial Tank" id="e844f2aa-6435-4fa9-b5ff-5882a7bfb5fa" >
+            <property name="Cost" value="{2}" />
+            <property name="Attribute" value="Void" />
+            <property name="Type" value="Regalia" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Tank" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="78" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Your opponent pays {1} more to play [Judgment] abilities.&#xd;&#xa;{Rest}: Your J-ruler gains [+200/+200] until end of turn.&#xd;&#xa;{Rest}, banish a resonator: Your J-ruler gains [+500/+500] until end of turn." />
+        </card>
+        <card name="Nameless Tank" id="e886f44d-543f-42a3-8997-31ec93a2c7d9" >
+            <property name="Cost" value="{3}" />
+            <property name="Attribute" value="Void" />
+            <property name="Type" value="Regalia" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Tank" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="79" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Whenever a Nameless enters your field &#x2192; Recover this card.&#xd;&#xa;{Rest}: This card deals 100 damage to target resonator.&#xd;&#xa;{Rest}: If your J-ruler would deal damage this turn, it deals that much +200 instead." />
+        </card>
+        <card name="Ragnite" id="f8c0437f-459e-4624-884f-3cb31e44ed8d" >
+            <property name="Cost" value="{3}" />
+            <property name="Attribute" value="Void" />
+            <property name="Type" value="Regalia" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="80" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="{Rest}: Produce {L}, {F}, {Wa}, {Wi} or {D}.&#xd;&#xa;Banish this card: Produce {L}, {F}, {Wa}, {Wi} or {D}.&#xd;&#xa;{L}{L}, {Rest}, banish this card: Recover your J-ruler." />
+        </card>
+        <card name="Magic Stone of Black Silence" id="38962083-f97e-48d9-950b-4afb3e3cdf7f" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="Special" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="81" />
+            <property name="Rarity" value="MS" />
+            <property name="Text" value="Treat this card as a wind magic stone and darkness magic stone.&#xd;&#xa;{Rest}: Produce {Wi} or {D}." />
+        </card>
+        <card name="Magic Stone of Blasting Waves" id="5bc54d59-8675-4117-a62e-17d65dd15d2a" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="Special" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="82" />
+            <property name="Rarity" value="MS" />
+            <property name="Text" value="Treat this card as a wind magic stone and fire magic stone.&#xd;&#xa;{Rest}: Produce {Wi} or {F}." />
+        </card>
+        <card name="Magic Stone of Dark Depth" id="06a35bc0-0fe6-410a-b16c-8e255cb6b48a" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="Special" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="83" />
+            <property name="Rarity" value="MS" />
+            <property name="Text" value="Treat this card as a darkness magic stone and water magic stone.&#xd;&#xa;{Rest}: Produce {D} or {Wa}." />
+        </card>
+        <card name="Magic Stone of Deep Wood" id="99ac6174-b7e5-4083-b79a-63129d0de373" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="Special" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="84" />
+            <property name="Rarity" value="MS" />
+            <property name="Text" value="Treat this card as a wind magic stone and water magic stone.&#xd;&#xa;{Rest}: Produce {Wi} or {Wa}." />
+        </card>
+        <card name="Magic Stone of Gusting Skies" id="f070e02b-285f-4e54-94b3-c5d717b54f20" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="Special" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="85" />
+            <property name="Rarity" value="MS" />
+            <property name="Text" value="Treat this card as a light magic stone and wind magic stone.&#xd;&#xa;{Rest}: Produce {L} or {Wi}." />
+        </card>
+        <card name="Magic Stone of Hearth's Core" id="bb227ba8-d234-4b99-976d-018861c85f91" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="Special" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="86" />
+            <property name="Rarity" value="MS" />
+            <property name="Text" value="Treat this card as a fire magic stone and water magic stone.&#xd;&#xa;{Rest}: Produce {F} or {Wa}." />
+        </card>
+        <card name="Magic Stone of Heat Ray" id="ed4de35e-08cd-4f9c-9dbe-545b2aaadc86" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="Special" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="87" />
+            <property name="Rarity" value="MS" />
+            <property name="Text" value="Treat this card as a light magic stone and fire magic stone.&#xd;&#xa;{Rest}: Produce {L} or {F}." />
+        </card>
+        <card name="Magic Stone of Heaven's Rift" id="b0071eb0-2330-4650-bea4-ff525fc6b368" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="Special" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="88" />
+            <property name="Rarity" value="MS" />
+            <property name="Text" value="Treat this card as a light magic stone and darkness magic stone.&#xd;&#xa;{Rest}: Produce {L} or {D}." />
+        </card>
+        <card name="Magic Stone of Light Vapors" id="fdf9c156-b9aa-41f6-81d1-5b83a20e575c" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="Special" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="89" />
+            <property name="Rarity" value="MS" />
+            <property name="Text" value="Treat this card as a light magic stone and water magic stone.&#xd;&#xa;{Rest}: Produce {L} or {Wa}." />
+        </card>
+        <card name="Magic Stone of Scorched Bales" id="87bcdae1-8a38-4679-94d5-56a60888c1cc" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="Special" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="90" />
+            <property name="Rarity" value="MS" />
+            <property name="Text" value="Treat this card as a darkness magic stone and fire magic stone.&#xd;&#xa;{Rest}: Produce {D} or {F}." />
+        </card>
+        <card name="Darkness Magic Stone" id="00152d9d-0bd7-4215-a155-e73d642cc887" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="91" />
+            <property name="Rarity" value="MS" />
+            <property name="Text" value="{Rest}: Produce {D}." />
+        </card>
+        <card name="Fire Magic Stone" id="6f21e3e0-3f9a-4a07-8da9-73fea32503c7" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="92" />
+            <property name="Rarity" value="MS" />
+            <property name="Text" value="{Rest}: Produce {F}." />
+        </card>
+        <card name="Light Magic Stone" id="dd88ff41-4df9-43c5-8592-78def1f3452c" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="93" />
+            <property name="Rarity" value="MS" />
+            <property name="Text" value="{Rest}: Produce {L}." />
+        </card>
+        <card name="Water Magic Stone" id="16f52e36-8498-4f3f-944a-1a6269bfb5e6" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="94" />
+            <property name="Rarity" value="MS" />
+            <property name="Text" value="{Rest}: Produce {Wa}." />
+        </card>
+        <card name="Wind Magic Stone" id="f0ad823a-f9a3-4a4d-b71c-ed117052b029" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="VIN002" />
+            <property name="Number" value="95" />
+            <property name="Rarity" value="MS" />
+            <property name="Text" value="{Rest}: Produce {Wi}." />
+        </card>
+    </cards>
+</set>

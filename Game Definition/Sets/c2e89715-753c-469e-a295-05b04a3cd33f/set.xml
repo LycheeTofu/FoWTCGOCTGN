@@ -1,0 +1,1462 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<set xmlns:noNamespaceSchemaLocation="CardSet.xsd"  name="Legacy Lost" id="c2e89715-753c-469e-a295-05b04a3cd33f"  gameId="5c1280cc-f52d-4060-b0d9-11363df285fe"  gameVersion="0.0.0.1"  version="0.0.0.1">
+    <packaging>
+        <pack name="Booster" id="91886969-66d0-4359-9b41-7880b1ba54d0">
+            <options>
+                <option probability="0.42">
+                    <pick qty="1" key="Rarity" value="SR" />
+                </option>
+                <option probability="0.15">
+                    <pick qty="1" key="Rarity" value="R" />
+                </option>
+                <option probability="0.19">
+                    <pick qty="1" key="Rarity" value="U" />
+                </option>
+                <option probability="0.24">
+                    <pick qty="1" key="Rarity" value="C" />
+                </option>
+            </options>
+            <pick qty="1" key="Rarity" value="R" />
+            <pick qty="2" key="Rarity" value="U" />
+            <pick qty="6" key="Rarity" value="C" />
+        </pack>
+        <pack name="Magic Stones" id="57062e16-3b1a-4fec-b9f8-d33eb9650391">
+            <pick qty="unlimited" key="Rarity" value="MS" />
+        </pack>
+        <pack name="Rulers" id="36e5661b-1bd4-4df3-a408-e3971fdd3220">
+            <pick qty="unlimited" key="Type" value="Ruler" />
+        </pack>
+    </packaging>
+    <cards>
+        <card name="Amaterasu, Guide of Light" id="a2084d34-5f90-4e13-b569-5ea9f14d6613" >
+            <property name="Cost" value="{L}{L}{1}" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Myth" />
+            <property name="Atk" value="800" />
+            <property name="Def" value="800" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="1" />
+            <property name="Rarity" value="SR" />
+            <property name="Text" value="Whenever this card deals damage &#x2192; You gain that much life.&#xd;&#xa;{L}{L}, rest two recovered resonators you control: Put this card from your graveyard into your field rested. Play this ability only if this card is in your graveyard.&#xd;&#xa;[Inheritance] {L}{L}{1}: Target J/resonator gains [+800/+800] until end of turn." />
+        </card>
+        <card name="Amaterasu's Foresight" id="cb115405-eb9c-40d9-bd2b-04320e44a4d1" >
+            <property name="Cost" value="{L}{1}" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="2" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="[Quickcast]&#xd;&#xa;Prevent all damage that would be dealt by J/resonators this turn." />
+        </card>
+        <card name="Beast of Holy Light" id="3611e84f-67c4-46dc-8bf8-817c4bef4801" >
+            <property name="Cost" value="{L}" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Beast" />
+            <property name="Atk" value="300" />
+            <property name="Def" value="300" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="3" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="[Barrier] {F}{D}&#xd;&#xa;[Inheritance] {L}: Target J/resonator gains [+300/+300] and [Barrier] {F}{D} until end of turn. (Pay {L} and discard this card to play this ability.)" />
+        </card>
+        <card name="Lumia's Purification" id="37fdb403-7b9c-4653-94bc-b2bb20488a57" >
+            <property name="Cost" value="{L}{L}{1}" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="4" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="[Remnant]&#xd;&#xa;Destroy target rested non-magic stone card." />
+        </card>
+        <card name="Millium's Weapon" id="421f66fa-73d6-443f-a896-4567b637d200" >
+            <property name="Cost" value="{L}" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="5" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="[Quickcast]&#xd;&#xa;Put two [+100/+100] counters on target J/resonator." />
+        </card>
+        <card name="Snow White of the Crystal Apple" id="0fbb98a5-1e86-4c7c-82d3-c7536e3dae1a" >
+            <property name="Cost" value="{L}{L}{2}" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Fairy Tale" />
+            <property name="Atk" value="0" />
+            <property name="Def" value="0" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="6" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="This card enters your field with two [+100/+100] counters on it for each light magic stone you control.&#xd;&#xa;{L}, remove a [+100/+100] counter from this card: Put a [+100/+100] counter on another target light J/resonator." />
+        </card>
+        <card name="Spirit of Light" id="9e79b447-a9ff-4f90-a486-eca16ac61380" >
+            <property name="Cost" value="{L}{L}" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Spirit" />
+            <property name="Atk" value="600" />
+            <property name="Def" value="600" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="7" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Put a [+100/+100] counter on another target J/resonator you control." />
+        </card>
+        <card name="The Seven Dwarves" id="21c6b82b-cab2-40c6-b11e-10077c863aba" >
+            <property name="Cost" value="{L}{L}{1}" />
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Fairy Tale" />
+            <property name="Atk" value="0" />
+            <property name="Def" value="0" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="8" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="This card enters your field with seven [+100/+100] counters on it.&#xd;&#xa;Prevent all damage that would be dealt to this card. If damage was prevented this way, remove a [+100/+100] counter from this card." />
+        </card>
+        <card name="Ancient Manager" id="dece238f-8040-4bc5-ba7d-570631cd2985" >
+            <property name="Cost" value="{F}" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Ancient" />
+            <property name="Atk" value="300" />
+            <property name="Def" value="300" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="9" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Remove the top card of your deck from the game. This card deals 100 damage multiplied by the total cost of the card removed this way to your opponent." />
+        </card>
+        <card name="Bastet, Goddess of Cats" id="706889c3-9116-410a-baa3-21f2f2f10e62" >
+            <property name="Cost" value="{F}{1}" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Cthulhu" />
+            <property name="Atk" value="700" />
+            <property name="Def" value="700" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="10" />
+            <property name="Rarity" value="SR" />
+            <property name="Text" value="If a Cthulhu you control would deal damage to a J/resonator, it deals double that much instead.&#xd;&#xa;[Inheritance] {F}{1}: Put five limit counters on target Cthulhu J/resonator with [Limit]." />
+        </card>
+        <card name="Bastet's Fascination" id="7cbffbe5-f62f-45b1-942c-2f4c911a4f24" >
+            <property name="Cost" value="{F}" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="11" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="[Quickcast]&#xd;&#xa;Target J/resonator must block this turn if able. Draw a card." />
+        </card>
+        <card name="Conjure Time Bomb" id="dd185cef-2ba7-4d17-9cb3-9c2350a4c22a" >
+            <property name="Cost" value="{F}{1}" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Ancient Magic" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="12" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="Put a [100/100] fire Bomb resonator token with &quot;At the beginning of your turn &#x2192; Banish this card. If you do, it deals 1000 damage to your opponent and each J/resonator your opponent controls.&quot; into your field.&#xd;&#xa;[Awakening] {F}{F}{1}: That token gains &quot;At the end of your turn &#x2192; Banish this card. If you do, it deals 1000 damage to your opponent and each J/resonator your opponent controls.&quot; until end of turn." />
+        </card>
+        <card name="Invisible Flame" id="7430e1ea-2685-4c35-8c24-af7e530c69b0" >
+            <property name="Cost" value="{F}{1}" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Magic Lifeform" />
+            <property name="Atk" value="600" />
+            <property name="Def" value="600" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="13" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="[Inheritance] {F}{1}: This card deals 600 damage to target J/resonator. (Pay {F}{1} and discard this card to play this ability.)" />
+        </card>
+        <card name="Scyscraper Giant" id="496b7f8a-0471-49ab-82bc-69616ff32e90" >
+            <property name="Cost" value="{F}{F}{5}" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Fairy Tale" />
+            <property name="Atk" value="1700" />
+            <property name="Def" value="1700" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="14" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="[Precision] [Barrier] (Chant)&#xd;&#xa;{Rest}: This card deals 800 damage to each J/resonator without [Flying]." />
+        </card>
+        <card name="Time-Guide Admiral, Alfred" id="df7e4631-192f-43e6-9be1-c022d77f5e4f" >
+            <property name="Cost" value="{F}{F}{1}" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Ancient" />
+            <property name="Atk" value="800" />
+            <property name="Def" value="800" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="15" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="When this card enters your field &#x2192; If you removed two or more mana counters from J/ruler this turn and you have no produced will, put two mana counters on your J/ruler." />
+        </card>
+        <card name="World Flame Summoning" id="7f980351-0453-4225-a19d-522be408caef" >
+            <property name="Cost" value="{F}{F}{4}" />
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Ancient Magic" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="16" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="Choose two - Your opponent banishes a special magic stone; or this card deals 800 damage to each resonator your opponent controls; or this card deals 800 damage to your opponent; or this card deals 1500 damage to target J-ruler." />
+        </card>
+        <card name="Alhama'at's Mage Knight" id="4f7e86c1-a618-459e-b717-5a0dc7f87f6f" >
+            <property name="Cost" value="{Wa}{1}" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Magic Lifeform/Ancient Magic" />
+            <property name="Atk" value="500" />
+            <property name="Def" value="700" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="17" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="" />
+        </card>
+        <card name="Charlotte, Wielder of the Sacred Spirit" id="feb9b918-443e-4f4e-b81d-056957ad1def" >
+            <property name="Cost" value="{Wa}{Wa}{Wa}{1}" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Wizard" />
+            <property name="Atk" value="0" />
+            <property name="Def" value="0" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="18" />
+            <property name="Rarity" value="SR" />
+            <property name="Text" value="[Barrier] (Total cost equal to or less than number of cards in your hand.)&#xd;&#xa;This card gains [+200/+200] for each card in your hand.&#xd;&#xa;When this card enters your field &#x2192; Draw a card." />
+        </card>
+        <card name="Fishing" id="b3e32e95-a219-42b9-b37d-f5130b48ac70" >
+            <property name="Cost" value="{Wa}" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="19" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Put the top card of your deck into your graveyard. If it was put into a graveyard this way, put a [X00/X00] water/darkness Fantasy resonator token into your field, where X is that card's total cost." />
+        </card>
+        <card name="Jiang Ziya, the Fisherman" id="97c7859a-cfc6-4253-a3dc-8bdb1f794135" >
+            <property name="Cost" value="{Wa}{Wa}{1}" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Myth" />
+            <property name="Atk" value="700" />
+            <property name="Def" value="700" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="20" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="When this card enters your field &#x2192; Put the top card of your deck into your graveyard. If it was put into your graveyard this way, put a [X00/X00] water/darkness Fantasy resonator token into your field, where X is that card's total cost." />
+        </card>
+        <card name="Moojdart's Illusionary Soldier" id="0b333423-c594-47e7-b2b2-c6fe8437d499" >
+            <property name="Cost" value="{Wa}" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Fantasy" />
+            <property name="Atk" value="100" />
+            <property name="Def" value="100" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="21" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Prevent all damage that would be dealt to this card during your opponent's turn.&#xd;&#xa;{Wa}: Return this card to its owner's hand." />
+        </card>
+        <card name="Rachel, Alhama'at's Advisor" id="0a9290b3-1818-42be-bbae-eb5f67e6c880" >
+            <property name="Cost" value="{Wa}{Wa}" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Ancient" />
+            <property name="Atk" value="600" />
+            <property name="Def" value="600" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="22" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="[Inheritance] {Wa}{Wa}: Return target resonator to its owner's hand. (Pay {Wa}{Wa} and discard this card to play this ability.)" />
+        </card>
+        <card name="Rachel's Smile" id="171fc447-6934-449e-964f-280f06a9be95" >
+            <property name="Cost" value="{Wa}{Wa}{3}" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Ancient Magic" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="23" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="[Quickcast]&#xd;&#xa;Rest all J/resonators and magic stones your opponent controls." />
+        </card>
+        <card name="Reunion of Sisters" id="46cfed92-0b7e-4225-a68f-dfefc6a2ab32" >
+            <property name="Cost" value="{Wa}{Wa}{1}" />
+            <property name="Attribute" value="Water" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="24" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="Choose one, if you control a light J/resonator and another water J/resonator, you may choose both - Draw two cards; or return target resonator to its owner's hand." />
+        </card>
+        <card name="Fiethsing, the Fate Spinning Winds" id="12287740-a1f0-4a82-ab22-5a24659ab362" >
+            <property name="Cost" value="{Wi}{1}" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Elf/Six Sages" />
+            <property name="Atk" value="600" />
+            <property name="Def" value="600" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="25" />
+            <property name="Rarity" value="SR" />
+            <property name="Text" value="[Quickcast]&#xd;&#xa;When this card enters your field &#x2192; You may return another target resonator you control to its owner's hand.&#xd;&#xa;[Inheritance] {Wi}{1} Target J/resonator gains [+600/+600] until end of turn. Search your deck for a card named &quot;Fiethsing's Monocle&quot; and put it into your field. Then shuffle your deck" />
+        </card>
+        <card name="Final Breeze" id="cbc2aa28-2368-4a4b-a3b8-82591d3b32a5" >
+            <property name="Cost" value="{Wi}{1}" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="26" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="[Quickcast]&#xd;&#xa;Return target spell to its owner's hand.&#xd;&#xa;[Torrent] Your opponent can't play spells this turn." />
+        </card>
+        <card name="Gale Force" id="6c8eb55a-8fb2-4ecc-a284-d9863b2c0e6c" >
+            <property name="Cost" value="{Wi}" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="27" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="[Quickcast]&#xd;&#xa;Destroy target resonator with [Flying]." />
+        </card>
+        <card name="Jack, Climbing the Beanstalk" id="e500d2fa-56c8-4b58-9c50-94a8e4126359" >
+            <property name="Cost" value="{Wi}{Wi}{1}" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Fairy Tale" />
+            <property name="Atk" value="800" />
+            <property name="Def" value="800" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="28" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="When this card deals damage to your opponent &#x2192; You may banish this card. If you do, you may search your deck for a card named &quot;Skyscraper Giant&quot; and put it into your field. Then shuffle your deck." />
+        </card>
+        <card name="Luan, Auspicious Beast" id="9e286a9b-fa15-4975-8ca1-3e75cf67b5c6" >
+            <property name="Cost" value="{Wi}{2}" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Beast" />
+            <property name="Atk" value="700" />
+            <property name="Def" value="700" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="29" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="[Inheritance] {Wi}{2}: Target J/resonator gains [+700/+700] until end of turn. (Pay {Wi}{2} and discard this card to play this ability.)" />
+        </card>
+        <card name="Magic Stone Life Form" id="c0a54d7d-84b7-4d39-9f9a-2b7e7d539774" >
+            <property name="Cost" value="{Wi}" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Magic Lifeform" />
+            <property name="Atk" value="300" />
+            <property name="Def" value="300" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="30" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="When this card is put into a graveyard from your field &#x2192; Produce {L}, {F}, {Wa}, {Wi}, or {D}." />
+        </card>
+        <card name="Planting Beans" id="50b27ef7-3afa-43d1-88da-a965700e1cb9" >
+            <property name="Cost" value="{Wi}" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="31" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Search your deck for a card and put it into your graveyard. Then shuffle your deck. If this card was awakened, put that card from your graveyard into your hand.&#xd;&#xa;[Awakening] {Wi}{1}" />
+        </card>
+        <card name="Sacred Beast of Wind" id="ce5ad35c-5127-443f-b3f6-c67c176fae47" >
+            <property name="Cost" value="{Wi}" />
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Beast" />
+            <property name="Atk" value="300" />
+            <property name="Def" value="300" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="32" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="[Flying]&#xd;&#xa;[Inheritance] {Wi}: Target J/resonator gains [+300/+300] and [Flying] until end of turn. (Pay {Wi} and discard this card to play this ability.)" />
+        </card>
+        <card name="Alhama'at's Black Lightning" id="76cfedd7-105e-4e4e-9942-8e1395b61918" >
+            <property name="Cost" value="{D}{D}" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Ancient Magic" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="33" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="This card cannot be cancelled.&#xd;&#xa;Destroy target non-darkness resonator. If this card was awakened, put it into its owner's hand as it resolves.&#xd;&#xa;[Awakening] {D}{3}" />
+        </card>
+        <card name="Death at Midnight" id="51136c3f-4d34-4b16-82b8-b6bfd6b5994e" >
+            <property name="Cost" value="{D}{1}" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="34" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="[Quickcast]&#xd;&#xa;Your opponent banishes a resonator. Put a [+100/+100] counter on each J/resonator your opponent controls." />
+        </card>
+        <card name="Dimension Dragon, Nidhogg" id="a9c48209-ef4b-4e3c-b27d-2e17c59ead62" >
+            <property name="Cost" value="{D}{D}{D}{3}" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Twelve Apostles/Dragon" />
+            <property name="Atk" value="1200" />
+            <property name="Def" value="1200" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="35" />
+            <property name="Rarity" value="SR" />
+            <property name="Text" value="[Flying]&#xd;&#xa;When this card enters your field &#x2192; Remove all resonators your opponent controls with the lowest total cost among resonators your opponent controls from the game." />
+        </card>
+        <card name="Fated Reunion" id="18c3ba49-076c-41d0-b8fd-fd7c563617a1" >
+            <property name="Cost" value="{D}{1}" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="36" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="Choose one, if you control two or more darkness J/resonators, you may choose both - Search your deck for a card. Then shuffle the rest of your deck and put that card on top of it; or draw a card." />
+        </card>
+        <card name="Kumomaru" id="aba8b842-5c2c-459a-aacf-661b99fecce6" >
+            <property name="Cost" value="{D}{D}" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Vampire" />
+            <property name="Atk" value="700" />
+            <property name="Def" value="700" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="37" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="When this card enters your field &#x2192; Put two [+100/+100] counters on target resonator your opponent controls." />
+        </card>
+        <card name="Shadow of Lapis" id="79fc4945-33d0-4be0-bbc4-b3e726f34c4b" >
+            <property name="Cost" value="{D}" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Fantasy" />
+            <property name="Atk" value="200" />
+            <property name="Def" value="400" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="38" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Banish this card: Put a token copy of target resonator token you control into your field." />
+        </card>
+        <card name="Yashahime, First Daughter of the Mikage" id="f165ad5d-d487-42ce-a51f-4163a9ceafcd" >
+            <property name="Cost" value="{D}{D}{1}" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Vampire" />
+            <property name="Atk" value="700" />
+            <property name="Def" value="800" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="39" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="When this card enters your field &#x2192; Move all [+100/+100] counters from other J/resonators to this card.&#xd;&#xa;{D}, remove a [+100/+100] counter from this card: Put two [+100/+100] counters on another target Vampire you control." />
+        </card>
+        <card name="Yashamaru" id="1771e9eb-5f5d-4cb0-a1b2-b3c992346a77" >
+            <property name="Cost" value="{D}" />
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Vampire" />
+            <property name="Atk" value="300" />
+            <property name="Def" value="300" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="40" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Destroy target resonator your opponent controls with one or more [+100/+100] counters on it." />
+        </card>
+        <card name="A Rendezvous of Light and Wind" id="3709c475-552d-411f-8d1b-102a968329cd" >
+            <property name="Cost" value="{L}{Wi}{2}" />
+            <property name="Attribute" value="Light/Wind" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="41" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="[Quickcast]&#xd;&#xa;Choose one, if you control a light J/resonator and another wind J/resonator, you may choose both - You may put a light or wind resonator with total cost 4 or less from your hand into your field; or put four [+100/+100] counters on J/resonator you control." />
+        </card>
+        <card name="Altea's Elite" id="ee6344c2-a5b2-4baf-a713-6ea2ae199265" >
+            <property name="Cost" value="{F}{Wa}{1}" />
+            <property name="Attribute" value="Fire/Water" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Ancient" />
+            <property name="Atk" value="200" />
+            <property name="Def" value="1000" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="42" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Reveal the top four cards of your deck. Put a chant from among them into your hand and the rest into your graveyard." />
+        </card>
+        <card name="Ammit, Beast of Gluttony" id="9ca96995-f583-4b80-b960-5ae52ef912e8" >
+            <property name="Cost" value="{Wi}{D}{5}" />
+            <property name="Attribute" value="Wind/Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Chimera" />
+            <property name="Atk" value="1500" />
+            <property name="Def" value="1500" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="43" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="When this card enters your field &#x2192; Destroy target resonator. If you do, you gain life equal to its DEF." />
+        </card>
+        <card name="Ancient Barrier" id="a77744c6-fe7a-4aed-bfb1-9f0cc160c94c" >
+            <property name="Cost" value="{F}{Wa}{1}" />
+            <property name="Attribute" value="Fire/Water" />
+            <property name="Type" value="Addition" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="44" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="Players pay {2} more to play non-Ancient Magic chants." />
+        </card>
+        <card name="Barrier Seal" id="5044ce77-1b3d-453b-9489-68003eef05bd" >
+            <property name="Cost" value="{L}{F}" />
+            <property name="Attribute" value="Light/Fire" />
+            <property name="Type" value="Addition" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="45" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="When this card enters your field &#x2192; Remove all cards in all graveyards from the game.&#xd;&#xa;If a card would be put into a graveyard from anywhere, remove it from the game instead." />
+        </card>
+        <card name="Blessed Knight" id="ae73cb9d-a0a2-4010-92ff-e26f3493622f" >
+            <property name="Cost" value="{L}{F}{1}" />
+            <property name="Attribute" value="Light/Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Human" />
+            <property name="Atk" value="400" />
+            <property name="Def" value="400" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="46" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Destroy target rested resonator your opponent controls." />
+        </card>
+        <card name="Catalyst Spirit" id="f672bb91-dbc2-43d3-96ac-9bb9000515f0" >
+            <property name="Cost" value="{F}{Wa}" />
+            <property name="Attribute" value="Fire/Water" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Spirit" />
+            <property name="Atk" value="600" />
+            <property name="Def" value="600" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="47" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Banish this card: Put two mana counters on target J/ruler." />
+        </card>
+        <card name="Crimson Ray" id="6cff20a6-0541-4879-b9fb-d4085071340e" >
+            <property name="Cost" value="{L}{F}" />
+            <property name="Attribute" value="Light/Fire" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="48" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="[Quickcast]&#xd;&#xa;This card deals 600 damage to target player or J/resonator. You gain 600 life." />
+        </card>
+        <card name="Curse of the Kyuubi" id="0d35879e-51c0-4c51-a182-f14cbc28e24b" >
+            <property name="Cost" value="{Wi}{D}" />
+            <property name="Attribute" value="Wind/Dark" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="49" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="[Quickcast]&#xd;&#xa;Cancel target non-resonator spell unless its controller pays X. If that spell was cancelled this way, search its controller's deck, graveyard, and hand for all cards with that name and remove them from the game. Then that player shuffles their deck." />
+        </card>
+        <card name="Deceptive Dream" id="e21f6d27-2409-4a0e-946c-d2258406f559" >
+            <property name="Cost" value="{Wa}{D}{2}" />
+            <property name="Attribute" value="Water/Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Fantasy" />
+            <property name="Atk" value="700" />
+            <property name="Def" value="700" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="50" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Your opponent discards a card.&#xd;&#xa;When this card is put into a graveyard from your field &#x2192; Draw a card." />
+        </card>
+        <card name="Demonic Instigator" id="e6169162-3dad-4a2d-b99e-55a00594fa90" >
+            <property name="Cost" value="{F}{Wa}{1}" />
+            <property name="Attribute" value="Fire/Water" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Demon" />
+            <property name="Atk" value="700" />
+            <property name="Def" value="700" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="51" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="J/resonators your opponent controls must attack this card if able.&#xd;&#xa;Whenever this card is dealt damage by a J/resonator &#x2192; This card deals that much damage to that J/resonator." />
+        </card>
+        <card name="Divine Beast of Attoractia" id="58b01b9a-edde-4007-b3ea-8d50d0e26996" >
+            <property name="Cost" value="{L}{Wi}" />
+            <property name="Attribute" value="Light/Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Divine Beast" />
+            <property name="Atk" value="600" />
+            <property name="Def" value="600" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="52" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="Whenever you play an [Inheritance] ability &#x2192; This card gains [+200/+200] and &quot;Whenever this card deals damage &#x2192; You gain that much life.&quot; until end of turn.&#xd;&#xa;[Inheritance] {L}{Wi}: Target J/resonator you control gains [+600/+600] until end of turn." />
+        </card>
+        <card name="Dragon of Scenic Beauty" id="7de75c53-af30-4414-879e-501269536856" >
+            <property name="Cost" value="{L}{Wi}{2}" />
+            <property name="Attribute" value="Light/Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Dragon" />
+            <property name="Atk" value="700" />
+            <property name="Def" value="800" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="53" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="[Quickcast] [Flying]&#xd;&#xa;You may pay {L}{Wi} less to play this card if you cancelled a spell your opponent controlled this turn." />
+        </card>
+        <card name="Fairy of Recurrence" id="00d9a7b2-e6be-4013-b6ec-442d313b334f" >
+            <property name="Cost" value="{L}{F}" />
+            <property name="Attribute" value="Light/Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Fairy" />
+            <property name="Atk" value="400" />
+            <property name="Def" value="400" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="54" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="[Flying]&#xd;&#xa;When this card enters your field &#x2192; Search your deck for a card named &quot;Fairy of Recurrence&quot;, reveal it and put it into your hand. Then shuffle your deck." />
+        </card>
+        <card name="Faria's Summon" id="80231103-6d7e-4fce-a7c6-7d50dc92ae71" >
+            <property name="Cost" value="{L}{Wi}" />
+            <property name="Attribute" value="Light/Wind" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="55" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="[Quickcast]&#xd;&#xa;Search your main deck for a resonator, reveal it and put it into your hand. Then shuffle your deck.&#xd;&#xa;[Torrent] Recover up to one target magic stone." />
+        </card>
+        <card name="Fiethsing's Monocle" id="42678d39-9ac5-48fc-b225-ae1f38e14ab4" >
+            <property name="Cost" value="{L}{Wi}" />
+            <property name="Attribute" value="Light/Wind" />
+            <property name="Type" value="Addition" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="56" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="Bestowed resonator gains &quot;{Rest} Produce {L}, {F}, {Wa}, {Wi}, or {D}.&quot;&#xd;&#xa;[Bestow] {Rest}" />
+        </card>
+        <card name="Ghost of Attoractia" id="f24bcbf5-6ece-4d88-99b2-b14094226327" >
+            <property name="Cost" value="{Wa}{D}" />
+            <property name="Attribute" value="Water/Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Fantasy" />
+            <property name="Atk" value="100" />
+            <property name="Def" value="300" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="57" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="Whenever this card deals damage to your opponent &#x2192; Draw a card. Your opponent discards a card." />
+        </card>
+        <card name="Glorius, Masked Crusader" id="723385f0-13de-4474-bbda-15863e7fc201" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="Light/Wind" />
+            <property name="Type" value="Ruler" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Human" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="58" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="[Judgement] {L}{Wi}{1}&#xd;&#xa;[Energize] {L}{Wi} (As the game starts, if you are not the player going first, you get a will coin with &quot;Banish this coin: Produce {L} or {Wi}.&quot;)&#xd;&#xa;Discard a card with [Inheritance]: Draw a card. Play this ability only during your turn and only once per turn." />
+            <alternate name="Faria, Ruler of Divine Beasts" type="jruler" >
+                <property name="Cost" value="" />
+                <property name="Attribute" value="Light/Wind" />
+                <property name="Type" value="J-Ruler" />
+                <property name="Subtype" value="" />
+                <property name="Trait" value="Human/Divine Beast" />
+                <property name="Atk" value="1000" />
+                <property name="Def" value="1000" />
+                <property name="Set" value="LEL" />
+                <property name="Number" value="58" />
+                <property name="Rarity" value="R" />
+                <property name="Text" value="When this card enters your field &#x2192; Put the top card of your magic stone deck into your field.&#xd;&#xa;Each turn, you may play your first [Inheritance] ability without paying its cost. You still discard that card.&#xd;&#xa;God's Art" />
+            </alternate>
+        </card>
+        <card name="Griphon, Racing Across Darkness" id="9bce9964-5264-4e3e-a3d4-e254a878ca6b" >
+            <property name="Cost" value="{Wi}{D}{4}" />
+            <property name="Attribute" value="Wind/Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Chimera" />
+            <property name="Atk" value="1200" />
+            <property name="Def" value="1200" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="59" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="[Flying]&#xd;&#xa;When this card enters your field &#x2192; Put the top two cards of your magic stone deck into your field." />
+        </card>
+        <card name="Grusbalesta, Magic Stone Researcher" id="046e0fba-3956-4759-87db-c9e06a6a2946" >
+            <property name="Cost" value="{Wi}{D}{1}" />
+            <property name="Attribute" value="Wind/Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Six Sages" />
+            <property name="Atk" value="600" />
+            <property name="Def" value="600" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="60" />
+            <property name="Rarity" value="SR" />
+            <property name="Text" value="Magic stones you control gain [Barrier].&#xd;&#xa;This card gains [+100/+100] for each magic stone you control with a different name.&#xd;&#xa;When this card enters your field &#x2192; Banish any number of magic stones. Put the top X cards of your magic stone deck into your field rested, where X is the number of magic stones banished this way.&#xd;&#xa;This card gains [Swiftness] and [Precision] as long as you control five or more magic stones with different names." />
+        </card>
+        <card name="Grusbalesta's Secret Technique" id="038629ec-0ebd-4ba3-bea7-2ee594ad8d8c" >
+            <property name="Cost" value="{Wi}{D}" />
+            <property name="Attribute" value="Wind/Dark" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="61" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="[Quickcast]&#xd;&#xa;Target magic stone becomes a [1000/1000] resonator with [Swiftness] until end of turn. It's still a magic stone." />
+        </card>
+        <card name="Healing Wing Dragon" id="9c65822b-74fd-4e64-874e-90fd81b972b9" >
+            <property name="Cost" value="{L}{F}{3}" />
+            <property name="Attribute" value="Light/Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Dragon" />
+            <property name="Atk" value="1200" />
+            <property name="Def" value="1200" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="62" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="[Flying]&#xd;&#xa;When this card enters your field &#x2192; You gain 1000 life." />
+        </card>
+        <card name="Illusion Wizard" id="50f12f07-90b1-4034-a345-33802c6df0ab" >
+            <property name="Cost" value="{Wa}{D}{1}" />
+            <property name="Attribute" value="Water/Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Wizard" />
+            <property name="Atk" value="500" />
+            <property name="Def" value="500" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="63" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Put a [400/400] water/darkness Fantasy resonator token into your field." />
+        </card>
+        <card name="Illusory Projection" id="ab56bdec-c07a-45d1-ba32-496cce354730" >
+            <property name="Cost" value="{Wa}{D}" />
+            <property name="Attribute" value="Water/Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Fantasy" />
+            <property name="Atk" value="400" />
+            <property name="Def" value="400" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="64" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card is put into graveyard from your field &#x2192; Put a [400/400] water/darkness Fantasy resonator token into your field." />
+        </card>
+        <card name="Invading Demon of Water, Valentina" id="2928d914-3f91-4bf0-8235-adc9b4eeb2e2" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="Water/Dark" />
+            <property name="Type" value="Ruler" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Wanderer" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="65" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="[Judgement] {Wa}{D}{1}&#xd;&#xa;[Energize] {Wa}{D} (As the game starts, if you're not the player going first, you get a will coin with &quot;Banish this coin: Produce {Wa} or {D}.&quot;)&#xd;&#xa;Whenever you play a water chant &#x2192; Target resonator gains [-X00/0] until end of turn, where X is that chant's total cost.&#xd;&#xa;Whenever you play a darkness chant &#x2192; Target resonator gains [0/-X00] until end of turn, where X is that chant's total cost." />
+            <alternate name="Valentina, Released Terror" type="jruler" >
+                <property name="Cost" value="" />
+                <property name="Attribute" value="Water/Dark" />
+                <property name="Type" value="J-Ruler" />
+                <property name="Subtype" value="" />
+                <property name="Trait" value="Conqueror" />
+                <property name="Atk" value="1000" />
+                <property name="Def" value="1000" />
+                <property name="Set" value="LEL" />
+                <property name="Number" value="65" />
+                <property name="Rarity" value="R" />
+                <property name="Text" value="You may pay {1} less to play water/darkness cards. (A water/darkness card is both water and darkness.)&#xd;&#xa;Banish two resonators: Choose one - Draw a card; or destroy target resonator." />
+            </alternate>
+        </card>
+        <card name="Jeanne d'Arc, the Pious Flame" id="f3a93b92-977e-4ec6-b8ea-23b914d23455" >
+            <property name="Cost" value="{L}{L}{F}{F}" />
+            <property name="Attribute" value="Light/Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Human" />
+            <property name="Atk" value="1000" />
+            <property name="Def" value="1000" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="66" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="[Swiftness] [Precision] [First Strike]" />
+        </card>
+        <card name="Kaguya, Lunar Researcher" id="c9abb186-6b3e-4d18-8378-d9d81dfa5bd2" >
+            <property name="Cost" value="{L}{Wi}{1}" />
+            <property name="Attribute" value="Light/Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Wanderer/Human" />
+            <property name="Atk" value="700" />
+            <property name="Def" value="800" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="67" />
+            <property name="Rarity" value="SR" />
+            <property name="Text" value="[Flying]&#xd;&#xa;You may pay {1} less to play this card if you control a Moon.&#xd;&#xa;Whenever a card is bestowed to this card &#x2192; Recover this card." />
+        </card>
+        <card name="Kaguya's Moonbeam Butterfly" id="a4454d9c-e120-4836-88bc-340a97ef63cb" >
+            <property name="Cost" value="{L}{Wi}" />
+            <property name="Attribute" value="Light/Wind" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="68" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="Search your deck for a resonator or addition with total cost X+1 or less and put it into your field. Then shuffle your deck." />
+        </card>
+        <card name="Lilias Petal, Agent of Salvation" id="05ef8eca-d6a9-4ea1-872b-292d9fbf23df" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="Wind/Dark" />
+            <property name="Type" value="Ruler" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Human" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="69" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="[Judgment] {0}&#xd;&#xa;[Energize] {Wi}{D} (As the game starts, if you are not the player going first, you get a will coin with &quot;Banish this coin: Produce {Wi} or {D}.&quot;)" />
+            <alternate name="The Nine-Tailed Fox" type="jruler" >
+                <property name="Cost" value="" />
+                <property name="Attribute" value="Wind/Dark" />
+                <property name="Type" value="J-Ruler" />
+                <property name="Subtype" value="" />
+                <property name="Trait" value="Myth" />
+                <property name="Atk" value="0" />
+                <property name="Def" value="0" />
+                <property name="Set" value="LEL" />
+                <property name="Number" value="69" />
+                <property name="Rarity" value="R" />
+                <property name="Text" value="This card cannot be destroyed.&#xd;&#xa;Banish a wind resonator, a darkness resonator, and a &quot;Killing Stone&quot;: Search your deck, hand, removed area, and/or cards you own from outside the game for a wind or darkness Chimera resonator and put it into your field. If you searched your deck, shuffle it. Play this ability only once per turn.&#xd;&#xa;{Rest}: Shuffle target card named &quot;Killing Stone&quot; from your graveyard into your magic stone deck." />
+            </alternate>
+        </card>
+        <card name="Lilias Petal's Assistant" id="2aafa1cc-a3ba-4a5f-87e9-214f5643f8d7" >
+            <property name="Cost" value="{Wi}{D}{1}" />
+            <property name="Attribute" value="Wind/Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Wizard" />
+            <property name="Atk" value="500" />
+            <property name="Def" value="500" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="70" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Put target wind or darkness resonator with total cost 1 from your graveyard into your field." />
+        </card>
+        <card name="Lumia, the Fated Rebirth" id="36aa6bab-6821-453e-b4ca-03ef1888a973" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="Light/Fire" />
+            <property name="Type" value="Ruler" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Human" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="71" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="[Judgment] {L}{F}{1}&#xd;&#xa;[Energize] {L}{F} (As the game starts, if you are not player going first, you get a will coin with &quot;Banish this coin: Produce {L} or {F}.&quot;)&#xd;&#xa;At the end of your turn &#x2192; Remove target rested resonator you control from the game. Then put it into its owner's field." />
+            <alternate name="Lumia, Saint of the Crimson Lotus" type="jruler" >
+                <property name="Cost" value="" />
+                <property name="Attribute" value="Light/Fire" />
+                <property name="Type" value="J-Ruler" />
+                <property name="Subtype" value="" />
+                <property name="Trait" value="Human" />
+                <property name="Atk" value="1000" />
+                <property name="Def" value="1000" />
+                <property name="Set" value="LEL" />
+                <property name="Number" value="71" />
+                <property name="Rarity" value="R" />
+                <property name="Text" value="[Swiftness]&#xd;&#xa;As this card enters your field, you may remove a card named &quot;Nyarlathotep, the Crimson Radiance&quot; in your hand from the game.&#xd;&#xa;This card gains [Imperishable] and &quot;When this card deals damage &#x2192; You gain that much life.&quot; as long as a card named &quot;Nyarlathotep, the Crimson Radiance&quot; is in your removed area and was removed by this card.&#xd;&#xa;Whenever this card attacks &#x2192; Remove target resonator from the game. Then put it into its owner's field rested." />
+            </alternate>
+        </card>
+        <card name="Lumia's Judgment" id="fd6d4108-fb4e-4236-ab78-f55701db3464" >
+            <property name="Cost" value="{L}{F}" />
+            <property name="Attribute" value="Light/Fire" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="72" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="Remove all non-magic stone, non-J-ruler cards with total cost X or less from the game." />
+        </card>
+        <card name="Magic Rebound" id="40fd5315-64f2-4789-908a-024316df7fa1" >
+            <property name="Cost" value="{Wa}{D}" />
+            <property name="Attribute" value="Water/Dark" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="73" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="[Quickcast]&#xd;&#xa;Change the target of target spell or ability with a single target. Draw a card. (The new target must be legal.)" />
+        </card>
+        <card name="Meeting of Light and Fire" id="880c2e0e-18ed-46be-81a4-c18592f23c97" >
+            <property name="Cost" value="{L}{F}{1}" />
+            <property name="Attribute" value="Light/Fire" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="74" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="[Quickcast]&#xd;&#xa;Choose one, if you control a light J/resonator and another fire J/resonator, you may choose both - Reveal the top card of your deck. You gain 100 life multiplied by the total cost of the card revealed this way. Put that card into your hand; or reveal the top card of your deck. This card deals 100 damage multiplied by the total cost of the card revealed this way to your opponent. Put that card into your hand." />
+        </card>
+        <card name="Messenger of Lilias Petal" id="79208652-7939-43e3-8f53-11783143e1e9" >
+            <property name="Cost" value="{Wi}{D}" />
+            <property name="Attribute" value="Wind/Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Beast" />
+            <property name="Atk" value="600" />
+            <property name="Def" value="600" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="75" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Search your magic stone deck for a special magic stone and reveal it. Then shuffle the rest of your magic stone deck and put that card on top of it." />
+        </card>
+        <card name="Moojdart, Lady of Illusions" id="deb25268-4f0b-4fdb-96f3-0d4ef7ff7f30" >
+            <property name="Cost" value="{Wa}{D}{2}" />
+            <property name="Attribute" value="Water/Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Six Sages" />
+            <property name="Atk" value="800" />
+            <property name="Def" value="800" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="76" />
+            <property name="Rarity" value="SR" />
+            <property name="Text" value="[Flying]&#xd;&#xa;Other water resonators you control gain [+200/+200].&#xd;&#xa;Other darkness resonators you control gain [+200/+200].&#xd;&#xa;Banish a Fantasy resonator: This card gains [Barrier] (Chant) until end of turn." />
+        </card>
+        <card name="Muul, the Town That Never Was" id="1efe30e9-8e65-436d-a892-f69ef2229724" >
+            <property name="Cost" value="{Wa}{D}{1}" />
+            <property name="Attribute" value="Water/Dark" />
+            <property name="Type" value="Addition" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="77" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="{Wa}{D}, remove a resonator in your graveyard from the game: Put a [400/400] water/darkness Fantasy resonator token into your field." />
+        </card>
+        <card name="Nightmare, the Ashen Dream" id="4f861a54-d73f-4192-9ad1-67e4035bb50c" >
+            <property name="Cost" value="{Wa}{D}{1}" />
+            <property name="Attribute" value="Water/Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Fantasy" />
+            <property name="Atk" value="200" />
+            <property name="Def" value="200" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="78" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="When this card enters your field &#x2192; Return target resonator to its owner's hand. Its controller discards a card." />
+        </card>
+        <card name="Nyarlathotep, the Crimson Radiance" id="c972d589-07ca-4f7a-ab64-2d49454a6c9e" >
+            <property name="Cost" value="{L}{F}" />
+            <property name="Attribute" value="Light/Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Human/Cthulhu" />
+            <property name="Atk" value="700" />
+            <property name="Def" value="700" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="79" />
+            <property name="Rarity" value="SR" />
+            <property name="Text" value="[Limit] 1&#xd;&#xa;[Awakening] {L}: When this card enters your field &#x2192; Remove target resonator from the game.&#xd;&#xa;When this card leaves your field for a non-field zone &#x2192; Put that removed card into its owner's field.&#xd;&#xa;[Awakening] {F}: When this card enters your field &#x2192; You may play a light or fire chant with total cost 3 or less from your hand without paying its cost.&#xd;&#xa;At the end of turn &#x2192; If there are not limit counters on this card, return it to its owner's hand." />
+        </card>
+        <card name="Plot of Water and Darkness" id="27c74f68-3177-4e8b-8056-06cc937ac029" >
+            <property name="Cost" value="{Wa}{D}{1}" />
+            <property name="Attribute" value="Water/Dark" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="80" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="[Quickcast]&#xd;&#xa;Choose one, if you control a water J/resonator and another darkness J/resonator, you may choose both - Destroy target resonator, or put a [400/400] water/darkness Fantasy resonator token into your field." />
+        </card>
+        <card name="Priest of Divine Protection" id="4f45278c-5dca-4dd4-af70-71948cdc7298" >
+            <property name="Cost" value="{L}{F}{1}" />
+            <property name="Attribute" value="Light/Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Human" />
+            <property name="Atk" value="700" />
+            <property name="Def" value="700" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="81" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="[Quickcast]&#xd;&#xa;When this card enters your field &#x2192; If it was played from your hand, remove another target resonator you control from the game. Then put it into its owner's field rested." />
+        </card>
+        <card name="Prokaryotic Being" id="c7f355ab-4b12-4160-9040-4eeca05cc29c" >
+            <property name="Cost" value="{F}{Wa}" />
+            <property name="Attribute" value="Fire/Water" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Magic Lifeform" />
+            <property name="Atk" value="0" />
+            <property name="Def" value="0" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="82" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="This card gains [+200/+200] for each chant in your graveyard.&#xd;&#xa;{F}: This card gains [Swiftness] until end of turn.&#xd;&#xa;{Wa}: This card gains [Flying] until end of turn." />
+        </card>
+        <card name="Rune of Sol" id="39d0d9e4-0beb-4593-9835-f5e30b57df22" >
+            <property name="Cost" value="{F}{Wa}" />
+            <property name="Attribute" value="Fire/Water" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Ancient Magic" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="83" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="[Quickcast]&#xd;&#xa;Search your deck for an Ancient Magic, reveal it and put it into your hand. Then shuffle your deck." />
+        </card>
+        <card name="Runic Commander Demon, Akiot" id="861cc245-f01e-4f72-a4af-0e910de3267b" >
+            <property name="Cost" value="{F}{Wa}" />
+            <property name="Attribute" value="Fire/Water" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Seven Luminaries Demon" />
+            <property name="Atk" value="600" />
+            <property name="Def" value="600" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="84" />
+            <property name="Rarity" value="SR" />
+            <property name="Text" value="When this card enters your field &#x2192; Put a mana counter on your J/ruler.&#xd;&#xa;When you play a chant &#x2192; Your may return this card to its owner's hand." />
+        </card>
+        <card name="Sacred Komainu" id="55d9cc10-e4bd-492d-aedf-cb3083863660" >
+            <property name="Cost" value="{L}{Wi}{3}" />
+            <property name="Attribute" value="Light/Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Divine Beast" />
+            <property name="Atk" value="1000" />
+            <property name="Def" value="1000" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="85" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="Whenever you do judgment &#x2192; Return this card to its owner's hand.&#xd;&#xa;[Inheritance] {L}{Wi}{3}: Target J/resonator you control gains [+1000/+1000] until end of turn. (Pay {L}{Wi}{3} and discard this card to play this ability.)" />
+        </card>
+        <card name="Shining Kirin" id="acfbf121-128d-46cf-b5e1-e63cc7a34928" >
+            <property name="Cost" value="{L}{Wi}{1}" />
+            <property name="Attribute" value="Light/Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Divine Beast" />
+            <property name="Atk" value="600" />
+            <property name="Def" value="600" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="86" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="When this card enters your field &#x2192; Draw a card.&#xd;&#xa;[Inheritance] {L}{D}{1}: Target J/resonator gains [+600/+600] until end of turn. Draw a card. (Pay {L}{Wi}{1} and discard this card to play this ability.)" />
+        </card>
+        <card name="Sol, Hierophant of the Helio Star" id="ca3bf3a2-eb02-4377-ae2f-07b227cf9b24" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="Fire/Water" />
+            <property name="Type" value="Ruler" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Seven Luminaries Mage" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="87" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="[Judgment] {F}{Wa}{1}&#xd;&#xa;[Energize] {F}{Wa} (As the game starts, if you are not the player going first, you get a will coin with &quot;Banish this coin: Produce {F} or {Wa}.&quot;)&#xd;&#xa;[Mana] 2 (As the game starts, put two mana counters on this card.)&#xd;&#xa;Remove a mana counter from this card: Produce {F} or {Wa}. Spend this will only to play Ancient Magic cards." />
+            <alternate name="Sol, Dark Commander of Steam" type="jruler" >
+                <property name="Cost" value="" />
+                <property name="Attribute" value="Fire/Water" />
+                <property name="Type" value="J-Ruler" />
+                <property name="Subtype" value="" />
+                <property name="Trait" value="Dark Commander" />
+                <property name="Atk" value="500" />
+                <property name="Def" value="500" />
+                <property name="Set" value="LEL" />
+                <property name="Number" value="87" />
+                <property name="Rarity" value="R" />
+                <property name="Text" value="[Mana] 5 (This card enters your field with five mana counters on it.)&#xd;&#xa;As this card enters your field, you may remove a card named &quot;Runic Commander Demon, Akiot&quot; in your hand from the game. If you do, this card enters your field with five mana counters on it.)&#xd;&#xa;This card gains [+600/+600] as long as a card named &quot;Runic Commander Demon, Akiot&quot; is in your removed area and was removed by this card.&#xd;&#xa;Remove a mana counter from this card: Produce {F} or {Wa}. Spend this will only to play Ancient Magic cards." />
+            </alternate>
+        </card>
+        <card name="Steam Explosion" id="ce3245dd-7be7-46e8-9410-4e09b7a9037d" >
+            <property name="Cost" value="{F}{Wa}" />
+            <property name="Attribute" value="Fire/Water" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Ancient Magic" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="88" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="This card deals 200 damage multiplied by X to target resonator and your opponent." />
+        </card>
+        <card name="Sympathy of Fire and Water" id="bb4f9543-7a63-407c-87d5-d535adceb352" >
+            <property name="Cost" value="{F}{Wa}" />
+            <property name="Attribute" value="Fire/Water" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Ancient Magic" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="89" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="Choose one, if you control a fire J/resonator and another water J/resonator, you may choose both - Produce {F}{Wa}{1}, Spend this will only yo play Ancient Magic cards; or target chant in your graveyard gains [Remnant] untl end of turn." />
+        </card>
+        <card name="The Manticore" id="920bb5db-5219-4e47-9b42-7badfbf181d2" >
+            <property name="Cost" value="{Wi}{D}{3}" />
+            <property name="Attribute" value="Wind/Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Chimera" />
+            <property name="Atk" value="900" />
+            <property name="Def" value="900" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="90" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="[Flying]&#xd;&#xa;When this card enters your field &#x2192; Choose one - Look at your opponent's hand and choose a card. They discard that card; or destroy target addition or regalia your opponent controls." />
+        </card>
+        <card name="Tuning of Wind and Darkness" id="d77b876b-4f15-4bea-9cda-f00946b268eb" >
+            <property name="Cost" value="{Wi}{D}{1}" />
+            <property name="Attribute" value="Wind/Dark" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="91" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="Choose one, if you control a wind J/resonator and another darkness J/resonator, you may choose both - Recover up to four magic stones; or put target resonator from your graveyard into your hand." />
+        </card>
+        <card name="Twin-Headed Dragon" id="fba52803-ffd8-409e-be7f-8b7445b36837" >
+            <property name="Cost" value="{F}{Wa}{2}" />
+            <property name="Attribute" value="Fire/Water" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Dragon" />
+            <property name="Atk" value="1000" />
+            <property name="Def" value="1000" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="92" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="[Flying]&#xd;&#xa;Your may spend will to play this card's [Awakening] costs as though this card were an Ancient Magic.&#xd;&#xa;[Awakening] {F}: When this card enters your field &#x2192; It deals 1000 damage to target resonator.&#xd;&#xa;[Awakening] {Wa}: When this card enters your field &#x2192; Rest up to two target resonators. They don't recover during their controller's next recovery phase." />
+        </card>
+        <card name="Valentina's Reach" id="c824eba9-a3f3-4c14-a9b7-17250dc26736" >
+            <property name="Cost" value="{Wa}{D}" />
+            <property name="Attribute" value="Water/Dark" />
+            <property name="Type" value="Chant" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="93" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="Choose one - Your opponent discards X cards; or you draw X cards." />
+        </card>
+        <card name="Wetlands of Magical Origin" id="25342764-2230-4b67-b8e7-a41a21231410" >
+            <property name="Cost" value="{Wi}{D}" />
+            <property name="Attribute" value="Wind/Dark" />
+            <property name="Type" value="Addition" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="94" />
+            <property name="Rarity" value="U" />
+            <property name="Text" value="{Rest}: Recover target magic stone." />
+        </card>
+        <card name="White Horn Kaichi" id="da76a959-2978-4b42-8141-51add41525f6" >
+            <property name="Cost" value="{L}{Wi}" />
+            <property name="Attribute" value="Light/Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="Divine Beast" />
+            <property name="Atk" value="500" />
+            <property name="Def" value="500" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="95" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="[Precision]&#xd;&#xa;[Inheritance] {L}{Wi}: Target J/resonator gains [+500/+500] and [Precision] until end of turn. (Pay {L}{Wi} and discard this card to play this ability.)" />
+        </card>
+        <card name="Awakened Magic Stone, the Earth" id="d8a33236-9191-4863-b613-7e3faae1b8f2" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="Special" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="96" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="If your J/ruler isn't &quot;Lumia, the Fated Rebirth&quot; or &quot;Lumia, Saint of the Crimson Lotus&quot;, this card enters your field rested unless you pay 300 life.&#xd;&#xa;Treat this card as a light magic stone and a fire magic stone.&#xd;&#xa;{Rest}: Produce {L} or {F}.&#xd;&#xa;When you do judgment of a light ruler &#x2192; Recover this card." />
+        </card>
+        <card name="Killing Stone" id="d08fbb10-0665-4101-8bf5-244691e466b7" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="Special" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="97" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="If your J/ruler isn't &quot;Lilias Petal, Agent of Salvation&quot; or &quot;The Nine-Tailed Fox&quot;, this card enters your field rested unless you pay 300 life.&#xd;&#xa;Treat this card as a wind magic stone and a darkness magic stone.&#xd;&#xa;{Rest}: Produce {Wi} or {D}.&#xd;&#xa;When this card is put into a graveyard from your field &#x2192; Your opponent loses 100 life and you gain 100 life." />
+        </card>
+        <card name="Magic Stone of Vaporization" id="38fa23fd-7f1e-4926-9a0a-e874a0eb8700" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="Special" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="98" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="If your J/ruler isn't &quot;Sol, Hierphant of the Helio Star&quot; or &quot;Sol, Dark Commander of Steam&quot;, this card enters your field rested unless you pay 300 life.&#xd;&#xa;Treat this card as a fire magic stone and a water magic stone.&#xd;&#xa;{Rest}: Produce {F} or {Wa}.&#xd;&#xa;{1}, {Rest}: Put a mana counter on your J/ruler." />
+        </card>
+        <card name="Pricia's Memoria" id="e6337cd1-a907-40f6-845b-2d2cd88ac12b" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="Special" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="99" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="If your J/ruler isn't &quot;Glorius, Masked Crusader&quot; or &quot;Faria, Ruler of Divine Beasts&quot;, this card enters your field rested unless you pay 300 life.&#xd;&#xa;Treat this card as a light magic stone and a wind magic stone.&#xd;&#xa;{Rest}: Produce {L} or {Wi}.&#xd;&#xa;{Rest}: As long as your J-ruler is &quot;Faria, Ruler of Divine Beasts&quot;, it gains [+200/+200] until end of turn." />
+        </card>
+        <card name="Remains of Attoractia" id="10009780-1eb8-425a-88d1-18668dbed2a4" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="Special" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="100" />
+            <property name="Rarity" value="R" />
+            <property name="Text" value="If your J/ruler isn't &quot;Invading Demon of Water, Valentina&quot; or &quot;Valentina, Released Terror&quot;, this card enters your field rested unless you pay 300 life.&#xd;&#xa;Treat this card as a water magic stone and a darkness magic stone.&#xd;&#xa;{Rest}: Produce {Wa} or {D}.&#xd;&#xa;{Rest}: Target resonator token gains [+100/+100] until end of turn." />
+        </card>
+        <card name="Darkness Magic Stone" id="129ca363-95b9-4234-85cd-e9eb73ecf174" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="101" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="{Rest}: Produce {D}." />
+        </card>
+        <card name="Fire Magic Stone" id="81ef14b6-38eb-47e9-bc83-8c5f18067cea" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="102" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="{Rest}: Produce {F}." />
+        </card>
+        <card name="Light Magic Stone" id="8c8a806e-311b-4dc8-8d7f-7817980b9c99" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="103" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="{Rest}: Produce {L}." />
+        </card>
+        <card name="Water Magic Stone" id="60f735f8-840e-401d-929f-9e85d9f341c2" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="104" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="{Rest}: Produce {Wa}." />
+        </card>
+        <card name="Wind Magic Stone" id="015eaa51-14a7-4b21-9e64-db684950fed0" >
+            <property name="Cost" value="" />
+            <property name="Attribute" value="" />
+            <property name="Type" value="Magic Stone" />
+            <property name="Subtype" value="" />
+            <property name="Trait" value="" />
+            <property name="Atk" value="" />
+            <property name="Def" value="" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="105" />
+            <property name="Rarity" value="C" />
+            <property name="Text" value="{Rest}: Produce {Wi}." />
+        </card>
+    </cards>
+</set>

@@ -40,18 +40,35 @@ def clearAll(group, x = 0, y= 0):
 			card.target(False)
 			card.highlight = None
 
+def setDie(group, x = 0, y = 0):
+    mute()
+    diesides = eval(getSetting('diesides', "6"))
+    num = askInteger("How many sides?\n\nFor Coin, enter 2.", diesides)
+    if num != None and num > 0:
+        setSetting('diesides', str(num))
+        dieFunct(num)
+
+def rollDie(group, x = 0, y = 0):
+    mute()
+    diesides = eval(getSetting('diesides', "6"))
+    notify("{}".format(diesides))
+    dieFunct(diesides)
+
+def dieFunct(num):
+    if num == 2:
+        n = rnd(1, 2)
+        if n == 1:
+            notify("{} rolls 1 (HEADS) on a 2-sided die.".format(me))
+        else:
+            notify("{} rolls 2 (TAILS) on a 2-sided die.".format(me))
+    else:
+        n = rnd(1, num)
+        notify("{} rolls {} on a {}-sided die.".format(me, n, num))
+
 def roll20(group, x = 0, y = 0):
     mute()
     n = rnd(1, 20)
     notify("{} rolls {} on a 20-sided die.".format(me, n))
-
-def flipCoin(group, x = 0, y = 0):
-    mute()
-    n = rnd(1, 2)
-    if n == 1:
-        notify("{} flips heads.".format(me))
-    else:
-        notify("{} flips tails.".format(me))
 
 def tap(card, x = 0, y = 0):
     mute()
@@ -63,15 +80,24 @@ def tap(card, x = 0, y = 0):
 
 def flip(card, x = 0, y = 0):
     mute()
-    if "jruler" in card.alternates:
-        if card.isFaceUp == False:
-            card.isFaceUp = True
+    if "jruler" in card.alternates and card.isFaceUp:
         if card.alternate == "":
-            notify("{} J-Activates {} to {}".format(me, card.alternateProperty("jruler", "name"), card))
+            notify("{} J-Activates {} to {}".format(me, card.name, card))
             card.alternate = 'jruler'
+        elif card.alternate == "jruler" and "jruler2" in card.alternates:
+            notify("{} J-Activates {} to {}".format(me, card.name, card))
+            card.alternate = "jruler2"
         else:
+            notify("{} reverts {} back to {}.".format(me, card.name, card))
             card.alternate = ''
-            notify("{} reverts {} back to {}.".format(me, card.alternateProperty("jruler", "name"), card))
+    elif "shift" in card.alternates and card.isFaceUp:
+        if card.alternate == "":
+            notify("{} shifts {} to {}".format(me, card.name, card))
+            card.alternate = 'shift'
+        else:
+            notify("{} reverts {} back to {}.".format(me, card.name, card))
+            card.alternate = ''
+
     else:
         if card.isFaceUp:
             notify("{} flips {} face down.".format(me, card))
@@ -93,6 +119,12 @@ def rfg(card, x = 0, y = 0):
 	mute()
 	card.moveTo(me.piles['Removed From Game'])
 	notify("{} was sent to {} Remove From Game zone.".format(card.name, me))
+
+def token(group, x = 0, y = 0):
+    guid, quantity = askCard({"Rarity":"Token"}, "And")
+    if quantity == 0:
+        return
+    token = table.create(guid, x, y, quantity)
 
 def addCounter(card, x = 0, y = 0):
 	mute()

@@ -6,7 +6,7 @@
      gameVersion="0.0.0.1" 
      version="0.0.0.1">
   <packaging>
-    <pack name="Booster" id="4472231f-5e95-4348-bf36-95b2017213bb">
+    <pack name="Booster" id="f8b199d5-a7b0-4f79-92d0-c323e1319069">
       <options>
         <option probability="0.42">
           <pick qty="1" key="Rarity" value="SR" />
@@ -1347,7 +1347,7 @@
 		<property name="Cost" value="{1}" />
 		<property name="Atk" value="" />
 		<property name="Def" value="" />
-		<property name="Text" value="If added resonator would be destroyed, destroy this card instead. If you do, remove all damage from that resonator." />
+		<property name="Text" value="If added resonator would be destroyed, banish this card instead. If you do, remove all damage from that resonator." />
     </card>
 	<card id="d5c8459c-e45a-4765-a0c2-54d3332165df" name="Winding Mender">
 		<property name="Cluster" value="Alice" />

@@ -4,8 +4,8 @@
       name="Force of Will TCG" 
       id="5c1280cc-f52d-4060-b0d9-11363df285fe" 
       octgnVersion="3.1.127.0"
-      version="0.1.0.5"
-      markersize="20"
+      version="0.1.7.0"
+      markersize="15"
       tags="Force of Will, FoW, FoW TCG, FoWTCG, Force of Will Trading Card Game"
       description="Force of Will Trading Card Game, by the Force of Will Co. Provided by ForcedTheWill.com"
       setsurl="http://www.octgngames.com/fowtcg"
@@ -37,6 +37,7 @@
 	<property name="Subtype" type="String" textKind="Enum"/>
 	<property name="Trait" type="String" textKind="Tokens"/>
 	<property name="J-Ruler" type="String" textKind="Enum"/>
+    <property name="Attribute" type="String" textKind="Tokens" />
 	<property name="Cost" type="String" textKind="Enum"/>
 	<property name="Atk" type="String" textKind="Enum"/>
     <property name="Def" type="String" textKind="Enum"/>
@@ -47,16 +48,17 @@
     <groupaction menu="Gain 100 Life" shortcut="ctrl+W" execute="gainLife" />
    <groupaction menu="Recover all" shortcut="Ctrl+U" execute="recoverAll" />
    <groupaction menu="Clear targets" shortcut="esc" execute="clearAll" />
-   <groupaction menu="Roll a die" shortcut="Ctrl+R" execute="roll20" />
-   <groupaction menu="Flip a coin" shortcut="Ctrl+F" execute="flipCoin" />
+    <groupaction menu="Roll Die" shortcut="ctrl+R" execute="rollDie" />
+    <groupaction menu="Change Die" shortcut="ctrl+shift+R" execute="setDie" />
    <cardaction menu="Flip Card" execute="flip" />
    <cardaction menu="Use Card" default="True" execute="useCard"/>
 	<cardaction menu="Destroy/Banish" shortcut="Del" execute="destroy" />
    <cardaction menu="Add Counter" shortcut="F1" execute="addCounter" />
    <cardaction menu="Remove Counter" shortcut="F2" execute="removeCounter" />
 	<cardaction menu="Set Counter" shortcut="F3" execute="setCounter" />
-   <groupaction menu="Next Phase." default="False" shortcut="Ctrl+Enter" execute="nextPhase" />
-   <groupactions menu="Phase:">
+   <cardaction menu="Create Token" shortcut="ctrl+C" execute="token" />
+   <groupaction menu="Next Phase" default="False" shortcut="Ctrl+Enter" execute="nextPhase" />
+   <groupactions menu="Set Phase...">
       <groupaction menu="Move to Draw Phase." default="False" shortcut="F5" execute="goToDraw" />
       <groupaction menu="Move to Recovery Phase." default="False" shortcut="F6" execute="goToRecovery" />
       <groupaction menu="Move to Main Phase." default="False" shortcut="F7" execute="goToMain" />

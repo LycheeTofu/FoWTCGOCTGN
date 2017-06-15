@@ -1,6 +1,217 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<set name="Markers" id="a3a44419-922a-4af9-93e4-a4574f76fac9" gameId="5c1280cc-f52d-4060-b0d9-11363df285fe" gameVersion="3.1.0.0" version="0.0.0.1">
-  <markers>
-    <marker id="d363274a-cb0f-410d-ae66-9792e4535486" name="Counter" />
-  </markers>
+<set name="Promos, Markers, Tokens" id="a3a44419-922a-4af9-93e4-a4574f76fac9" gameId="5c1280cc-f52d-4060-b0d9-11363df285fe" gameVersion="3.1.0.0" version="0.0.0.1">
+    <markers>
+        <marker id="d363274a-cb0f-410d-ae66-9792e4535486" name="Counter" />
+    </markers>
+    <cards>
+        <card id="c0fcabcb-070f-483c-b0ef-1eb951775675" name="Elf">
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="Token" />
+            <property name="Trait" value="Elf" />
+            <property name="Atk" value="100" />
+            <property name="Def" value="100" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="1" />
+            <property name="Rarity" value="Token" />
+            <property name="Text" value="" />
+        </card>
+        <card id="125c1d3d-7482-45df-9218-6a0f3c05da11" name="Elf">
+            <property name="Attribute" value="Wind" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="Token" />
+            <property name="Trait" value="Elf" />
+            <property name="Atk" value="100" />
+            <property name="Def" value="100" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="1" />
+            <property name="Rarity" value="Token" />
+            <property name="Text" value="" />
+        </card>
+        <card id="57c4fb04-5938-44e9-a488-8505a224f75a" name="Fantasy">
+            <property name="Attribute" value="Water/Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="Token" />
+            <property name="Trait" value="Fantasy" />
+            <property name="Atk" value="400" />
+            <property name="Def" value="400" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="2" />
+            <property name="Rarity" value="Token" />
+            <property name="Text" value="" />
+        </card>
+        <card id="46a0f3d8-1bb8-41e6-bf7d-422816f224df" name="Fantasy">
+            <property name="Attribute" value="Water/Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="Token" />
+            <property name="Trait" value="Fantasy" />
+            <property name="Atk" value="X00" />
+            <property name="Def" value="X00" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="2" />
+            <property name="Rarity" value="Token" />
+            <property name="Text" value="" />
+        </card>
+        <card id="0ff8d2eb-36f6-4fcf-914e-85061a9048b1" name="Bomb">
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="Token" />
+            <property name="Trait" value="Bomb" />
+            <property name="Atk" value="100" />
+            <property name="Def" value="100" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="3" />
+            <property name="Rarity" value="Token" />
+            <property name="Text" value="At the beginning of your turn &#x2192; Banish this card. If you do, it deals 1000 damage to your opponent and each J/resonator your opponent controls." />
+        </card>
+        <card id="c32a393a-88b9-4d4a-8a8f-90d1f8455c01" name="Bomb">
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="Token" />
+            <property name="Trait" value="Bomb" />
+            <property name="Atk" value="100" />
+            <property name="Def" value="100" />
+            <property name="Set" value="LEL" />
+            <property name="Number" value="3" />
+            <property name="Rarity" value="Token" />
+            <property name="Text" value="At the end of your turn &#x2192; Banish this card. If you do, it deals 1000 damage to your opponent and each J/resonator your opponent controls.&#xd;&#xa;At the beginning of your turn &#x2192; Banish this card. If you do, it deals 1000 damage to your opponent and each J/resonator your opponent controls." />
+        </card>
+        <card name="Pricia, Friend to the Animals" id="71648753-29a7-4c16-9483-6cdc6f2429c4" >
+            <property name="Attribute" value="{Wi} Wind" />
+            <property name="Type" value="Ruler" />
+            <property name="Trait" value="Human/Beast" />
+            <property name="Set" value="SKL" />
+            <property name="Number" value="106" />
+            <property name="Rarity" value="AR" />
+            <property name="Text" value="[Judgment] {Wi}{Wi}&#xd;&#xa;[Energize] {Wi}&#xd;&#xa;This card gains &quot;Pricia, the Beast Lady&quot; in addition to its other names.&#xd;&#xa;You may pay the attribute cost of Four Sacred Beast resonators with will of any attribute.&#xd;&#xa;{Wi}{Wi}: Choose one - Beasts you control gain [+100/+100] until end of turn; or Four Sacred Beasts you control gain [+100/+100] until end of turn." />
+            <alternate name="Pricia, Champion of Yggdrasil" type="jruler" >
+                <property name="Attribute" value="{Wi} Wind" />
+                <property name="Type" value="J-Ruler" />
+                <property name="Trait" value="Human/Beast" />
+                <property name="Atk" value="1000" />
+                <property name="Def" value="1000" />
+                <property name="Set" value="SKL" />
+                <property name="Number" value="106" />
+                <property name="Rarity" value="AR" />
+                <property name="Text" value="This card gains &quot;Pricia, the Commander of the Sacred Beasts&quot; in addition to its other names.&#xd;&#xa;This card gains [Precision] as long as you control a light resonator, [Swiftness] as long as you control a fire resonator, [Flying] as long as you control a water resonator and [+200/+200] as long as you control a wind resonator.&#xd;&#xa;God's Art [&quot;Meet my family!&quot;] {Wi}{Wi}{Wi}{x}: Search your deck for up to X Four Sacred Beasts resonators with different names, reveal them and put them into your hand. Then put up to X Four Sacred Beasts resonators with differrent names from your hand into your field and shuffle your deck. (Play God's Art [&quot;Meet my family!&quot;] only once per game.)" />
+            </alternate>
+        </card>
+        <card name="Alice, the Ally of Fairies" id="4ae5931f-3217-4651-a444-99a7b9648732" >
+            <property name="Attribute" value="{L} Light" />
+            <property name="Type" value="Ruler" />
+            <property name="Trait" value="Wanderer" />
+            <property name="Set" value="TTW" />
+            <property name="Number" value="111" />
+            <property name="Rarity" value="AR" />
+            <property name="Text" value="[Judgment] {7}. You may pay {1} less to play this ability for each Fairy you control.&#xd;&#xa;[Energize] {L}&#xd;&#xa;This card gains &quot;Alice, Girl of the Lake&quot; in addition to its other names." />
+            <alternate name="Alice, Paladin of Unwavering Hope" type="jruler" >
+                <property name="Attribute" value="{L} Light" />
+                <property name="Type" value="J-Ruler" />
+                <property name="Trait" value="Queen/Fairy" />
+                <property name="Atk" value="1100" />
+                <property name="Def" value="1100" />
+                <property name="Set" value="TTW" />
+                <property name="Number" value="111" />
+                <property name="Rarity" value="AR" />
+                <property name="Text" value="[Flying]&#xd;&#xa;This card gains &quot;Alice, Fairy Queen&quot; in addition to its other names.&#xd;&#xa;When this card enters your field &#x2192; Recover all Fairies you control.&#xd;&#xa;God's Art [Return to Arcadia] {L}: J/resonators you control gain [+200/+200]. Search your deck for a card named &quot;Excalibur, the Spirit God's Sword&quot; and put it into your field. Then shuffle your deck. (Play God's Art [Return to Arcadia] only once per game.)" />
+            </alternate>
+        </card>
+        <card name="Acolyte of the Abyss" id="9aa0af79-691e-4928-b452-40b316fa9a41" >
+            <property name="Attribute" value="{F} Fire" />
+            <property name="Type" value="Ruler" />
+            <property name="Trait" value="Wizard" />
+            <property name="Set" value="TMS" />
+            <property name="Number" value="106" />
+            <property name="Rarity" value="AR" />
+            <property name="Text" value="[Judgment] {F}{11}, You may pay {1} less to play this ability for each card in your removed area.&#xd;&#xa;[Energize] {F}&#xd;&#xa;This card gains &quot;The Observer&quot; in addition to its other names." />
+            <alternate name="Alisaris, the Demon of Calamity" type="jruler" >
+                <property name="Attribute" value="{F} Fire" />
+                <property name="Type" value="J-Ruler" />
+                <property name="Trait" value="Wizard" />
+                <property name="Atk" value="1000" />
+                <property name="Def" value="1000" />
+                <property name="Set" value="TMS" />
+                <property name="Number" value="106" />
+                <property name="Rarity" value="AR" />
+                <property name="Text" value="This card gains &quot;Timeline Arsonist, Alisaris&quot; in addition to its other names.&#xd;&#xa;When this card enters your field &#x2192; Search your deck for a card named &quot;Blazing Metropolis, Vell-Savaria&quot;, and put it into your field. Then shuffle your deck.&#xd;&#xa;Resonators you control gain [Swiftness], [Precision], and [First Strike].&#xd;&#xa;God's Art [Abyssal Malediction] {F}{F}{F}: This card deals 100 to each J/resonator your opponent controls for each card in your removed area. Then, you may put any number of cards from your removed area into your graveyard. (Play God's Art [Abyssal Malediction] only once per game.)" />
+            </alternate>
+        </card>
+        
+        
+        <card id="8bd0a5d3-518f-415a-bfd0-41318f326483" name="Dragon">
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="Token" />
+            <property name="Trait" value="Dragon" />
+            <property name="Atk" value="600" />
+            <property name="Def" value="600" />
+            <property name="Set" value="ENW" />
+            <property name="Number" value="9" />
+            <property name="Rarity" value="Token" />
+            <property name="Text" value="[Flying]" />
+        </card>
+        
+        <card id="00beb270-51bf-43e7-9399-6cfa4f7c5b2c" name="Dragon">
+            <property name="Attribute" value="Light" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="Token" />
+            <property name="Trait" value="Dragon" />
+            <property name="Atk" value="600" />
+            <property name="Def" value="600" />
+            <property name="Set" value="ENW" />
+            <property name="Number" value="9" />
+            <property name="Rarity" value="Token" />
+            <property name="Text" value="[Flying]" />
+        </card>
+        
+        <card id="171f2fe5-9b71-414a-8a78-ee01310fd61d" name="Wall">
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="Token" />
+            <property name="Trait" value="Wall" />
+            <property name="Atk" value="1000" />
+            <property name="Def" value="1000" />
+            <property name="Set" value="ENW" />
+            <property name="Number" value="10" />
+            <property name="Rarity" value="Token" />
+            <property name="Text" value="[Flying]" />
+        </card>
+        <card id="cf3d9f22-321e-4e8a-a513-10974edd0878" name="Wall">
+            <property name="Attribute" value="Fire" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="Token" />
+            <property name="Trait" value="Wall" />
+            <property name="Atk" value="1000" />
+            <property name="Def" value="1000" />
+            <property name="Set" value="ENW" />
+            <property name="Number" value="10" />
+            <property name="Rarity" value="Token" />
+            <property name="Text" value="[Flying]" />
+        </card>
+        
+        <card id="e8a7c4e5-7ef4-4ea5-82a6-fa12c49e119c" name="Shadow">
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="Token" />
+            <property name="Trait" value="Shadow" />
+            <property name="Atk" value="100" />
+            <property name="Def" value="100" />
+            <property name="Set" value="ENW" />
+            <property name="Number" value="11" />
+            <property name="Rarity" value="Token" />
+            <property name="Text" value="" />
+        </card>
+        <card id="31fa7dd0-30bf-4e57-b8c3-ed65dc1e7268" name="Shadow">
+            <property name="Attribute" value="Dark" />
+            <property name="Type" value="Resonator" />
+            <property name="Subtype" value="Token" />
+            <property name="Trait" value="Shadow" />
+            <property name="Atk" value="100" />
+            <property name="Def" value="100" />
+            <property name="Set" value="ENW" />
+            <property name="Number" value="11" />
+            <property name="Rarity" value="Token" />
+            <property name="Text" value="" />
+        </card>
+    </cards>
 </set>
