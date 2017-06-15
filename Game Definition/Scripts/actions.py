@@ -40,18 +40,35 @@ def clearAll(group, x = 0, y= 0):
 			card.target(False)
 			card.highlight = None
 
+def setDie(group, x = 0, y = 0):
+    mute()
+    diesides = eval(getSetting('diesides', "6"))
+    num = askInteger("How many sides?\n\nFor Coin, enter 2.", diesides)
+    if num != None and num > 0:
+        setSetting('diesides', str(num))
+        dieFunct(num)
+
+def rollDie(group, x = 0, y = 0):
+    mute()
+    diesides = eval(getSetting('diesides', "6"))
+    notify("{}".format(diesides))
+    dieFunct(diesides)
+
+def dieFunct(num):
+    if num == 2:
+        n = rnd(1, 2)
+        if n == 1:
+            notify("{} rolls 1 (HEADS) on a 2-sided die.".format(me))
+        else:
+            notify("{} rolls 2 (TAILS) on a 2-sided die.".format(me))
+    else:
+        n = rnd(1, num)
+        notify("{} rolls {} on a {}-sided die.".format(me, n, num))
+
 def roll20(group, x = 0, y = 0):
     mute()
     n = rnd(1, 20)
     notify("{} rolls {} on a 20-sided die.".format(me, n))
-
-def flipCoin(group, x = 0, y = 0):
-    mute()
-    n = rnd(1, 2)
-    if n == 1:
-        notify("{} flips heads.".format(me))
-    else:
-        notify("{} flips tails.".format(me))
 
 def tap(card, x = 0, y = 0):
     mute()
